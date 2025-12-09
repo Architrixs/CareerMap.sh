@@ -327,5 +327,255 @@
         }
       ]
     }
+  },
+  {
+    "roadmap_id": "judiciary-judge",
+    "meta": {
+      "title": "Judiciary (Judge)",
+      "category": "Legal & Governance",
+      "description": "Preside over court proceedings, interpret laws, and administer justice.",
+      "full_description": "A career in the Judiciary involves serving as a Judge in the Indian legal system. Judges are responsible for interpreting the law, assessing evidence, and delivering impartial verdicts. It is a position of high respect, authority, and responsibility.",
+      "roadmap": [
+        {
+          "step": "Education",
+          "details": "Complete a Bachelor of Laws (LLB) degree (3-year or 5-year integrated course).",
+          "duration": "3-5 Years"
+        },
+        {
+          "step": "Preparation",
+          "details": "Prepare for the Judicial Services Examination (PCS-J) conducted by state High Courts/PSCs.",
+          "duration": "1-2 Years"
+        },
+        {
+          "step": "Entrance Exam",
+          "details": "Clear the Preliminary, Mains, and Interview stages of the PCS-J exam.",
+          "duration": "Exam Cycle"
+        },
+        {
+          "step": "Training",
+          "details": "Undergo judicial training at a state judicial academy.",
+          "duration": "1 Year"
+        },
+        {
+          "step": "Appointment",
+          "details": "Appointed as Civil Judge (Junior Division) or Judicial Magistrate.",
+          "duration": "Career Start"
+        }
+      ],
+      "skills": [
+        "Legal Knowledge",
+        "Analytical Thinking",
+        "Impartiality",
+        "Decision Making",
+        "Patience",
+        "Communication"
+      ],
+      "pro_tips": [
+        "Start preparing for PCS-J during your LLB course.",
+        "Focus on Bare Acts and landmark judgments.",
+        "Develop a habit of reading legal journals and newspapers.",
+        "Practice answer writing for the Mains exam."
+      ],
+      "market_stats": {
+        "average_salary_lpa": 10.0,
+        "salary_range": "\u20b910L - \u20b920L+ per annum (Government Pay Scale + Perks)",
+        "top_hiring_companies": [
+          "District Courts",
+          "High Courts",
+          "Supreme Court of India",
+          "State Judicial Services",
+          "Legal Tribunals"
+        ],
+        "future_scope": [
+          "High Court Opportunities",
+          "Prestigious Career",
+          "Legal System Backbone"
+        ]
+      },
+      "icon_slug": "scale",
+      "difficulty_level": "Expert",
+      "time_to_job": "5-7 Years",
+      "success_rate": "Low",
+      "regional_variations": true
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "State PSC Websites",
+          "url": "https://upsc.gov.in",
+          "description": "exam body",
+          "type": "info"
+        },
+        {
+          "name": "LiveLaw / Bar & Bench",
+          "url": "https://www.livelaw.in",
+          "description": "legal news",
+          "type": "info"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Rahul's IAS",
+          "url": "https://www.rahulsias.com",
+          "type": "paid",
+          "platform": "Offline/Online",
+          "language": "English",
+          "description": "Judiciary coaching"
+        },
+        {
+          "name": "Unacademy Judiciary",
+          "url": "https://unacademy.com/goal/judiciary-pcs-j",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English/Hindi",
+          "description": "PCS-J preparation"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/LawSchool",
+          "url": "https://www.reddit.com/r/LawSchool",
+          "type": "forum",
+          "description": "Law students community"
+        },
+        {
+          "name": "LiveLaw",
+          "url": "https://www.livelaw.in",
+          "type": "news",
+          "description": "Legal news and updates"
+        }
+      ],
+      "books": [
+        {
+          "title": "Universal's Guide to Judicial Service Examination",
+          "author": "Universal",
+          "type": "guide",
+          "publisher": "Universal Law Publishing"
+        },
+        {
+          "title": "Indian Polity",
+          "author": "M. Laxmikanth",
+          "type": "reference",
+          "publisher": "McGraw Hill"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "Finology Legal",
+          "url": "https://www.youtube.com/c/FinologyLegal",
+          "language": "Hindi/English",
+          "subscribers": "1M+",
+          "focus": "Legal concepts simplified"
+        },
+        {
+          "name": "StudyIQ Judiciary",
+          "url": "https://www.youtube.com/c/StudyIQJudiciary",
+          "language": "Hindi",
+          "subscribers": "500K+",
+          "focus": "Judiciary exam prep"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "LLB Degree",
+          "subtitle": "3 or 5 Years",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "PCS-J Prelims",
+          "subtitle": "Screening Test",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "PCS-J Mains",
+          "subtitle": "Written Exam",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "exam",
+          "label": "Interview",
+          "subtitle": "Personality Test",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Civil Judge (Jr. Div)",
+          "subtitle": "Entry Level Judge",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "District Judge",
+          "subtitle": "Promotion / Higher Judicial Service",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "High Court Judge",
+          "subtitle": "Senior Judiciary",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5",
+          "label": "Selection"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6",
+          "label": "Promotion / Exam"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "Judicial Services Exam (PCS-J)",
+          "conducting_body": "State High Courts / PSCs",
+          "registration_url": "https://upsc.gov.in",
+          "exam_pattern": "Prelims (Objective), Mains (Subjective), Interview",
+          "frequency": "Annual (State-wise)",
+          "eligibility": "LLB Degree, Age 21-35",
+          "attempts_allowed": "Varies by State",
+          "cutoff_trends": "High Competition"
+        }
+      ]
+    }
   }
 ]

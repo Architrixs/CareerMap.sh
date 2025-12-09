@@ -157,5 +157,471 @@
         }
       ]
     }
+  },
+  {
+    "roadmap_id": "horticulture",
+    "meta": {
+      "title": "Horticulture",
+      "category": "Agriculture & Allied",
+      "description": "Cultivate fruits, vegetables, flowers, and ornamental plants for food and aesthetics.",
+      "full_description": "Horticulture is a specialized branch of agriculture focusing on garden crops. It involves the science and art of growing fruits, vegetables, flowers, spices, and plantation crops. Horticulturists work on improving crop quality, yield, and resistance to diseases.",
+      "roadmap": [
+        {
+          "step": "Education",
+          "details": "Class 12 (Science - PCB/PCM/Agriculture).",
+          "duration": "Schooling"
+        },
+        {
+          "step": "Entrance Exam",
+          "details": "Clear ICAR AIEEA or State Agriculture Entrance Exams.",
+          "duration": "Exam Day"
+        },
+        {
+          "step": "Undergraduate Degree",
+          "details": "Complete B.Sc in Horticulture (4 Years).",
+          "duration": "4 Years"
+        },
+        {
+          "step": "Specialization",
+          "details": "Pursue M.Sc in Horticulture (Optional but recommended for research/teaching).",
+          "duration": "2 Years"
+        },
+        {
+          "step": "Career Start",
+          "details": "Join as Horticulture Officer, Floriculturist, or start a Nursery/Landscaping business.",
+          "duration": "Career Start"
+        }
+      ],
+      "skills": [
+        "Plant Physiology",
+        "Soil Science",
+        "Pest Management",
+        "Landscaping Design",
+        "Greenhouse Management",
+        "Business Management"
+      ],
+      "pro_tips": [
+        "Gain practical experience by interning at nurseries or botanical gardens.",
+        "Learn about organic farming and sustainable practices.",
+        "Explore opportunities in landscaping for urban areas and corporate parks.",
+        "Stay updated on government subsidies for horticulture crops."
+      ],
+      "market_stats": {
+        "average_salary_lpa": 3.0,
+        "salary_range": "\u20b93L - \u20b98L per annum (Entry Level)",
+        "top_hiring_companies": [
+          "ITC Ltd",
+          "Godrej Agrovet",
+          "National Horticulture Board",
+          "Dupont India",
+          "UPL Limited",
+          "Syngenta"
+        ],
+        "future_scope": [
+          "Healthy Eating Trend",
+          "Organic Produce Demand",
+          "Urban Greening Projects"
+        ]
+      },
+      "icon_slug": "flower",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4 Years",
+      "success_rate": "Moderate",
+      "regional_variations": true
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "National Horticulture Board",
+          "url": "https://nhb.gov.in",
+          "description": "government body",
+          "type": "info"
+        },
+        {
+          "name": "ICAR Official",
+          "url": "https://icar.org.in",
+          "description": "research body",
+          "type": "info"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Swayam (NPTEL)",
+          "url": "https://swayam.gov.in",
+          "type": "free",
+          "platform": "Web",
+          "language": "English",
+          "description": "Agriculture and horticulture courses"
+        },
+        {
+          "name": "AgriMoon",
+          "url": "https://agrimoon.com",
+          "type": "free",
+          "platform": "Web",
+          "language": "English",
+          "description": "PDF notes and study material"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/Horticulture",
+          "url": "https://www.reddit.com/r/Horticulture",
+          "type": "forum",
+          "description": "Professional horticulture discussion"
+        },
+        {
+          "name": "GardenWeb",
+          "url": "https://www.gardenweb.com",
+          "type": "forum",
+          "description": "Gardening and plant community"
+        }
+      ],
+      "books": [
+        {
+          "title": "Introductory Horticulture",
+          "author": "H. Edward Reiley",
+          "type": "textbook",
+          "publisher": "Cengage"
+        },
+        {
+          "title": "Handbook of Horticulture",
+          "author": "ICAR",
+          "type": "reference",
+          "publisher": "ICAR"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "Discover Agriculture",
+          "url": "https://www.youtube.com/c/DiscoverAgriculture",
+          "language": "English",
+          "subscribers": "500K+",
+          "focus": "Modern farming techniques"
+        },
+        {
+          "name": "Geeks of Agriculture",
+          "url": "https://www.youtube.com/c/GeeksofAgriculture",
+          "language": "Hindi",
+          "subscribers": "100K+",
+          "focus": "Agri exams and knowledge"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (Science)",
+          "subtitle": "PCB / Agriculture",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "ICAR AIEEA",
+          "subtitle": "Entrance Exam",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "degree",
+          "label": "B.Sc Horticulture",
+          "subtitle": "4 Years Degree",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "job",
+          "label": "Horticulture Officer",
+          "subtitle": "Govt Job",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Landscape Architect",
+          "subtitle": "Design & Planning",
+          "layer": 3
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Nursery Manager",
+          "subtitle": "Business / Job",
+          "layer": 3
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3a",
+          "source": "3",
+          "target": "4",
+          "label": "Govt Exam"
+        },
+        {
+          "id": "e3b",
+          "source": "3",
+          "target": "5",
+          "label": "Specialization"
+        },
+        {
+          "id": "e3c",
+          "source": "3",
+          "target": "6",
+          "label": "Entrepreneurship"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "ICAR AIEEA (UG)",
+          "conducting_body": "National Testing Agency (NTA)",
+          "registration_url": "https://icar.nta.nic.in",
+          "exam_pattern": "Computer Based Test (Physics, Chemistry, Bio/Maths/Agri)",
+          "frequency": "Annual",
+          "eligibility": "Class 12 Pass (50% Marks)",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Moderate"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "dairy-farming",
+    "meta": {
+      "title": "Dairy Farming & Technology",
+      "category": "Agriculture & Allied",
+      "description": "Manage dairy production, processing, and distribution of milk and milk products.",
+      "full_description": "Dairy Farming involves the breeding and management of dairy animals for the production of milk. Dairy Technology focuses on the processing, storage, packaging, and distribution of dairy products. It is a major industry in India, the world's largest milk producer.",
+      "roadmap": [
+        {
+          "step": "Education",
+          "details": "Class 12 (Science - PCM/PCB).",
+          "duration": "Schooling"
+        },
+        {
+          "step": "Entrance Exam",
+          "details": "Clear ICAR AIEEA or State Entrance Exams for B.Tech (Dairy Tech) or B.V.Sc.",
+          "duration": "Exam Day"
+        },
+        {
+          "step": "Undergraduate Degree",
+          "details": "Complete B.Tech in Dairy Technology (4 Years) or B.V.Sc & AH (5.5 Years).",
+          "duration": "4-5.5 Years"
+        },
+        {
+          "step": "Training",
+          "details": "Internship at dairy plants (Amul, Mother Dairy) or farms.",
+          "duration": "6 Months"
+        },
+        {
+          "step": "Career Start",
+          "details": "Join as Dairy Technologist, Farm Manager, or start your own Dairy Farm.",
+          "duration": "Career Start"
+        }
+      ],
+      "skills": [
+        "Animal Husbandry",
+        "Food Processing Tech",
+        "Quality Control",
+        "Supply Chain Management",
+        "Business Acumen",
+        "Hygiene Standards"
+      ],
+      "pro_tips": [
+        "Visit successful dairy farms to understand practical challenges.",
+        "Learn about value-added products like cheese, yogurt, and ghee for higher margins.",
+        "Stay updated on cattle breeds and feed management.",
+        "Government offers significant subsidies for setting up dairy farms."
+      ],
+      "market_stats": {
+        "average_salary_lpa": 3.5,
+        "salary_range": "\u20b93.5L - \u20b98L per annum (Job) / Variable (Business)",
+        "top_hiring_companies": [
+          "Amul (GCMMF)",
+          "Mother Dairy",
+          "Nestle India",
+          "Parag Milk Foods",
+          "Hatsun Agro",
+          "Kwality Ltd"
+        ],
+        "future_scope": [
+          "Processed Dairy Growth",
+          "Value-Added Products",
+          "Export Opportunities"
+        ]
+      },
+      "icon_slug": "droplet",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4 Years",
+      "success_rate": "High",
+      "regional_variations": true
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "National Dairy Development Board",
+          "url": "https://www.nddb.coop",
+          "description": "government body",
+          "type": "info"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "NDRI Karnal",
+          "url": "http://www.ndri.res.in",
+          "description": "research institute",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English"
+        }
+      ],
+      "communities": [
+        {
+          "name": "The Dairy Site",
+          "url": "https://www.thedairysite.com",
+          "type": "forum",
+          "description": "Global dairy industry news"
+        },
+        {
+          "name": "Indian Dairy Association",
+          "url": "http://indairyasso.org",
+          "type": "organization",
+          "description": "Industry body"
+        }
+      ],
+      "books": [
+        {
+          "title": "Dairy Technology: Principles of Milk Properties and Processes",
+          "author": "P. Walstra",
+          "type": "textbook",
+          "publisher": "CRC Press"
+        },
+        {
+          "title": "Outlines of Dairy Technology",
+          "author": "Sukumar De",
+          "type": "textbook",
+          "publisher": "Oxford"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "Farming Leader",
+          "url": "https://www.youtube.com/c/FarmingLeader",
+          "language": "Hindi",
+          "subscribers": "5M+",
+          "focus": "Dairy farming success stories"
+        },
+        {
+          "name": "NDDB Official",
+          "url": "https://www.youtube.com/user/NDDBIndia",
+          "language": "English/Hindi",
+          "subscribers": "50K+",
+          "focus": "Scientific dairy practices"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (Science)",
+          "subtitle": "PCM / PCB",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "ICAR AIEEA",
+          "subtitle": "Entrance Exam",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "degree",
+          "label": "B.Tech Dairy Tech",
+          "subtitle": "4 Years",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "job",
+          "label": "Dairy Technologist",
+          "subtitle": "Processing Plant",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Quality Assurance",
+          "subtitle": "Lab Testing",
+          "layer": 3
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Dairy Entrepreneur",
+          "subtitle": "Own Farm/Brand",
+          "layer": 3
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3a",
+          "source": "3",
+          "target": "4",
+          "label": "Production"
+        },
+        {
+          "id": "e3b",
+          "source": "3",
+          "target": "5",
+          "label": "Quality"
+        },
+        {
+          "id": "e3c",
+          "source": "3",
+          "target": "6",
+          "label": "Business"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "ICAR AIEEA (UG)",
+          "conducting_body": "NTA",
+          "registration_url": "https://icar.nta.nic.in",
+          "exam_pattern": "CBT",
+          "frequency": "Annual",
+          "eligibility": "Class 12 Science",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Moderate"
+        }
+      ]
+    }
   }
 ]

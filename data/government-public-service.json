@@ -744,5 +744,243 @@
         }
       ]
     }
+  },
+  {
+    "roadmap_id": "forest-services-ifs",
+    "meta": {
+      "title": "Indian Forest Service (IFS)",
+      "category": "Government & Public Service",
+      "description": "Manage India's forests, wildlife, and environment as a Class I Gazetted Officer.",
+      "full_description": "The Indian Forest Service (IFS) is one of the three All India Services (along with IAS and IPS). IFS officers are responsible for the scientific management of forests, conservation of wildlife, and implementation of environmental laws. It is a challenging yet rewarding career for nature lovers.",
+      "roadmap": [
+        {
+          "step": "Education",
+          "details": "Bachelor's degree in Science, Engineering, Forestry, or Agriculture from a recognized university.",
+          "duration": "3-4 Years"
+        },
+        {
+          "step": "Prelims Exam",
+          "details": "Clear the UPSC Civil Services Preliminary Examination (Common for IAS/IPS/IFS).",
+          "duration": "Exam Day"
+        },
+        {
+          "step": "Mains Exam",
+          "details": "Clear the IFS Main Examination (Specific to Forestry/Science subjects).",
+          "duration": "Exam Week"
+        },
+        {
+          "step": "Interview",
+          "details": "Clear the Personality Test conducted by UPSC.",
+          "duration": "1 Day"
+        },
+        {
+          "step": "Training",
+          "details": "Foundation Course at LBSNAA followed by specialized training at IGNFA, Dehradun.",
+          "duration": "2 Years"
+        },
+        {
+          "step": "Service",
+          "details": "Posted as Assistant Conservator of Forests (ACF) or Divisional Forest Officer (DFO).",
+          "duration": "Career Start"
+        }
+      ],
+      "skills": [
+        "Environmental Science",
+        "Leadership & Administration",
+        "Physical Fitness",
+        "Crisis Management",
+        "Policy Implementation",
+        "Botany/Zoology Knowledge"
+      ],
+      "pro_tips": [
+        "Choose your optional subjects wisely (Forestry, Geology, Botany are popular).",
+        "Maintain good physical fitness as there is a walking test (25km for men, 14km for women).",
+        "Stay updated on environmental issues and climate change policies.",
+        "Read 'The Hindu' and 'Down To Earth' magazine."
+      ],
+      "market_stats": {
+        "average_salary_lpa": 56.0,
+        "salary_range": "\u20b956,100 - \u20b92,25,000 per month (Basic Pay + DA + HRA + Perks)",
+        "top_hiring_companies": [
+          "Ministry of Environment, Forest and Climate Change",
+          "State Forest Departments",
+          "Wildlife Institute of India",
+          "National Tiger Conservation Authority"
+        ],
+        "future_scope": [
+          "Climate Action",
+          "Biodiversity Preservation",
+          "Sustainable Development"
+        ]
+      },
+      "icon_slug": "tree",
+      "difficulty_level": "Expert",
+      "time_to_job": "4-6 Years",
+      "success_rate": "Very Low",
+      "regional_variations": false
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "UPSC Official Website",
+          "url": "https://www.upsc.gov.in",
+          "description": "exam body",
+          "type": "info"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "IGNFA Dehradun",
+          "url": "https://www.ignfa.gov.in",
+          "description": "training institute",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/UPSC",
+          "url": "https://www.reddit.com/r/UPSC",
+          "type": "forum",
+          "description": "UPSC aspirants community"
+        },
+        {
+          "name": "ForumIAS",
+          "url": "https://forumias.com",
+          "type": "forum",
+          "description": "Civil services discussion"
+        }
+      ],
+      "books": [
+        {
+          "title": "Environment",
+          "author": "Shankar IAS",
+          "type": "textbook",
+          "publisher": "Shankar IAS Academy"
+        },
+        {
+          "title": "Indian Forestry",
+          "author": "K. Manikandan",
+          "type": "textbook",
+          "publisher": "Jain Brothers"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "Sleepy Classes",
+          "url": "https://www.youtube.com/c/SleepyClasses",
+          "language": "English",
+          "subscribers": "500K+",
+          "focus": "UPSC preparation"
+        },
+        {
+          "name": "Mrunal Patel",
+          "url": "https://www.youtube.com/c/TheMrunalPatel",
+          "language": "English/Hindi",
+          "subscribers": "1.5M+",
+          "focus": "Economy and Geography"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "B.Sc / B.Tech",
+          "subtitle": "Science Background",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "UPSC Prelims",
+          "subtitle": "Common Exam",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "IFS Mains",
+          "subtitle": "Specific Subjects",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "exam",
+          "label": "Interview",
+          "subtitle": "Personality Test",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "work",
+          "label": "IGNFA Training",
+          "subtitle": "Dehradun",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Divisional Forest Officer",
+          "subtitle": "District Head",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Principal Chief Conservator",
+          "subtitle": "Head of Forest Force",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "UPSC IFS Examination",
+          "conducting_body": "Union Public Service Commission (UPSC)",
+          "registration_url": "https://www.upsc.gov.in",
+          "exam_pattern": "Prelims (Objective), Mains (Written), Interview",
+          "frequency": "Annual",
+          "eligibility": "Degree in Science/Engg, Age 21-32",
+          "attempts_allowed": "6 (General), 9 (OBC), Unlimited (SC/ST)",
+          "cutoff_trends": "Higher than Civil Services Prelims"
+        }
+      ]
+    }
   }
 ]

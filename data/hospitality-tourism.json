@@ -482,5 +482,195 @@
         }
       ]
     }
+  },
+  {
+    "roadmap_id": "travel-tourism",
+    "meta": {
+      "title": "Travel & Tourism",
+      "description": "Plan and organize travel experiences, tours, and logistics for individuals and groups.",
+      "category": "Hospitality & Tourism",
+      "subcategory": "Travel",
+      "icon_slug": "map",
+      "difficulty_level": "Easy",
+      "time_to_job": "1-3 years (Diploma/Degree)",
+      "success_rate": "High (Growing Industry)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 4.0,
+        "salary_range": "₹2.5L/yr (Travel Agent) - ₹10L/yr+ (Tour Manager/Business Owner)",
+        "top_hiring_companies": [
+          "MakeMyTrip",
+          "Thomas Cook",
+          "Cox & Kings",
+          "SOTC",
+          "Expedia"
+        ],
+        "future_scope": [
+          "Sustainable Tourism",
+          "Luxury Travel Consultant",
+          "Destination Management",
+          "Travel Vlogging"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Travel Consultant",
+          "avg_salary": "₹3-5L/yr"
+        },
+        {
+          "role": "Tour Manager",
+          "avg_salary": "₹4-8L/yr"
+        },
+        {
+          "role": "Ticketing Executive",
+          "avg_salary": "₹2.5-4L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "IITTM",
+          "url": "https://www.iittm.ac.in",
+          "type": "info",
+          "description": "Indian Institute of Tourism and Travel Management"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "IATA Courses",
+          "url": "https://www.iata.org/en/training",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Global certification"
+        },
+        {
+          "name": "Coursera Tourism",
+          "url": "https://www.coursera.org/courses?query=tourism",
+          "type": "freemium",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "Online courses"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Travel Agents Association of India",
+          "url": "https://www.taai.in",
+          "type": "community",
+          "description": "Industry body"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "IITTM Admission Test",
+          "conducting_body": "IITTM",
+          "registration_url": "https://www.iittm.ac.in",
+          "exam_pattern": "Aptitude + GD + PI",
+          "frequency": "Annual",
+          "eligibility": "Graduation",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Moderate"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "education",
+          "label": "BBA / Diploma Tourism",
+          "subtitle": "3 Years / 1 Year",
+          "duration": "3 years",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "IATA Certification",
+          "subtitle": "Global Standard (Optional)",
+          "duration": "6 months",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "job",
+          "label": "Travel Executive",
+          "subtitle": "Agency / Airline",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Tour Manager",
+          "subtitle": "Leading Groups",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "education",
+          "label": "MBA Tourism",
+          "subtitle": "2 Years (Management)",
+          "duration": "2 years",
+          "layer": 4
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Business Head / Owner",
+          "subtitle": "Senior Role",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5a",
+          "source": "5",
+          "target": "7",
+          "label": "Promotion"
+        },
+        {
+          "id": "e5b",
+          "source": "5",
+          "target": "6",
+          "label": "Higher Studies"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    }
   }
 ]

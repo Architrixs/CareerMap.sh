@@ -1110,5 +1110,475 @@
         }
       ]
     }
+  },
+  {
+    "roadmap_id": "insurance-agent",
+    "meta": {
+      "title": "Insurance Agent / Advisor",
+      "category": "Finance & Commerce",
+      "description": "Sell insurance policies and advise clients on financial protection and risk management.",
+      "full_description": "Insurance Agents or Advisors represent insurance companies and sell policies to individuals and businesses. They assess client needs, recommend suitable life, health, or general insurance products, and assist with claims. It is a sales-driven role that offers flexibility and commission-based earnings.",
+      "roadmap": [
+        {
+          "step": "Education",
+          "details": "Complete Class 12 (Minimum requirement) or Graduation (Preferred for better credibility).",
+          "duration": "Schooling / 3 Years Degree"
+        },
+        {
+          "step": "Training",
+          "details": "Undergo mandatory 25-50 hours of training from an IRDAI-approved institution.",
+          "duration": "1-2 Weeks"
+        },
+        {
+          "step": "Certification Exam",
+          "details": "Pass the IC-38 (Pre-recruitment qualification) exam conducted by the Insurance Institute of India.",
+          "duration": "Exam Day"
+        },
+        {
+          "step": "Licensing",
+          "details": "Obtain the license from IRDAI to operate as an insurance agent.",
+          "duration": "Immediate after passing"
+        },
+        {
+          "step": "Career Growth",
+          "details": "Start selling policies. Advance to Development Officer, Agency Manager, or Independent Financial Advisor.",
+          "duration": "Ongoing"
+        }
+      ],
+      "skills": [
+        "Sales & Negotiation",
+        "Communication Skills",
+        "Networking",
+        "Product Knowledge (Life/General)",
+        "Customer Service",
+        "Financial Planning Basics"
+      ],
+      "pro_tips": [
+        "Build a strong network of friends and family to start.",
+        "Focus on understanding the client's needs rather than just pushing a product.",
+        "Keep up to date with new insurance regulations and products.",
+        "Consider becoming a POSP (Point of Sales Person) for selling simple products."
+      ],
+      "market_stats": {
+        "average_salary_lpa": 2.0,
+        "salary_range": "Commission Based (\u20b92L - \u20b910L+ per annum depending on sales volume)",
+        "top_hiring_companies": [
+          "LIC of India",
+          "HDFC Life",
+          "SBI Life",
+          "ICICI Prudential",
+          "Max Life Insurance",
+          "PolicyBazaar"
+        ],
+        "future_scope": [
+          "Rising Insurance Penetration",
+          "Advisory Role Demand",
+          "Health Insurance Boom"
+        ]
+      },
+      "icon_slug": "shield",
+      "difficulty_level": "Beginner",
+      "time_to_job": "1-3 Months",
+      "success_rate": "High",
+      "regional_variations": true
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "IRDAI Official Website",
+          "url": "https://www.irdai.gov.in",
+          "description": "official body",
+          "type": "info"
+        },
+        {
+          "name": "Insurance Institute of India",
+          "url": "https://www.insuranceinstituteofindia.com",
+          "description": "exam body",
+          "type": "info"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Insurance Institute of India",
+          "url": "https://www.insuranceinstituteofindia.com",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "IC-38 training and exams"
+        },
+        {
+          "name": "TurtlemintPro",
+          "url": "https://www.turtlemint.com/pro",
+          "type": "free",
+          "platform": "App",
+          "language": "English/Hindi",
+          "description": "App for insurance advisors"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/Insurance",
+          "url": "https://www.reddit.com/r/Insurance",
+          "type": "forum",
+          "description": "Insurance discussions"
+        },
+        {
+          "name": "BimaDeals Forum",
+          "url": "https://www.bimadeals.com/forum",
+          "type": "forum",
+          "description": "Indian insurance discussion"
+        }
+      ],
+      "books": [
+        {
+          "title": "IC-38 Study Material",
+          "author": "Insurance Institute of India",
+          "type": "textbook",
+          "publisher": "III"
+        },
+        {
+          "title": "The Go-Giver",
+          "author": "Bob Burg",
+          "type": "guide",
+          "publisher": "Portfolio"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "Labour Law Advisor",
+          "url": "https://www.youtube.com/c/LabourLawAdvisor",
+          "language": "Hindi",
+          "subscribers": "3M+",
+          "focus": "Finance and insurance advice"
+        },
+        {
+          "name": "BimaPe",
+          "url": "https://www.youtube.com/c/BimaPe",
+          "language": "English/Hindi",
+          "subscribers": "50K+",
+          "focus": "Insurance simplified"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 / Graduate",
+          "subtitle": "Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "education",
+          "label": "Mandatory Training",
+          "subtitle": "IRDAI Approved (25-50 Hrs)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "IC-38 Exam",
+          "subtitle": "Pre-recruitment Test",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "job",
+          "label": "Insurance Agent",
+          "subtitle": "Commission Based",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Development Officer",
+          "subtitle": "Manage Team of Agents",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Branch Manager",
+          "subtitle": "Senior Role",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4",
+          "label": "Get License"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5",
+          "label": "Performance Promotion"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "IC-38 Exam",
+          "conducting_body": "Insurance Institute of India (III)",
+          "registration_url": "https://www.insuranceinstituteofindia.com",
+          "exam_pattern": "50 Multiple Choice Questions",
+          "frequency": "On Demand",
+          "eligibility": "Class 12 Pass + Mandatory Training",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Pass mark 17/50 (35%)"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "stock-market-trading",
+    "meta": {
+      "title": "Stock Market Trading",
+      "category": "Finance & Commerce",
+      "description": "Buy and sell stocks, derivatives, and other financial instruments to generate profit.",
+      "full_description": "Stock Market Trading involves buying and selling financial assets like stocks, futures, and options with the aim of making a profit. Traders use technical and fundamental analysis to make decisions. It can be a full-time profession or a part-time income source, requiring high risk tolerance and discipline.",
+      "roadmap": [
+        {
+          "step": "Education",
+          "details": "Complete Class 12 or Graduation (Commerce/Finance preferred but not mandatory).",
+          "duration": "Schooling / Degree"
+        },
+        {
+          "step": "Learn Basics",
+          "details": "Understand stock market terminologies, technical analysis, and fundamental analysis.",
+          "duration": "3-6 Months"
+        },
+        {
+          "step": "Certifications",
+          "details": "Clear NISM Series VIII (Equity Derivatives) or Series V-A (Mutual Funds) for knowledge and credibility.",
+          "duration": "1-2 Months"
+        },
+        {
+          "step": "Start Trading",
+          "details": "Open a Demat account and start with small capital or paper trading to practice strategies.",
+          "duration": "Ongoing"
+        },
+        {
+          "step": "Professional Trader",
+          "details": "Scale up capital, manage risk strictly, and potentially work for proprietary trading firms.",
+          "duration": "2-3 Years to Consistency"
+        }
+      ],
+      "skills": [
+        "Technical Analysis",
+        "Fundamental Analysis",
+        "Risk Management",
+        "Emotional Discipline",
+        "Mathematics & Statistics",
+        "Market Research"
+      ],
+      "pro_tips": [
+        "Never trade with money you cannot afford to lose.",
+        "Focus on risk management more than profit targets.",
+        "Start with 'Paper Trading' (simulated trading) before using real money.",
+        "Keep a trading journal to analyze your wins and losses."
+      ],
+      "market_stats": {
+        "average_salary_lpa": 0.0,
+        "salary_range": "Highly Variable (Losses possible to Crores in profit)",
+        "top_hiring_companies": [
+          "Zerodha",
+          "Angel One",
+          "Upstox",
+          "Motilal Oswal",
+          "Sharekhan",
+          "Proprietary Trading Firms"
+        ],
+        "future_scope": [
+          "Retail Participation",
+          "Financial Literacy Growth",
+          "Algorithmic Trading"
+        ]
+      },
+      "icon_slug": "trending-up",
+      "difficulty_level": "Advanced",
+      "time_to_job": "6-12 Months",
+      "success_rate": "Low",
+      "regional_variations": false
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "NSE India",
+          "url": "https://www.nseindia.com",
+          "description": "official exchange",
+          "type": "info"
+        },
+        {
+          "name": "NISM Certifications",
+          "url": "https://www.nism.ac.in",
+          "description": "certification body",
+          "type": "info"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Varsity by Zerodha",
+          "url": "https://zerodha.com/varsity/",
+          "description": "learning resource",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/IndianStreetBets",
+          "url": "https://www.reddit.com/r/IndianStreetBets",
+          "type": "forum",
+          "description": "Indian stock market community"
+        },
+        {
+          "name": "TradingView Community",
+          "url": "https://in.tradingview.com/community",
+          "type": "forum",
+          "description": "Chart analysis and ideas"
+        }
+      ],
+      "books": [
+        {
+          "title": "The Intelligent Investor",
+          "author": "Benjamin Graham",
+          "type": "guide",
+          "publisher": "Harper Business"
+        },
+        {
+          "title": "Technical Analysis of the Financial Markets",
+          "author": "John J. Murphy",
+          "type": "textbook",
+          "publisher": "Penguin"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "CA Rachana Ranade",
+          "url": "https://www.youtube.com/c/CARachanaRanade",
+          "language": "English/Hindi",
+          "subscribers": "4M+",
+          "focus": "Stock market basics"
+        },
+        {
+          "name": "Power of Stocks",
+          "url": "https://www.youtube.com/c/PowerofStocks",
+          "language": "Hindi",
+          "subscribers": "1M+",
+          "focus": "Trading strategies"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 / Graduate",
+          "subtitle": "Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "education",
+          "label": "Learn Basics",
+          "subtitle": "Books / Courses / Varsity",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "NISM Exams",
+          "subtitle": "Optional but Recommended",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "job",
+          "label": "Retail Trader",
+          "subtitle": "Trade Own Capital",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Prop Desk Trader",
+          "subtitle": "Trade Firm's Capital",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Fund Manager",
+          "subtitle": "Manage Client Money",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4",
+          "label": "Start Small"
+        },
+        {
+          "id": "e4",
+          "source": "3",
+          "target": "5",
+          "label": "Apply for Job"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "NISM Series VIII: Equity Derivatives",
+          "conducting_body": "National Institute of Securities Markets (NISM)",
+          "registration_url": "https://www.nism.ac.in",
+          "exam_pattern": "100 Questions (100 Marks)",
+          "frequency": "On Demand",
+          "eligibility": "Open to all",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Pass mark 60%"
+        }
+      ]
+    }
   }
 ]

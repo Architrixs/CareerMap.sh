@@ -2402,5 +2402,552 @@
       ]
     },
     "source_file": "design-architecture.json"
+  },
+  {
+    "roadmap_id": "travel-tourism",
+    "meta": {
+      "title": "Travel & Tourism",
+      "description": "Plan and organize travel experiences, tours, and logistics for individuals and groups.",
+      "category": "Hospitality & Tourism",
+      "subcategory": "Travel",
+      "icon_slug": "map",
+      "difficulty_level": "Easy",
+      "time_to_job": "1-3 years (Diploma/Degree)",
+      "success_rate": "High (Growing Industry)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 4.0,
+        "salary_range": "₹2.5L/yr (Travel Agent) - ₹10L/yr+ (Tour Manager/Business Owner)",
+        "top_hiring_companies": [
+          "MakeMyTrip",
+          "Thomas Cook",
+          "Cox & Kings",
+          "SOTC",
+          "Expedia"
+        ],
+        "future_scope": [
+          "Sustainable Tourism",
+          "Luxury Travel Consultant",
+          "Destination Management",
+          "Travel Vlogging"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Travel Consultant",
+          "avg_salary": "₹3-5L/yr"
+        },
+        {
+          "role": "Tour Manager",
+          "avg_salary": "₹4-8L/yr"
+        },
+        {
+          "role": "Ticketing Executive",
+          "avg_salary": "₹2.5-4L/yr"
+        }
+      ]
+    },
+    "source_file": "hospitality-tourism.json"
+  },
+  {
+    "roadmap_id": "insurance-agent",
+    "meta": {
+      "title": "Insurance Agent / Advisor",
+      "description": "Sell insurance policies and advise clients on financial protection and risk management.",
+      "category": "Finance & Commerce",
+      "subcategory": "Insurance",
+      "icon_slug": "shield",
+      "difficulty_level": "Easy",
+      "time_to_job": "1-3 Months (Training + Exam)",
+      "success_rate": "High (Entry is easy, success depends on sales)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 4.0,
+        "salary_range": "Commission Based (₹2L - ₹10L+ per annum)",
+        "top_hiring_companies": [
+          "LIC",
+          "HDFC Life",
+          "SBI Life",
+          "ICICI Prudential",
+          "Star Health"
+        ],
+        "future_scope": [
+          "Digital Insurance Sales",
+          "Financial Planning Advisory",
+          "Corporate Insurance",
+          "POSP (Point of Sales Person)"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Insurance Agent",
+          "avg_salary": "Commission Based"
+        },
+        {
+          "role": "Development Officer",
+          "avg_salary": "₹6-12L/yr"
+        },
+        {
+          "role": "Financial Advisor",
+          "avg_salary": "₹4-8L/yr"
+        }
+      ]
+    },
+    "source_file": "finance-commerce.json"
+  },
+  {
+    "roadmap_id": "stock-market-trading",
+    "meta": {
+      "title": "Stock Market Trading",
+      "description": "Buy and sell stocks, derivatives, and other financial instruments to generate profit.",
+      "category": "Finance & Commerce",
+      "subcategory": "Capital Markets",
+      "icon_slug": "trending-up",
+      "difficulty_level": "Advanced",
+      "time_to_job": "6-12 Months (Learning Curve)",
+      "success_rate": "Low (Requires high discipline, <5% are profitable long term)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 0.0,
+        "salary_range": "Highly Variable (Losses to Crores)",
+        "top_hiring_companies": [
+          "Self-Employed",
+          "Zerodha",
+          "Angel One",
+          "Proprietary Trading Firms",
+          "Hedge Funds"
+        ],
+        "future_scope": [
+          "Algorithmic Trading",
+          "High Frequency Trading",
+          "Investment Advisory",
+          "Financial Influencer"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Intraday Trader",
+          "avg_salary": "Variable"
+        },
+        {
+          "role": "Equity Research Analyst",
+          "avg_salary": "₹5-10L/yr"
+        },
+        {
+          "role": "Technical Analyst",
+          "avg_salary": "₹4-8L/yr"
+        }
+      ]
+    },
+    "source_file": "finance-commerce.json"
+  },
+  {
+    "roadmap_id": "real-estate-agent",
+    "meta": {
+      "title": "Real Estate Agent",
+      "description": "Facilitate buying, selling, and renting of properties for clients.",
+      "category": "Business & Entrepreneurship",
+      "subcategory": "Real Estate",
+      "icon_slug": "home",
+      "difficulty_level": "Easy",
+      "time_to_job": "3-6 Months (Research + License)",
+      "success_rate": "Moderate (Highly competitive)",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 5.0,
+        "salary_range": "Commission Based (Variable)",
+        "top_hiring_companies": [
+          "Self-Employed",
+          "Anarock",
+          "Square Yards",
+          "PropTiger",
+          "Local Agencies"
+        ],
+        "future_scope": [
+          "PropTech Adoption",
+          "Luxury Real Estate",
+          "Commercial Leasing",
+          "Property Management"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Real Estate Agent",
+          "avg_salary": "Commission Based"
+        },
+        {
+          "role": "Property Manager",
+          "avg_salary": "₹4-8L/yr"
+        },
+        {
+          "role": "Sales Executive",
+          "avg_salary": "₹3-6L/yr"
+        }
+      ]
+    },
+    "source_file": "business-entrepreneurship.json"
+  },
+  {
+    "roadmap_id": "judiciary-judge",
+    "meta": {
+      "title": "Judiciary (Judge)",
+      "description": "Preside over court proceedings, interpret laws, and administer justice.",
+      "category": "Legal & Governance",
+      "subcategory": "Judicial Services",
+      "icon_slug": "scale",
+      "difficulty_level": "Expert",
+      "time_to_job": "2-3 Years (After LLB)",
+      "success_rate": "Low (Highly Competitive)",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 12.0,
+        "salary_range": "₹10L - ₹25L+ (Govt Scale + Perks)",
+        "top_hiring_companies": [
+          "District Courts",
+          "High Courts",
+          "Tribunals",
+          "Family Courts",
+          "Consumer Forums"
+        ],
+        "future_scope": [
+          "Fast Track Courts",
+          "Cyber Judiciary",
+          "Alternative Dispute Resolution",
+          "Legal Policy Making"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Civil Judge",
+          "avg_salary": "₹10-15L/yr"
+        },
+        {
+          "role": "Judicial Magistrate",
+          "avg_salary": "₹10-15L/yr"
+        },
+        {
+          "role": "Public Prosecutor",
+          "avg_salary": "₹8-12L/yr"
+        }
+      ]
+    },
+    "source_file": "legal-governance.json"
+  },
+  {
+    "roadmap_id": "forest-services-ifs",
+    "meta": {
+      "title": "Indian Forest Service (IFS)",
+      "description": "Manage India's forests, wildlife, and environment as a Class I Gazetted Officer.",
+      "category": "Government & Public Service",
+      "subcategory": "All India Services",
+      "icon_slug": "tree",
+      "difficulty_level": "Expert",
+      "time_to_job": "2-4 Years (Preparation + Exam)",
+      "success_rate": "Very Low (<0.1%)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 10.0,
+        "salary_range": "₹8L - ₹25L+ (Govt Scale + Perks)",
+        "top_hiring_companies": [
+          "Government of India",
+          "State Forest Departments",
+          "Ministry of Environment",
+          "Wildlife Institute of India"
+        ],
+        "future_scope": [
+          "Climate Change Policy",
+          "Wildlife Conservation",
+          "Sustainable Development",
+          "International Environmental Agencies"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "IFS Officer",
+          "avg_salary": "₹10L+/yr"
+        },
+        {
+          "role": "Forest Ranger",
+          "avg_salary": "₹5-8L/yr"
+        },
+        {
+          "role": "Environmental Scientist",
+          "avg_salary": "₹6-12L/yr"
+        }
+      ]
+    },
+    "source_file": "government-public-service.json"
+  },
+  {
+    "roadmap_id": "indian-coast-guard",
+    "meta": {
+      "title": "Indian Coast Guard",
+      "description": "Protect India's maritime interests, enforce maritime law, and conduct search and rescue operations.",
+      "category": "Defense & Specialized Services",
+      "subcategory": "Maritime Security",
+      "icon_slug": "anchor",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "6-12 Months (Exam + Training)",
+      "success_rate": "Moderate",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 6.0,
+        "salary_range": "₹3L - ₹15L+ (Rank Based)",
+        "top_hiring_companies": [
+          "Indian Coast Guard"
+        ],
+        "future_scope": [
+          "Coastal Security",
+          "Marine Pollution Control",
+          "Anti-Smuggling Operations",
+          "Disaster Relief"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Navik (General Duty)",
+          "avg_salary": "₹3-5L/yr"
+        },
+        {
+          "role": "Yantrik (Technical)",
+          "avg_salary": "₹4-6L/yr"
+        },
+        {
+          "role": "Assistant Commandant",
+          "avg_salary": "₹10-12L/yr"
+        }
+      ]
+    },
+    "source_file": "defense-specialized-services.json"
+  },
+  {
+    "roadmap_id": "paramilitary-forces",
+    "meta": {
+      "title": "Paramilitary Forces (CAPF)",
+      "description": "Serve in BSF, CRPF, CISF, ITBP, or SSB to ensure internal security and border protection.",
+      "category": "Defense & Specialized Services",
+      "subcategory": "Internal Security",
+      "icon_slug": "shield",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "6-12 Months (Exam + Training)",
+      "success_rate": "Moderate",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 5.0,
+        "salary_range": "₹3L - ₹12L+ (Rank Based)",
+        "top_hiring_companies": [
+          "CRPF",
+          "BSF",
+          "CISF",
+          "ITBP",
+          "SSB"
+        ],
+        "future_scope": [
+          "Anti-Terrorism Units",
+          "VIP Security",
+          "Disaster Response (NDRF)",
+          "UN Peacekeeping Missions"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Constable (GD)",
+          "avg_salary": "₹3-4L/yr"
+        },
+        {
+          "role": "Sub-Inspector",
+          "avg_salary": "₹5-7L/yr"
+        },
+        {
+          "role": "Assistant Commandant",
+          "avg_salary": "₹10-12L/yr"
+        }
+      ]
+    },
+    "source_file": "defense-specialized-services.json"
+  },
+  {
+    "roadmap_id": "horticulture",
+    "meta": {
+      "title": "Horticulture",
+      "description": "Cultivate fruits, vegetables, flowers, and ornamental plants for food and aesthetics.",
+      "category": "Agriculture & Allied",
+      "subcategory": "Plant Science",
+      "icon_slug": "flower",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4 Years (Degree)",
+      "success_rate": "High (Growing Demand)",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "₹3L - ₹10L+ (Business potential is higher)",
+        "top_hiring_companies": [
+          "State Horticulture Depts",
+          "Seed Companies",
+          "Landscape Firms",
+          "Food Processing Units",
+          "Export Houses"
+        ],
+        "future_scope": [
+          "Organic Farming",
+          "Urban Gardening",
+          "Floriculture Export",
+          "Medicinal Plant Cultivation"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Horticulturist",
+          "avg_salary": "₹4-6L/yr"
+        },
+        {
+          "role": "Floriculturist",
+          "avg_salary": "₹3-5L/yr"
+        },
+        {
+          "role": "Landscape Designer",
+          "avg_salary": "₹5-8L/yr"
+        }
+      ]
+    },
+    "source_file": "agriculture-allied.json"
+  },
+  {
+    "roadmap_id": "dairy-farming",
+    "meta": {
+      "title": "Dairy Farming & Technology",
+      "description": "Manage dairy production, processing, and distribution of milk and milk products.",
+      "category": "Agriculture & Allied",
+      "subcategory": "Animal Husbandry",
+      "icon_slug": "droplet",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4 Years (Degree)",
+      "success_rate": "High (Stable Industry)",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 5.0,
+        "salary_range": "₹3.5L - ₹12L+ (Higher for entrepreneurs)",
+        "top_hiring_companies": [
+          "Amul",
+          "Mother Dairy",
+          "Nestle",
+          "Danone",
+          "Parag Milk Foods"
+        ],
+        "future_scope": [
+          "Value Added Products",
+          "Automated Dairy Farms",
+          "Cold Chain Logistics",
+          "Export Opportunities"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Dairy Technologist",
+          "avg_salary": "₹4-6L/yr"
+        },
+        {
+          "role": "Farm Manager",
+          "avg_salary": "₹3-5L/yr"
+        },
+        {
+          "role": "Quality Control Officer",
+          "avg_salary": "₹3.5-5.5L/yr"
+        }
+      ]
+    },
+    "source_file": "agriculture-allied.json"
+  },
+  {
+    "roadmap_id": "beauty-wellness",
+    "meta": {
+      "title": "Beauty & Wellness",
+      "description": "Provide services related to skin care, hair styling, makeup, and holistic wellness.",
+      "category": "Skilled Trades & Vocational",
+      "subcategory": "Personal Care",
+      "icon_slug": "smile",
+      "difficulty_level": "Easy",
+      "time_to_job": "6-12 Months (Course + Internship)",
+      "success_rate": "High (Self-employment potential)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 3.5,
+        "salary_range": "₹2.5L - ₹15L+ (Celebrity artists earn much more)",
+        "top_hiring_companies": [
+          "Lakme Salons",
+          "Urban Company",
+          "Enrich Salons",
+          "VLCC",
+          "Film & TV Production Houses"
+        ],
+        "future_scope": [
+          "Medical Aesthetics",
+          "Bridal Makeup Boom",
+          "Men's Grooming",
+          "Wellness Tourism"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Makeup Artist",
+          "avg_salary": "₹3-8L/yr"
+        },
+        {
+          "role": "Hair Stylist",
+          "avg_salary": "₹3-6L/yr"
+        },
+        {
+          "role": "Cosmetologist",
+          "avg_salary": "₹4-7L/yr"
+        }
+      ]
+    },
+    "source_file": "skilled-trades-vocational.json"
+  },
+  {
+    "roadmap_id": "sports-fitness",
+    "meta": {
+      "title": "Sports & Fitness",
+      "description": "Pursue a career as a professional athlete, coach, or fitness trainer.",
+      "category": "Skilled Trades & Vocational",
+      "subcategory": "Sports",
+      "icon_slug": "activity",
+      "difficulty_level": "Hard",
+      "time_to_job": "Variable (Years of training)",
+      "success_rate": "Low (Athlete) / High (Trainer)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 6.0,
+        "salary_range": "₹3L - Crores (Top Athletes)",
+        "top_hiring_companies": [
+          "Sports Authority of India",
+          "Gold's Gym",
+          "Cult.fit",
+          "Professional Leagues (IPL, ISL)",
+          "Schools & Colleges"
+        ],
+        "future_scope": [
+          "Sports Management",
+          "Sports Psychology",
+          "Online Fitness Coaching",
+          "E-Sports"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Fitness Trainer",
+          "avg_salary": "₹3-6L/yr"
+        },
+        {
+          "role": "Sports Coach",
+          "avg_salary": "₹4-10L/yr"
+        },
+        {
+          "role": "Professional Athlete",
+          "avg_salary": "Variable"
+        }
+      ]
+    },
+    "source_file": "skilled-trades-vocational.json"
   }
 ]

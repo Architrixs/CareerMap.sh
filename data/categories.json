@@ -3,82 +3,114 @@
     {
       "id": "technology-it",
       "name": "Technology & IT",
-      "count": 9
-    },
-    {
-      "id": "essential-services",
-      "name": "Essential Services",
-      "count": 1
-    },
-    {
-      "id": "government-public-service",
-      "name": "Government & Public Service",
-      "count": 4
-    },
-    {
-      "id": "education-research",
-      "name": "Education & Research",
-      "count": 1
-    },
-    {
-      "id": "agriculture-allied",
-      "name": "Agriculture & Allied",
-      "count": 1
-    },
-    {
-      "id": "finance-commerce",
-      "name": "Finance & Commerce",
-      "count": 5
-    },
-    {
-      "id": "legal-governance",
-      "name": "Legal & Governance",
-      "count": 1
-    },
-    {
-      "id": "design-architecture",
-      "name": "Design & Architecture",
-      "count": 3
-    },
-    {
-      "id": "business-entrepreneurship",
-      "name": "Business & Entrepreneurship",
-      "count": 2
-    },
-    {
-      "id": "creative-media",
-      "name": "Creative & Media",
-      "count": 5
-    },
-    {
-      "id": "engineering",
-      "name": "Engineering",
-      "count": 4
+      "count": 9,
+      "icon": "cpu",
+      "description": "Software, Data, AI, and Hardware careers."
     },
     {
       "id": "healthcare-medical",
       "name": "Healthcare & Medical",
-      "count": 9
+      "count": 9,
+      "icon": "heart",
+      "description": "Doctors, nursing, and allied health services."
     },
     {
-      "id": "hospitality-tourism",
-      "name": "Hospitality & Tourism",
-      "count": 3
+      "id": "finance-commerce",
+      "name": "Finance & Commerce",
+      "count": 7,
+      "icon": "dollar-sign",
+      "description": "Banking, accounting, insurance, and trading."
     },
     {
       "id": "defense-specialized-services",
       "name": "Defense & Specialized Services",
-      "count": 4
+      "count": 6,
+      "icon": "shield",
+      "description": "Army, Navy, Air Force, and Coast Guard."
     },
     {
-      "id": "humanities-social-sciences",
-      "name": "Humanities & Social Sciences",
-      "count": 1
+      "id": "government-public-service",
+      "name": "Government & Public Service",
+      "count": 5,
+      "icon": "landmark",
+      "description": "Civil services, defense, and public administration."
+    },
+    {
+      "id": "creative-media",
+      "name": "Creative & Media",
+      "count": 5,
+      "icon": "video",
+      "description": "Content creation, journalism, and entertainment."
+    },
+    {
+      "id": "engineering",
+      "name": "Engineering",
+      "count": 4,
+      "icon": "settings",
+      "description": "Core engineering disciplines."
+    },
+    {
+      "id": "hospitality-tourism",
+      "name": "Hospitality & Tourism",
+      "count": 4,
+      "icon": "coffee",
+      "description": "Hotels, travel, and culinary arts."
+    },
+    {
+      "id": "agriculture-allied",
+      "name": "Agriculture & Allied",
+      "count": 3,
+      "icon": "leaf",
+      "description": "Farming, horticulture, and dairy technology."
+    },
+    {
+      "id": "design-architecture",
+      "name": "Design & Architecture",
+      "count": 3,
+      "icon": "pen-tool",
+      "description": "Creative design, fashion, and architecture."
+    },
+    {
+      "id": "business-entrepreneurship",
+      "name": "Business & Entrepreneurship",
+      "count": 3,
+      "icon": "briefcase",
+      "description": "Management, marketing, and startups."
     },
     {
       "id": "skilled-trades-vocational",
       "name": "Skilled Trades & Vocational",
-      "count": 1
+      "count": 3,
+      "icon": "tool",
+      "description": "Technical trades, beauty, and sports."
+    },
+    {
+      "id": "legal-governance",
+      "name": "Legal & Governance",
+      "count": 2,
+      "icon": "scale",
+      "description": "Law, judiciary, and legal consultancy."
+    },
+    {
+      "id": "essential-services",
+      "name": "Essential Services",
+      "count": 1,
+      "icon": "truck",
+      "description": "Vital services for daily life and infrastructure."
+    },
+    {
+      "id": "education-research",
+      "name": "Education & Research",
+      "count": 1,
+      "icon": "book-open",
+      "description": "Teaching, academia, and scientific research."
+    },
+    {
+      "id": "humanities-social-sciences",
+      "name": "Humanities & Social Sciences",
+      "count": 1,
+      "icon": "circle",
+      "description": ""
     }
   ]
 }

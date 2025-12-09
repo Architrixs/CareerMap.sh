@@ -803,5 +803,525 @@
         }
       ]
     }
+  },
+  {
+    "roadmap_id": "indian-coast-guard",
+    "meta": {
+      "title": "Indian Coast Guard",
+      "category": "Defense & Specialized Services",
+      "description": "Protect India's maritime interests, enforce maritime law, and conduct search and rescue operations.",
+      "full_description": "The Indian Coast Guard is an armed force of the Union that protects India's maritime interests and enforces maritime law, with jurisdiction over the territorial waters of India, including its contiguous zone and exclusive economic zone. It is a multi-mission organization, conducting round-the-year real-life operations at sea.",
+      "roadmap": [
+        {
+          "step": "Education",
+          "details": "Class 10/12 (Maths & Physics) for Navik/Yantrik. Graduation for Assistant Commandant.",
+          "duration": "Schooling / Degree"
+        },
+        {
+          "step": "Entrance Exam",
+          "details": "Clear the Coast Guard Common Admission Test (CGCAT) or specific recruitment exams.",
+          "duration": "Exam Day"
+        },
+        {
+          "step": "Selection Process",
+          "details": "Clear the Preliminary Selection Board (PSB) and Final Selection Board (FSB) including medicals.",
+          "duration": "2-3 Months"
+        },
+        {
+          "step": "Training",
+          "details": "Undergo rigorous training at Indian Coast Guard Academy (ICGA) or Naval Academy.",
+          "duration": "6-12 Months"
+        },
+        {
+          "step": "Commissioning",
+          "details": "Join as Navik (General Duty), Yantrik, or Assistant Commandant.",
+          "duration": "Career Start"
+        }
+      ],
+      "skills": [
+        "Physical Fitness",
+        "Swimming",
+        "Technical Knowledge",
+        "Discipline",
+        "Leadership",
+        "Crisis Management"
+      ],
+      "pro_tips": [
+        "Swimming is a mandatory skill for Coast Guard personnel.",
+        "Focus on Mathematics and Physics for the written exam.",
+        "Maintain high physical standards (Height, Weight, Vision).",
+        "Develop good communication skills for the interview stage."
+      ],
+      "market_stats": {
+        "average_salary_lpa": 21.0,
+        "salary_range": "\u20b921,700 - \u20b92,00,000+ per month (Basic Pay + Allowances)",
+        "top_hiring_companies": [
+          "Indian Coast Guard",
+          "Ministry of Defence"
+        ],
+        "future_scope": [
+          "Maritime Security",
+          "Disaster Management",
+          "Coastal Protection"
+        ]
+      },
+      "icon_slug": "anchor",
+      "difficulty_level": "Advanced",
+      "time_to_job": "1 Year",
+      "success_rate": "Low",
+      "regional_variations": false
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Indian Coast Guard Official",
+          "url": "https://joinindiancoastguard.cdac.in",
+          "description": "official website",
+          "type": "info"
+        },
+        {
+          "name": "CGCAT Notification",
+          "url": "https://joinindiancoastguard.cdac.in",
+          "description": "notification",
+          "type": "info"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "SSBCrack Exams",
+          "url": "https://ssbcrackexams.com",
+          "type": "paid",
+          "platform": "Web/App",
+          "language": "English",
+          "description": "Defense exam preparation"
+        },
+        {
+          "name": "Unacademy Defence",
+          "url": "https://unacademy.com/goal/defence-exams",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English/Hindi",
+          "description": "Live classes for defense exams"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/IndianDefense",
+          "url": "https://www.reddit.com/r/IndianDefense",
+          "type": "forum",
+          "description": "Indian defense discussion"
+        },
+        {
+          "name": "DefenceAspirants",
+          "url": "https://defenceaspirants.com",
+          "type": "forum",
+          "description": "Exam updates and community"
+        }
+      ],
+      "books": [
+        {
+          "title": "Indian Coast Guard Navik Recruitment Exam Guide",
+          "author": "Arihant Experts",
+          "type": "guide",
+          "publisher": "Arihant"
+        },
+        {
+          "title": "Pathfinder for CDS/NDA",
+          "author": "Arihant",
+          "type": "reference",
+          "publisher": "Arihant"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "Defence Gyan",
+          "url": "https://www.youtube.com/c/DefenceGyan",
+          "language": "Hindi",
+          "subscribers": "1M+",
+          "focus": "Recruitment updates"
+        },
+        {
+          "name": "Cadets Defence Academy",
+          "url": "https://www.youtube.com/c/CadetsDefenceAcademy",
+          "language": "Hindi",
+          "subscribers": "500K+",
+          "focus": "Exam preparation"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 10 / 12 / Grad",
+          "subtitle": "Entry Qualification",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "Written Exam",
+          "subtitle": "CGCAT / Recruitment Test",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "PSB & FSB",
+          "subtitle": "Selection Boards",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "exam",
+          "label": "Medical Exam",
+          "subtitle": "Fitness Check",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "work",
+          "label": "Training",
+          "subtitle": "ICGA / Naval Academy",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Navik / Yantrik",
+          "subtitle": "Enrolled Personnel",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Assistant Commandant",
+          "subtitle": "Officer Cadre",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5a",
+          "source": "5",
+          "target": "6",
+          "label": "Enrolled Path"
+        },
+        {
+          "id": "e5b",
+          "source": "5",
+          "target": "7",
+          "label": "Officer Path"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "Coast Guard Recruitment Exam",
+          "conducting_body": "Indian Coast Guard",
+          "registration_url": "https://joinindiancoastguard.cdac.in",
+          "exam_pattern": "Written Test, PFT (Physical Fitness Test), Medicals",
+          "frequency": "Biannual",
+          "eligibility": "10th/12th/Graduation, Age 18-25 (varies by post)",
+          "attempts_allowed": "Age Limit Based",
+          "cutoff_trends": "Moderate to High"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "paramilitary-forces",
+    "meta": {
+      "title": "Paramilitary Forces (CAPF)",
+      "category": "Defense & Specialized Services",
+      "description": "Serve in BSF, CRPF, CISF, ITBP, or SSB to ensure internal security and border protection.",
+      "full_description": "The Central Armed Police Forces (CAPF) include BSF, CRPF, CISF, ITBP, and SSB. They play a vital role in border security, counter-insurgency, industrial security, and disaster management. Careers range from Constable (General Duty) to Assistant Commandant (Gazetted Officer).",
+      "roadmap": [
+        {
+          "step": "Education",
+          "details": "Class 10 (Constable), Class 12 (Head Constable), Graduation (Sub-Inspector/Asst. Commandant).",
+          "duration": "Schooling / Degree"
+        },
+        {
+          "step": "Entrance Exam",
+          "details": "SSC GD (Constable), SSC CPO (Sub-Inspector), or UPSC CAPF (Assistant Commandant).",
+          "duration": "Exam Day"
+        },
+        {
+          "step": "Physical Test",
+          "details": "Clear the Physical Efficiency Test (PET) and Physical Standard Test (PST).",
+          "duration": "1 Day"
+        },
+        {
+          "step": "Medical Exam",
+          "details": "Pass the detailed medical examination.",
+          "duration": "1 Day"
+        },
+        {
+          "step": "Training",
+          "details": "Rigorous training at respective force academies (e.g., CRPF Academy, BSF Academy).",
+          "duration": "9-12 Months"
+        },
+        {
+          "step": "Service",
+          "details": "Posted to battalions for active duty.",
+          "duration": "Career Start"
+        }
+      ],
+      "skills": [
+        "Physical Endurance",
+        "Weapons Handling",
+        "Discipline",
+        "Teamwork",
+        "Crisis Response",
+        "Leadership (Officers)"
+      ],
+      "pro_tips": [
+        "Start physical training (running, pushups) well in advance.",
+        "Understand the specific role of each force (e.g., CISF for airports/industries, BSF for borders).",
+        "For UPSC CAPF, focus on General Studies and Essay writing.",
+        "Medical standards are strict; get a pre-medical checkup if unsure."
+      ],
+      "market_stats": {
+        "average_salary_lpa": 21.0,
+        "salary_range": "\u20b921,700 - \u20b91,77,500+ per month (Rank Based + Risk Allowances)",
+        "top_hiring_companies": [
+          "CRPF",
+          "BSF",
+          "CISF",
+          "ITBP",
+          "SSB",
+          "Assam Rifles"
+        ],
+        "future_scope": [
+          "Internal Security",
+          "Border Protection",
+          "Anti-Terrorism Ops"
+        ]
+      },
+      "icon_slug": "shield",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "1 Year",
+      "success_rate": "Moderate",
+      "regional_variations": false
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "SSC Official Website",
+          "url": "https://ssc.nic.in",
+          "description": "exam body",
+          "type": "info"
+        },
+        {
+          "name": "UPSC CAPF Notification",
+          "url": "https://www.upsc.gov.in",
+          "description": "exam body",
+          "type": "info"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Testbook SSC GD",
+          "url": "https://testbook.com/ssc-gd-constable",
+          "type": "freemium",
+          "platform": "Web",
+          "language": "Hindi/English",
+          "description": "Mock tests and courses"
+        },
+        {
+          "name": "Exampur",
+          "url": "https://exampur.com",
+          "type": "paid",
+          "platform": "Web",
+          "language": "Hindi",
+          "description": "Govt job exam prep"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/SSC",
+          "url": "https://www.reddit.com/r/SSC",
+          "type": "forum",
+          "description": "SSC exams community"
+        },
+        {
+          "name": "DefenceLover",
+          "url": "https://www.defencelover.in",
+          "type": "blog",
+          "description": "Defense news and updates"
+        }
+      ],
+      "books": [
+        {
+          "title": "SSC Constable (GD) Exam Guide",
+          "author": "R. Gupta",
+          "type": "guide",
+          "publisher": "Ramesh Publishing House"
+        },
+        {
+          "title": "General Intelligence and Reasoning",
+          "author": "R.N. Thakur",
+          "type": "textbook",
+          "publisher": "Arihant"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "RWA (Rojgar with Ankit)",
+          "url": "https://www.youtube.com/c/RojgarwithAnkit",
+          "language": "Hindi",
+          "subscribers": "5M+",
+          "focus": "SSC GD and Police exams"
+        },
+        {
+          "name": "Adda247 Defence",
+          "url": "https://www.youtube.com/c/Adda247Defence",
+          "language": "Hindi",
+          "subscribers": "1M+",
+          "focus": "CAPF and defense exams"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 10 / Grad",
+          "subtitle": "Entry Qualification",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "SSC GD / CPO",
+          "subtitle": "Constable / SI Exam",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "UPSC CAPF",
+          "subtitle": "Officer Exam",
+          "layer": 1
+        },
+        {
+          "id": "4",
+          "type": "exam",
+          "label": "PET & PST",
+          "subtitle": "Physical Test",
+          "layer": 2
+        },
+        {
+          "id": "5",
+          "type": "work",
+          "label": "Training",
+          "subtitle": "Force Academy",
+          "layer": 3
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Constable / SI",
+          "subtitle": "Jawan / Sub-Officer",
+          "layer": 4
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Assistant Commandant",
+          "subtitle": "Gazetted Officer",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1a",
+          "source": "1",
+          "target": "2",
+          "label": "Jawan Path"
+        },
+        {
+          "id": "e1b",
+          "source": "1",
+          "target": "3",
+          "label": "Officer Path"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "4"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5a",
+          "source": "5",
+          "target": "6",
+          "label": "Join Force"
+        },
+        {
+          "id": "e5b",
+          "source": "5",
+          "target": "7",
+          "label": "Join Force"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "SSC GD Constable",
+          "conducting_body": "Staff Selection Commission (SSC)",
+          "registration_url": "https://ssc.nic.in",
+          "exam_pattern": "CBT (Computer Based Test), PET, PST, Medicals",
+          "frequency": "Annual",
+          "eligibility": "Class 10 Pass, Age 18-23",
+          "attempts_allowed": "Age Limit Based",
+          "cutoff_trends": "State-wise Cutoffs"
+        },
+        {
+          "name": "UPSC CAPF (AC)",
+          "conducting_body": "UPSC",
+          "registration_url": "https://www.upsc.gov.in",
+          "exam_pattern": "Written (2 Papers), PET, Interview",
+          "frequency": "Annual",
+          "eligibility": "Graduation, Age 20-25",
+          "attempts_allowed": "Age Limit Based",
+          "cutoff_trends": "High Competition"
+        }
+      ]
+    }
   }
 ]

@@ -224,5 +224,477 @@
         }
       ]
     }
+  },
+  {
+    "roadmap_id": "beauty-wellness",
+    "meta": {
+      "title": "Beauty & Wellness",
+      "category": "Skilled Trades & Vocational",
+      "description": "Provide services related to skin care, hair styling, makeup, and holistic wellness.",
+      "full_description": "The Beauty & Wellness industry offers careers in cosmetology, makeup artistry, hair styling, and spa therapy. It is a creative field that requires technical skills and a passion for helping people look and feel their best. Opportunities exist in salons, spas, fashion shoots, and film sets.",
+      "roadmap": [
+        {
+          "step": "Education",
+          "details": "Class 10 or 12 (Any stream).",
+          "duration": "Schooling"
+        },
+        {
+          "step": "Training",
+          "details": "Enroll in a Diploma or Certificate course from a reputed beauty academy (e.g., Lakme, VLCC).",
+          "duration": "3-12 Months"
+        },
+        {
+          "step": "Specialization",
+          "details": "Choose a niche: Makeup, Hair, Skin, or Nail Art.",
+          "duration": "3-6 Months"
+        },
+        {
+          "step": "Internship",
+          "details": "Work as an assistant in a salon or with a senior artist to build a portfolio.",
+          "duration": "6 Months"
+        },
+        {
+          "step": "Career Start",
+          "details": "Join a salon, spa, or start freelancing.",
+          "duration": "Career Start"
+        }
+      ],
+      "skills": [
+        "Makeup Techniques",
+        "Hair Styling & Cutting",
+        "Skin Care Knowledge",
+        "Customer Service",
+        "Hygiene & Safety",
+        "Creativity"
+      ],
+      "pro_tips": [
+        "Build a strong portfolio on Instagram to showcase your work.",
+        "Keep up with the latest beauty trends and products.",
+        "Communication skills are key to retaining clients.",
+        "Consider international certifications (CIDESCO, CIBTAC) for global opportunities."
+      ],
+      "market_stats": {
+        "average_salary_lpa": 2.5,
+        "salary_range": "\u20b92.5L - \u20b910L+ per annum (Highly variable based on skill and clientele)",
+        "top_hiring_companies": [
+          "Lakme Salons",
+          "Urban Company",
+          "VLCC",
+          "Enrich Salons",
+          "Nykaa",
+          "Kaya Skin Clinic"
+        ],
+        "future_scope": [
+          "Booming Industry",
+          "Personal Grooming Focus",
+          "Wellness Tourism"
+        ]
+      },
+      "icon_slug": "smile",
+      "difficulty_level": "Beginner",
+      "time_to_job": "6-12 Months",
+      "success_rate": "High",
+      "regional_variations": false
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Beauty & Wellness Sector Skill Council",
+          "url": "https://www.bwssc.in",
+          "description": "government body",
+          "type": "info"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Lakme Academy",
+          "url": "https://www.lakme-academy.com",
+          "description": "training institute",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/MakeupAddiction",
+          "url": "https://www.reddit.com/r/MakeupAddiction",
+          "type": "forum",
+          "description": "Community for makeup enthusiasts"
+        },
+        {
+          "name": "SalonGeek",
+          "url": "https://www.salongeek.com",
+          "type": "forum",
+          "description": "Professional beauty industry forum"
+        }
+      ],
+      "books": [
+        {
+          "title": "Bobbi Brown Makeup Manual",
+          "author": "Bobbi Brown",
+          "type": "guide",
+          "publisher": "Grand Central Life & Style"
+        },
+        {
+          "title": "Milady Standard Cosmetology",
+          "author": "Milady",
+          "type": "textbook",
+          "publisher": "Cengage Learning"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "Lisa Eldridge",
+          "url": "https://www.youtube.com/user/lisaeldridgedotcom",
+          "language": "English",
+          "subscribers": "2M+",
+          "focus": "Professional makeup techniques"
+        },
+        {
+          "name": "Hindash",
+          "url": "https://www.youtube.com/user/Hindash",
+          "language": "English",
+          "subscribers": "1.5M+",
+          "focus": "Artistic makeup tutorials"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 10 / 12",
+          "subtitle": "Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "education",
+          "label": "Diploma Course",
+          "subtitle": "Cosmetology / Makeup",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "work",
+          "label": "Internship",
+          "subtitle": "Salon / Assistant",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "job",
+          "label": "Makeup Artist",
+          "subtitle": "Freelance / Studio",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Hair Stylist",
+          "subtitle": "Salon Expert",
+          "layer": 3
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Salon Manager",
+          "subtitle": "Operations",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3a",
+          "source": "3",
+          "target": "4",
+          "label": "Makeup Path"
+        },
+        {
+          "id": "e3b",
+          "source": "3",
+          "target": "5",
+          "label": "Hair Path"
+        },
+        {
+          "id": "e4",
+          "source": "5",
+          "target": "6",
+          "label": "Promotion"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "CIDESCO Diploma",
+          "conducting_body": "CIDESCO International",
+          "registration_url": "https://cidesco.com",
+          "exam_pattern": "Practical & Theory",
+          "frequency": "On Demand",
+          "eligibility": "Training Completion",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Pass/Fail"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "sports-fitness",
+    "meta": {
+      "title": "Sports & Fitness",
+      "category": "Skilled Trades & Vocational",
+      "description": "Pursue a career as a professional athlete, coach, or fitness trainer.",
+      "full_description": "The Sports and Fitness industry offers diverse roles from professional athletes representing the country to fitness trainers helping individuals stay healthy. It requires immense dedication, physical discipline, and continuous training.",
+      "roadmap": [
+        {
+          "step": "Early Start",
+          "details": "Start training in a specific sport during school days (Age 8-12).",
+          "duration": "Childhood"
+        },
+        {
+          "step": "District/State Level",
+          "details": "Participate in district and state-level tournaments to get recognized.",
+          "duration": "School/College"
+        },
+        {
+          "step": "Professional Training",
+          "details": "Join a sports academy (SAI) or get a certification (ACE, ACSM) for fitness training.",
+          "duration": "1-3 Years"
+        },
+        {
+          "step": "National Level",
+          "details": "Represent the state at Nationals. For trainers, start working at gyms.",
+          "duration": "Career Peak"
+        },
+        {
+          "step": "Coach / Mentor",
+          "details": "Transition to coaching after retirement or gain advanced certifications.",
+          "duration": "Post-Career"
+        }
+      ],
+      "skills": [
+        "Physical Fitness",
+        "Discipline & Resilience",
+        "Sports Strategy",
+        "Nutrition Knowledge",
+        "Communication (for Coaches)",
+        "Injury Management"
+      ],
+      "pro_tips": [
+        "Consistency is key; never skip training sessions.",
+        "Nutrition is as important as exercise.",
+        "For trainers, certifications from reputed bodies (ACE, ISSA) add immense value.",
+        "Explore sports quota jobs in Railways, Banks, and PSUs."
+      ],
+      "market_stats": {
+        "average_salary_lpa": 3.0,
+        "salary_range": "Variable (Athletes) / \u20b93L - \u20b912L+ (Trainers/Coaches)",
+        "top_hiring_companies": [
+          "Gold's Gym",
+          "Cult.fit",
+          "Sports Authority of India",
+          "Talwalkars",
+          "Decathlon",
+          "BCCI"
+        ],
+        "future_scope": [
+          "Health Awareness Boom",
+          "Personal Training Demand",
+          "Sports Professionalism"
+        ]
+      },
+      "icon_slug": "activity",
+      "difficulty_level": "Hard",
+      "time_to_job": "Variable",
+      "success_rate": "Moderate",
+      "regional_variations": false
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Sports Authority of India",
+          "url": "https://sportsauthorityofindia.nic.in",
+          "description": "government body",
+          "type": "info"
+        },
+        {
+          "name": "ACE Fitness",
+          "url": "https://www.acefitness.org",
+          "description": "certification body",
+          "type": "info"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "ACE Fitness",
+          "url": "https://www.acefitness.org",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Personal trainer certifications"
+        },
+        {
+          "name": "K11 School of Fitness Sciences",
+          "url": "https://www.k11school.com",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English/Hindi",
+          "description": "Fitness training institute in India"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/Fitness",
+          "url": "https://www.reddit.com/r/Fitness",
+          "type": "forum",
+          "description": "General fitness discussion"
+        },
+        {
+          "name": "Bodybuilding.com Forums",
+          "url": "https://forum.bodybuilding.com",
+          "type": "forum",
+          "description": "Bodybuilding and training discussions"
+        }
+      ],
+      "books": [
+        {
+          "title": "The Essentials of Sport and Exercise Nutrition",
+          "author": "John Berardi",
+          "type": "textbook",
+          "publisher": "Precision Nutrition"
+        },
+        {
+          "title": "Starting Strength",
+          "author": "Mark Rippetoe",
+          "type": "guide",
+          "publisher": "The Aasgaard Company"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "Jeff Nippard",
+          "url": "https://www.youtube.com/user/icecream4PRs",
+          "language": "English",
+          "subscribers": "3M+",
+          "focus": "Science-based training"
+        },
+        {
+          "name": "Guru Mann Fitness",
+          "url": "https://www.youtube.com/user/GuruMann1",
+          "language": "Hindi/English",
+          "subscribers": "2M+",
+          "focus": "Fitness and nutrition for Indians"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "School Sports",
+          "subtitle": "Start Early",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "work",
+          "label": "District/State Level",
+          "subtitle": "Competition",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "work",
+          "label": "National Level",
+          "subtitle": "Professional Athlete",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "education",
+          "label": "Certification",
+          "subtitle": "Fitness Trainer Course",
+          "layer": 1
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Fitness Trainer",
+          "subtitle": "Gym / Personal",
+          "layer": 2
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Sports Coach",
+          "subtitle": "Academy / Team",
+          "layer": 3
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2",
+          "label": "Athlete Path"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "6",
+          "label": "Retirement"
+        },
+        {
+          "id": "e4",
+          "source": "1",
+          "target": "4",
+          "label": "Trainer Path"
+        },
+        {
+          "id": "e5",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e6",
+          "source": "5",
+          "target": "6",
+          "label": "Experience"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "NIS Diploma in Sports Coaching",
+          "conducting_body": "Netaji Subhas National Institute of Sports",
+          "registration_url": "https://nsnis.org",
+          "exam_pattern": "Entrance Test + Physical Test",
+          "frequency": "Annual",
+          "eligibility": "Sports Achievement + 12th/Grad",
+          "attempts_allowed": "Age Limit Based",
+          "cutoff_trends": "High for popular sports"
+        }
+      ]
+    }
   }
 ]

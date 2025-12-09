@@ -379,5 +379,245 @@
         }
       ]
     }
+  },
+  {
+    "roadmap_id": "real-estate-agent",
+    "meta": {
+      "title": "Real Estate Agent",
+      "category": "Business & Entrepreneurship",
+      "description": "Facilitate buying, selling, and renting of properties for clients.",
+      "full_description": "Real Estate Agents act as intermediaries between buyers and sellers of property. They help clients find suitable homes or commercial spaces, negotiate prices, and handle legal paperwork. Success in this field relies heavily on networking, market knowledge, and trust.",
+      "roadmap": [
+        {
+          "step": "Education",
+          "details": "Complete Class 12 (Minimum). Graduation helps in dealing with corporate clients.",
+          "duration": "Schooling / Degree"
+        },
+        {
+          "step": "Market Research",
+          "details": "Understand the local property market, prices, and legal regulations (RERA).",
+          "duration": "3-6 Months"
+        },
+        {
+          "step": "Registration",
+          "details": "Register as an agent under RERA (Real Estate Regulatory Authority) of your state.",
+          "duration": "1 Month"
+        },
+        {
+          "step": "Gain Experience",
+          "details": "Work with an established real estate agency or broker to learn the ropes.",
+          "duration": "1-2 Years"
+        },
+        {
+          "step": "Independent Agent",
+          "details": "Start your own consultancy or agency. Build a portfolio of properties.",
+          "duration": "Ongoing"
+        }
+      ],
+      "skills": [
+        "Negotiation",
+        "Communication",
+        "Local Market Knowledge",
+        "Legal Documentation (RERA)",
+        "Networking",
+        "Sales"
+      ],
+      "pro_tips": [
+        "Focus on a specific niche (e.g., Residential Rentals, Commercial Leasing).",
+        "Build trust; reputation is everything in this business.",
+        "Leverage digital marketing to showcase properties (Instagram, YouTube).",
+        "Stay updated with RERA laws and property tax rules."
+      ],
+      "market_stats": {
+        "average_salary_lpa": 1.0,
+        "salary_range": "Commission Based (1-2% of deal value). Potential for high earnings.",
+        "top_hiring_companies": [
+          "DLF",
+          "Godrej Properties",
+          "Anarock",
+          "Square Yards",
+          "MagicBricks",
+          "NoBroker"
+        ],
+        "future_scope": [
+          "Urbanization Growth",
+          "Infrastructure Demand",
+          "Commercial Real Estate"
+        ]
+      },
+      "icon_slug": "home",
+      "difficulty_level": "Beginner",
+      "time_to_job": "3-6 Months",
+      "success_rate": "Moderate",
+      "regional_variations": true
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "RERA Official Sites",
+          "url": "https://rera.intro",
+          "description": "regulatory body",
+          "type": "info"
+        },
+        {
+          "name": "MagicBricks / 99Acres",
+          "url": "https://www.magicbricks.com",
+          "description": "marketplace",
+          "type": "info"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Udemy Real Estate",
+          "url": "https://www.udemy.com/topic/real-estate",
+          "type": "paid",
+          "platform": "Udemy",
+          "language": "English",
+          "description": "Sales and investment courses"
+        },
+        {
+          "name": "Coursera - Construction Management",
+          "url": "https://www.coursera.org/specializations/construction-management",
+          "type": "paid",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "Project management skills"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/RealEstate",
+          "url": "https://www.reddit.com/r/RealEstate",
+          "type": "forum",
+          "description": "Global real estate discussion"
+        },
+        {
+          "name": "Indian Real Estate Forum (IREF)",
+          "url": "https://www.indianrealestateforum.com",
+          "type": "forum",
+          "description": "Indian property discussion"
+        }
+      ],
+      "books": [
+        {
+          "title": "The Millionaire Real Estate Agent",
+          "author": "Gary Keller",
+          "type": "guide",
+          "publisher": "McGraw-Hill"
+        },
+        {
+          "title": "Rich Dad Poor Dad",
+          "author": "Robert Kiyosaki",
+          "type": "guide",
+          "publisher": "Plata Publishing"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "Asset Yogi",
+          "url": "https://www.youtube.com/c/AssetYogi",
+          "language": "Hindi",
+          "subscribers": "2M+",
+          "focus": "Real estate and finance"
+        },
+        {
+          "name": "Graham Stephan",
+          "url": "https://www.youtube.com/c/GrahamStephan",
+          "language": "English",
+          "subscribers": "4M+",
+          "focus": "Real estate investing"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 / Graduate",
+          "subtitle": "Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "education",
+          "label": "Market Research",
+          "subtitle": "Learn Local Area",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "RERA Registration",
+          "subtitle": "Mandatory License",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "job",
+          "label": "Real Estate Associate",
+          "subtitle": "Work under Broker",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Independent Agent",
+          "subtitle": "Start Own Business",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Real Estate Developer",
+          "subtitle": "Build & Sell",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4",
+          "label": "Gain Experience"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5",
+          "label": "Go Solo"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6",
+          "label": "Scale Up"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "RERA Agent Registration",
+          "conducting_body": "State RERA Authorities",
+          "registration_url": "https://rera.gov.in",
+          "exam_pattern": "Registration Process (Some states have exams)",
+          "frequency": "Ongoing",
+          "eligibility": "Individual / Firm",
+          "attempts_allowed": "N/A",
+          "cutoff_trends": "N/A"
+        }
+      ]
+    }
   }
 ]
