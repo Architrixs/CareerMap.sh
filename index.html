@@ -461,15 +461,18 @@
             const [view, setView] = useState('home'); // home | roadmap
             const [activeRoadmap, setActiveRoadmap] = useState(null);
             const [searchTerm, setSearchTerm] = useState('');
+            const [selectedCategory, setSelectedCategory] = useState('All');
+            const [selectedDifficulty, setSelectedDifficulty] = useState('All');
             
             // State for Data Fetching
             const [careerIndex, setCareerIndex] = useState([]); // Lightweight index
+            const [categories, setCategories] = useState([]);
             const [roadmapCache, setRoadmapCache] = useState({}); // Cache for full roadmaps
             const [loading, setLoading] = useState(true);
             const [loadingRoadmap, setLoadingRoadmap] = useState(false);
             const [error, setError] = useState(null);
 
-            const { Search, Map, Loader2, AlertTriangle } = LucideIcons;
+            const { Search, Map, Loader2, AlertTriangle, X } = LucideIcons;
 
             // Fetch Index on Mount
             useEffect(() => {
@@ -482,6 +485,13 @@
                         }
                         const data = await response.json();
                         setCareerIndex(data);
+
+                        // Fetch categories
+                        const catResponse = await fetch(`data/categories.json?t=${Date.now()}`);
+                        if (catResponse.ok) {
+                            const catData = await catResponse.json();
+                            setCategories(catData.categories || []);
+                        }
                     } catch (err) {
                         console.error("Data Fetch Error:", err);
                         setError(err.message);
@@ -534,10 +544,14 @@
                 }
             };
 
-            const filteredData = careerIndex.filter(item => 
-                item.meta.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
-                item.meta.description.toLowerCase().includes(searchTerm.toLowerCase())
-            );
+            const filteredData = careerIndex.filter(item => {
+                const matchesSearch = item.meta.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
+                                    item.meta.description.toLowerCase().includes(searchTerm.toLowerCase());
+                const matchesCategory = selectedCategory === 'All' || item.meta.category === selectedCategory;
+                const matchesDifficulty = selectedDifficulty === 'All' || item.meta.difficulty_level.includes(selectedDifficulty);
+                
+                return matchesSearch && matchesCategory && matchesDifficulty;
+            });
 
             // Group nodes by layer (Moved up to avoid conditional hook call error)
             const groupedNodes = useMemo(() => {
@@ -615,11 +629,67 @@
                                     <input
                                         type="text"
                                         placeholder="Search for 'AI', 'Doctor', 'Blockchain'..."
-                                        className="w-full pl-12 pr-4 py-4 bg-slate-800 border border-slate-700 rounded-2xl text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50 shadow-2xl"
+                                        className="w-full pl-12 pr-12 py-4 bg-slate-800 border border-slate-700 rounded-2xl text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-blue-500/50 shadow-2xl"
                                         value={searchTerm}
                                         onChange={(e) => setSearchTerm(e.target.value)}
                                     />
                                     <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500" size={20} />
+                                    {searchTerm && (
+                                        <button 
+                                            onClick={() => setSearchTerm('')}
+                                            className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-500 hover:text-white transition-colors"
+                                        >
+                                            <X size={20} />
+                                        </button>
+                                    )}
+                                </div>
+
+                                {/* Filters */}
+                                <div className="mt-6 max-w-4xl mx-auto">
+                                    {/* Categories */}
+                                    <div className="flex flex-wrap justify-center gap-1.5 mb-4">
+                                        <button
+                                            onClick={() => setSelectedCategory('All')}
+                                            className={`px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full text-[10px] sm:text-xs font-medium transition-all ${
+                                                selectedCategory === 'All' 
+                                                ? 'bg-blue-500 text-white shadow-lg shadow-blue-500/25' 
+                                                : 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-white border border-slate-700'
+                                            }`}
+                                        >
+                                            All
+                                        </button>
+                                        {categories.map(cat => (
+                                            <button
+                                                key={cat.id}
+                                                onClick={() => setSelectedCategory(cat.name)}
+                                                className={`px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-full text-[10px] sm:text-xs font-medium transition-all ${
+                                                    selectedCategory === cat.name 
+                                                    ? 'bg-blue-500 text-white shadow-lg shadow-blue-500/25' 
+                                                    : 'bg-slate-800 text-slate-400 hover:bg-slate-700 hover:text-white border border-slate-700'
+                                                }`}
+                                            >
+                                                {cat.name}
+                                            </button>
+                                        ))}
+                                    </div>
+
+                                    {/* Difficulty */}
+                                    <div className="flex flex-wrap items-center justify-center gap-2 text-[10px] sm:text-xs">
+                                        <span className="text-slate-500 mr-1">Difficulty:</span>
+                                        {['All', 'Beginner', 'Intermediate', 'Advanced', 'Expert'].map(level => (
+                                            <button
+                                                key={level}
+                                                onClick={() => setSelectedDifficulty(level)}
+                                                className={`px-2 py-1 rounded-lg transition-colors border border-transparent ${
+                                                    selectedDifficulty === level
+                                                    ? 'bg-slate-700 text-white font-medium border-slate-600'
+                                                    : 'text-slate-400 hover:text-slate-300 hover:bg-slate-800/50'
+                                                }`}
+                                            >
+                                                {level}
+                                            </button>
+                                        ))}
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -638,7 +708,24 @@
                             
                             {filteredData.length === 0 && (
                                 <div className="text-center py-20">
-                                    <p className="text-slate-500 text-lg">No careers found matching "{searchTerm}"</p>
+                                    <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-slate-800 mb-4">
+                                        <Search className="text-slate-500" size={32} />
+                                    </div>
+                                    <h3 className="text-xl font-bold text-white mb-2">No careers found</h3>
+                                    <p className="text-slate-400 max-w-md mx-auto mb-6">
+                                        We couldn't find any careers matching your current filters. 
+                                        Try adjusting your search or category selection.
+                                    </p>
+                                    <button 
+                                        onClick={() => {
+                                            setSearchTerm('');
+                                            setSelectedCategory('All');
+                                            setSelectedDifficulty('All');
+                                        }}
+                                        className="px-6 py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-full font-medium transition-colors"
+                                    >
+                                        Clear All Filters
+                                    </button>
                                 </div>
                             )}
                         </div>
