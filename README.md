@@ -24,10 +24,16 @@ Build a comprehensive, curated roadmap platform for **every profession in India*
 
 ```
 career.sh/
-├── index.html           # Frontend application (React via CDN)
-├── data.json           # All career roadmaps data
-├── schema.json         # JSON schema specification
-└── plan.md             # Development roadmap
+├── public/             # Static assets (data json files)
+├── src/
+│   ├── components/     # UI Components (Sidebar, Cards, etc.)
+│   ├── utils/          # Helper functions
+│   ├── App.jsx         # Main Application Logic
+│   ├── main.jsx        # Entry point
+│   └── index.css       # Global Styles (Tailwind)
+├── index.html          # HTML Entry point
+├── package.json        # Dependencies & Scripts
+└── vite.config.js      # Vite Configuration
 ```
 
 ---
@@ -37,11 +43,14 @@ career.sh/
 ### Run Locally
 
 ```powershell
-# Start a local server
-python -m http.server 8000
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
 
 # Open in browser
-http://localhost:8000
+http://localhost:5173
 ```
 
 ---
