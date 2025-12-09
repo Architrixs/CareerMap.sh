@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0f172a; /* Slate 900 */
+    color: #e2e8f0;
+}
+
+.font-mono {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #1e293b; 
+}
+::-webkit-scrollbar-thumb {
+    background: #475569; 
+    border-radius: 4px;
+}
+
+/* Node Animations */
+.node-enter {
+    animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+@keyframes slideUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Connecting Line Animation */
+.flow-line {
+    stroke-dasharray: 12;
+    animation: flow 30s linear infinite;
+}
+@keyframes flow {
+    to {
+        stroke-dashoffset: -1000;
+    }
+}
+
+/* Branch Flow Animations */
+.flow-dashed-vertical {
+    background-image: linear-gradient(to bottom, #3b82f6 50%, transparent 50%);
+    background-size: 2px 12px;
+    opacity: 0.3;
+    animation: flowVertical 0.5s linear infinite;
+}
+@keyframes flowVertical {
+    from { background-position: 0 0; }
+    to { background-position: 0 12px; }
+}
+
+.flow-dashed-horizontal-r {
+    background-image: linear-gradient(to right, #3b82f6 50%, transparent 50%);
+    background-size: 12px 2px;
+    opacity: 0.3;
+    animation: flowHorizontalR 0.5s linear infinite;
+}
+@keyframes flowHorizontalR {
+    from { background-position: 0 0; }
+    to { background-position: 12px 0; }
+}
+
+.flow-dashed-horizontal-l {
+    background-image: linear-gradient(to left, #3b82f6 50%, transparent 50%);
+    background-size: 12px 2px;
+    opacity: 0.3;
+    animation: flowHorizontalL 0.5s linear infinite;
+}
+@keyframes flowHorizontalL {
+    from { background-position: 0 0; }
+    to { background-position: -12px 0; }
+}
