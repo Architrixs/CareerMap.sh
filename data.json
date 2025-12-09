@@ -5932,5 +5932,5033 @@
         }
       ]
     }
+  },
+  {
+    "roadmap_id": "armed-forces-nda",
+    "meta": {
+      "title": "Armed Forces (NDA)",
+      "description": "Join the Army, Navy, or Air Force as a commissioned officer directly after Class 12.",
+      "category": "Defense & Specialized Services",
+      "subcategory": "Officer Cadre",
+      "icon_slug": "shield",
+      "difficulty_level": "Expert",
+      "time_to_job": "4 years (Training)",
+      "success_rate": "Low (< 0.5%)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 10.0,
+        "salary_range": "₹56,100/mo (Stipend) - ₹2.5L/mo+",
+        "top_hiring_companies": [
+          "Indian Army",
+          "Indian Navy",
+          "Indian Air Force"
+        ],
+        "future_scope": [
+          "Permanent Commission",
+          "Adventure & Sports",
+          "Higher Education (M.Tech/M.Sc)",
+          "Post-retirement Corporate Roles"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Lieutenant (Army)",
+          "avg_salary": "₹10L+/yr"
+        },
+        {
+          "role": "Sub-Lieutenant (Navy)",
+          "avg_salary": "₹10L+/yr"
+        },
+        {
+          "role": "Flying Officer (Air Force)",
+          "avg_salary": "₹12L+/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "UPSC NDA Notification",
+          "url": "https://upsc.gov.in",
+          "type": "exam",
+          "description": "Official exam notification and results"
+        },
+        {
+          "name": "Join Indian Army",
+          "url": "https://joinindianarmy.nic.in",
+          "type": "info",
+          "description": "Official recruitment portal"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Unacademy Defence",
+          "url": "https://unacademy.com/goal/nda/DANNJ",
+          "type": "freemium",
+          "platform": "Unacademy",
+          "language": "Both",
+          "description": "NDA preparation courses"
+        },
+        {
+          "name": "Learn with Sumit",
+          "url": "https://www.youtube.com/@LearnwithSumit",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "Hindi/English",
+          "description": "Dedicated NDA/CDS guidance"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/IndianDefense",
+          "url": "https://www.reddit.com/r/IndianDefense",
+          "type": "forum",
+          "description": "Defense discussions"
+        },
+        {
+          "name": "SSBCrack",
+          "url": "https://ssbcrack.com",
+          "type": "community",
+          "description": "SSB interview preparation community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "NDA & NA Examination",
+          "conducting_body": "UPSC",
+          "registration_url": "https://upsconline.nic.in",
+          "exam_pattern": "Written (Maths + GAT) + SSB Interview (5 Days)",
+          "frequency": "Biannual (April & September)",
+          "eligibility": "Class 12 (PCM for Air Force/Navy, Any for Army), Age: 16.5-19.5, Unmarried Male/Female",
+          "attempts_allowed": "Based on age limit",
+          "cutoff_trends": "Written: ~360/900, Final: ~720/1800"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "PCM (Air Force/Navy) or Any (Army)",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "NDA Written Exam",
+          "subtitle": "Maths (300) + GAT (600)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "SSB Interview",
+          "subtitle": "5-Day Personality Test",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "exam",
+          "label": "Medicals",
+          "subtitle": "Strict physical standards",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "education",
+          "label": "NDA Training",
+          "subtitle": "3 Years at Khadakwasla (B.Sc/B.A/B.Tech)",
+          "duration": "3 years",
+          "layer": 4
+        },
+        {
+          "id": "6a",
+          "type": "education",
+          "label": "IMA (Army)",
+          "subtitle": "1 Year at Dehradun",
+          "layer": 5
+        },
+        {
+          "id": "6b",
+          "type": "education",
+          "label": "INA (Navy)",
+          "subtitle": "1 Year at Ezhimala",
+          "layer": 5
+        },
+        {
+          "id": "6c",
+          "type": "education",
+          "label": "AFA (Air Force)",
+          "subtitle": "1 Year at Dundigal",
+          "layer": 5
+        },
+        {
+          "id": "7a",
+          "type": "job",
+          "label": "Lieutenant",
+          "subtitle": "Commissioned Officer (Army)",
+          "layer": 6
+        },
+        {
+          "id": "7b",
+          "type": "job",
+          "label": "Sub-Lieutenant",
+          "subtitle": "Commissioned Officer (Navy)",
+          "layer": 6
+        },
+        {
+          "id": "7c",
+          "type": "job",
+          "label": "Flying Officer",
+          "subtitle": "Commissioned Officer (Air Force)",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5a",
+          "source": "5",
+          "target": "6a",
+          "label": "Army Cadet",
+          "type": "default"
+        },
+        {
+          "id": "e5b",
+          "source": "5",
+          "target": "6b",
+          "label": "Naval Cadet",
+          "type": "alternative"
+        },
+        {
+          "id": "e5c",
+          "source": "5",
+          "target": "6c",
+          "label": "Air Force Cadet",
+          "type": "alternative"
+        },
+        {
+          "id": "e6a",
+          "source": "6a",
+          "target": "7a"
+        },
+        {
+          "id": "e6b",
+          "source": "6b",
+          "target": "7b"
+        },
+        {
+          "id": "e6c",
+          "source": "6c",
+          "target": "7c"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "armed-forces-cds",
+    "meta": {
+      "title": "Armed Forces (CDS)",
+      "description": "Join the Army, Navy, or Air Force as a commissioned officer after Graduation.",
+      "category": "Defense & Specialized Services",
+      "subcategory": "Officer Cadre",
+      "icon_slug": "shield",
+      "difficulty_level": "Expert",
+      "time_to_job": "1.5 years (Training)",
+      "success_rate": "Low (< 1%)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 10.0,
+        "salary_range": "₹56,100/mo (Stipend) - ₹2.5L/mo+",
+        "top_hiring_companies": [
+          "Indian Army",
+          "Indian Navy",
+          "Indian Air Force"
+        ],
+        "future_scope": [
+          "Permanent Commission",
+          "Short Service Commission",
+          "Higher Command Roles",
+          "Post-retirement Corporate Roles"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Lieutenant (Army)",
+          "avg_salary": "₹10L+/yr"
+        },
+        {
+          "role": "Sub-Lieutenant (Navy)",
+          "avg_salary": "₹10L+/yr"
+        },
+        {
+          "role": "Flying Officer (Air Force)",
+          "avg_salary": "₹12L+/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "UPSC CDS Notification",
+          "url": "https://upsc.gov.in",
+          "type": "exam",
+          "description": "Official exam notification"
+        },
+        {
+          "name": "Join Indian Army",
+          "url": "https://joinindianarmy.nic.in",
+          "type": "info",
+          "description": "Official recruitment portal"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Unacademy Defence",
+          "url": "https://unacademy.com/goal/cdsafcatcapf/TUNWK",
+          "type": "freemium",
+          "platform": "Unacademy",
+          "language": "Both",
+          "description": "CDS/AFCAT preparation"
+        },
+        {
+          "name": "CDS Journey",
+          "url": "https://www.youtube.com/@CDSJourney",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "Hindi/English",
+          "description": "Dedicated CDS guidance"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/IndianDefense",
+          "url": "https://www.reddit.com/r/IndianDefense",
+          "type": "forum",
+          "description": "Defense discussions"
+        },
+        {
+          "name": "SSBCrack",
+          "url": "https://ssbcrack.com",
+          "type": "community",
+          "description": "SSB interview preparation"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "Combined Defence Services (CDS)",
+          "conducting_body": "UPSC",
+          "registration_url": "https://upsconline.nic.in",
+          "exam_pattern": "Written (English, GK, Maths) + SSB Interview",
+          "frequency": "Biannual (April & September)",
+          "eligibility": "Graduation (Any for Army/OTA, Engg/Physics for Navy/AF), Age: 19-25",
+          "attempts_allowed": "Based on age limit",
+          "cutoff_trends": "IMA: ~140/300, OTA: ~100/200, AFA: ~150/300"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Graduation",
+          "subtitle": "Any Degree (Army/OTA) / B.Tech (Navy/AF)",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "CDS Written Exam",
+          "subtitle": "English + GK + Maths (IMA/INA/AFA)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "SSB Interview",
+          "subtitle": "5-Day Personality Test",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "exam",
+          "label": "Medicals",
+          "subtitle": "Strict physical standards",
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "education",
+          "label": "IMA (Army)",
+          "subtitle": "1.5 Years Training (Dehradun)",
+          "layer": 4
+        },
+        {
+          "id": "5b",
+          "type": "education",
+          "label": "INA (Navy)",
+          "subtitle": "1.5 Years Training (Ezhimala)",
+          "layer": 4
+        },
+        {
+          "id": "5c",
+          "type": "education",
+          "label": "AFA (Air Force)",
+          "subtitle": "1.5 Years Training (Dundigal)",
+          "layer": 4
+        },
+        {
+          "id": "5d",
+          "type": "education",
+          "label": "OTA (Short Service)",
+          "subtitle": "49 Weeks Training (Chennai)",
+          "layer": 4
+        },
+        {
+          "id": "6a",
+          "type": "job",
+          "label": "Lieutenant",
+          "subtitle": "Commissioned Officer (Army)",
+          "layer": 5
+        },
+        {
+          "id": "6b",
+          "type": "job",
+          "label": "Sub-Lieutenant",
+          "subtitle": "Commissioned Officer (Navy)",
+          "layer": 5
+        },
+        {
+          "id": "6c",
+          "type": "job",
+          "label": "Flying Officer",
+          "subtitle": "Commissioned Officer (Air Force)",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "5a",
+          "label": "Army (Permanent)",
+          "type": "default"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "5b",
+          "label": "Navy",
+          "type": "alternative"
+        },
+        {
+          "id": "e4c",
+          "source": "4",
+          "target": "5c",
+          "label": "Air Force",
+          "type": "alternative"
+        },
+        {
+          "id": "e4d",
+          "source": "4",
+          "target": "5d",
+          "label": "OTA (Short Service)",
+          "type": "alternative"
+        },
+        {
+          "id": "e5a",
+          "source": "5a",
+          "target": "6a"
+        },
+        {
+          "id": "e5b",
+          "source": "5b",
+          "target": "6b"
+        },
+        {
+          "id": "e5c",
+          "source": "5c",
+          "target": "6c"
+        },
+        {
+          "id": "e5d",
+          "source": "5d",
+          "target": "6a",
+          "label": "Army (SSC)"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "nursing",
+    "meta": {
+      "title": "Nursing",
+      "description": "A noble profession focused on patient care, health promotion, and medical assistance.",
+      "category": "Healthcare & Medical",
+      "subcategory": "Nursing",
+      "icon_slug": "stethoscope",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3-4 years",
+      "success_rate": "High (High Demand)",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "₹15k/mo (Entry) - ₹80k/mo (Senior)",
+        "top_hiring_companies": [
+          "Apollo Hospitals",
+          "Fortis Healthcare",
+          "Max Healthcare",
+          "AIIMS (Govt)",
+          "Indian Railways"
+        ],
+        "future_scope": [
+          "Nurse Practitioner",
+          "Hospital Administration",
+          "Clinical Research",
+          "Overseas Opportunities (UK/USA/Canada)"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Staff Nurse",
+          "avg_salary": "₹3-5L/yr"
+        },
+        {
+          "role": "Nursing Superintendent",
+          "avg_salary": "₹8-12L/yr"
+        },
+        {
+          "role": "Community Health Officer",
+          "avg_salary": "₹4-6L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Indian Nursing Council",
+          "url": "https://www.indiannursingcouncil.org",
+          "type": "info",
+          "description": "Regulatory body for nursing education"
+        },
+        {
+          "name": "AIIMS Exams",
+          "url": "https://www.aiimsexams.ac.in",
+          "type": "exam",
+          "description": "AIIMS Nursing Entrance"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Nursing Next Live",
+          "url": "https://www.nursingnextlive.com",
+          "type": "paid",
+          "platform": "App",
+          "language": "English",
+          "description": "NORCET & Nursing exam prep"
+        },
+        {
+          "name": "RegisteredNurseRN",
+          "url": "https://www.youtube.com/@RegisteredNurseRN",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "English",
+          "description": "Clinical skills and theory"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/nursing",
+          "url": "https://www.reddit.com/r/nursing",
+          "type": "forum",
+          "description": "Global nursing community"
+        },
+        {
+          "name": "Nurses India",
+          "url": "https://www.facebook.com/groups/nursesindia",
+          "type": "community",
+          "description": "Indian nurses group"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "AIIMS B.Sc Nursing Entrance",
+          "conducting_body": "AIIMS",
+          "registration_url": "https://www.aiimsexams.ac.in",
+          "exam_pattern": "Physics, Chemistry, Biology, GK",
+          "frequency": "Annual",
+          "eligibility": "Class 12 (PCB), 55% Marks",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "High competition for AIIMS Delhi"
+        },
+        {
+          "name": "NORCET (Nursing Officer)",
+          "conducting_body": "AIIMS",
+          "registration_url": "https://www.aiimsexams.ac.in",
+          "exam_pattern": "200 MCQs (Nursing Subjects + GK/Aptitude)",
+          "frequency": "Biannual",
+          "eligibility": "B.Sc Nursing or GNM + 2 Years Exp",
+          "attempts_allowed": "Age limit 30 years (General)",
+          "cutoff_trends": "Qualifying: 50% (UR), 45% (OBC), 40% (SC/ST)"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "PCB Stream (Physics, Chem, Bio)",
+          "layer": 0
+        },
+        {
+          "id": "2a",
+          "type": "exam",
+          "label": "Entrance Exams",
+          "subtitle": "AIIMS / NEET / State CETs",
+          "layer": 1
+        },
+        {
+          "id": "2b",
+          "type": "education",
+          "label": "Direct Admission",
+          "subtitle": "Private Colleges (Merit/Donation)",
+          "layer": 1
+        },
+        {
+          "id": "3a",
+          "type": "education",
+          "label": "B.Sc Nursing",
+          "subtitle": "4 Years Degree Course",
+          "duration": "4 years",
+          "layer": 2
+        },
+        {
+          "id": "3b",
+          "type": "education",
+          "label": "GNM",
+          "subtitle": "3.5 Years Diploma",
+          "duration": "3.5 years",
+          "layer": 2
+        },
+        {
+          "id": "3c",
+          "type": "education",
+          "label": "ANM",
+          "subtitle": "2 Years (Auxiliary Nursing)",
+          "duration": "2 years",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "education",
+          "label": "Internship",
+          "subtitle": "6 Months Clinical Rotation",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "exam",
+          "label": "Licensure",
+          "subtitle": "State Nursing Council Registration",
+          "layer": 4
+        },
+        {
+          "id": "6a",
+          "type": "job",
+          "label": "Staff Nurse",
+          "subtitle": "Private/Govt Hospitals",
+          "layer": 5
+        },
+        {
+          "id": "6b",
+          "type": "education",
+          "label": "M.Sc Nursing",
+          "subtitle": "2 Years Specialization",
+          "layer": 5
+        },
+        {
+          "id": "6c",
+          "type": "education",
+          "label": "Post Basic B.Sc",
+          "subtitle": "2 Years (For GNM holders)",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Nursing Officer",
+          "subtitle": "Senior Role / Govt Job (NORCET)",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1a",
+          "source": "1",
+          "target": "2a",
+          "label": "Entrance Route"
+        },
+        {
+          "id": "e1b",
+          "source": "1",
+          "target": "2b",
+          "label": "Direct Route"
+        },
+        {
+          "id": "e2a1",
+          "source": "2a",
+          "target": "3a",
+          "label": "Degree (Preferred)"
+        },
+        {
+          "id": "e2a2",
+          "source": "2a",
+          "target": "3b",
+          "label": "Diploma"
+        },
+        {
+          "id": "e2b1",
+          "source": "2b",
+          "target": "3b"
+        },
+        {
+          "id": "e2b2",
+          "source": "2b",
+          "target": "3c",
+          "label": "Certificate"
+        },
+        {
+          "id": "e3a",
+          "source": "3a",
+          "target": "4"
+        },
+        {
+          "id": "e3b",
+          "source": "3b",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5a",
+          "source": "5",
+          "target": "6a",
+          "label": "Start Job"
+        },
+        {
+          "id": "e5b",
+          "source": "5",
+          "target": "6b",
+          "label": "Higher Studies"
+        },
+        {
+          "id": "e3b_post",
+          "source": "3b",
+          "target": "6c",
+          "label": "Upgrade to Degree"
+        },
+        {
+          "id": "e6a",
+          "source": "6a",
+          "target": "7",
+          "label": "Promotion/Exam"
+        },
+        {
+          "id": "e6b",
+          "source": "6b",
+          "target": "7",
+          "label": "Specialist Role"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "dentistry-bds",
+    "meta": {
+      "title": "Dentistry (BDS)",
+      "description": "Become a Dentist to diagnose and treat oral health issues.",
+      "category": "Healthcare & Medical",
+      "subcategory": "Dental Surgery",
+      "icon_slug": "smile",
+      "difficulty_level": "Advanced",
+      "time_to_job": "5.5 years",
+      "success_rate": "Moderate",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 6.0,
+        "salary_range": "₹20k/mo (Intern) - ₹1L/mo+ (Private Practice)",
+        "top_hiring_companies": [
+          "Clove Dental",
+          "Apollo White Dental",
+          "Government Hospitals",
+          "Private Clinics",
+          "Army Dental Corps"
+        ],
+        "future_scope": [
+          "MDS (Specialization)",
+          "Cosmetic Dentistry",
+          "Oral Surgery",
+          "Overseas Practice (DDS in USA/Canada)"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "General Dentist",
+          "avg_salary": "₹4-8L/yr"
+        },
+        {
+          "role": "Orthodontist",
+          "avg_salary": "₹10-15L/yr"
+        },
+        {
+          "role": "Oral Surgeon",
+          "avg_salary": "₹12L+/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Dental Council of India",
+          "url": "https://dciindia.gov.in",
+          "type": "info",
+          "description": "Regulatory body for dental education"
+        },
+        {
+          "name": "NEET UG",
+          "url": "https://neet.nta.nic.in",
+          "type": "exam",
+          "description": "Entrance exam for BDS"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Dental Pulse",
+          "url": "https://dentalpulse.in",
+          "type": "paid",
+          "platform": "Book/App",
+          "language": "English",
+          "description": "MDS entrance prep"
+        },
+        {
+          "name": "HackDentistry",
+          "url": "https://www.youtube.com/@HackDentistry",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "English",
+          "description": "Animated dental concepts"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/Dentistry",
+          "url": "https://www.reddit.com/r/Dentistry",
+          "type": "forum",
+          "description": "Global dental community"
+        },
+        {
+          "name": "Indian Dental Association",
+          "url": "https://www.ida.org.in",
+          "type": "community",
+          "description": "Professional association"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "NEET UG",
+          "conducting_body": "NTA",
+          "registration_url": "https://neet.nta.nic.in",
+          "exam_pattern": "Physics, Chemistry, Biology (720 Marks)",
+          "frequency": "Annual",
+          "eligibility": "Class 12 (PCB), Age 17+",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Govt College: 550+, Private: Qualifying"
+        },
+        {
+          "name": "NEET MDS",
+          "conducting_body": "NBE",
+          "registration_url": "https://nbe.edu.in",
+          "exam_pattern": "240 MCQs (BDS Subjects)",
+          "frequency": "Annual",
+          "eligibility": "BDS Degree + Internship",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Top Colleges: Top 500 Rank"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "PCB Stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "NEET UG",
+          "subtitle": "National Entrance Exam",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "BDS Degree",
+          "subtitle": "4 Years Academic Course",
+          "duration": "4 years",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "education",
+          "label": "Internship",
+          "subtitle": "1 Year Rotatory Internship",
+          "duration": "1 year",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "exam",
+          "label": "Registration",
+          "subtitle": "State Dental Council",
+          "layer": 4
+        },
+        {
+          "id": "6a",
+          "type": "job",
+          "label": "Private Practice",
+          "subtitle": "Clinic / Hospital Job",
+          "layer": 5
+        },
+        {
+          "id": "6b",
+          "type": "education",
+          "label": "MDS",
+          "subtitle": "3 Years Specialization (NEET MDS)",
+          "layer": 5
+        },
+        {
+          "id": "6c",
+          "type": "job",
+          "label": "Army Dental Corps",
+          "subtitle": "Short Service Commission",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Specialist Dentist",
+          "subtitle": "Endodontist / Orthodontist etc.",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5a",
+          "source": "5",
+          "target": "6a",
+          "label": "Start Practice"
+        },
+        {
+          "id": "e5b",
+          "source": "5",
+          "target": "6b",
+          "label": "Higher Studies"
+        },
+        {
+          "id": "e5c",
+          "source": "5",
+          "target": "6c",
+          "label": "Join Army"
+        },
+        {
+          "id": "e6b",
+          "source": "6b",
+          "target": "7"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "physiotherapy",
+    "meta": {
+      "title": "Physiotherapy (BPT)",
+      "description": "Help patients recover movement and manage pain through physical therapy.",
+      "category": "Healthcare & Medical",
+      "subcategory": "Allied Health",
+      "icon_slug": "activity",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4.5 years",
+      "success_rate": "High",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 4.0,
+        "salary_range": "₹15k/mo (Intern) - ₹80k/mo+ (Sports Physio)",
+        "top_hiring_companies": [
+          "Apollo Hospitals",
+          "Fortis Healthcare",
+          "Sports Authority of India",
+          "Rehabilitation Centers",
+          "Private Clinics"
+        ],
+        "future_scope": [
+          "Sports Physiotherapy",
+          "Neuro Physiotherapy",
+          "Cardio-Pulmonary Rehab",
+          "Home Healthcare"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Physiotherapist",
+          "avg_salary": "₹3-6L/yr"
+        },
+        {
+          "role": "Sports Physio",
+          "avg_salary": "₹6-12L/yr"
+        },
+        {
+          "role": "Rehab Specialist",
+          "avg_salary": "₹4-8L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Indian Association of Physiotherapists",
+          "url": "https://www.physiotherapyindia.org",
+          "type": "info",
+          "description": "Professional body"
+        },
+        {
+          "name": "NTA (NEET)",
+          "url": "https://neet.nta.nic.in",
+          "type": "exam",
+          "description": "Common entrance for BPT in some states"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Physiopedia",
+          "url": "https://www.physio-pedia.com",
+          "type": "free",
+          "platform": "Web",
+          "language": "English",
+          "description": "Wikipedia for physiotherapy"
+        },
+        {
+          "name": "Clinical Physio",
+          "url": "https://www.youtube.com/@ClinicalPhysio",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "English",
+          "description": "Practical skills demonstration"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/physicaltherapy",
+          "url": "https://www.reddit.com/r/physicaltherapy",
+          "type": "forum",
+          "description": "Global PT community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "IPU CET / State CETs",
+          "conducting_body": "State Universities",
+          "registration_url": "http://www.ipu.ac.in",
+          "exam_pattern": "Physics, Chemistry, Biology, English",
+          "frequency": "Annual",
+          "eligibility": "Class 12 (PCB), 50% Marks",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Varies by college"
+        },
+        {
+          "name": "NEET UG (Some States)",
+          "conducting_body": "NTA",
+          "registration_url": "https://neet.nta.nic.in",
+          "exam_pattern": "PCB",
+          "frequency": "Annual",
+          "eligibility": "Class 12 (PCB)",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Lower than MBBS/BDS"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "PCB Stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "Entrance Exams",
+          "subtitle": "State CETs / NEET / IPU CET",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "BPT Degree",
+          "subtitle": "4 Years Academic Course",
+          "duration": "4 years",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "education",
+          "label": "Internship",
+          "subtitle": "6 Months Clinical Rotation",
+          "duration": "6 months",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "exam",
+          "label": "Registration",
+          "subtitle": "State Council / IAP",
+          "layer": 4
+        },
+        {
+          "id": "6a",
+          "type": "job",
+          "label": "Clinical Practice",
+          "subtitle": "Hospitals / Clinics",
+          "layer": 5
+        },
+        {
+          "id": "6b",
+          "type": "education",
+          "label": "MPT",
+          "subtitle": "2 Years Master's (Specialization)",
+          "layer": 5
+        },
+        {
+          "id": "6c",
+          "type": "job",
+          "label": "Sports Physio",
+          "subtitle": "Sports Teams / Academies",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Specialist PT",
+          "subtitle": "Neuro / Ortho / Cardio",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5a",
+          "source": "5",
+          "target": "6a",
+          "label": "Start Job"
+        },
+        {
+          "id": "e5b",
+          "source": "5",
+          "target": "6b",
+          "label": "Higher Studies"
+        },
+        {
+          "id": "e5c",
+          "source": "5",
+          "target": "6c",
+          "label": "Sports Niche"
+        },
+        {
+          "id": "e6b",
+          "source": "6b",
+          "target": "7"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "medical-lab-technology",
+    "meta": {
+      "title": "Medical Lab Technology (MLT)",
+      "description": "Perform diagnostic tests on body fluids and tissues to help doctors diagnose diseases.",
+      "category": "Healthcare & Medical",
+      "subcategory": "Allied Health",
+      "icon_slug": "microscope",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3 years",
+      "success_rate": "High (High Demand)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 3.5,
+        "salary_range": "₹12k/mo (Entry) - ₹50k/mo+ (Lab Manager)",
+        "top_hiring_companies": [
+          "Dr. Lal PathLabs",
+          "Metropolis Healthcare",
+          "Thyrocare",
+          "Apollo Diagnostics",
+          "Hospital Labs"
+        ],
+        "future_scope": [
+          "Lab Manager",
+          "Quality Control Officer",
+          "Research Assistant",
+          "Specialized Technologist (Molecular/Cytogenetic)"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Lab Technician",
+          "avg_salary": "₹2-4L/yr"
+        },
+        {
+          "role": "Lab Technologist",
+          "avg_salary": "₹3-5L/yr"
+        },
+        {
+          "role": "Lab Manager",
+          "avg_salary": "₹5-8L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Allied Health Council",
+          "url": "https://www.mohfw.gov.in",
+          "type": "info",
+          "description": "Ministry of Health & Family Welfare"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "MLT Hub",
+          "url": "https://www.youtube.com/results?search_query=mlt+lectures",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "English/Hindi",
+          "description": "Various educational channels"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/medlabprofessionals",
+          "url": "https://www.reddit.com/r/medlabprofessionals",
+          "type": "forum",
+          "description": "Global MLT community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "University Entrance Exams",
+          "conducting_body": "Various Universities",
+          "registration_url": "Varies",
+          "exam_pattern": "PCB / General Science",
+          "frequency": "Annual",
+          "eligibility": "Class 12 (PCB/PCM)",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Merit-based mostly"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "PCB/PCM Stream",
+          "layer": 0
+        },
+        {
+          "id": "2a",
+          "type": "education",
+          "label": "B.Sc MLT",
+          "subtitle": "3 Years Degree Course",
+          "duration": "3 years",
+          "layer": 1
+        },
+        {
+          "id": "2b",
+          "type": "education",
+          "label": "DMLT",
+          "subtitle": "2 Years Diploma",
+          "duration": "2 years",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "Internship",
+          "subtitle": "6 Months Lab Training",
+          "duration": "6 months",
+          "layer": 2
+        },
+        {
+          "id": "4a",
+          "type": "job",
+          "label": "Lab Technician",
+          "subtitle": "Entry Level Role",
+          "layer": 3
+        },
+        {
+          "id": "4b",
+          "type": "education",
+          "label": "M.Sc MLT",
+          "subtitle": "2 Years Master's",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Lab Technologist",
+          "subtitle": "Senior Role",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Lab Manager",
+          "subtitle": "Administrative Role",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1a",
+          "source": "1",
+          "target": "2a",
+          "label": "Degree Route"
+        },
+        {
+          "id": "e1b",
+          "source": "1",
+          "target": "2b",
+          "label": "Diploma Route"
+        },
+        {
+          "id": "e2a",
+          "source": "2a",
+          "target": "3"
+        },
+        {
+          "id": "e2b",
+          "source": "2b",
+          "target": "3"
+        },
+        {
+          "id": "e3a",
+          "source": "3",
+          "target": "4a",
+          "label": "Start Job"
+        },
+        {
+          "id": "e3b",
+          "source": "3",
+          "target": "4b",
+          "label": "Higher Studies"
+        },
+        {
+          "id": "e4a",
+          "source": "4a",
+          "target": "5",
+          "label": "Promotion"
+        },
+        {
+          "id": "e4b",
+          "source": "4b",
+          "target": "5",
+          "label": "Direct Senior Role"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "radiology",
+    "meta": {
+      "title": "Radiology & Imaging",
+      "description": "Operate X-ray, MRI, and CT scan machines to help diagnose medical conditions.",
+      "category": "Healthcare & Medical",
+      "subcategory": "Allied Health",
+      "icon_slug": "aperture",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3 years",
+      "success_rate": "High",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 4.0,
+        "salary_range": "₹15k/mo (Entry) - ₹60k/mo+ (Senior Tech)",
+        "top_hiring_companies": [
+          "Apollo Diagnostics",
+          "Mahajan Imaging",
+          "Dr. Lal PathLabs",
+          "Fortis Healthcare",
+          "Government Hospitals"
+        ],
+        "future_scope": [
+          "MRI Specialist",
+          "Nuclear Medicine Tech",
+          "Application Specialist (GE/Siemens)",
+          "Radiology Manager"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "X-Ray Technician",
+          "avg_salary": "₹2-3L/yr"
+        },
+        {
+          "role": "MRI Technician",
+          "avg_salary": "₹4-6L/yr"
+        },
+        {
+          "role": "Radiographer",
+          "avg_salary": "₹3-5L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Indian Society of Radiographers",
+          "url": "https://www.isrt.org.in",
+          "type": "info",
+          "description": "Professional body"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Radiology Masterclass",
+          "url": "https://www.radiologymasterclass.co.uk",
+          "type": "free",
+          "platform": "Web",
+          "language": "English",
+          "description": "Anatomy and pathology tutorials"
+        },
+        {
+          "name": "Radiopaedia",
+          "url": "https://radiopaedia.org",
+          "type": "free",
+          "platform": "Web",
+          "language": "English",
+          "description": "Collaborative radiology resource"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/Radiology",
+          "url": "https://www.reddit.com/r/Radiology",
+          "type": "forum",
+          "description": "Global radiology community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "University Entrance Exams",
+          "conducting_body": "Various Universities",
+          "registration_url": "Varies",
+          "exam_pattern": "PCB / General Science",
+          "frequency": "Annual",
+          "eligibility": "Class 12 (PCB/PCM)",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Merit-based mostly"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "PCB/PCM Stream",
+          "layer": 0
+        },
+        {
+          "id": "2a",
+          "type": "education",
+          "label": "B.Sc Radiology",
+          "subtitle": "3 Years Degree Course",
+          "duration": "3 years",
+          "layer": 1
+        },
+        {
+          "id": "2b",
+          "type": "education",
+          "label": "Diploma (DRIT)",
+          "subtitle": "2 Years Diploma",
+          "duration": "2 years",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "Internship",
+          "subtitle": "6 Months Hospital Training",
+          "duration": "6 months",
+          "layer": 2
+        },
+        {
+          "id": "4a",
+          "type": "job",
+          "label": "X-Ray Tech",
+          "subtitle": "Entry Level Role",
+          "layer": 3
+        },
+        {
+          "id": "4b",
+          "type": "education",
+          "label": "M.Sc Radiology",
+          "subtitle": "2 Years Master's",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "MRI/CT Tech",
+          "subtitle": "Specialized Role",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Radiology Manager",
+          "subtitle": "Administrative Role",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1a",
+          "source": "1",
+          "target": "2a",
+          "label": "Degree Route"
+        },
+        {
+          "id": "e1b",
+          "source": "1",
+          "target": "2b",
+          "label": "Diploma Route"
+        },
+        {
+          "id": "e2a",
+          "source": "2a",
+          "target": "3"
+        },
+        {
+          "id": "e2b",
+          "source": "2b",
+          "target": "3"
+        },
+        {
+          "id": "e3a",
+          "source": "3",
+          "target": "4a",
+          "label": "Start Job"
+        },
+        {
+          "id": "e3b",
+          "source": "3",
+          "target": "4b",
+          "label": "Higher Studies"
+        },
+        {
+          "id": "e4a",
+          "source": "4a",
+          "target": "5",
+          "label": "Specialization"
+        },
+        {
+          "id": "e4b",
+          "source": "4b",
+          "target": "5",
+          "label": "Direct Senior Role"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "company-secretary",
+    "meta": {
+      "title": "Company Secretary (CS)",
+      "description": "Ensure corporate governance and legal compliance for companies.",
+      "category": "Finance & Commerce",
+      "subcategory": "Corporate Law",
+      "icon_slug": "briefcase",
+      "difficulty_level": "Expert",
+      "time_to_job": "3-4 years",
+      "success_rate": "Low (< 5%)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 7.0,
+        "salary_range": "₹30k/mo (Trainee) - ₹2L/mo+ (Senior CS)",
+        "top_hiring_companies": [
+          "Reliance Industries",
+          "Tata Group",
+          "HDFC Bank",
+          "Law Firms",
+          "Consulting Firms (Big 4)"
+        ],
+        "future_scope": [
+          "Chief Governance Officer",
+          "Legal Advisor",
+          "Insolvency Professional",
+          "Independent Director"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Company Secretary",
+          "avg_salary": "₹6-12L/yr"
+        },
+        {
+          "role": "Compliance Officer",
+          "avg_salary": "₹5-10L/yr"
+        },
+        {
+          "role": "Legal Consultant",
+          "avg_salary": "₹8-15L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "ICSI",
+          "url": "https://www.icsi.edu",
+          "type": "info",
+          "description": "Institute of Company Secretaries of India"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "ICSI E-Learning",
+          "url": "https://www.icsi.edu/student/e-learning",
+          "type": "free",
+          "platform": "Web",
+          "language": "English",
+          "description": "Official study material"
+        },
+        {
+          "name": "CS Cart India",
+          "url": "https://cscartindia.com",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Video lectures and notes"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/CompanySecretary",
+          "url": "https://www.reddit.com/r/CompanySecretary",
+          "type": "forum",
+          "description": "CS student community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "CSEET (Entrance)",
+          "conducting_body": "ICSI",
+          "registration_url": "https://www.icsi.edu",
+          "exam_pattern": "MCQ (Business Comm, Legal Aptitude, Eco, Current Affairs)",
+          "frequency": "4 times a year (Jan, May, July, Nov)",
+          "eligibility": "Class 12 Pass/Appearing",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "50% Aggregate"
+        },
+        {
+          "name": "CS Executive",
+          "conducting_body": "ICSI",
+          "registration_url": "https://www.icsi.edu",
+          "exam_pattern": "7 Papers (2 Modules)",
+          "frequency": "Biannual (June & Dec)",
+          "eligibility": "CSEET Pass / Graduation",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "40% per paper, 50% aggregate"
+        },
+        {
+          "name": "CS Professional",
+          "conducting_body": "ICSI",
+          "registration_url": "https://www.icsi.edu",
+          "exam_pattern": "7 Papers (2 Modules)",
+          "frequency": "Biannual (June & Dec)",
+          "eligibility": "CS Executive Pass",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "40% per paper, 50% aggregate"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 / Graduation",
+          "subtitle": "Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "CSEET",
+          "subtitle": "Entrance Test (Exempt for Grads)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "CS Executive",
+          "subtitle": "Intermediate Level (2 Modules)",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "education",
+          "label": "Training",
+          "subtitle": "21 Months Practical Training",
+          "duration": "21 months",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "exam",
+          "label": "CS Professional",
+          "subtitle": "Final Level (2 Modules)",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "ICSI Membership",
+          "subtitle": "Become ACS (Associate CS)",
+          "layer": 5
+        },
+        {
+          "id": "7a",
+          "type": "job",
+          "label": "Corporate Job",
+          "subtitle": "Employment in Company",
+          "layer": 6
+        },
+        {
+          "id": "7b",
+          "type": "job",
+          "label": "Practice",
+          "subtitle": "Independent PCS",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        },
+        {
+          "id": "e6a",
+          "source": "6",
+          "target": "7a",
+          "label": "Employment"
+        },
+        {
+          "id": "e6b",
+          "source": "6",
+          "target": "7b",
+          "label": "Practice"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "cma",
+    "meta": {
+      "title": "Cost & Management Accountant (CMA)",
+      "description": "Expert in cost management, budgeting, and financial strategy.",
+      "category": "Finance & Commerce",
+      "subcategory": "Accounting",
+      "icon_slug": "pie-chart",
+      "difficulty_level": "Expert",
+      "time_to_job": "3-4 years",
+      "success_rate": "Low (< 10%)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 8.0,
+        "salary_range": "₹40k/mo (Trainee) - ₹2.5L/mo+ (CFO)",
+        "top_hiring_companies": [
+          "PSUs (ONGC, GAIL, BHEL)",
+          "Manufacturing Companies",
+          "MNCs",
+          "Consulting Firms",
+          "Banks"
+        ],
+        "future_scope": [
+          "Chief Financial Officer (CFO)",
+          "Cost Auditor",
+          "Financial Analyst",
+          "Strategic Planner"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Cost Accountant",
+          "avg_salary": "₹6-10L/yr"
+        },
+        {
+          "role": "Finance Manager",
+          "avg_salary": "₹10-18L/yr"
+        },
+        {
+          "role": "Internal Auditor",
+          "avg_salary": "₹7-12L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "ICMAI",
+          "url": "https://icmai.in",
+          "type": "info",
+          "description": "Institute of Cost Accountants of India"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "ICMAI Knowledge Bank",
+          "url": "https://icmai.in/studentswebsite/Student-E-Services.php",
+          "type": "free",
+          "platform": "Web",
+          "language": "English",
+          "description": "Official study material"
+        },
+        {
+          "name": "CMA Junction",
+          "url": "https://www.youtube.com/@CMAJunction",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "Hindi/English",
+          "description": "CMA guidance and lectures"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/CMA",
+          "url": "https://www.reddit.com/r/CMA",
+          "type": "forum",
+          "description": "CMA student community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "CMA Foundation",
+          "conducting_body": "ICMAI",
+          "registration_url": "https://icmai.in",
+          "exam_pattern": "4 Papers (MCQ)",
+          "frequency": "Biannual (June & Dec)",
+          "eligibility": "Class 12 Pass/Appearing",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "40% per paper, 50% aggregate"
+        },
+        {
+          "name": "CMA Intermediate",
+          "conducting_body": "ICMAI",
+          "registration_url": "https://icmai.in",
+          "exam_pattern": "8 Papers (2 Groups)",
+          "frequency": "Biannual (June & Dec)",
+          "eligibility": "Foundation Pass / Graduation",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "40% per paper, 50% aggregate"
+        },
+        {
+          "name": "CMA Final",
+          "conducting_body": "ICMAI",
+          "registration_url": "https://icmai.in",
+          "exam_pattern": "8 Papers (2 Groups)",
+          "frequency": "Biannual (June & Dec)",
+          "eligibility": "Intermediate Pass",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "40% per paper, 50% aggregate"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 / Graduation",
+          "subtitle": "Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "CMA Foundation",
+          "subtitle": "Entrance Test (Exempt for Grads)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "CMA Intermediate",
+          "subtitle": "Level 2 (2 Groups)",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "education",
+          "label": "Practical Training",
+          "subtitle": "15 Months Training",
+          "duration": "15 months",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "exam",
+          "label": "CMA Final",
+          "subtitle": "Level 3 (2 Groups)",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "ICMAI Membership",
+          "subtitle": "Become ACMA",
+          "layer": 5
+        },
+        {
+          "id": "7a",
+          "type": "job",
+          "label": "Corporate Job",
+          "subtitle": "Cost Auditor / Analyst",
+          "layer": 6
+        },
+        {
+          "id": "7b",
+          "type": "job",
+          "label": "Practice",
+          "subtitle": "Independent Cost Accountant",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        },
+        {
+          "id": "e6a",
+          "source": "6",
+          "target": "7a",
+          "label": "Employment"
+        },
+        {
+          "id": "e6b",
+          "source": "6",
+          "target": "7b",
+          "label": "Practice"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "ux-ui-design",
+    "meta": {
+      "title": "UX/UI Design",
+      "description": "Design intuitive and visually appealing digital interfaces for websites and apps.",
+      "category": "Technology & IT",
+      "subcategory": "Design",
+      "icon_slug": "pen-tool",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "6-12 months",
+      "success_rate": "High (Portfolio Based)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 6.5,
+        "salary_range": "₹3L/yr (Junior) - ₹25L/yr+ (Lead Designer)",
+        "top_hiring_companies": [
+          "Google",
+          "Microsoft",
+          "Flipkart",
+          "Swiggy",
+          "Design Agencies (Frog, Ideo)"
+        ],
+        "future_scope": [
+          "Product Designer",
+          "UX Researcher",
+          "Interaction Designer",
+          "Design Manager"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "UI Designer",
+          "avg_salary": "₹4-8L/yr"
+        },
+        {
+          "role": "UX Designer",
+          "avg_salary": "₹6-12L/yr"
+        },
+        {
+          "role": "Product Designer",
+          "avg_salary": "₹10-20L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "NID",
+          "url": "https://www.nid.edu",
+          "type": "info",
+          "description": "National Institute of Design"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Google UX Design Certificate",
+          "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+          "type": "paid",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "Industry standard certification"
+        },
+        {
+          "name": "Figma Community",
+          "url": "https://www.figma.com/community",
+          "type": "free",
+          "platform": "Web",
+          "language": "English",
+          "description": "Design resources and templates"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/UXDesign",
+          "url": "https://www.reddit.com/r/UXDesign",
+          "type": "forum",
+          "description": "Global design community"
+        },
+        {
+          "name": "ADPList",
+          "url": "https://adplist.org",
+          "type": "community",
+          "description": "Mentorship platform"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "NID DAT",
+          "conducting_body": "NID",
+          "registration_url": "https://admissions.nid.edu",
+          "exam_pattern": "Prelims (Design Aptitude) + Mains (Studio Test)",
+          "frequency": "Annual",
+          "eligibility": "Class 12 Pass",
+          "attempts_allowed": "Based on age",
+          "cutoff_trends": "High competition"
+        },
+        {
+          "name": "UCEED",
+          "conducting_body": "IIT Bombay",
+          "registration_url": "http://www.uceed.iitb.ac.in",
+          "exam_pattern": "Computer Based Test (Visualization, Spatial Ability)",
+          "frequency": "Annual",
+          "eligibility": "Class 12 Pass",
+          "attempts_allowed": "2 times",
+          "cutoff_trends": "Top 100 ranks for IITs"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 / Graduation",
+          "subtitle": "Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2a",
+          "type": "exam",
+          "label": "Design Entrance",
+          "subtitle": "NID DAT / UCEED / NIFT",
+          "layer": 1
+        },
+        {
+          "id": "2b",
+          "type": "education",
+          "label": "Self-Learning",
+          "subtitle": "Online Courses / Bootcamps",
+          "layer": 1
+        },
+        {
+          "id": "3a",
+          "type": "education",
+          "label": "B.Des / M.Des",
+          "subtitle": "4 Years Degree",
+          "duration": "4 years",
+          "layer": 2
+        },
+        {
+          "id": "3b",
+          "type": "education",
+          "label": "Portfolio Building",
+          "subtitle": "3-6 Months Projects",
+          "duration": "6 months",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "education",
+          "label": "Internship",
+          "subtitle": "Agency / Startup Experience",
+          "duration": "3-6 months",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Junior Designer",
+          "subtitle": "UI / UX / Product",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Senior Designer",
+          "subtitle": "Lead Projects",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Design Manager",
+          "subtitle": "Lead Team",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1a",
+          "source": "1",
+          "target": "2a",
+          "label": "College Route"
+        },
+        {
+          "id": "e1b",
+          "source": "1",
+          "target": "2b",
+          "label": "Self-Taught Route"
+        },
+        {
+          "id": "e2a",
+          "source": "2a",
+          "target": "3a"
+        },
+        {
+          "id": "e2b",
+          "source": "2b",
+          "target": "3b"
+        },
+        {
+          "id": "e3a",
+          "source": "3a",
+          "target": "4"
+        },
+        {
+          "id": "e3b",
+          "source": "3b",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "product-management",
+    "meta": {
+      "title": "Product Management",
+      "description": "Define product vision, strategy, and roadmap to deliver value to customers.",
+      "category": "Technology & IT",
+      "subcategory": "Management",
+      "icon_slug": "target",
+      "difficulty_level": "Expert",
+      "time_to_job": "2-4 years (Experience required)",
+      "success_rate": "Moderate",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 15.0,
+        "salary_range": "₹8L/yr (APM) - ₹40L/yr+ (CPO)",
+        "top_hiring_companies": [
+          "Google",
+          "Uber",
+          "Flipkart",
+          "Zomato",
+          "Razorpay"
+        ],
+        "future_scope": [
+          "Chief Product Officer (CPO)",
+          "Founder / CEO",
+          "Venture Capitalist",
+          "Product Consultant"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Associate Product Manager",
+          "avg_salary": "₹8-15L/yr"
+        },
+        {
+          "role": "Product Manager",
+          "avg_salary": "₹15-25L/yr"
+        },
+        {
+          "role": "Senior PM",
+          "avg_salary": "₹25-40L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Mind the Product",
+          "url": "https://www.mindtheproduct.com",
+          "type": "info",
+          "description": "Global product community"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Reforge",
+          "url": "https://www.reforge.com",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Advanced growth & product courses"
+        },
+        {
+          "name": "Lenny's Newsletter",
+          "url": "https://www.lennysnewsletter.com",
+          "type": "paid",
+          "platform": "Newsletter",
+          "language": "English",
+          "description": "Top-tier product insights"
+        }
+      ],
+      "communities": [
+        {
+          "name": "The Product Folks",
+          "url": "https://www.theproductfolks.com",
+          "type": "community",
+          "description": "Indian PM community"
+        },
+        {
+          "name": "r/ProductManagement",
+          "url": "https://www.reddit.com/r/ProductManagement",
+          "type": "forum",
+          "description": "Global PM discussions"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "MBA Entrance (CAT/GMAT)",
+          "conducting_body": "IIMs / GMAC",
+          "registration_url": "https://iimcat.ac.in",
+          "exam_pattern": "Aptitude Test",
+          "frequency": "Annual",
+          "eligibility": "Graduation",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "99%ile for Top IIMs"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Graduation",
+          "subtitle": "B.Tech / BBA / Design",
+          "layer": 0
+        },
+        {
+          "id": "2a",
+          "type": "job",
+          "label": "Work Experience",
+          "subtitle": "Dev / Design / Marketing (2-3 Yrs)",
+          "layer": 1
+        },
+        {
+          "id": "2b",
+          "type": "education",
+          "label": "MBA",
+          "subtitle": "Top Tier B-School",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "job",
+          "label": "Associate PM (APM)",
+          "subtitle": "Entry Level PM Role",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "job",
+          "label": "Product Manager",
+          "subtitle": "Own a Feature / Product",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Senior PM",
+          "subtitle": "Manage Complex Products",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Group PM / Director",
+          "subtitle": "Manage PM Team",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "CPO / VP Product",
+          "subtitle": "Executive Role",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1a",
+          "source": "1",
+          "target": "2a",
+          "label": "Job Route"
+        },
+        {
+          "id": "e1b",
+          "source": "1",
+          "target": "2b",
+          "label": "MBA Route"
+        },
+        {
+          "id": "e2a",
+          "source": "2a",
+          "target": "3",
+          "label": "Transition"
+        },
+        {
+          "id": "e2b",
+          "source": "2b",
+          "target": "3",
+          "label": "Campus Placement"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "game-development",
+    "meta": {
+      "title": "Game Development",
+      "description": "Create interactive video games for PC, consoles, and mobile devices.",
+      "category": "Technology & IT",
+      "subcategory": "Software Development",
+      "icon_slug": "monitor",
+      "difficulty_level": "Advanced",
+      "time_to_job": "6-12 months",
+      "success_rate": "Moderate",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 6.0,
+        "salary_range": "₹3L/yr (Junior) - ₹20L/yr+ (Lead Dev)",
+        "top_hiring_companies": [
+          "Ubisoft India",
+          "Rockstar India",
+          "Zynga",
+          "Dream11",
+          "Mobile Game Studios"
+        ],
+        "future_scope": [
+          "Technical Director",
+          "Game Designer",
+          "Indie Developer",
+          "VR/AR Developer"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Unity Developer",
+          "avg_salary": "₹4-8L/yr"
+        },
+        {
+          "role": "Unreal Engine Dev",
+          "avg_salary": "₹5-10L/yr"
+        },
+        {
+          "role": "Game Designer",
+          "avg_salary": "₹5-12L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Unity Learn",
+          "url": "https://learn.unity.com",
+          "type": "info",
+          "description": "Official Unity tutorials"
+        },
+        {
+          "name": "Unreal Online Learning",
+          "url": "https://www.unrealengine.com/en-US/onlinelearning-courses",
+          "type": "info",
+          "description": "Official Unreal tutorials"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "GameDev.tv",
+          "url": "https://www.gamedev.tv",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Comprehensive game dev courses"
+        },
+        {
+          "name": "Brackeys",
+          "url": "https://www.youtube.com/user/Brackeys",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "English",
+          "description": "Legendary Unity tutorials"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/gamedev",
+          "url": "https://www.reddit.com/r/gamedev",
+          "type": "forum",
+          "description": "Global game dev community"
+        },
+        {
+          "name": "Indie Game Developers",
+          "url": "https://www.facebook.com/groups/IndieGameDevs",
+          "type": "community",
+          "description": "Facebook group"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "Portfolio Based Hiring",
+          "conducting_body": "Companies",
+          "registration_url": "N/A",
+          "exam_pattern": "Technical Test + Portfolio Review",
+          "frequency": "On Demand",
+          "eligibility": "Skills in C++/C#",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Quality of projects matters most"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 / Graduation",
+          "subtitle": "CS / Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2a",
+          "type": "education",
+          "label": "Learn Programming",
+          "subtitle": "C# (Unity) or C++ (Unreal)",
+          "layer": 1
+        },
+        {
+          "id": "2b",
+          "type": "education",
+          "label": "Learn Game Design",
+          "subtitle": "Mechanics, Level Design",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "Build Projects",
+          "subtitle": "Clones, Small Games",
+          "duration": "3-6 months",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "education",
+          "label": "Publish Portfolio",
+          "subtitle": "Itch.io / Play Store",
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "job",
+          "label": "Junior Game Dev",
+          "subtitle": "Studio Job",
+          "layer": 4
+        },
+        {
+          "id": "5b",
+          "type": "job",
+          "label": "Indie Developer",
+          "subtitle": "Self-Publishing",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Senior Developer",
+          "subtitle": "Lead Architecture",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Technical Director",
+          "subtitle": "Studio Leadership",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1a",
+          "source": "1",
+          "target": "2a",
+          "label": "Coding Path"
+        },
+        {
+          "id": "e1b",
+          "source": "1",
+          "target": "2b",
+          "label": "Design Path"
+        },
+        {
+          "id": "e2a",
+          "source": "2a",
+          "target": "3"
+        },
+        {
+          "id": "e2b",
+          "source": "2b",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "5a",
+          "label": "Job"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "5b",
+          "label": "Solo"
+        },
+        {
+          "id": "e5",
+          "source": "5a",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "animation-vfx",
+    "meta": {
+      "title": "Animation & VFX",
+      "description": "Create visual effects and animated content for movies, games, and advertising.",
+      "category": "Creative & Media",
+      "subcategory": "Visual Arts",
+      "icon_slug": "film",
+      "difficulty_level": "Advanced",
+      "time_to_job": "1-2 years",
+      "success_rate": "Moderate",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 5.0,
+        "salary_range": "₹2.5L/yr (Roto Artist) - ₹20L/yr+ (VFX Supervisor)",
+        "top_hiring_companies": [
+          "Redchillies VFX",
+          "Prime Focus",
+          "Technicolor India",
+          "MPC",
+          "DNEG"
+        ],
+        "future_scope": [
+          "VFX Supervisor",
+          "Animation Director",
+          "Creative Director",
+          "Studio Head"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "3D Animator",
+          "avg_salary": "₹4-8L/yr"
+        },
+        {
+          "role": "Compositor",
+          "avg_salary": "₹5-10L/yr"
+        },
+        {
+          "role": "Roto Artist",
+          "avg_salary": "₹2-4L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Media & Entertainment Skills Council",
+          "url": "https://mescindia.org",
+          "type": "info",
+          "description": "Skill development body"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Animation Mentor",
+          "url": "https://www.animationmentor.com",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Premium animation school"
+        },
+        {
+          "name": "Blender Guru",
+          "url": "https://www.youtube.com/user/AndrewPPrice",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "English",
+          "description": "Blender tutorials"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/vfx",
+          "url": "https://www.reddit.com/r/vfx",
+          "type": "forum",
+          "description": "Global VFX community"
+        },
+        {
+          "name": "CG Society",
+          "url": "https://cgsociety.org",
+          "type": "community",
+          "description": "Digital art community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "Institute Entrance Exams",
+          "conducting_body": "Private Institutes",
+          "registration_url": "Varies",
+          "exam_pattern": "Creative Test + Interview",
+          "frequency": "Annual",
+          "eligibility": "Class 12 Pass",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Portfolio based"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any Stream (Arts preferred)",
+          "layer": 0
+        },
+        {
+          "id": "2a",
+          "type": "education",
+          "label": "B.Des / B.Sc Animation",
+          "subtitle": "3-4 Years Degree",
+          "duration": "3 years",
+          "layer": 1
+        },
+        {
+          "id": "2b",
+          "type": "education",
+          "label": "Diploma in VFX/Animation",
+          "subtitle": "1-2 Years (Arena/MAAC)",
+          "duration": "1.5 years",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "Specialization",
+          "subtitle": "Modeling / Rigging / Lighting / Compositing",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "education",
+          "label": "Showreel Creation",
+          "subtitle": "Portfolio of Best Work",
+          "duration": "3 months",
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "job",
+          "label": "Junior Artist",
+          "subtitle": "Roto / Paint / Jr Animator",
+          "layer": 4
+        },
+        {
+          "id": "5b",
+          "type": "job",
+          "label": "Freelance Artist",
+          "subtitle": "Gig Work",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Senior Artist",
+          "subtitle": "Lead Shots / Sequences",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "VFX Supervisor",
+          "subtitle": "Creative Lead",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1a",
+          "source": "1",
+          "target": "2a",
+          "label": "Degree Route"
+        },
+        {
+          "id": "e1b",
+          "source": "1",
+          "target": "2b",
+          "label": "Diploma Route"
+        },
+        {
+          "id": "e2a",
+          "source": "2a",
+          "target": "3"
+        },
+        {
+          "id": "e2b",
+          "source": "2b",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "5a",
+          "label": "Studio Job"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "5b",
+          "label": "Freelance"
+        },
+        {
+          "id": "e5",
+          "source": "5a",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "actuary",
+    "meta": {
+      "title": "Actuary",
+      "description": "Analyze financial risk using mathematics, statistics, and financial theory.",
+      "category": "Finance & Commerce",
+      "subcategory": "Risk Management",
+      "icon_slug": "trending-up",
+      "difficulty_level": "Expert",
+      "time_to_job": "3-5 years",
+      "success_rate": "Low (< 2%)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 12.0,
+        "salary_range": "₹6L/yr (Student Actuary) - ₹50L/yr+ (Fellow)",
+        "top_hiring_companies": [
+          "LIC",
+          "HDFC Life",
+          "Max Life",
+          "Aon",
+          "Willis Towers Watson"
+        ],
+        "future_scope": [
+          "Chief Actuary",
+          "Risk Officer",
+          "Data Scientist",
+          "Investment Banker"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Actuarial Analyst",
+          "avg_salary": "₹6-10L/yr"
+        },
+        {
+          "role": "Risk Manager",
+          "avg_salary": "₹10-18L/yr"
+        },
+        {
+          "role": "Underwriter",
+          "avg_salary": "₹5-9L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "IAI",
+          "url": "https://www.actuariesindia.org",
+          "type": "info",
+          "description": "Institute of Actuaries of India"
+        },
+        {
+          "name": "IFoA",
+          "url": "https://www.actuaries.org.uk",
+          "type": "info",
+          "description": "UK Institute (Recognized in India)"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Actuarial Science YouTube",
+          "url": "https://www.youtube.com/results?search_query=actuarial+science",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "English",
+          "description": "Concept videos"
+        },
+        {
+          "name": "Coaching Actuaries",
+          "url": "https://www.coachingactuaries.com",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Exam prep platform"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/actuary",
+          "url": "https://www.reddit.com/r/actuary",
+          "type": "forum",
+          "description": "Global actuarial community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "ACET (Entrance)",
+          "conducting_body": "IAI",
+          "registration_url": "https://www.actuariesindia.org",
+          "exam_pattern": "Maths, Stats, Data Interpretation, English",
+          "frequency": "Biannual",
+          "eligibility": "Class 12 Pass (Maths)",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "50% Aggregate"
+        },
+        {
+          "name": "Core Principles (CS/CM/CB)",
+          "conducting_body": "IAI / IFoA",
+          "registration_url": "https://www.actuariesindia.org",
+          "exam_pattern": "7 Papers",
+          "frequency": "Biannual",
+          "eligibility": "ACET Pass",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Pass mark usually 50%"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Maths / Statistics",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "ACET",
+          "subtitle": "Entrance Exam",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "Student Member",
+          "subtitle": "Start Clearing Papers",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "job",
+          "label": "Actuarial Analyst",
+          "subtitle": "Entry Level Job (2-3 Papers Cleared)",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "exam",
+          "label": "Associate (AIAI)",
+          "subtitle": "Clear Core Papers",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "exam",
+          "label": "Fellow (FIAI)",
+          "subtitle": "Clear Specialist Papers",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Appointed Actuary",
+          "subtitle": "Senior Role",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4",
+          "label": "Get Job"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5",
+          "label": "Study with Job"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "mba-business-management",
+    "meta": {
+      "title": "MBA / Business Management",
+      "description": "Manage business operations, strategy, marketing, and finance.",
+      "category": "Business & Entrepreneurship",
+      "subcategory": "Management",
+      "icon_slug": "briefcase",
+      "difficulty_level": "Advanced",
+      "time_to_job": "2 years (Post Grad)",
+      "success_rate": "High (Tier 1 Colleges)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 12.0,
+        "salary_range": "₹6L/yr (Tier 2/3) - ₹30L/yr+ (IIMs)",
+        "top_hiring_companies": [
+          "McKinsey",
+          "BCG",
+          "HUL",
+          "Amazon",
+          "Goldman Sachs"
+        ],
+        "future_scope": [
+          "CEO / CXO",
+          "Entrepreneur",
+          "Management Consultant",
+          "Investment Banker"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Management Trainee",
+          "avg_salary": "₹10-20L/yr"
+        },
+        {
+          "role": "Marketing Manager",
+          "avg_salary": "₹12-18L/yr"
+        },
+        {
+          "role": "Consultant",
+          "avg_salary": "₹15-25L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "IIM CAT",
+          "url": "https://iimcat.ac.in",
+          "type": "exam",
+          "description": "Common Admission Test"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "TIME / CL / IMS",
+          "url": "https://www.time4education.com",
+          "type": "paid",
+          "platform": "Coaching",
+          "language": "English",
+          "description": "CAT preparation institutes"
+        },
+        {
+          "name": "2IIM",
+          "url": "https://online.2iim.com",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Online CAT coaching"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Pagalguy",
+          "url": "https://www.pagalguy.com/cat",
+          "type": "forum",
+          "description": "MBA aspirant community"
+        },
+        {
+          "name": "r/CATpreparation",
+          "url": "https://www.reddit.com/r/CATpreparation",
+          "type": "forum",
+          "description": "Reddit community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "CAT",
+          "conducting_body": "IIMs",
+          "registration_url": "https://iimcat.ac.in",
+          "exam_pattern": "VARC, DILR, QA (2 Hours)",
+          "frequency": "Annual (Nov)",
+          "eligibility": "Graduation (50%)",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "99%ile+ for BLACKI IIMs"
+        },
+        {
+          "name": "XAT",
+          "conducting_body": "XLRI",
+          "registration_url": "https://xatonline.in",
+          "exam_pattern": "Decision Making, Verbal, Quant, GK",
+          "frequency": "Annual (Jan)",
+          "eligibility": "Graduation",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "95%ile+ for XLRI"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Graduation",
+          "subtitle": "Any Stream (Engg/Com/Arts)",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "Entrance Exams",
+          "subtitle": "CAT / XAT / GMAT",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "MBA / PGDM",
+          "subtitle": "2 Years Residential Program",
+          "duration": "2 years",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "education",
+          "label": "Summer Internship",
+          "subtitle": "2 Months (After 1st Year)",
+          "duration": "2 months",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Campus Placement",
+          "subtitle": "Final Placements",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Management Trainee",
+          "subtitle": "Entry Level Manager",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Senior Manager",
+          "subtitle": "Mid-Senior Role",
+          "layer": 6
+        },
+        {
+          "id": "8",
+          "type": "job",
+          "label": "CXO / Partner",
+          "subtitle": "Executive Leadership",
+          "layer": 7
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        },
+        {
+          "id": "e7",
+          "source": "7",
+          "target": "8"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "psychology-counseling",
+    "meta": {
+      "title": "Psychology & Counseling",
+      "description": "Study human behavior and mental processes to help individuals cope with challenges.",
+      "category": "Healthcare & Medical",
+      "subcategory": "Mental Health",
+      "icon_slug": "heart",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "5-7 years (Masters/M.Phil required)",
+      "success_rate": "Moderate",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 5.0,
+        "salary_range": "₹3L/yr (Counselor) - ₹15L/yr+ (Clinical Psychologist)",
+        "top_hiring_companies": [
+          "Hospitals (Fortis, Apollo)",
+          "Schools & Universities",
+          "Corporate Wellness Programs",
+          "NGOs",
+          "Private Practice"
+        ],
+        "future_scope": [
+          "Clinical Psychologist",
+          "Industrial-Organizational Psychologist",
+          "Sports Psychologist",
+          "Neuropsychologist"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "School Counselor",
+          "avg_salary": "₹3-6L/yr"
+        },
+        {
+          "role": "Clinical Psychologist",
+          "avg_salary": "₹6-12L/yr"
+        },
+        {
+          "role": "Corporate Trainer",
+          "avg_salary": "₹5-10L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "RCI",
+          "url": "http://www.rehabcouncil.nic.in",
+          "type": "info",
+          "description": "Rehabilitation Council of India (Licensing)"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Coursera Psychology",
+          "url": "https://www.coursera.org/browse/health/psychology",
+          "type": "freemium",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "Introductory courses"
+        },
+        {
+          "name": "Psychology Today",
+          "url": "https://www.psychologytoday.com",
+          "type": "info",
+          "description": "Articles and resources"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/psychology",
+          "url": "https://www.reddit.com/r/psychology",
+          "type": "forum",
+          "description": "Academic psychology discussions"
+        },
+        {
+          "name": "Indian Association of Clinical Psychologists",
+          "url": "https://iacp.in",
+          "type": "community",
+          "description": "Professional body"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "CUET PG",
+          "conducting_body": "NTA",
+          "registration_url": "https://cuet.nta.nic.in",
+          "exam_pattern": "MCQ (Subject specific)",
+          "frequency": "Annual",
+          "eligibility": "Graduation",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "High for DU/BHU"
+        },
+        {
+          "name": "M.Phil Entrance (RCI)",
+          "conducting_body": "Institutes (NIMHANS, CIP)",
+          "registration_url": "Varies",
+          "exam_pattern": "Subjective/Objective",
+          "frequency": "Annual",
+          "eligibility": "MA/M.Sc Psychology",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Very High Competition"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any Stream (Psychology preferred)",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "education",
+          "label": "BA / B.Sc Psychology",
+          "subtitle": "3 Years Degree",
+          "duration": "3 years",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "MA / M.Sc Psychology",
+          "subtitle": "2 Years Master's (Specialization)",
+          "duration": "2 years",
+          "layer": 2
+        },
+        {
+          "id": "4a",
+          "type": "job",
+          "label": "Counselor",
+          "subtitle": "School / NGO / Career",
+          "layer": 3
+        },
+        {
+          "id": "4b",
+          "type": "education",
+          "label": "M.Phil Clinical Psychology",
+          "subtitle": "2 Years (RCI Recognized)",
+          "duration": "2 years",
+          "layer": 3
+        },
+        {
+          "id": "4c",
+          "type": "education",
+          "label": "PhD Psychology",
+          "subtitle": "3-5 Years (Research)",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Clinical Psychologist",
+          "subtitle": "Licensed Practitioner",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Professor / Researcher",
+          "subtitle": "Academic Role",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3a",
+          "source": "3",
+          "target": "4a",
+          "label": "Job Route"
+        },
+        {
+          "id": "e3b",
+          "source": "3",
+          "target": "4b",
+          "label": "Clinical Route"
+        },
+        {
+          "id": "e3c",
+          "source": "3",
+          "target": "4c",
+          "label": "Research Route"
+        },
+        {
+          "id": "e4b",
+          "source": "4b",
+          "target": "5"
+        },
+        {
+          "id": "e4c",
+          "source": "4c",
+          "target": "6"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "social-work",
+    "meta": {
+      "title": "Social Work",
+      "description": "Work for the welfare of individuals, families, and communities.",
+      "category": "Humanities & Social Sciences",
+      "subcategory": "Social Services",
+      "icon_slug": "users",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "2-3 years (MSW preferred)",
+      "success_rate": "High (High Demand in NGOs)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "₹2.5L/yr (NGO Field Worker) - ₹12L/yr+ (CSR Manager)",
+        "top_hiring_companies": [
+          "UNICEF",
+          "WHO",
+          "Tata Trusts",
+          "Reliance Foundation",
+          "Government Agencies"
+        ],
+        "future_scope": [
+          "CSR Head",
+          "Policy Analyst",
+          "International Aid Worker",
+          "Social Entrepreneur"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Social Worker",
+          "avg_salary": "₹3-5L/yr"
+        },
+        {
+          "role": "Project Coordinator",
+          "avg_salary": "₹4-7L/yr"
+        },
+        {
+          "role": "CSR Manager",
+          "avg_salary": "₹8-15L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "TISS",
+          "url": "https://www.tiss.edu",
+          "type": "info",
+          "description": "Tata Institute of Social Sciences"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "IGNOU Social Work",
+          "url": "http://www.ignou.ac.in",
+          "type": "free",
+          "platform": "Distance Learning",
+          "language": "English/Hindi",
+          "description": "BSW/MSW courses"
+        },
+        {
+          "name": "FutureLearn",
+          "url": "https://www.futurelearn.com/subjects/psychology-and-mental-health-courses/social-work",
+          "type": "freemium",
+          "platform": "Web",
+          "language": "English",
+          "description": "Online courses"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/socialwork",
+          "url": "https://www.reddit.com/r/socialwork",
+          "type": "forum",
+          "description": "Global social work community"
+        },
+        {
+          "name": "DevNetJobs",
+          "url": "https://www.devnetjobsindia.org",
+          "type": "job-board",
+          "description": "Development sector jobs"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "TISSNET (Now CUET PG)",
+          "conducting_body": "NTA",
+          "registration_url": "https://cuet.nta.nic.in",
+          "exam_pattern": "General Aptitude + Subject Knowledge",
+          "frequency": "Annual",
+          "eligibility": "Graduation",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "High for TISS Mumbai"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any Stream (Humanities preferred)",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "education",
+          "label": "BSW / BA Social Sciences",
+          "subtitle": "3 Years Degree",
+          "duration": "3 years",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "MSW / MA Social Work",
+          "subtitle": "2 Years Master's (Crucial)",
+          "duration": "2 years",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "education",
+          "label": "Fieldwork / Internship",
+          "subtitle": "NGO / Rural Immersion",
+          "duration": "6 months",
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "job",
+          "label": "Field Officer",
+          "subtitle": "Grassroots Work",
+          "layer": 4
+        },
+        {
+          "id": "5b",
+          "type": "job",
+          "label": "Project Coordinator",
+          "subtitle": "NGO Management",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Program Manager",
+          "subtitle": "Lead Projects",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "CSR Head / Director",
+          "subtitle": "Strategic Role",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "5a",
+          "label": "Field Role"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "5b",
+          "label": "Office Role"
+        },
+        {
+          "id": "e5a",
+          "source": "5a",
+          "target": "6"
+        },
+        {
+          "id": "e5b",
+          "source": "5b",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "veterinary-science",
+    "meta": {
+      "title": "Veterinary Science",
+      "description": "Diagnose, treat, and research medical conditions in animals.",
+      "category": "Healthcare & Medical",
+      "subcategory": "Veterinary",
+      "icon_slug": "paw",
+      "difficulty_level": "Hard",
+      "time_to_job": "5.5 years (BVSc & AH)",
+      "success_rate": "Moderate",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 6.0,
+        "salary_range": "₹4L/yr (Entry) - ₹15L/yr+ (Senior Surgeon/Private Practice)",
+        "top_hiring_companies": [
+          "Government Veterinary Hospitals",
+          "Private Clinics",
+          "Amul / Dairy Cooperatives",
+          "Zoological Parks",
+          "Pharmaceutical Companies"
+        ],
+        "future_scope": [
+          "Veterinary Surgeon",
+          "Wildlife Veterinarian",
+          "Animal Nutritionist",
+          "Research Scientist"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Veterinary Officer",
+          "avg_salary": "₹6-9L/yr"
+        },
+        {
+          "role": "Pet Practitioner",
+          "avg_salary": "₹5-12L/yr"
+        },
+        {
+          "role": "Animal Researcher",
+          "avg_salary": "₹6-10L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "VCI",
+          "url": "http://vci.dadf.gov.in",
+          "type": "info",
+          "description": "Veterinary Council of India"
+        },
+        {
+          "name": "NTA NEET",
+          "url": "https://neet.nta.nic.in",
+          "type": "exam",
+          "description": "Entrance Exam Portal"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "VetPrep",
+          "url": "https://www.vetprep.com",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Exam preparation"
+        },
+        {
+          "name": "Merck Vet Manual",
+          "url": "https://www.merckvetmanual.com",
+          "type": "free",
+          "platform": "Web",
+          "language": "English",
+          "description": "Reference guide"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/Veterinary",
+          "url": "https://www.reddit.com/r/Veterinary",
+          "type": "forum",
+          "description": "Global vet community"
+        },
+        {
+          "name": "The Vet Life",
+          "url": "https://thevetlife.com",
+          "type": "blog",
+          "description": "Career advice"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "NEET UG",
+          "conducting_body": "NTA",
+          "registration_url": "https://neet.nta.nic.in",
+          "exam_pattern": "PCB (Physics, Chemistry, Biology)",
+          "frequency": "Annual",
+          "eligibility": "Class 12 (PCB)",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "High for Govt Colleges"
+        },
+        {
+          "name": "ICAR AIEEA (PG)",
+          "conducting_body": "NTA",
+          "registration_url": "https://icar.nta.nic.in",
+          "exam_pattern": "MCQ (Subject specific)",
+          "frequency": "Annual",
+          "eligibility": "BVSc Degree",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Moderate"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Science Stream (PCB)",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "NEET UG",
+          "subtitle": "Entrance Exam",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "BVSc & AH",
+          "subtitle": "5.5 Years Degree (incl. Internship)",
+          "duration": "5.5 years",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "education",
+          "label": "Registration",
+          "subtitle": "State Veterinary Council",
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "job",
+          "label": "Veterinary Doctor",
+          "subtitle": "Private Clinic / Hospital",
+          "layer": 4
+        },
+        {
+          "id": "5b",
+          "type": "education",
+          "label": "MVSc",
+          "subtitle": "2 Years Master's (Specialization)",
+          "duration": "2 years",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Specialist Surgeon",
+          "subtitle": "Advanced Role",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Research Scientist",
+          "subtitle": "Ph.D Route",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "5a",
+          "label": "Practice"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "5b",
+          "label": "Higher Studies"
+        },
+        {
+          "id": "e5b",
+          "source": "5b",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "5b",
+          "target": "7",
+          "label": "Research"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "skilled-trades-iti",
+    "meta": {
+      "title": "Skilled Trades (ITI)",
+      "description": "Technical roles in electrical, mechanical, plumbing, and manufacturing sectors.",
+      "category": "Skilled Trades & Vocational",
+      "subcategory": "Technical Trades",
+      "icon_slug": "tool",
+      "difficulty_level": "Easy",
+      "time_to_job": "1-2 years (ITI Course)",
+      "success_rate": "High (High Demand)",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 3.0,
+        "salary_range": "₹1.8L/yr (Apprentice) - ₹6L/yr+ (Senior Technician/Contractor)",
+        "top_hiring_companies": [
+          "Indian Railways",
+          "BHEL / ONGC / NTPC",
+          "Tata Motors",
+          "L&T",
+          "Maruti Suzuki"
+        ],
+        "future_scope": [
+          "Senior Technician",
+          "Supervisor / Foreman",
+          "Independent Contractor",
+          "Instructor (CITS)"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Electrician",
+          "avg_salary": "₹2.5-5L/yr"
+        },
+        {
+          "role": "Fitter / Machinist",
+          "avg_salary": "₹2.5-4.5L/yr"
+        },
+        {
+          "role": "HVAC Technician",
+          "avg_salary": "₹3-6L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "NCVT MIS",
+          "url": "https://ncvtmis.gov.in",
+          "type": "info",
+          "description": "National Council for Vocational Training"
+        },
+        {
+          "name": "Apprenticeship India",
+          "url": "https://www.apprenticeshipindia.gov.in",
+          "type": "job-board",
+          "description": "National Apprenticeship Portal"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Bharat Skills",
+          "url": "https://bharatskills.gov.in",
+          "type": "free",
+          "platform": "Web",
+          "language": "English/Hindi",
+          "description": "Official study material"
+        },
+        {
+          "name": "NIMI Online Learning",
+          "url": "https://nimionlineadmission.in",
+          "type": "free",
+          "platform": "Web",
+          "language": "English",
+          "description": "Instructional Media"
+        }
+      ],
+      "communities": [
+        {
+          "name": "ITI Students Group",
+          "url": "https://www.facebook.com/groups/itistudents",
+          "type": "community",
+          "description": "Facebook community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "AITT (All India Trade Test)",
+          "conducting_body": "NCVT",
+          "registration_url": "https://ncvtmis.gov.in",
+          "exam_pattern": "Practical + Theory (CBT)",
+          "frequency": "Annual/Semester",
+          "eligibility": "Class 8/10 Pass",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Pass based"
+        },
+        {
+          "name": "CITS Entrance (AICET)",
+          "conducting_body": "DGT",
+          "registration_url": "https://nimionlineadmission.in",
+          "exam_pattern": "MCQ",
+          "frequency": "Annual",
+          "eligibility": "ITI / Diploma / Degree",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Moderate"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 10",
+          "subtitle": "Minimum Requirement",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "education",
+          "label": "ITI Course",
+          "subtitle": "1-2 Years (NCVT/SCVT)",
+          "duration": "2 years",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "AITT Exam",
+          "subtitle": "Trade Test Certification",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "job",
+          "label": "Apprenticeship",
+          "subtitle": "1 Year (NAC Certificate)",
+          "duration": "1 year",
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "job",
+          "label": "Technician",
+          "subtitle": "Private / Govt Job",
+          "layer": 4
+        },
+        {
+          "id": "5b",
+          "type": "education",
+          "label": "CITS Course",
+          "subtitle": "1 Year (For Instructor Job)",
+          "duration": "1 year",
+          "layer": 4
+        },
+        {
+          "id": "5c",
+          "type": "education",
+          "label": "Polytechnic Diploma",
+          "subtitle": "Lateral Entry (2nd Year)",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Supervisor / Foreman",
+          "subtitle": "Senior Role",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "ITI Instructor",
+          "subtitle": "Teaching Role",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "5a",
+          "label": "Job"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "5b",
+          "label": "Instructor Path"
+        },
+        {
+          "id": "e4c",
+          "source": "4",
+          "target": "5c",
+          "label": "Higher Studies"
+        },
+        {
+          "id": "e5a",
+          "source": "5a",
+          "target": "6"
+        },
+        {
+          "id": "e5b",
+          "source": "5b",
+          "target": "7"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "event-management",
+    "meta": {
+      "title": "Event Management",
+      "description": "Plan, organize, and execute professional and personal events.",
+      "category": "Hospitality & Tourism",
+      "subcategory": "Events",
+      "icon_slug": "calendar",
+      "difficulty_level": "Easy",
+      "time_to_job": "1-3 years (Diploma/Degree)",
+      "success_rate": "High (Creative Field)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "₹3L/yr (Coordinator) - ₹10L/yr+ (Event Manager/Freelance)",
+        "top_hiring_companies": [
+          "Wizcraft",
+          "Percept",
+          "DNA Networks",
+          "Wedding Planning Agencies",
+          "Corporate Event Firms"
+        ],
+        "future_scope": [
+          "Event Director",
+          "Wedding Planner",
+          "Corporate Event Manager",
+          "Entrepreneur"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Event Coordinator",
+          "avg_salary": "₹3-5L/yr"
+        },
+        {
+          "role": "Wedding Planner",
+          "avg_salary": "₹4-8L/yr"
+        },
+        {
+          "role": "Logistics Manager",
+          "avg_salary": "₹4-7L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "NIEM",
+          "url": "https://www.niemindia.com",
+          "type": "info",
+          "description": "National Institute of Event Management"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Udemy Event Planning",
+          "url": "https://www.udemy.com/topic/event-planning",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Online courses"
+        },
+        {
+          "name": "EventMB",
+          "url": "https://www.eventmanagerblog.com",
+          "type": "info",
+          "description": "Industry news and trends"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Event Managers India",
+          "url": "https://www.linkedin.com/groups/Event-Managers-India",
+          "type": "community",
+          "description": "LinkedIn Group"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "Institute Entrance Exams",
+          "conducting_body": "NIEM / NAEMD",
+          "registration_url": "Varies",
+          "exam_pattern": "Aptitude + Interview",
+          "frequency": "Annual",
+          "eligibility": "Class 12 / Graduation",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Institute specific"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "education",
+          "label": "BBA / Diploma Event Mgmt",
+          "subtitle": "3 Years / 1 Year",
+          "duration": "3 years",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "job",
+          "label": "Internship / Volunteer",
+          "subtitle": "Gain Experience (Crucial)",
+          "duration": "6 months",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "job",
+          "label": "Event Coordinator",
+          "subtitle": "Entry Level",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Event Manager",
+          "subtitle": "Mid-Level Role",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "education",
+          "label": "MBA Event Management",
+          "subtitle": "2 Years (Optional for Growth)",
+          "duration": "2 years",
+          "layer": 4
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Event Director / Owner",
+          "subtitle": "Senior Role / Business",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5a",
+          "source": "5",
+          "target": "7",
+          "label": "Promotion"
+        },
+        {
+          "id": "e5b",
+          "source": "5",
+          "target": "6",
+          "label": "Higher Studies"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "photography-videography",
+    "meta": {
+      "title": "Photography & Videography",
+      "description": "Capture and edit visual content for media, advertising, and art.",
+      "category": "Creative & Media",
+      "subcategory": "Visual Arts",
+      "icon_slug": "camera",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "6 months - 3 years (Portfolio based)",
+      "success_rate": "Moderate (Highly Competitive)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 4.0,
+        "salary_range": "₹2.5L/yr (Assistant) - ₹12L/yr+ (Established Freelancer/Cinematographer)",
+        "top_hiring_companies": [
+          "Media Houses (Times, NDTV)",
+          "Advertising Agencies",
+          "E-commerce (Amazon, Flipkart)",
+          "Wedding Studios",
+          "Film Production Houses"
+        ],
+        "future_scope": [
+          "Cinematographer",
+          "Creative Director",
+          "Documentary Filmmaker",
+          "Studio Owner"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Photographer",
+          "avg_salary": "₹3-6L/yr"
+        },
+        {
+          "role": "Video Editor",
+          "avg_salary": "₹3-5L/yr"
+        },
+        {
+          "role": "Photojournalist",
+          "avg_salary": "₹4-7L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "FTII",
+          "url": "https://www.ftii.ac.in",
+          "type": "info",
+          "description": "Film and Television Institute of India"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Udemy Photography",
+          "url": "https://www.udemy.com/topic/photography",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Technical skills"
+        },
+        {
+          "name": "YouTube (Peter McKinnon)",
+          "url": "https://www.youtube.com/user/petermckinnon24",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "English",
+          "description": "Tutorials"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Instagram Photography",
+          "url": "https://www.instagram.com",
+          "type": "community",
+          "description": "Portfolio sharing"
+        },
+        {
+          "name": "Behance",
+          "url": "https://www.behance.net",
+          "type": "portfolio",
+          "description": "Creative portfolio"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "FTII JET",
+          "conducting_body": "FTII / SRFTI",
+          "registration_url": "https://applyadmission.net/jet2024",
+          "exam_pattern": "Written + Audition/Interview",
+          "frequency": "Annual",
+          "eligibility": "Graduation",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Very High Competition"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "education",
+          "label": "BFA / Diploma Photography",
+          "subtitle": "3 Years / 1 Year",
+          "duration": "3 years",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "job",
+          "label": "Assistant Photographer",
+          "subtitle": "Apprenticeship (Crucial)",
+          "duration": "1-2 years",
+          "layer": 2
+        },
+        {
+          "id": "4a",
+          "type": "job",
+          "label": "Freelance Photographer",
+          "subtitle": "Weddings / Events / Portraits",
+          "layer": 3
+        },
+        {
+          "id": "4b",
+          "type": "job",
+          "label": "Staff Photographer",
+          "subtitle": "Media / E-commerce",
+          "layer": 3
+        },
+        {
+          "id": "4c",
+          "type": "education",
+          "label": "Cinematography Course",
+          "subtitle": "Specialization (FTII etc.)",
+          "duration": "2 years",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Senior Photographer / DOP",
+          "subtitle": "Director of Photography",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Studio Owner",
+          "subtitle": "Business Owner",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3a",
+          "source": "3",
+          "target": "4a",
+          "label": "Freelance"
+        },
+        {
+          "id": "e3b",
+          "source": "3",
+          "target": "4b",
+          "label": "Job"
+        },
+        {
+          "id": "e3c",
+          "source": "3",
+          "target": "4c",
+          "label": "Film Path"
+        },
+        {
+          "id": "e4a",
+          "source": "4a",
+          "target": "6"
+        },
+        {
+          "id": "e4b",
+          "source": "4b",
+          "target": "5"
+        },
+        {
+          "id": "e4c",
+          "source": "4c",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "graphic-design",
+    "meta": {
+      "title": "Graphic Design",
+      "description": "Create visual concepts to communicate ideas that inspire, inform, and captivate consumers.",
+      "category": "Creative & Media",
+      "subcategory": "Design",
+      "icon_slug": "pen-tool",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "6 months - 4 years (Portfolio based)",
+      "success_rate": "High (High Demand)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "₹3L/yr (Junior Designer) - ₹15L/yr+ (Art Director/UX Lead)",
+        "top_hiring_companies": [
+          "Advertising Agencies (Ogilvy, JWT)",
+          "Tech Companies (Google, Adobe)",
+          "Design Studios",
+          "Publishing Houses",
+          "Freelance Platforms"
+        ],
+        "future_scope": [
+          "Art Director",
+          "Creative Director",
+          "Brand Identity Specialist",
+          "UX/UI Designer"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Graphic Designer",
+          "avg_salary": "₹3-6L/yr"
+        },
+        {
+          "role": "Illustrator",
+          "avg_salary": "₹4-8L/yr"
+        },
+        {
+          "role": "Visual Designer",
+          "avg_salary": "₹5-10L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "NID",
+          "url": "https://www.nid.edu",
+          "type": "info",
+          "description": "National Institute of Design"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Adobe Creative Cloud",
+          "url": "https://www.adobe.com/creativecloud/design.html",
+          "type": "paid",
+          "platform": "Software",
+          "language": "English",
+          "description": "Industry standard tools"
+        },
+        {
+          "name": "Coursera Graphic Design",
+          "url": "https://www.coursera.org/specializations/graphic-design",
+          "type": "freemium",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "CalArts Specialization"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Behance",
+          "url": "https://www.behance.net",
+          "type": "portfolio",
+          "description": "Portfolio platform"
+        },
+        {
+          "name": "Dribbble",
+          "url": "https://dribbble.com",
+          "type": "portfolio",
+          "description": "Design community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "NID DAT",
+          "conducting_body": "NID",
+          "registration_url": "https://admissions.nid.edu",
+          "exam_pattern": "Prelims + Mains (Studio Test)",
+          "frequency": "Annual",
+          "eligibility": "Class 12",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "High Competition"
+        },
+        {
+          "name": "UCEED",
+          "conducting_body": "IIT Bombay",
+          "registration_url": "http://www.uceed.iitb.ac.in",
+          "exam_pattern": "Drawing + Aptitude",
+          "frequency": "Annual",
+          "eligibility": "Class 12",
+          "attempts_allowed": "2",
+          "cutoff_trends": "High for IITs"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "Entrance Exams",
+          "subtitle": "NID DAT / UCEED",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "B.Des Graphic Design",
+          "subtitle": "4 Years Degree",
+          "duration": "4 years",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "job",
+          "label": "Junior Designer",
+          "subtitle": "Agency / Studio",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Senior Designer",
+          "subtitle": "Lead Projects",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Art Director",
+          "subtitle": "Creative Leadership",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Creative Director",
+          "subtitle": "Executive Role",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "interior-design",
+    "meta": {
+      "title": "Interior Design",
+      "description": "Plan and design interior spaces for functionality, safety, and aesthetics.",
+      "category": "Design & Architecture",
+      "subcategory": "Spatial Design",
+      "icon_slug": "home",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3-4 years (Degree/Diploma)",
+      "success_rate": "Moderate (Portfolio based)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 5.0,
+        "salary_range": "₹3L/yr (Junior Designer) - ₹12L/yr+ (Senior Designer/Firm Owner)",
+        "top_hiring_companies": [
+          "Architecture Firms",
+          "Real Estate Developers (DLF, Godrej)",
+          "Livspace",
+          "HomeLane",
+          "Design Studios"
+        ],
+        "future_scope": [
+          "Senior Interior Designer",
+          "Design Consultant",
+          "Set Designer",
+          "Furniture Designer"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Interior Designer",
+          "avg_salary": "₹3-6L/yr"
+        },
+        {
+          "role": "3D Visualizer",
+          "avg_salary": "₹3-5L/yr"
+        },
+        {
+          "role": "Project Manager",
+          "avg_salary": "₹5-8L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "CEPT University",
+          "url": "https://cept.ac.in",
+          "type": "info",
+          "description": "Premier Design Institute"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Udemy Interior Design",
+          "url": "https://www.udemy.com/topic/interior-design",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Software skills (AutoCAD, SketchUp)"
+        },
+        {
+          "name": "Architectural Digest",
+          "url": "https://www.architecturaldigest.in",
+          "type": "info",
+          "description": "Inspiration and trends"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Houzz",
+          "url": "https://www.houzz.in",
+          "type": "community",
+          "description": "Home design community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "NID DAT",
+          "conducting_body": "NID",
+          "registration_url": "https://admissions.nid.edu",
+          "exam_pattern": "Prelims + Mains",
+          "frequency": "Annual",
+          "eligibility": "Class 12",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "High Competition"
+        },
+        {
+          "name": "AIEED",
+          "conducting_body": "ARCH Academy",
+          "registration_url": "https://www.aieed.com",
+          "exam_pattern": "GAT + CAT",
+          "frequency": "Annual",
+          "eligibility": "Class 12",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Moderate"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "Entrance Exams",
+          "subtitle": "NID / UCEED / AIEED",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "B.Des Interior Design",
+          "subtitle": "4 Years Degree",
+          "duration": "4 years",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "job",
+          "label": "Junior Designer",
+          "subtitle": "Firm / Studio",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Senior Designer",
+          "subtitle": "Project Lead",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Design Consultant",
+          "subtitle": "Expert Role",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Firm Owner",
+          "subtitle": "Entrepreneur",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    }
   }
 ]
