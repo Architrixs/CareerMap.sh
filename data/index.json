@@ -1,0 +1,2406 @@
+[
+  {
+    "roadmap_id": "it-software-dev",
+    "meta": {
+      "title": "IT & Software Development",
+      "description": "Develop, maintain, and optimize digital platforms. The largest job creator in India's tech sector.",
+      "category": "Technology & IT",
+      "subcategory": "Software Development",
+      "icon_slug": "code",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4-5 years",
+      "success_rate": "High (60-70% placement rate from good colleges)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 10.1,
+        "salary_range": "\u20b94.5L - \u20b927.9L",
+        "demand_trend": "Growing",
+        "top_hiring_companies": [
+          "TCS",
+          "Infosys",
+          "Wipro",
+          "Accenture",
+          "Google India"
+        ],
+        "future_scope": [
+          "Cloud & AI Adoption",
+          "Cybersecurity focus",
+          "Remote/Hybrid work models",
+          "Startup ecosystem growth"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Software Developer",
+          "avg_salary": "\u20b910.1L/yr"
+        },
+        {
+          "role": "Cloud Architect",
+          "avg_salary": "\u20b927.9L/yr"
+        },
+        {
+          "role": "Full Stack Developer",
+          "avg_salary": "\u20b99.6L/yr"
+        }
+      ]
+    },
+    "source_file": "technology-it.json"
+  },
+  {
+    "roadmap_id": "sanitation-worker",
+    "meta": {
+      "title": "Sanitation & Housekeeping",
+      "description": "Essential workers maintaining cleanliness in homes, offices, hospitals, and public spaces.",
+      "category": "Essential Services",
+      "icon_slug": "home",
+      "difficulty_level": "Beginner",
+      "time_to_job": "0.5-1 year",
+      "market_stats": {
+        "average_salary_lpa": 2.4,
+        "salary_range": "\u20b91.8L - \u20b93.6L",
+        "top_hiring_companies": [
+          "Municipal Corporations",
+          "Private Hospitals",
+          "Commercial Buildings",
+          "Hotels & Resorts",
+          "Educational Institutions"
+        ],
+        "future_scope": [
+          "Mechanization of cleaning",
+          "Govt schemes for sanitation workers",
+          "Specialized healthcare cleaning roles",
+          "Facility management companies"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Housekeeping Supervisor",
+          "avg_salary": "\u20b93.6L/yr"
+        },
+        {
+          "role": "Sanitation Worker",
+          "avg_salary": "\u20b92.4L/yr"
+        },
+        {
+          "role": "Cleaning Staff",
+          "avg_salary": "\u20b91.8L/yr"
+        }
+      ]
+    },
+    "source_file": "essential-services.json"
+  },
+  {
+    "roadmap_id": "govt-clerk",
+    "meta": {
+      "title": "Government Clerk (Clerical Cadre)",
+      "description": "Administrative support in government offices with job security and benefits.",
+      "category": "Government & Public Service",
+      "icon_slug": "file-text",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "1-2 years",
+      "market_stats": {
+        "average_salary_lpa": 4.2,
+        "salary_range": "\u20b92.5L - \u20b96L (+ Benefits)",
+        "top_hiring_companies": [
+          "SSC (Staff Selection Commission)",
+          "Railway Recruitment Board",
+          "State PSCs",
+          "Banking Sector",
+          "Central Govt Ministries"
+        ],
+        "future_scope": [
+          "Promotions to Section Officer",
+          "Departmental exams for growth",
+          "Pension & job security",
+          "Digital skills increasingly valued"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Lower Division Clerk (LDC)",
+          "avg_salary": "\u20b92.5L/yr"
+        },
+        {
+          "role": "Upper Division Clerk (UDC)",
+          "avg_salary": "\u20b94.2L/yr"
+        },
+        {
+          "role": "Section Officer",
+          "avg_salary": "\u20b96L/yr"
+        }
+      ]
+    },
+    "source_file": "government-public-service.json"
+  },
+  {
+    "roadmap_id": "ias-civil-services",
+    "meta": {
+      "title": "IAS & Civil Services",
+      "description": "Prestigious administrative roles shaping India's governance and public policy.",
+      "category": "Government & Public Service",
+      "subcategory": "Civil Services",
+      "icon_slug": "award",
+      "difficulty_level": "Expert",
+      "time_to_job": "4-6 years",
+      "success_rate": "Less than 1% (1:1000+ competition)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 10.0,
+        "salary_range": "\u20b97.5L - \u20b925L+ (Scale + Perks)",
+        "demand_trend": "Stable",
+        "top_hiring_companies": [
+          "UPSC",
+          "Central Government",
+          "State Services",
+          "Foreign Services",
+          "Police Services"
+        ],
+        "future_scope": [
+          "Policy-making authority",
+          "District & State level leadership",
+          "International postings",
+          "Pension & housing benefits"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "IAS Officer",
+          "avg_salary": "\u20b910L+/yr (+ perks)"
+        },
+        {
+          "role": "IPS Officer",
+          "avg_salary": "\u20b99L+/yr"
+        },
+        {
+          "role": "IFS Officer",
+          "avg_salary": "\u20b910L+/yr"
+        }
+      ]
+    },
+    "source_file": "government-public-service.json"
+  },
+  {
+    "roadmap_id": "police-constable",
+    "meta": {
+      "title": "Police & Law Enforcement",
+      "description": "Maintain law and order, serve the community, and ensure public safety.",
+      "category": "Government & Public Service",
+      "icon_slug": "shield",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "1-1.5 years",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 3.6,
+        "salary_range": "\u20b92.5L - \u20b97L",
+        "top_hiring_companies": [
+          "State Police Departments",
+          "CRPF, BSF, CISF",
+          "Railway Protection Force",
+          "Delhi Police",
+          "State PSCs"
+        ],
+        "future_scope": [
+          "Promotion to SI, Inspector",
+          "Specialized units (Cyber, Crime)",
+          "Departmental exams for growth",
+          "Job security & pension"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Police Constable",
+          "avg_salary": "\u20b93L/yr"
+        },
+        {
+          "role": "Head Constable",
+          "avg_salary": "\u20b94.5L/yr"
+        },
+        {
+          "role": "Sub-Inspector",
+          "avg_salary": "\u20b96L/yr"
+        }
+      ]
+    },
+    "source_file": "government-public-service.json"
+  },
+  {
+    "roadmap_id": "teacher-education",
+    "meta": {
+      "title": "Teaching & Education",
+      "description": "Shape future generations through primary, secondary, or higher education.",
+      "category": "Education & Research",
+      "icon_slug": "book-open",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3-4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b92.4L - \u20b912L+",
+        "top_hiring_companies": [
+          "Govt Schools (Central/State)",
+          "CBSE/ICSE Schools",
+          "Private Schools",
+          "Colleges & Universities",
+          "Ed-Tech Companies (Byju's, Vedantu)"
+        ],
+        "future_scope": [
+          "Ed-Tech integration",
+          "NEP 2020 reforms",
+          "Online teaching opportunities",
+          "Special education demand"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Primary Teacher (PRT)",
+          "avg_salary": "\u20b93L/yr"
+        },
+        {
+          "role": "Secondary Teacher (TGT)",
+          "avg_salary": "\u20b94.5L/yr"
+        },
+        {
+          "role": "Professor",
+          "avg_salary": "\u20b98L - \u20b912L/yr"
+        }
+      ]
+    },
+    "source_file": "education-research.json"
+  },
+  {
+    "roadmap_id": "agriculture-farming",
+    "meta": {
+      "title": "Agriculture & Farming",
+      "description": "Modern farming techniques, agribusiness, and rural entrepreneurship.",
+      "category": "Agriculture & Allied",
+      "icon_slug": "leaf",
+      "difficulty_level": "Beginner to Intermediate",
+      "time_to_job": "0-4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.0,
+        "salary_range": "\u20b92L - \u20b910L+ (Variable)",
+        "top_hiring_companies": [
+          "ITC Agri Business",
+          "Bayer CropScience",
+          "Mahindra Agri",
+          "Jain Irrigation",
+          "Self-employment"
+        ],
+        "future_scope": [
+          "Precision agriculture",
+          "Organic farming growth",
+          "Agri-tech startups",
+          "Govt MSP schemes"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Agricultural Officer",
+          "avg_salary": "\u20b94L/yr"
+        },
+        {
+          "role": "Farm Manager",
+          "avg_salary": "\u20b96L/yr"
+        },
+        {
+          "role": "Agri-Entrepreneur",
+          "avg_salary": "Variable"
+        }
+      ]
+    },
+    "source_file": "agriculture-allied.json"
+  },
+  {
+    "roadmap_id": "banking-finance",
+    "meta": {
+      "title": "Banking & Finance",
+      "description": "Manage financial operations, loans, and customer services in banks.",
+      "category": "Finance & Commerce",
+      "icon_slug": "dollar-sign",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3-4 years",
+      "market_stats": {
+        "average_salary_lpa": 6.5,
+        "salary_range": "\u20b93L - \u20b915L+",
+        "top_hiring_companies": [
+          "SBI",
+          "HDFC Bank",
+          "ICICI Bank",
+          "Axis Bank",
+          "RBI"
+        ],
+        "future_scope": [
+          "Digital banking growth",
+          "Fintech integration",
+          "Investment advisory",
+          "Financial inclusion initiatives"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Bank PO",
+          "avg_salary": "\u20b97L/yr"
+        },
+        {
+          "role": "Bank Clerk",
+          "avg_salary": "\u20b93L/yr"
+        },
+        {
+          "role": "Relationship Manager",
+          "avg_salary": "\u20b96L/yr"
+        }
+      ]
+    },
+    "source_file": "finance-commerce.json"
+  },
+  {
+    "roadmap_id": "chartered-accountant",
+    "meta": {
+      "title": "Chartered Accountancy (CA)",
+      "description": "Expert financial advisors managing audits, taxation, and corporate finance.",
+      "category": "Finance & Commerce",
+      "subcategory": "Professional Accounting",
+      "icon_slug": "calculator",
+      "difficulty_level": "Expert",
+      "time_to_job": "4.5-5 years",
+      "success_rate": "Low (~5-10% complete all three levels)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 8.0,
+        "salary_range": "\u20b96L - \u20b925L+",
+        "demand_trend": "Growing",
+        "top_hiring_companies": [
+          "Big 4 (Deloitte, PwC, EY, KPMG)",
+          "Corporate Finance Teams",
+          "Private Practice",
+          "Investment Banks",
+          "Consulting Firms"
+        ],
+        "future_scope": [
+          "GST & tax advisory",
+          "Corporate restructuring",
+          "International opportunities",
+          "High-value consulting"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Chartered Accountant",
+          "avg_salary": "\u20b98L - \u20b915L/yr"
+        },
+        {
+          "role": "Tax Consultant",
+          "avg_salary": "\u20b97L/yr"
+        },
+        {
+          "role": "Financial Analyst",
+          "avg_salary": "\u20b96L/yr"
+        }
+      ]
+    },
+    "source_file": "finance-commerce.json"
+  },
+  {
+    "roadmap_id": "lawyer-legal",
+    "meta": {
+      "title": "Law & Legal Services",
+      "description": "Advocate for justice in courts, corporate legal teams, or as consultants.",
+      "category": "Legal & Governance",
+      "subcategory": "Legal Practice",
+      "icon_slug": "scale",
+      "difficulty_level": "Advanced",
+      "time_to_job": "5-6 years (BA LLB) or 3-4 years (LLB after graduation)",
+      "success_rate": "Moderate (CLAT clears ~30%, good job prospects)",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 6.0,
+        "salary_range": "\u20b93L - \u20b920L+",
+        "demand_trend": "Stable",
+        "top_hiring_companies": [
+          "Law Firms (AZB, Khaitan)",
+          "Corporate Legal Departments",
+          "Courts (Private Practice)",
+          "Legal Process Outsourcing",
+          "NGOs & Public Interest"
+        ],
+        "future_scope": [
+          "Corporate law demand",
+          "Cyber law specialization",
+          "International arbitration",
+          "Legal tech integration"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Lawyer (Private Practice)",
+          "avg_salary": "\u20b93L - \u20b915L/yr"
+        },
+        {
+          "role": "Corporate Lawyer",
+          "avg_salary": "\u20b98L - \u20b920L/yr"
+        },
+        {
+          "role": "Legal Advisor",
+          "avg_salary": "\u20b96L/yr"
+        }
+      ]
+    },
+    "source_file": "legal-governance.json"
+  },
+  {
+    "roadmap_id": "architecture",
+    "meta": {
+      "title": "Architecture & Urban Planning",
+      "description": "Design buildings, urban spaces, and sustainable infrastructure.",
+      "category": "Design & Architecture",
+      "icon_slug": "building",
+      "difficulty_level": "Advanced",
+      "time_to_job": "5-6 years",
+      "market_stats": {
+        "average_salary_lpa": 5.5,
+        "salary_range": "\u20b93L - \u20b915L+",
+        "top_hiring_companies": [
+          "Architecture Firms",
+          "Real Estate Developers",
+          "Government PWD",
+          "Construction Companies",
+          "Private Practice"
+        ],
+        "future_scope": [
+          "Smart city projects",
+          "Green building design",
+          "Heritage conservation",
+          "BIM technology adoption"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Architect",
+          "avg_salary": "\u20b95.5L/yr"
+        },
+        {
+          "role": "Urban Planner",
+          "avg_salary": "\u20b96L/yr"
+        },
+        {
+          "role": "Interior Designer",
+          "avg_salary": "\u20b94L/yr"
+        }
+      ]
+    },
+    "source_file": "design-architecture.json"
+  },
+  {
+    "roadmap_id": "data-science",
+    "meta": {
+      "title": "Data Science & Analytics",
+      "description": "Analyze large datasets to uncover insights and predict trends.",
+      "category": "Technology & IT",
+      "subcategory": "Data & Analytics",
+      "icon_slug": "database",
+      "difficulty_level": "Advanced",
+      "time_to_job": "1-2 years (with programming background)",
+      "success_rate": "High (60-70% for skilled candidates)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 15.3,
+        "salary_range": "\u20b96.8L - \u20b915.3L",
+        "demand_trend": "Growing",
+        "top_hiring_companies": [
+          "IBM",
+          "Accenture",
+          "Capgemini",
+          "Cognizant",
+          "Deloitte"
+        ],
+        "future_scope": [
+          "AI Integration",
+          "Healthcare Predictive Models",
+          "Retail Analytics"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Data Scientist",
+          "avg_salary": "\u20b915.3L/yr"
+        },
+        {
+          "role": "Data Analyst",
+          "avg_salary": "\u20b96.8L/yr"
+        },
+        {
+          "role": "ML Engineer",
+          "avg_salary": "\u20b911.8L/yr"
+        }
+      ]
+    },
+    "source_file": "technology-it.json"
+  },
+  {
+    "roadmap_id": "ai-ml",
+    "meta": {
+      "title": "AI & Machine Learning",
+      "description": "Create algorithms that allow machines to learn. At the forefront of innovation.",
+      "category": "Technology & IT",
+      "icon_slug": "cpu",
+      "difficulty_level": "Advanced to Expert",
+      "time_to_job": "1-3 years",
+      "market_stats": {
+        "average_salary_lpa": 17.4,
+        "salary_range": "\u20b94.8L - \u20b918.0L+",
+        "top_hiring_companies": [
+          "Google",
+          "Microsoft",
+          "Amazon",
+          "Samsung",
+          "NVIDIA"
+        ],
+        "future_scope": [
+          "Automation Growth",
+          "Personalized Healthcare",
+          "Business Optimization"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "AI Engineer",
+          "avg_salary": "\u20b917.4L/yr"
+        },
+        {
+          "role": "AI Research Scientist",
+          "avg_salary": "\u20b918.0L/yr"
+        },
+        {
+          "role": "NLP Engineer",
+          "avg_salary": "\u20b99.8L/yr"
+        }
+      ]
+    },
+    "source_file": "technology-it.json"
+  },
+  {
+    "roadmap_id": "cybersecurity",
+    "meta": {
+      "title": "Cybersecurity & Ethical Hacking",
+      "description": "Protect sensitive data and prevent cyberattacks in a digital-first world.",
+      "category": "Technology & IT",
+      "icon_slug": "shield",
+      "difficulty_level": "Advanced",
+      "time_to_job": "1-2 years",
+      "market_stats": {
+        "average_salary_lpa": 10.5,
+        "salary_range": "\u20b96.4L - \u20b950T/mo (Freelance)",
+        "top_hiring_companies": [
+          "IBM",
+          "Wipro",
+          "Deloitte",
+          "Cisco",
+          "Accenture"
+        ],
+        "future_scope": [
+          "Rising Cyber Threats",
+          "Cloud Security focus",
+          "Regulatory Compliance (DPDP Act)"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Security Engineer",
+          "avg_salary": "\u20b910.5L/yr"
+        },
+        {
+          "role": "Ethical Hacker",
+          "avg_salary": "\u20b96L - \u20b912L/yr"
+        },
+        {
+          "role": "Cybersecurity Consultant",
+          "avg_salary": "\u20b99L/yr"
+        }
+      ]
+    },
+    "source_file": "technology-it.json"
+  },
+  {
+    "roadmap_id": "blockchain",
+    "meta": {
+      "title": "Blockchain Technology",
+      "description": "Revolutionize finance and supply chains with decentralized data solutions.",
+      "category": "Technology & IT",
+      "icon_slug": "link",
+      "difficulty_level": "Advanced",
+      "time_to_job": "1-2 years",
+      "market_stats": {
+        "average_salary_lpa": 11.0,
+        "salary_range": "\u20b911L - \u20b925L",
+        "top_hiring_companies": [
+          "IBM",
+          "Accenture",
+          "Infosys",
+          "Ripple",
+          "Deloitte"
+        ],
+        "future_scope": [
+          "Fintech Adoption",
+          "Smart Contracts",
+          "Supply Chain Transparency"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Blockchain Developer",
+          "avg_salary": "\u20b911L/yr"
+        },
+        {
+          "role": "Blockchain Architect",
+          "avg_salary": "\u20b925L/yr"
+        },
+        {
+          "role": "Blockchain Consultant",
+          "avg_salary": "\u20b914.3L/yr"
+        }
+      ]
+    },
+    "source_file": "technology-it.json"
+  },
+  {
+    "roadmap_id": "cloud-devops",
+    "meta": {
+      "title": "Cloud Computing & DevOps",
+      "description": "Enable businesses to scale efficiently using AWS, Azure, and Google Cloud.",
+      "category": "Technology & IT",
+      "icon_slug": "cloud",
+      "difficulty_level": "Intermediate to Advanced",
+      "time_to_job": "1-2 years",
+      "market_stats": {
+        "average_salary_lpa": 13.5,
+        "salary_range": "\u20b98.1L - \u20b927.9L",
+        "top_hiring_companies": [
+          "AWS",
+          "Google Cloud",
+          "Microsoft",
+          "Infosys",
+          "Accenture"
+        ],
+        "future_scope": [
+          "Cloud Migration",
+          "Automation (DevOps)",
+          "Multi-Cloud Strategies"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Cloud Architect",
+          "avg_salary": "\u20b927.9L/yr"
+        },
+        {
+          "role": "DevOps Engineer",
+          "avg_salary": "\u20b98.7L/yr"
+        },
+        {
+          "role": "Site Reliability Engineer",
+          "avg_salary": "\u20b913.5L/yr"
+        }
+      ]
+    },
+    "source_file": "technology-it.json"
+  },
+  {
+    "roadmap_id": "digital-marketing",
+    "meta": {
+      "title": "Digital Marketing & E-commerce",
+      "description": "Tap into the digital economy through SEO, paid ads, and content strategies.",
+      "category": "Business & Entrepreneurship",
+      "icon_slug": "trending-up",
+      "difficulty_level": "Beginner to Intermediate",
+      "time_to_job": "0.5-1 year",
+      "market_stats": {
+        "average_salary_lpa": 8.0,
+        "salary_range": "\u20b93L - \u20b910L+",
+        "top_hiring_companies": [
+          "Flipkart",
+          "Amazon",
+          "Zomato",
+          "Media.net",
+          "HubSpot"
+        ],
+        "future_scope": [
+          "E-commerce Growth",
+          "Social Media Dominance",
+          "Data-Driven Marketing"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Digital Marketing Manager",
+          "avg_salary": "\u20b98L/yr"
+        },
+        {
+          "role": "Content Marketing Manager",
+          "avg_salary": "\u20b910.0L/yr"
+        },
+        {
+          "role": "SEO Specialist",
+          "avg_salary": "\u20b93L/yr"
+        }
+      ]
+    },
+    "source_file": "business-entrepreneurship.json"
+  },
+  {
+    "roadmap_id": "content-creator",
+    "meta": {
+      "title": "Content Creation & Influencer",
+      "description": "Create engaging content for brands and audiences on YouTube, Instagram, etc.",
+      "category": "Creative & Media",
+      "icon_slug": "video",
+      "difficulty_level": "Beginner",
+      "time_to_job": "0.5-2 years",
+      "market_stats": {
+        "average_salary_lpa": 5.0,
+        "salary_range": "\u20b94L - \u20b925L+ (Highly Variable)",
+        "top_hiring_companies": [
+          "YouTube",
+          "Instagram",
+          "Red Bull",
+          "L'Or\u00e9al",
+          "Agencies"
+        ],
+        "future_scope": [
+          "Video Content Dominance",
+          "Micro-Influencer Marketing",
+          "Brand Collaborations"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Content Creator",
+          "avg_salary": "\u20b93L - \u20b910L/yr"
+        },
+        {
+          "role": "Brand Strategist",
+          "avg_salary": "\u20b96L/yr"
+        },
+        {
+          "role": "Video Editor",
+          "avg_salary": "\u20b95L/yr"
+        }
+      ]
+    },
+    "source_file": "creative-media.json"
+  },
+  {
+    "roadmap_id": "renewable-energy",
+    "meta": {
+      "title": "Renewable Energy",
+      "description": "Drive the green revolution with careers in Solar, Wind, and Sustainability.",
+      "category": "Engineering",
+      "icon_slug": "sun",
+      "difficulty_level": "Intermediate to Advanced",
+      "time_to_job": "4-6 years",
+      "market_stats": {
+        "average_salary_lpa": 11.0,
+        "salary_range": "\u20b93.6L - \u20b915L",
+        "top_hiring_companies": [
+          "Suzlon",
+          "Tata Power",
+          "ReNew Power",
+          "Adani Green",
+          "Vestas"
+        ],
+        "future_scope": [
+          "Govt Green Energy Targets",
+          "Corporate Sustainability (ESG)",
+          "Hydrogen Fuel Tech"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Renewable Energy Consultant",
+          "avg_salary": "\u20b911.0L/yr"
+        },
+        {
+          "role": "Solar Energy Engineer",
+          "avg_salary": "\u20b93.5L/yr"
+        },
+        {
+          "role": "Sustainability Consultant",
+          "avg_salary": "\u20b95L/yr"
+        }
+      ]
+    },
+    "source_file": "engineering.json"
+  },
+  {
+    "roadmap_id": "healthcare",
+    "meta": {
+      "title": "Medical & Healthcare",
+      "description": "Essential roles from Doctors to Researchers in India's growing health sector.",
+      "category": "Healthcare & Medical",
+      "subcategory": "Clinical Medicine",
+      "icon_slug": "heart",
+      "difficulty_level": "Expert",
+      "time_to_job": "5.5-10 years (MBBS + MD/MS)",
+      "success_rate": "Moderate (NEET clears ~15%, but high placement)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 12.0,
+        "salary_range": "\u20b93L - \u20b920L+ (Doctors much higher)",
+        "demand_trend": "Growing",
+        "top_hiring_companies": [
+          "Apollo Hospitals",
+          "Fortis",
+          "AIIMS",
+          "Max Healthcare",
+          "Medanta"
+        ],
+        "future_scope": [
+          "Telemedicine",
+          "Geriatric Care (Aging Population)",
+          "Health Tech Integration"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Doctor (Specialist)",
+          "avg_salary": "\u20b920L+/yr"
+        },
+        {
+          "role": "Medical Researcher",
+          "avg_salary": "\u20b910.5L/yr"
+        },
+        {
+          "role": "Healthcare Admin",
+          "avg_salary": "\u20b95L/yr"
+        }
+      ]
+    },
+    "source_file": "healthcare-medical.json"
+  },
+  {
+    "roadmap_id": "hotel-hospitality",
+    "meta": {
+      "title": "Hotel Management & Hospitality",
+      "description": "Manage hotels, resorts, restaurants, and deliver world-class guest experiences.",
+      "category": "Hospitality & Tourism",
+      "icon_slug": "coffee",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3-4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b92.5L - \u20b912L+",
+        "top_hiring_companies": [
+          "Taj Hotels",
+          "Marriott",
+          "ITC Hotels",
+          "Oberoi Group",
+          "Hyatt"
+        ],
+        "future_scope": [
+          "Tourism growth in India",
+          "Luxury hospitality expansion",
+          "Experiential travel demand",
+          "International chains entering India"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Hotel Manager",
+          "avg_salary": "\u20b96L/yr"
+        },
+        {
+          "role": "Front Office Executive",
+          "avg_salary": "\u20b93L/yr"
+        },
+        {
+          "role": "F&B Manager",
+          "avg_salary": "\u20b95L/yr"
+        }
+      ]
+    },
+    "source_file": "hospitality-tourism.json"
+  },
+  {
+    "roadmap_id": "chef-culinary",
+    "meta": {
+      "title": "Chef & Culinary Arts",
+      "description": "Create culinary masterpieces in restaurants, hotels, or as entrepreneur.",
+      "category": "Hospitality & Tourism",
+      "icon_slug": "utensils",
+      "difficulty_level": "Beginner to Intermediate",
+      "time_to_job": "1-3 years",
+      "market_stats": {
+        "average_salary_lpa": 4.0,
+        "salary_range": "\u20b92L - \u20b915L+",
+        "top_hiring_companies": [
+          "5-Star Hotels",
+          "Restaurant Chains",
+          "Cruise Lines",
+          "Cloud Kitchens",
+          "Catering Companies"
+        ],
+        "future_scope": [
+          "Celebrity chef culture",
+          "Food vlogging opportunities",
+          "International exposure",
+          "Cloud kitchen boom"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Commis Chef",
+          "avg_salary": "\u20b92.5L/yr"
+        },
+        {
+          "role": "Sous Chef",
+          "avg_salary": "\u20b95L/yr"
+        },
+        {
+          "role": "Executive Chef",
+          "avg_salary": "\u20b910L+/yr"
+        }
+      ]
+    },
+    "source_file": "hospitality-tourism.json"
+  },
+  {
+    "roadmap_id": "fashion-design",
+    "meta": {
+      "title": "Fashion Design",
+      "description": "Create clothing, accessories, and define trends in India's fashion industry.",
+      "category": "Design & Architecture",
+      "icon_slug": "scissors",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4-5 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b92.5L - \u20b920L+",
+        "top_hiring_companies": [
+          "Fashion Brands (FabIndia, W, AND)",
+          "Export Houses",
+          "E-commerce (Myntra, Ajio)",
+          "Film & TV Industry",
+          "Independent Designers"
+        ],
+        "future_scope": [
+          "Sustainable fashion movement",
+          "Online retail boom",
+          "Celebrity styling",
+          "Global Indian designers"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Fashion Designer",
+          "avg_salary": "\u20b94.5L/yr"
+        },
+        {
+          "role": "Fashion Stylist",
+          "avg_salary": "\u20b95L/yr"
+        },
+        {
+          "role": "Textile Designer",
+          "avg_salary": "\u20b93.5L/yr"
+        }
+      ]
+    },
+    "source_file": "design-architecture.json"
+  },
+  {
+    "roadmap_id": "journalism-media",
+    "meta": {
+      "title": "Journalism & Mass Media",
+      "description": "Report news, create content, and shape public discourse across platforms.",
+      "category": "Creative & Media",
+      "icon_slug": "newspaper",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3-4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b92.5L - \u20b915L+",
+        "top_hiring_companies": [
+          "NDTV, Times Group",
+          "Zee Media",
+          "Digital Media (ThePrint, Wire)",
+          "News Agencies (PTI, ANI)",
+          "Print Media"
+        ],
+        "future_scope": [
+          "Digital journalism growth",
+          "Data journalism",
+          "Video content demand",
+          "Independent journalism"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Journalist/Reporter",
+          "avg_salary": "\u20b94L/yr"
+        },
+        {
+          "role": "News Anchor",
+          "avg_salary": "\u20b98L/yr"
+        },
+        {
+          "role": "Content Editor",
+          "avg_salary": "\u20b95L/yr"
+        }
+      ]
+    },
+    "source_file": "creative-media.json"
+  },
+  {
+    "roadmap_id": "pharmacy",
+    "meta": {
+      "title": "Pharmacy & Drug Development",
+      "description": "Dispense medicines, conduct research, and work in pharmaceutical industry.",
+      "category": "Healthcare & Medical",
+      "icon_slug": "pill",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4-5 years",
+      "market_stats": {
+        "average_salary_lpa": 3.5,
+        "salary_range": "\u20b92.5L - \u20b910L+",
+        "top_hiring_companies": [
+          "Sun Pharma",
+          "Dr. Reddy's",
+          "Cipla",
+          "Lupin",
+          "Hospital Pharmacies"
+        ],
+        "future_scope": [
+          "Generic drugs market",
+          "Clinical research growth",
+          "Hospital pharmacy expansion",
+          "Regulatory affairs"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Pharmacist",
+          "avg_salary": "\u20b93L/yr"
+        },
+        {
+          "role": "Clinical Research Associate",
+          "avg_salary": "\u20b94.5L/yr"
+        },
+        {
+          "role": "Drug Safety Associate",
+          "avg_salary": "\u20b95L/yr"
+        }
+      ]
+    },
+    "source_file": "healthcare-medical.json"
+  },
+  {
+    "roadmap_id": "civil-engineering",
+    "meta": {
+      "title": "Civil Engineering",
+      "description": "Design and build infrastructure - roads, bridges, buildings, and cities.",
+      "category": "Engineering",
+      "icon_slug": "hard-hat",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b93L - \u20b912L+",
+        "top_hiring_companies": [
+          "L&T",
+          "Tata Projects",
+          "PWD (Govt)",
+          "Shapoorji Pallonji",
+          "DLF"
+        ],
+        "future_scope": [
+          "Smart Cities Mission",
+          "Infrastructure development",
+          "Metro projects",
+          "Green building design"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Site Engineer",
+          "avg_salary": "\u20b93.5L/yr"
+        },
+        {
+          "role": "Project Manager",
+          "avg_salary": "\u20b98L/yr"
+        },
+        {
+          "role": "Structural Engineer",
+          "avg_salary": "\u20b96L/yr"
+        }
+      ]
+    },
+    "source_file": "engineering.json"
+  },
+  {
+    "roadmap_id": "mechanical-engineering",
+    "meta": {
+      "title": "Mechanical Engineering",
+      "description": "Design machines, manufacturing systems, and mechanical products.",
+      "category": "Engineering",
+      "icon_slug": "cog",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b93L - \u20b915L+",
+        "top_hiring_companies": [
+          "Tata Motors",
+          "Mahindra",
+          "Maruti Suzuki",
+          "L&T",
+          "Siemens"
+        ],
+        "future_scope": [
+          "Automation & Robotics",
+          "EV manufacturing",
+          "Aerospace industry",
+          "CAD/CAM technologies"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Mechanical Engineer",
+          "avg_salary": "\u20b94L/yr"
+        },
+        {
+          "role": "Production Engineer",
+          "avg_salary": "\u20b94.5L/yr"
+        },
+        {
+          "role": "Design Engineer",
+          "avg_salary": "\u20b95.5L/yr"
+        }
+      ]
+    },
+    "source_file": "engineering.json"
+  },
+  {
+    "roadmap_id": "electrical-engineering",
+    "meta": {
+      "title": "Electrical Engineering",
+      "description": "Work with power systems, electronics, and electrical infrastructure.",
+      "category": "Engineering",
+      "icon_slug": "zap",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b93L - \u20b912L+",
+        "top_hiring_companies": [
+          "Power Grid Corporation",
+          "BHEL",
+          "Siemens",
+          "ABB",
+          "State Electricity Boards"
+        ],
+        "future_scope": [
+          "Renewable energy integration",
+          "Smart grid technology",
+          "EV charging infrastructure",
+          "Power electronics"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Electrical Engineer",
+          "avg_salary": "\u20b94.5L/yr"
+        },
+        {
+          "role": "Power Systems Engineer",
+          "avg_salary": "\u20b96L/yr"
+        },
+        {
+          "role": "Instrumentation Engineer",
+          "avg_salary": "\u20b95L/yr"
+        }
+      ]
+    },
+    "source_file": "engineering.json"
+  },
+  {
+    "roadmap_id": "railway-services",
+    "meta": {
+      "title": "Indian Railways",
+      "description": "Join India's largest employer with diverse technical and non-technical roles.",
+      "category": "Government & Public Service",
+      "icon_slug": "train",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "1-2 years",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b92.5L - \u20b912L+",
+        "top_hiring_companies": [
+          "Indian Railways",
+          "RRB (Railway Recruitment Board)",
+          "Metro Corporations",
+          "IRCTC",
+          "RITES"
+        ],
+        "future_scope": [
+          "High-speed rail projects",
+          "Metro expansion",
+          "Railway modernization",
+          "Job security & pension"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Loco Pilot",
+          "avg_salary": "\u20b95L/yr"
+        },
+        {
+          "role": "Station Master",
+          "avg_salary": "\u20b96L/yr"
+        },
+        {
+          "role": "Railway Clerk",
+          "avg_salary": "\u20b93L/yr"
+        }
+      ]
+    },
+    "source_file": "government-public-service.json"
+  },
+  {
+    "roadmap_id": "merchant-navy",
+    "meta": {
+      "title": "Merchant Navy",
+      "description": "Navigate the seas transporting cargo and passengers across the world.",
+      "category": "Defense & Specialized Services",
+      "icon_slug": "anchor",
+      "difficulty_level": "Advanced",
+      "time_to_job": "3-4 years",
+      "market_stats": {
+        "average_salary_lpa": 12.0,
+        "salary_range": "\u20b96L - \u20b930L+ (Tax-free at sea)",
+        "top_hiring_companies": [
+          "Shipping Corporation of India",
+          "Maersk",
+          "MSC",
+          "Anglo-Eastern",
+          "Fleet Management"
+        ],
+        "future_scope": [
+          "Global trade growth",
+          "High earning potential",
+          "Tax benefits",
+          "International exposure"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Deck Officer",
+          "avg_salary": "\u20b912L/yr"
+        },
+        {
+          "role": "Marine Engineer",
+          "avg_salary": "\u20b915L/yr"
+        },
+        {
+          "role": "Captain (Master Mariner)",
+          "avg_salary": "\u20b925L+/yr"
+        }
+      ]
+    },
+    "source_file": "defense-specialized-services.json"
+  },
+  {
+    "roadmap_id": "commercial-pilot",
+    "meta": {
+      "title": "Commercial Pilot",
+      "description": "Fly aircraft for airlines, transporting passengers and cargo.",
+      "category": "Defense & Specialized Services",
+      "icon_slug": "plane",
+      "difficulty_level": "Advanced",
+      "time_to_job": "2-3 years",
+      "market_stats": {
+        "average_salary_lpa": 18.0,
+        "salary_range": "\u20b98L - \u20b950L+",
+        "top_hiring_companies": [
+          "IndiGo",
+          "Air India",
+          "SpiceJet",
+          "Vistara",
+          "International Airlines"
+        ],
+        "future_scope": [
+          "Aviation sector growth",
+          "New airline routes",
+          "Regional connectivity (UDAN)",
+          "High earning potential"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "First Officer",
+          "avg_salary": "\u20b910L/yr"
+        },
+        {
+          "role": "Captain",
+          "avg_salary": "\u20b930L+/yr"
+        },
+        {
+          "role": "Cargo Pilot",
+          "avg_salary": "\u20b915L/yr"
+        }
+      ]
+    },
+    "source_file": "defense-specialized-services.json"
+  },
+  {
+    "roadmap_id": "armed-forces-nda",
+    "meta": {
+      "title": "Armed Forces (NDA)",
+      "description": "Join the Army, Navy, or Air Force as a commissioned officer directly after Class 12.",
+      "category": "Defense & Specialized Services",
+      "subcategory": "Officer Cadre",
+      "icon_slug": "shield",
+      "difficulty_level": "Expert",
+      "time_to_job": "4 years (Training)",
+      "success_rate": "Low (< 0.5%)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 10.0,
+        "salary_range": "\u20b956,100/mo (Stipend) - \u20b92.5L/mo+",
+        "top_hiring_companies": [
+          "Indian Army",
+          "Indian Navy",
+          "Indian Air Force"
+        ],
+        "future_scope": [
+          "Permanent Commission",
+          "Adventure & Sports",
+          "Higher Education (M.Tech/M.Sc)",
+          "Post-retirement Corporate Roles"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Lieutenant (Army)",
+          "avg_salary": "\u20b910L+/yr"
+        },
+        {
+          "role": "Sub-Lieutenant (Navy)",
+          "avg_salary": "\u20b910L+/yr"
+        },
+        {
+          "role": "Flying Officer (Air Force)",
+          "avg_salary": "\u20b912L+/yr"
+        }
+      ]
+    },
+    "source_file": "defense-specialized-services.json"
+  },
+  {
+    "roadmap_id": "armed-forces-cds",
+    "meta": {
+      "title": "Armed Forces (CDS)",
+      "description": "Join the Army, Navy, or Air Force as a commissioned officer after Graduation.",
+      "category": "Defense & Specialized Services",
+      "subcategory": "Officer Cadre",
+      "icon_slug": "shield",
+      "difficulty_level": "Expert",
+      "time_to_job": "1.5 years (Training)",
+      "success_rate": "Low (< 1%)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 10.0,
+        "salary_range": "\u20b956,100/mo (Stipend) - \u20b92.5L/mo+",
+        "top_hiring_companies": [
+          "Indian Army",
+          "Indian Navy",
+          "Indian Air Force"
+        ],
+        "future_scope": [
+          "Permanent Commission",
+          "Short Service Commission",
+          "Higher Command Roles",
+          "Post-retirement Corporate Roles"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Lieutenant (Army)",
+          "avg_salary": "\u20b910L+/yr"
+        },
+        {
+          "role": "Sub-Lieutenant (Navy)",
+          "avg_salary": "\u20b910L+/yr"
+        },
+        {
+          "role": "Flying Officer (Air Force)",
+          "avg_salary": "\u20b912L+/yr"
+        }
+      ]
+    },
+    "source_file": "defense-specialized-services.json"
+  },
+  {
+    "roadmap_id": "nursing",
+    "meta": {
+      "title": "Nursing",
+      "description": "A noble profession focused on patient care, health promotion, and medical assistance.",
+      "category": "Healthcare & Medical",
+      "subcategory": "Nursing",
+      "icon_slug": "stethoscope",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3-4 years",
+      "success_rate": "High (High Demand)",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b915k/mo (Entry) - \u20b980k/mo (Senior)",
+        "top_hiring_companies": [
+          "Apollo Hospitals",
+          "Fortis Healthcare",
+          "Max Healthcare",
+          "AIIMS (Govt)",
+          "Indian Railways"
+        ],
+        "future_scope": [
+          "Nurse Practitioner",
+          "Hospital Administration",
+          "Clinical Research",
+          "Overseas Opportunities (UK/USA/Canada)"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Staff Nurse",
+          "avg_salary": "\u20b93-5L/yr"
+        },
+        {
+          "role": "Nursing Superintendent",
+          "avg_salary": "\u20b98-12L/yr"
+        },
+        {
+          "role": "Community Health Officer",
+          "avg_salary": "\u20b94-6L/yr"
+        }
+      ]
+    },
+    "source_file": "healthcare-medical.json"
+  },
+  {
+    "roadmap_id": "dentistry-bds",
+    "meta": {
+      "title": "Dentistry (BDS)",
+      "description": "Become a Dentist to diagnose and treat oral health issues.",
+      "category": "Healthcare & Medical",
+      "subcategory": "Dental Surgery",
+      "icon_slug": "smile",
+      "difficulty_level": "Advanced",
+      "time_to_job": "5.5 years",
+      "success_rate": "Moderate",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 6.0,
+        "salary_range": "\u20b920k/mo (Intern) - \u20b91L/mo+ (Private Practice)",
+        "top_hiring_companies": [
+          "Clove Dental",
+          "Apollo White Dental",
+          "Government Hospitals",
+          "Private Clinics",
+          "Army Dental Corps"
+        ],
+        "future_scope": [
+          "MDS (Specialization)",
+          "Cosmetic Dentistry",
+          "Oral Surgery",
+          "Overseas Practice (DDS in USA/Canada)"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "General Dentist",
+          "avg_salary": "\u20b94-8L/yr"
+        },
+        {
+          "role": "Orthodontist",
+          "avg_salary": "\u20b910-15L/yr"
+        },
+        {
+          "role": "Oral Surgeon",
+          "avg_salary": "\u20b912L+/yr"
+        }
+      ]
+    },
+    "source_file": "healthcare-medical.json"
+  },
+  {
+    "roadmap_id": "physiotherapy",
+    "meta": {
+      "title": "Physiotherapy (BPT)",
+      "description": "Help patients recover movement and manage pain through physical therapy.",
+      "category": "Healthcare & Medical",
+      "subcategory": "Allied Health",
+      "icon_slug": "activity",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4.5 years",
+      "success_rate": "High",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 4.0,
+        "salary_range": "\u20b915k/mo (Intern) - \u20b980k/mo+ (Sports Physio)",
+        "top_hiring_companies": [
+          "Apollo Hospitals",
+          "Fortis Healthcare",
+          "Sports Authority of India",
+          "Rehabilitation Centers",
+          "Private Clinics"
+        ],
+        "future_scope": [
+          "Sports Physiotherapy",
+          "Neuro Physiotherapy",
+          "Cardio-Pulmonary Rehab",
+          "Home Healthcare"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Physiotherapist",
+          "avg_salary": "\u20b93-6L/yr"
+        },
+        {
+          "role": "Sports Physio",
+          "avg_salary": "\u20b96-12L/yr"
+        },
+        {
+          "role": "Rehab Specialist",
+          "avg_salary": "\u20b94-8L/yr"
+        }
+      ]
+    },
+    "source_file": "healthcare-medical.json"
+  },
+  {
+    "roadmap_id": "medical-lab-technology",
+    "meta": {
+      "title": "Medical Lab Technology (MLT)",
+      "description": "Perform diagnostic tests on body fluids and tissues to help doctors diagnose diseases.",
+      "category": "Healthcare & Medical",
+      "subcategory": "Allied Health",
+      "icon_slug": "microscope",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3 years",
+      "success_rate": "High (High Demand)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 3.5,
+        "salary_range": "\u20b912k/mo (Entry) - \u20b950k/mo+ (Lab Manager)",
+        "top_hiring_companies": [
+          "Dr. Lal PathLabs",
+          "Metropolis Healthcare",
+          "Thyrocare",
+          "Apollo Diagnostics",
+          "Hospital Labs"
+        ],
+        "future_scope": [
+          "Lab Manager",
+          "Quality Control Officer",
+          "Research Assistant",
+          "Specialized Technologist (Molecular/Cytogenetic)"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Lab Technician",
+          "avg_salary": "\u20b92-4L/yr"
+        },
+        {
+          "role": "Lab Technologist",
+          "avg_salary": "\u20b93-5L/yr"
+        },
+        {
+          "role": "Lab Manager",
+          "avg_salary": "\u20b95-8L/yr"
+        }
+      ]
+    },
+    "source_file": "healthcare-medical.json"
+  },
+  {
+    "roadmap_id": "radiology",
+    "meta": {
+      "title": "Radiology & Imaging",
+      "description": "Operate X-ray, MRI, and CT scan machines to help diagnose medical conditions.",
+      "category": "Healthcare & Medical",
+      "subcategory": "Allied Health",
+      "icon_slug": "aperture",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3 years",
+      "success_rate": "High",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 4.0,
+        "salary_range": "\u20b915k/mo (Entry) - \u20b960k/mo+ (Senior Tech)",
+        "top_hiring_companies": [
+          "Apollo Diagnostics",
+          "Mahajan Imaging",
+          "Dr. Lal PathLabs",
+          "Fortis Healthcare",
+          "Government Hospitals"
+        ],
+        "future_scope": [
+          "MRI Specialist",
+          "Nuclear Medicine Tech",
+          "Application Specialist (GE/Siemens)",
+          "Radiology Manager"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "X-Ray Technician",
+          "avg_salary": "\u20b92-3L/yr"
+        },
+        {
+          "role": "MRI Technician",
+          "avg_salary": "\u20b94-6L/yr"
+        },
+        {
+          "role": "Radiographer",
+          "avg_salary": "\u20b93-5L/yr"
+        }
+      ]
+    },
+    "source_file": "healthcare-medical.json"
+  },
+  {
+    "roadmap_id": "company-secretary",
+    "meta": {
+      "title": "Company Secretary (CS)",
+      "description": "Ensure corporate governance and legal compliance for companies.",
+      "category": "Finance & Commerce",
+      "subcategory": "Corporate Law",
+      "icon_slug": "briefcase",
+      "difficulty_level": "Expert",
+      "time_to_job": "3-4 years",
+      "success_rate": "Low (< 5%)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 7.0,
+        "salary_range": "\u20b930k/mo (Trainee) - \u20b92L/mo+ (Senior CS)",
+        "top_hiring_companies": [
+          "Reliance Industries",
+          "Tata Group",
+          "HDFC Bank",
+          "Law Firms",
+          "Consulting Firms (Big 4)"
+        ],
+        "future_scope": [
+          "Chief Governance Officer",
+          "Legal Advisor",
+          "Insolvency Professional",
+          "Independent Director"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Company Secretary",
+          "avg_salary": "\u20b96-12L/yr"
+        },
+        {
+          "role": "Compliance Officer",
+          "avg_salary": "\u20b95-10L/yr"
+        },
+        {
+          "role": "Legal Consultant",
+          "avg_salary": "\u20b98-15L/yr"
+        }
+      ]
+    },
+    "source_file": "finance-commerce.json"
+  },
+  {
+    "roadmap_id": "cma",
+    "meta": {
+      "title": "Cost & Management Accountant (CMA)",
+      "description": "Expert in cost management, budgeting, and financial strategy.",
+      "category": "Finance & Commerce",
+      "subcategory": "Accounting",
+      "icon_slug": "pie-chart",
+      "difficulty_level": "Expert",
+      "time_to_job": "3-4 years",
+      "success_rate": "Low (< 10%)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 8.0,
+        "salary_range": "\u20b940k/mo (Trainee) - \u20b92.5L/mo+ (CFO)",
+        "top_hiring_companies": [
+          "PSUs (ONGC, GAIL, BHEL)",
+          "Manufacturing Companies",
+          "MNCs",
+          "Consulting Firms",
+          "Banks"
+        ],
+        "future_scope": [
+          "Chief Financial Officer (CFO)",
+          "Cost Auditor",
+          "Financial Analyst",
+          "Strategic Planner"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Cost Accountant",
+          "avg_salary": "\u20b96-10L/yr"
+        },
+        {
+          "role": "Finance Manager",
+          "avg_salary": "\u20b910-18L/yr"
+        },
+        {
+          "role": "Internal Auditor",
+          "avg_salary": "\u20b97-12L/yr"
+        }
+      ]
+    },
+    "source_file": "finance-commerce.json"
+  },
+  {
+    "roadmap_id": "ux-ui-design",
+    "meta": {
+      "title": "UX/UI Design",
+      "description": "Design intuitive and visually appealing digital interfaces for websites and apps.",
+      "category": "Technology & IT",
+      "subcategory": "Design",
+      "icon_slug": "pen-tool",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "6-12 months",
+      "success_rate": "High (Portfolio Based)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 6.5,
+        "salary_range": "\u20b93L/yr (Junior) - \u20b925L/yr+ (Lead Designer)",
+        "top_hiring_companies": [
+          "Google",
+          "Microsoft",
+          "Flipkart",
+          "Swiggy",
+          "Design Agencies (Frog, Ideo)"
+        ],
+        "future_scope": [
+          "Product Designer",
+          "UX Researcher",
+          "Interaction Designer",
+          "Design Manager"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "UI Designer",
+          "avg_salary": "\u20b94-8L/yr"
+        },
+        {
+          "role": "UX Designer",
+          "avg_salary": "\u20b96-12L/yr"
+        },
+        {
+          "role": "Product Designer",
+          "avg_salary": "\u20b910-20L/yr"
+        }
+      ]
+    },
+    "source_file": "technology-it.json"
+  },
+  {
+    "roadmap_id": "product-management",
+    "meta": {
+      "title": "Product Management",
+      "description": "Define product vision, strategy, and roadmap to deliver value to customers.",
+      "category": "Technology & IT",
+      "subcategory": "Management",
+      "icon_slug": "target",
+      "difficulty_level": "Expert",
+      "time_to_job": "2-4 years (Experience required)",
+      "success_rate": "Moderate",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 15.0,
+        "salary_range": "\u20b98L/yr (APM) - \u20b940L/yr+ (CPO)",
+        "top_hiring_companies": [
+          "Google",
+          "Uber",
+          "Flipkart",
+          "Zomato",
+          "Razorpay"
+        ],
+        "future_scope": [
+          "Chief Product Officer (CPO)",
+          "Founder / CEO",
+          "Venture Capitalist",
+          "Product Consultant"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Associate Product Manager",
+          "avg_salary": "\u20b98-15L/yr"
+        },
+        {
+          "role": "Product Manager",
+          "avg_salary": "\u20b915-25L/yr"
+        },
+        {
+          "role": "Senior PM",
+          "avg_salary": "\u20b925-40L/yr"
+        }
+      ]
+    },
+    "source_file": "technology-it.json"
+  },
+  {
+    "roadmap_id": "game-development",
+    "meta": {
+      "title": "Game Development",
+      "description": "Create interactive video games for PC, consoles, and mobile devices.",
+      "category": "Technology & IT",
+      "subcategory": "Software Development",
+      "icon_slug": "monitor",
+      "difficulty_level": "Advanced",
+      "time_to_job": "6-12 months",
+      "success_rate": "Moderate",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 6.0,
+        "salary_range": "\u20b93L/yr (Junior) - \u20b920L/yr+ (Lead Dev)",
+        "top_hiring_companies": [
+          "Ubisoft India",
+          "Rockstar India",
+          "Zynga",
+          "Dream11",
+          "Mobile Game Studios"
+        ],
+        "future_scope": [
+          "Technical Director",
+          "Game Designer",
+          "Indie Developer",
+          "VR/AR Developer"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Unity Developer",
+          "avg_salary": "\u20b94-8L/yr"
+        },
+        {
+          "role": "Unreal Engine Dev",
+          "avg_salary": "\u20b95-10L/yr"
+        },
+        {
+          "role": "Game Designer",
+          "avg_salary": "\u20b95-12L/yr"
+        }
+      ]
+    },
+    "source_file": "technology-it.json"
+  },
+  {
+    "roadmap_id": "animation-vfx",
+    "meta": {
+      "title": "Animation & VFX",
+      "description": "Create visual effects and animated content for movies, games, and advertising.",
+      "category": "Creative & Media",
+      "subcategory": "Visual Arts",
+      "icon_slug": "film",
+      "difficulty_level": "Advanced",
+      "time_to_job": "1-2 years",
+      "success_rate": "Moderate",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 5.0,
+        "salary_range": "\u20b92.5L/yr (Roto Artist) - \u20b920L/yr+ (VFX Supervisor)",
+        "top_hiring_companies": [
+          "Redchillies VFX",
+          "Prime Focus",
+          "Technicolor India",
+          "MPC",
+          "DNEG"
+        ],
+        "future_scope": [
+          "VFX Supervisor",
+          "Animation Director",
+          "Creative Director",
+          "Studio Head"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "3D Animator",
+          "avg_salary": "\u20b94-8L/yr"
+        },
+        {
+          "role": "Compositor",
+          "avg_salary": "\u20b95-10L/yr"
+        },
+        {
+          "role": "Roto Artist",
+          "avg_salary": "\u20b92-4L/yr"
+        }
+      ]
+    },
+    "source_file": "creative-media.json"
+  },
+  {
+    "roadmap_id": "actuary",
+    "meta": {
+      "title": "Actuary",
+      "description": "Analyze financial risk using mathematics, statistics, and financial theory.",
+      "category": "Finance & Commerce",
+      "subcategory": "Risk Management",
+      "icon_slug": "trending-up",
+      "difficulty_level": "Expert",
+      "time_to_job": "3-5 years",
+      "success_rate": "Low (< 2%)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 12.0,
+        "salary_range": "\u20b96L/yr (Student Actuary) - \u20b950L/yr+ (Fellow)",
+        "top_hiring_companies": [
+          "LIC",
+          "HDFC Life",
+          "Max Life",
+          "Aon",
+          "Willis Towers Watson"
+        ],
+        "future_scope": [
+          "Chief Actuary",
+          "Risk Officer",
+          "Data Scientist",
+          "Investment Banker"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Actuarial Analyst",
+          "avg_salary": "\u20b96-10L/yr"
+        },
+        {
+          "role": "Risk Manager",
+          "avg_salary": "\u20b910-18L/yr"
+        },
+        {
+          "role": "Underwriter",
+          "avg_salary": "\u20b95-9L/yr"
+        }
+      ]
+    },
+    "source_file": "finance-commerce.json"
+  },
+  {
+    "roadmap_id": "mba-business-management",
+    "meta": {
+      "title": "MBA / Business Management",
+      "description": "Manage business operations, strategy, marketing, and finance.",
+      "category": "Business & Entrepreneurship",
+      "subcategory": "Management",
+      "icon_slug": "briefcase",
+      "difficulty_level": "Advanced",
+      "time_to_job": "2 years (Post Grad)",
+      "success_rate": "High (Tier 1 Colleges)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 12.0,
+        "salary_range": "\u20b96L/yr (Tier 2/3) - \u20b930L/yr+ (IIMs)",
+        "top_hiring_companies": [
+          "McKinsey",
+          "BCG",
+          "HUL",
+          "Amazon",
+          "Goldman Sachs"
+        ],
+        "future_scope": [
+          "CEO / CXO",
+          "Entrepreneur",
+          "Management Consultant",
+          "Investment Banker"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Management Trainee",
+          "avg_salary": "\u20b910-20L/yr"
+        },
+        {
+          "role": "Marketing Manager",
+          "avg_salary": "\u20b912-18L/yr"
+        },
+        {
+          "role": "Consultant",
+          "avg_salary": "\u20b915-25L/yr"
+        }
+      ]
+    },
+    "source_file": "business-entrepreneurship.json"
+  },
+  {
+    "roadmap_id": "psychology-counseling",
+    "meta": {
+      "title": "Psychology & Counseling",
+      "description": "Study human behavior and mental processes to help individuals cope with challenges.",
+      "category": "Healthcare & Medical",
+      "subcategory": "Mental Health",
+      "icon_slug": "heart",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "5-7 years (Masters/M.Phil required)",
+      "success_rate": "Moderate",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 5.0,
+        "salary_range": "\u20b93L/yr (Counselor) - \u20b915L/yr+ (Clinical Psychologist)",
+        "top_hiring_companies": [
+          "Hospitals (Fortis, Apollo)",
+          "Schools & Universities",
+          "Corporate Wellness Programs",
+          "NGOs",
+          "Private Practice"
+        ],
+        "future_scope": [
+          "Clinical Psychologist",
+          "Industrial-Organizational Psychologist",
+          "Sports Psychologist",
+          "Neuropsychologist"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "School Counselor",
+          "avg_salary": "\u20b93-6L/yr"
+        },
+        {
+          "role": "Clinical Psychologist",
+          "avg_salary": "\u20b96-12L/yr"
+        },
+        {
+          "role": "Corporate Trainer",
+          "avg_salary": "\u20b95-10L/yr"
+        }
+      ]
+    },
+    "source_file": "healthcare-medical.json"
+  },
+  {
+    "roadmap_id": "social-work",
+    "meta": {
+      "title": "Social Work",
+      "description": "Work for the welfare of individuals, families, and communities.",
+      "category": "Humanities & Social Sciences",
+      "subcategory": "Social Services",
+      "icon_slug": "users",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "2-3 years (MSW preferred)",
+      "success_rate": "High (High Demand in NGOs)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b92.5L/yr (NGO Field Worker) - \u20b912L/yr+ (CSR Manager)",
+        "top_hiring_companies": [
+          "UNICEF",
+          "WHO",
+          "Tata Trusts",
+          "Reliance Foundation",
+          "Government Agencies"
+        ],
+        "future_scope": [
+          "CSR Head",
+          "Policy Analyst",
+          "International Aid Worker",
+          "Social Entrepreneur"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Social Worker",
+          "avg_salary": "\u20b93-5L/yr"
+        },
+        {
+          "role": "Project Coordinator",
+          "avg_salary": "\u20b94-7L/yr"
+        },
+        {
+          "role": "CSR Manager",
+          "avg_salary": "\u20b98-15L/yr"
+        }
+      ]
+    },
+    "source_file": "humanities-social-sciences.json"
+  },
+  {
+    "roadmap_id": "veterinary-science",
+    "meta": {
+      "title": "Veterinary Science",
+      "description": "Diagnose, treat, and research medical conditions in animals.",
+      "category": "Healthcare & Medical",
+      "subcategory": "Veterinary",
+      "icon_slug": "paw",
+      "difficulty_level": "Hard",
+      "time_to_job": "5.5 years (BVSc & AH)",
+      "success_rate": "Moderate",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 6.0,
+        "salary_range": "\u20b94L/yr (Entry) - \u20b915L/yr+ (Senior Surgeon/Private Practice)",
+        "top_hiring_companies": [
+          "Government Veterinary Hospitals",
+          "Private Clinics",
+          "Amul / Dairy Cooperatives",
+          "Zoological Parks",
+          "Pharmaceutical Companies"
+        ],
+        "future_scope": [
+          "Veterinary Surgeon",
+          "Wildlife Veterinarian",
+          "Animal Nutritionist",
+          "Research Scientist"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Veterinary Officer",
+          "avg_salary": "\u20b96-9L/yr"
+        },
+        {
+          "role": "Pet Practitioner",
+          "avg_salary": "\u20b95-12L/yr"
+        },
+        {
+          "role": "Animal Researcher",
+          "avg_salary": "\u20b96-10L/yr"
+        }
+      ]
+    },
+    "source_file": "healthcare-medical.json"
+  },
+  {
+    "roadmap_id": "skilled-trades-iti",
+    "meta": {
+      "title": "Skilled Trades (ITI)",
+      "description": "Technical roles in electrical, mechanical, plumbing, and manufacturing sectors.",
+      "category": "Skilled Trades & Vocational",
+      "subcategory": "Technical Trades",
+      "icon_slug": "tool",
+      "difficulty_level": "Easy",
+      "time_to_job": "1-2 years (ITI Course)",
+      "success_rate": "High (High Demand)",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 3.0,
+        "salary_range": "\u20b91.8L/yr (Apprentice) - \u20b96L/yr+ (Senior Technician/Contractor)",
+        "top_hiring_companies": [
+          "Indian Railways",
+          "BHEL / ONGC / NTPC",
+          "Tata Motors",
+          "L&T",
+          "Maruti Suzuki"
+        ],
+        "future_scope": [
+          "Senior Technician",
+          "Supervisor / Foreman",
+          "Independent Contractor",
+          "Instructor (CITS)"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Electrician",
+          "avg_salary": "\u20b92.5-5L/yr"
+        },
+        {
+          "role": "Fitter / Machinist",
+          "avg_salary": "\u20b92.5-4.5L/yr"
+        },
+        {
+          "role": "HVAC Technician",
+          "avg_salary": "\u20b93-6L/yr"
+        }
+      ]
+    },
+    "source_file": "skilled-trades-vocational.json"
+  },
+  {
+    "roadmap_id": "event-management",
+    "meta": {
+      "title": "Event Management",
+      "description": "Plan, organize, and execute professional and personal events.",
+      "category": "Hospitality & Tourism",
+      "subcategory": "Events",
+      "icon_slug": "calendar",
+      "difficulty_level": "Easy",
+      "time_to_job": "1-3 years (Diploma/Degree)",
+      "success_rate": "High (Creative Field)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b93L/yr (Coordinator) - \u20b910L/yr+ (Event Manager/Freelance)",
+        "top_hiring_companies": [
+          "Wizcraft",
+          "Percept",
+          "DNA Networks",
+          "Wedding Planning Agencies",
+          "Corporate Event Firms"
+        ],
+        "future_scope": [
+          "Event Director",
+          "Wedding Planner",
+          "Corporate Event Manager",
+          "Entrepreneur"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Event Coordinator",
+          "avg_salary": "\u20b93-5L/yr"
+        },
+        {
+          "role": "Wedding Planner",
+          "avg_salary": "\u20b94-8L/yr"
+        },
+        {
+          "role": "Logistics Manager",
+          "avg_salary": "\u20b94-7L/yr"
+        }
+      ]
+    },
+    "source_file": "hospitality-tourism.json"
+  },
+  {
+    "roadmap_id": "photography-videography",
+    "meta": {
+      "title": "Photography & Videography",
+      "description": "Capture and edit visual content for media, advertising, and art.",
+      "category": "Creative & Media",
+      "subcategory": "Visual Arts",
+      "icon_slug": "camera",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "6 months - 3 years (Portfolio based)",
+      "success_rate": "Moderate (Highly Competitive)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 4.0,
+        "salary_range": "\u20b92.5L/yr (Assistant) - \u20b912L/yr+ (Established Freelancer/Cinematographer)",
+        "top_hiring_companies": [
+          "Media Houses (Times, NDTV)",
+          "Advertising Agencies",
+          "E-commerce (Amazon, Flipkart)",
+          "Wedding Studios",
+          "Film Production Houses"
+        ],
+        "future_scope": [
+          "Cinematographer",
+          "Creative Director",
+          "Documentary Filmmaker",
+          "Studio Owner"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Photographer",
+          "avg_salary": "\u20b93-6L/yr"
+        },
+        {
+          "role": "Video Editor",
+          "avg_salary": "\u20b93-5L/yr"
+        },
+        {
+          "role": "Photojournalist",
+          "avg_salary": "\u20b94-7L/yr"
+        }
+      ]
+    },
+    "source_file": "creative-media.json"
+  },
+  {
+    "roadmap_id": "graphic-design",
+    "meta": {
+      "title": "Graphic Design",
+      "description": "Create visual concepts to communicate ideas that inspire, inform, and captivate consumers.",
+      "category": "Creative & Media",
+      "subcategory": "Design",
+      "icon_slug": "pen-tool",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "6 months - 4 years (Portfolio based)",
+      "success_rate": "High (High Demand)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b93L/yr (Junior Designer) - \u20b915L/yr+ (Art Director/UX Lead)",
+        "top_hiring_companies": [
+          "Advertising Agencies (Ogilvy, JWT)",
+          "Tech Companies (Google, Adobe)",
+          "Design Studios",
+          "Publishing Houses",
+          "Freelance Platforms"
+        ],
+        "future_scope": [
+          "Art Director",
+          "Creative Director",
+          "Brand Identity Specialist",
+          "UX/UI Designer"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Graphic Designer",
+          "avg_salary": "\u20b93-6L/yr"
+        },
+        {
+          "role": "Illustrator",
+          "avg_salary": "\u20b94-8L/yr"
+        },
+        {
+          "role": "Visual Designer",
+          "avg_salary": "\u20b95-10L/yr"
+        }
+      ]
+    },
+    "source_file": "creative-media.json"
+  },
+  {
+    "roadmap_id": "interior-design",
+    "meta": {
+      "title": "Interior Design",
+      "description": "Plan and design interior spaces for functionality, safety, and aesthetics.",
+      "category": "Design & Architecture",
+      "subcategory": "Spatial Design",
+      "icon_slug": "home",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3-4 years (Degree/Diploma)",
+      "success_rate": "Moderate (Portfolio based)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 5.0,
+        "salary_range": "\u20b93L/yr (Junior Designer) - \u20b912L/yr+ (Senior Designer/Firm Owner)",
+        "top_hiring_companies": [
+          "Architecture Firms",
+          "Real Estate Developers (DLF, Godrej)",
+          "Livspace",
+          "HomeLane",
+          "Design Studios"
+        ],
+        "future_scope": [
+          "Senior Interior Designer",
+          "Design Consultant",
+          "Set Designer",
+          "Furniture Designer"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Interior Designer",
+          "avg_salary": "\u20b93-6L/yr"
+        },
+        {
+          "role": "3D Visualizer",
+          "avg_salary": "\u20b93-5L/yr"
+        },
+        {
+          "role": "Project Manager",
+          "avg_salary": "\u20b95-8L/yr"
+        }
+      ]
+    },
+    "source_file": "design-architecture.json"
+  }
+]

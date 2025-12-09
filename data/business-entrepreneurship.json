@@ -1,0 +1,383 @@
+[
+  {
+    "roadmap_id": "digital-marketing",
+    "meta": {
+      "title": "Digital Marketing & E-commerce",
+      "description": "Tap into the digital economy through SEO, paid ads, and content strategies.",
+      "category": "Business & Entrepreneurship",
+      "icon_slug": "trending-up",
+      "difficulty_level": "Beginner to Intermediate",
+      "time_to_job": "0.5-1 year",
+      "market_stats": {
+        "average_salary_lpa": 8.0,
+        "salary_range": "\u20b93L - \u20b910L+",
+        "top_hiring_companies": [
+          "Flipkart",
+          "Amazon",
+          "Zomato",
+          "Media.net",
+          "HubSpot"
+        ],
+        "future_scope": [
+          "E-commerce Growth",
+          "Social Media Dominance",
+          "Data-Driven Marketing"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Digital Marketing Manager",
+          "avg_salary": "\u20b98L/yr"
+        },
+        {
+          "role": "Content Marketing Manager",
+          "avg_salary": "\u20b910.0L/yr"
+        },
+        {
+          "role": "SEO Specialist",
+          "avg_salary": "\u20b93L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Google Digital Garage",
+          "url": "https://learndigital.withgoogle.com/digitalgarage",
+          "type": "info",
+          "description": "Free digital marketing courses by Google"
+        },
+        {
+          "name": "HubSpot Academy",
+          "url": "https://academy.hubspot.com",
+          "type": "info",
+          "description": "Free inbound marketing certifications"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Google Skillshop",
+          "url": "https://skillshop.withgoogle.com",
+          "type": "free",
+          "platform": "Google",
+          "language": "English",
+          "description": "Google Ads and Analytics training"
+        },
+        {
+          "name": "SEMrush Academy",
+          "url": "https://www.semrush.com/academy",
+          "type": "free",
+          "platform": "SEMrush",
+          "language": "English",
+          "description": "SEO and content marketing courses"
+        },
+        {
+          "name": "Meta Blueprint",
+          "url": "https://www.facebook.com/business/learn",
+          "type": "free",
+          "platform": "Meta",
+          "language": "English",
+          "description": "Facebook and Instagram advertising"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "Google Analytics",
+          "url": "https://analytics.google.com",
+          "description": "Website analytics and tracking"
+        },
+        {
+          "name": "Canva",
+          "url": "https://www.canva.com",
+          "description": "Design tool for social media graphics"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "Neil Patel",
+          "url": "https://www.youtube.com/@NeilPatel",
+          "description": "SEO and digital marketing strategies"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/digital_marketing",
+          "url": "https://www.reddit.com/r/digital_marketing",
+          "type": "forum",
+          "description": "Digital marketing discussions"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Any Degree",
+          "subtitle": "BBA / B.Com / Mass Media helpful",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "skill",
+          "label": "Core Skills",
+          "subtitle": "SEO, SEM, Google Analytics, Social Media",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "license",
+          "label": "Certifications",
+          "subtitle": "Google Ads, HubSpot, Facebook Blueprint",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Internship",
+          "subtitle": "Agency or Startup Experience",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Digital Marketer",
+          "subtitle": "Agency or In-house Brand",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "mba-business-management",
+    "meta": {
+      "title": "MBA / Business Management",
+      "description": "Manage business operations, strategy, marketing, and finance.",
+      "category": "Business & Entrepreneurship",
+      "subcategory": "Management",
+      "icon_slug": "briefcase",
+      "difficulty_level": "Advanced",
+      "time_to_job": "2 years (Post Grad)",
+      "success_rate": "High (Tier 1 Colleges)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 12.0,
+        "salary_range": "\u20b96L/yr (Tier 2/3) - \u20b930L/yr+ (IIMs)",
+        "top_hiring_companies": [
+          "McKinsey",
+          "BCG",
+          "HUL",
+          "Amazon",
+          "Goldman Sachs"
+        ],
+        "future_scope": [
+          "CEO / CXO",
+          "Entrepreneur",
+          "Management Consultant",
+          "Investment Banker"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Management Trainee",
+          "avg_salary": "\u20b910-20L/yr"
+        },
+        {
+          "role": "Marketing Manager",
+          "avg_salary": "\u20b912-18L/yr"
+        },
+        {
+          "role": "Consultant",
+          "avg_salary": "\u20b915-25L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "IIM CAT",
+          "url": "https://iimcat.ac.in",
+          "type": "exam",
+          "description": "Common Admission Test"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "TIME / CL / IMS",
+          "url": "https://www.time4education.com",
+          "type": "paid",
+          "platform": "Coaching",
+          "language": "English",
+          "description": "CAT preparation institutes"
+        },
+        {
+          "name": "2IIM",
+          "url": "https://online.2iim.com",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Online CAT coaching"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Pagalguy",
+          "url": "https://www.pagalguy.com/cat",
+          "type": "forum",
+          "description": "MBA aspirant community"
+        },
+        {
+          "name": "r/CATpreparation",
+          "url": "https://www.reddit.com/r/CATpreparation",
+          "type": "forum",
+          "description": "Reddit community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "CAT",
+          "conducting_body": "IIMs",
+          "registration_url": "https://iimcat.ac.in",
+          "exam_pattern": "VARC, DILR, QA (2 Hours)",
+          "frequency": "Annual (Nov)",
+          "eligibility": "Graduation (50%)",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "99%ile+ for BLACKI IIMs"
+        },
+        {
+          "name": "XAT",
+          "conducting_body": "XLRI",
+          "registration_url": "https://xatonline.in",
+          "exam_pattern": "Decision Making, Verbal, Quant, GK",
+          "frequency": "Annual (Jan)",
+          "eligibility": "Graduation",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "95%ile+ for XLRI"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Graduation",
+          "subtitle": "Any Stream (Engg/Com/Arts)",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "Entrance Exams",
+          "subtitle": "CAT / XAT / GMAT",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "MBA / PGDM",
+          "subtitle": "2 Years Residential Program",
+          "duration": "2 years",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "education",
+          "label": "Summer Internship",
+          "subtitle": "2 Months (After 1st Year)",
+          "duration": "2 months",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Campus Placement",
+          "subtitle": "Final Placements",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Management Trainee",
+          "subtitle": "Entry Level Manager",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Senior Manager",
+          "subtitle": "Mid-Senior Role",
+          "layer": 6
+        },
+        {
+          "id": "8",
+          "type": "job",
+          "label": "CXO / Partner",
+          "subtitle": "Executive Leadership",
+          "layer": 7
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        },
+        {
+          "id": "e7",
+          "source": "7",
+          "target": "8"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,1114 @@
+[
+  {
+    "roadmap_id": "banking-finance",
+    "meta": {
+      "title": "Banking & Finance",
+      "description": "Manage financial operations, loans, and customer services in banks.",
+      "category": "Finance & Commerce",
+      "icon_slug": "dollar-sign",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3-4 years",
+      "market_stats": {
+        "average_salary_lpa": 6.5,
+        "salary_range": "\u20b93L - \u20b915L+",
+        "top_hiring_companies": [
+          "SBI",
+          "HDFC Bank",
+          "ICICI Bank",
+          "Axis Bank",
+          "RBI"
+        ],
+        "future_scope": [
+          "Digital banking growth",
+          "Fintech integration",
+          "Investment advisory",
+          "Financial inclusion initiatives"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Bank PO",
+          "avg_salary": "\u20b97L/yr"
+        },
+        {
+          "role": "Bank Clerk",
+          "avg_salary": "\u20b93L/yr"
+        },
+        {
+          "role": "Relationship Manager",
+          "avg_salary": "\u20b96L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "IBPS Official Website",
+          "url": "https://ibps.in",
+          "type": "exam",
+          "description": "Institute of Banking Personnel Selection"
+        },
+        {
+          "name": "SBI Careers",
+          "url": "https://sbi.co.in/careers",
+          "type": "exam",
+          "description": "State Bank of India recruitment portal"
+        },
+        {
+          "name": "RBI Recruitment",
+          "url": "https://opportunities.rbi.org.in",
+          "type": "exam",
+          "description": "Reserve Bank of India careers"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Oliveboard Banking",
+          "url": "https://www.oliveboard.in/bank-exams",
+          "type": "freemium",
+          "platform": "Oliveboard",
+          "language": "English",
+          "description": "IBPS PO/Clerk preparation with mock tests"
+        },
+        {
+          "name": "Gradeup Banking",
+          "url": "https://gradeup.co/bank-exams",
+          "type": "freemium",
+          "platform": "Gradeup",
+          "language": "Both",
+          "description": "Banking exam courses and practice tests"
+        },
+        {
+          "name": "Adda247 Banking",
+          "url": "https://www.adda247.com/bank-jobs",
+          "type": "freemium",
+          "platform": "Adda247",
+          "language": "Both",
+          "description": "Complete banking exam preparation"
+        }
+      ],
+      "communities": [
+        {
+          "name": "BankExamsToday Forum",
+          "url": "https://www.bankexamstoday.com",
+          "type": "forum",
+          "description": "Banking exam preparation community"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Bachelor's Degree",
+          "subtitle": "Any discipline (60%+ marks)",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "IBPS / SBI Exams",
+          "subtitle": "PO, Clerk, or SO exams",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "skill",
+          "label": "Banking Knowledge",
+          "subtitle": "Financial literacy, computer skills",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Probation Period",
+          "subtitle": "On-job training (6-12 months)",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Bank Officer / Clerk",
+          "subtitle": "Branch or Regional Office",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "chartered-accountant",
+    "meta": {
+      "title": "Chartered Accountancy (CA)",
+      "description": "Expert financial advisors managing audits, taxation, and corporate finance.",
+      "category": "Finance & Commerce",
+      "subcategory": "Professional Accounting",
+      "icon_slug": "calculator",
+      "difficulty_level": "Expert",
+      "time_to_job": "4.5-5 years",
+      "success_rate": "Low (~5-10% complete all three levels)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 8.0,
+        "salary_range": "\u20b96L - \u20b925L+",
+        "demand_trend": "Growing",
+        "top_hiring_companies": [
+          "Big 4 (Deloitte, PwC, EY, KPMG)",
+          "Corporate Finance Teams",
+          "Private Practice",
+          "Investment Banks",
+          "Consulting Firms"
+        ],
+        "future_scope": [
+          "GST & tax advisory",
+          "Corporate restructuring",
+          "International opportunities",
+          "High-value consulting"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Chartered Accountant",
+          "avg_salary": "\u20b98L - \u20b915L/yr"
+        },
+        {
+          "role": "Tax Consultant",
+          "avg_salary": "\u20b97L/yr"
+        },
+        {
+          "role": "Financial Analyst",
+          "avg_salary": "\u20b96L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "ICAI Official Website",
+          "url": "https://www.icai.org",
+          "type": "info",
+          "description": "Institute of Chartered Accountants of India"
+        },
+        {
+          "name": "ICAI Exam Portal",
+          "url": "https://eservices.icai.org",
+          "type": "registration",
+          "description": "CA exam registration and results"
+        },
+        {
+          "name": "CA Foundation/Inter/Final Syllabus",
+          "url": "https://www.icai.org/post/syllabus",
+          "type": "syllabus",
+          "description": "Detailed syllabus for all three levels"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Unacademy CA",
+          "url": "https://unacademy.com/goal/ca-foundation",
+          "type": "freemium",
+          "platform": "Unacademy",
+          "language": "Both",
+          "description": "CA Foundation, Intermediate, Final courses"
+        },
+        {
+          "name": "CAclubindia",
+          "url": "https://www.caclubindia.com",
+          "type": "free",
+          "platform": "CAclubindia",
+          "language": "English",
+          "description": "Free study materials, notes, and forums"
+        },
+        {
+          "name": "ICAI Study Materials (Free)",
+          "url": "https://www.icai.org/post/study-material",
+          "type": "free",
+          "platform": "ICAI",
+          "language": "English",
+          "description": "Official ICAI study materials"
+        }
+      ],
+      "books": [
+        {
+          "title": "ICAI Study Material",
+          "type": "textbook",
+          "author": "ICAI",
+          "publisher": "ICAI"
+        },
+        {
+          "title": "Padhuka's CA Books",
+          "author": "G. Sekar, B. Saravana Prasath",
+          "type": "reference",
+          "publisher": "Wolters Kluwer"
+        },
+        {
+          "title": "Scanner (Suggested Answers)",
+          "type": "previous_papers",
+          "publisher": "Shuchita Prakashan"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/CharteredAccountants",
+          "url": "https://www.reddit.com/r/CharteredAccountants/",
+          "platform": "Reddit",
+          "members": "15K+",
+          "description": "CA students and professionals community"
+        },
+        {
+          "name": "CA Students Hub",
+          "url": "https://t.me/castudentshub",
+          "platform": "Telegram",
+          "description": "Study materials and exam updates"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "CA Parag Gupta",
+          "url": "https://www.youtube.com/@CAParagGupta",
+          "language": "Hindi",
+          "subscribers": "1M+",
+          "focus": "CA Foundation, Inter, Final"
+        },
+        {
+          "name": "Swapnil Patni Classes",
+          "url": "https://www.youtube.com/@SwapnilPatniClasses",
+          "language": "English",
+          "subscribers": "500K+",
+          "focus": "CA Law and Taxation"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "CA Foundation",
+          "conducting_body": "ICAI",
+          "registration_url": "https://eservices.icai.org",
+          "exam_pattern": "4 Papers (100 marks each): Accounting, Law, Maths/Stats, Economics",
+          "frequency": "Biannual",
+          "typical_dates": "May & November",
+          "eligibility": "Class 12 (Any stream), Can register after 10th",
+          "attempts_allowed": "Unlimited",
+          "exam_fee": "\u20b91500 (all 4 papers)",
+          "negative_marking": false,
+          "cutoff_trends": "40% in each paper, 50% aggregate"
+        },
+        {
+          "name": "CA Intermediate",
+          "conducting_body": "ICAI",
+          "exam_pattern": "8 Papers in 2 Groups (Group 1: 4 papers, Group 2: 4 papers)",
+          "frequency": "Biannual",
+          "typical_dates": "May & November",
+          "eligibility": "Pass CA Foundation",
+          "attempts_allowed": "Unlimited",
+          "exam_fee": "\u20b91800 per group",
+          "cutoff_trends": "40% each paper, 50% aggregate per group"
+        },
+        {
+          "name": "CA Final",
+          "conducting_body": "ICAI",
+          "exam_pattern": "8 Papers in 2 Groups (100 marks each)",
+          "frequency": "Biannual",
+          "typical_dates": "May & November",
+          "eligibility": "Pass CA Inter + 3 years Articleship (2.5 years to appear)",
+          "attempts_allowed": "Unlimited",
+          "exam_fee": "\u20b91800 per group",
+          "cutoff_trends": "40% each paper, 50% aggregate per group"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (Commerce)",
+          "subtitle": "Or after Graduation",
+          "duration": "2 years",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "CA Foundation",
+          "subtitle": "Entry-level exam (4 papers)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "CA Intermediate",
+          "subtitle": "Both groups (8 papers)",
+          "duration": "8 months study",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Articleship",
+          "subtitle": "3 years practical training",
+          "duration": "3 years",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "exam",
+          "label": "CA Final",
+          "subtitle": "Both groups (8 papers)",
+          "layer": 4
+        },
+        {
+          "id": "6a",
+          "type": "job",
+          "label": "Private Practice",
+          "subtitle": "Audit, Tax, Consulting",
+          "layer": 5
+        },
+        {
+          "id": "6b",
+          "type": "job",
+          "label": "Corporate CA",
+          "subtitle": "Big 4, MNCs, Finance Teams",
+          "layer": 5
+        },
+        {
+          "id": "7a",
+          "type": "job",
+          "label": "Senior Partner",
+          "subtitle": "Own CA firm",
+          "optional": true,
+          "layer": 6
+        },
+        {
+          "id": "7b",
+          "type": "job",
+          "label": "CFO / Finance Head",
+          "subtitle": "Corporate leadership",
+          "optional": true,
+          "layer": 6
+        },
+        {
+          "id": "7c",
+          "type": "job",
+          "label": "Investment Banking",
+          "subtitle": "M&A / Valuations",
+          "optional": true,
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5a",
+          "source": "5",
+          "target": "6a",
+          "label": "Practice",
+          "type": "alternative"
+        },
+        {
+          "id": "e5b",
+          "source": "5",
+          "target": "6b",
+          "label": "Corporate",
+          "type": "alternative"
+        },
+        {
+          "id": "e6a",
+          "source": "6a",
+          "target": "7a",
+          "label": "Growth",
+          "type": "optional"
+        },
+        {
+          "id": "e6b",
+          "source": "6b",
+          "target": "7b",
+          "label": "Leadership",
+          "type": "optional"
+        },
+        {
+          "id": "e6c",
+          "source": "6b",
+          "target": "7c",
+          "label": "Pivot",
+          "type": "optional"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "company-secretary",
+    "meta": {
+      "title": "Company Secretary (CS)",
+      "description": "Ensure corporate governance and legal compliance for companies.",
+      "category": "Finance & Commerce",
+      "subcategory": "Corporate Law",
+      "icon_slug": "briefcase",
+      "difficulty_level": "Expert",
+      "time_to_job": "3-4 years",
+      "success_rate": "Low (< 5%)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 7.0,
+        "salary_range": "\u20b930k/mo (Trainee) - \u20b92L/mo+ (Senior CS)",
+        "top_hiring_companies": [
+          "Reliance Industries",
+          "Tata Group",
+          "HDFC Bank",
+          "Law Firms",
+          "Consulting Firms (Big 4)"
+        ],
+        "future_scope": [
+          "Chief Governance Officer",
+          "Legal Advisor",
+          "Insolvency Professional",
+          "Independent Director"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Company Secretary",
+          "avg_salary": "\u20b96-12L/yr"
+        },
+        {
+          "role": "Compliance Officer",
+          "avg_salary": "\u20b95-10L/yr"
+        },
+        {
+          "role": "Legal Consultant",
+          "avg_salary": "\u20b98-15L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "ICSI",
+          "url": "https://www.icsi.edu",
+          "type": "info",
+          "description": "Institute of Company Secretaries of India"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "ICSI E-Learning",
+          "url": "https://www.icsi.edu/student/e-learning",
+          "type": "free",
+          "platform": "Web",
+          "language": "English",
+          "description": "Official study material"
+        },
+        {
+          "name": "CS Cart India",
+          "url": "https://cscartindia.com",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Video lectures and notes"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/CompanySecretary",
+          "url": "https://www.reddit.com/r/CompanySecretary",
+          "type": "forum",
+          "description": "CS student community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "CSEET (Entrance)",
+          "conducting_body": "ICSI",
+          "registration_url": "https://www.icsi.edu",
+          "exam_pattern": "MCQ (Business Comm, Legal Aptitude, Eco, Current Affairs)",
+          "frequency": "4 times a year (Jan, May, July, Nov)",
+          "eligibility": "Class 12 Pass/Appearing",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "50% Aggregate"
+        },
+        {
+          "name": "CS Executive",
+          "conducting_body": "ICSI",
+          "registration_url": "https://www.icsi.edu",
+          "exam_pattern": "7 Papers (2 Modules)",
+          "frequency": "Biannual (June & Dec)",
+          "eligibility": "CSEET Pass / Graduation",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "40% per paper, 50% aggregate"
+        },
+        {
+          "name": "CS Professional",
+          "conducting_body": "ICSI",
+          "registration_url": "https://www.icsi.edu",
+          "exam_pattern": "7 Papers (2 Modules)",
+          "frequency": "Biannual (June & Dec)",
+          "eligibility": "CS Executive Pass",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "40% per paper, 50% aggregate"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 / Graduation",
+          "subtitle": "Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "CSEET",
+          "subtitle": "Entrance Test (Exempt for Grads)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "CS Executive",
+          "subtitle": "Intermediate Level (2 Modules)",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "education",
+          "label": "Training",
+          "subtitle": "21 Months Practical Training",
+          "duration": "21 months",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "exam",
+          "label": "CS Professional",
+          "subtitle": "Final Level (2 Modules)",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "ICSI Membership",
+          "subtitle": "Become ACS (Associate CS)",
+          "layer": 5
+        },
+        {
+          "id": "7a",
+          "type": "job",
+          "label": "Corporate Job",
+          "subtitle": "Employment in Company",
+          "layer": 6
+        },
+        {
+          "id": "7b",
+          "type": "job",
+          "label": "Practice",
+          "subtitle": "Independent PCS",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        },
+        {
+          "id": "e6a",
+          "source": "6",
+          "target": "7a",
+          "label": "Employment"
+        },
+        {
+          "id": "e6b",
+          "source": "6",
+          "target": "7b",
+          "label": "Practice"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "cma",
+    "meta": {
+      "title": "Cost & Management Accountant (CMA)",
+      "description": "Expert in cost management, budgeting, and financial strategy.",
+      "category": "Finance & Commerce",
+      "subcategory": "Accounting",
+      "icon_slug": "pie-chart",
+      "difficulty_level": "Expert",
+      "time_to_job": "3-4 years",
+      "success_rate": "Low (< 10%)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 8.0,
+        "salary_range": "\u20b940k/mo (Trainee) - \u20b92.5L/mo+ (CFO)",
+        "top_hiring_companies": [
+          "PSUs (ONGC, GAIL, BHEL)",
+          "Manufacturing Companies",
+          "MNCs",
+          "Consulting Firms",
+          "Banks"
+        ],
+        "future_scope": [
+          "Chief Financial Officer (CFO)",
+          "Cost Auditor",
+          "Financial Analyst",
+          "Strategic Planner"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Cost Accountant",
+          "avg_salary": "\u20b96-10L/yr"
+        },
+        {
+          "role": "Finance Manager",
+          "avg_salary": "\u20b910-18L/yr"
+        },
+        {
+          "role": "Internal Auditor",
+          "avg_salary": "\u20b97-12L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "ICMAI",
+          "url": "https://icmai.in",
+          "type": "info",
+          "description": "Institute of Cost Accountants of India"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "ICMAI Knowledge Bank",
+          "url": "https://icmai.in/studentswebsite/Student-E-Services.php",
+          "type": "free",
+          "platform": "Web",
+          "language": "English",
+          "description": "Official study material"
+        },
+        {
+          "name": "CMA Junction",
+          "url": "https://www.youtube.com/@CMAJunction",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "Hindi/English",
+          "description": "CMA guidance and lectures"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/CMA",
+          "url": "https://www.reddit.com/r/CMA",
+          "type": "forum",
+          "description": "CMA student community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "CMA Foundation",
+          "conducting_body": "ICMAI",
+          "registration_url": "https://icmai.in",
+          "exam_pattern": "4 Papers (MCQ)",
+          "frequency": "Biannual (June & Dec)",
+          "eligibility": "Class 12 Pass/Appearing",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "40% per paper, 50% aggregate"
+        },
+        {
+          "name": "CMA Intermediate",
+          "conducting_body": "ICMAI",
+          "registration_url": "https://icmai.in",
+          "exam_pattern": "8 Papers (2 Groups)",
+          "frequency": "Biannual (June & Dec)",
+          "eligibility": "Foundation Pass / Graduation",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "40% per paper, 50% aggregate"
+        },
+        {
+          "name": "CMA Final",
+          "conducting_body": "ICMAI",
+          "registration_url": "https://icmai.in",
+          "exam_pattern": "8 Papers (2 Groups)",
+          "frequency": "Biannual (June & Dec)",
+          "eligibility": "Intermediate Pass",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "40% per paper, 50% aggregate"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 / Graduation",
+          "subtitle": "Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "CMA Foundation",
+          "subtitle": "Entrance Test (Exempt for Grads)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "CMA Intermediate",
+          "subtitle": "Level 2 (2 Groups)",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "education",
+          "label": "Practical Training",
+          "subtitle": "15 Months Training",
+          "duration": "15 months",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "exam",
+          "label": "CMA Final",
+          "subtitle": "Level 3 (2 Groups)",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "ICMAI Membership",
+          "subtitle": "Become ACMA",
+          "layer": 5
+        },
+        {
+          "id": "7a",
+          "type": "job",
+          "label": "Corporate Job",
+          "subtitle": "Cost Auditor / Analyst",
+          "layer": 6
+        },
+        {
+          "id": "7b",
+          "type": "job",
+          "label": "Practice",
+          "subtitle": "Independent Cost Accountant",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        },
+        {
+          "id": "e6a",
+          "source": "6",
+          "target": "7a",
+          "label": "Employment"
+        },
+        {
+          "id": "e6b",
+          "source": "6",
+          "target": "7b",
+          "label": "Practice"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "actuary",
+    "meta": {
+      "title": "Actuary",
+      "description": "Analyze financial risk using mathematics, statistics, and financial theory.",
+      "category": "Finance & Commerce",
+      "subcategory": "Risk Management",
+      "icon_slug": "trending-up",
+      "difficulty_level": "Expert",
+      "time_to_job": "3-5 years",
+      "success_rate": "Low (< 2%)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 12.0,
+        "salary_range": "\u20b96L/yr (Student Actuary) - \u20b950L/yr+ (Fellow)",
+        "top_hiring_companies": [
+          "LIC",
+          "HDFC Life",
+          "Max Life",
+          "Aon",
+          "Willis Towers Watson"
+        ],
+        "future_scope": [
+          "Chief Actuary",
+          "Risk Officer",
+          "Data Scientist",
+          "Investment Banker"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Actuarial Analyst",
+          "avg_salary": "\u20b96-10L/yr"
+        },
+        {
+          "role": "Risk Manager",
+          "avg_salary": "\u20b910-18L/yr"
+        },
+        {
+          "role": "Underwriter",
+          "avg_salary": "\u20b95-9L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "IAI",
+          "url": "https://www.actuariesindia.org",
+          "type": "info",
+          "description": "Institute of Actuaries of India"
+        },
+        {
+          "name": "IFoA",
+          "url": "https://www.actuaries.org.uk",
+          "type": "info",
+          "description": "UK Institute (Recognized in India)"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Actuarial Science YouTube",
+          "url": "https://www.youtube.com/results?search_query=actuarial+science",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "English",
+          "description": "Concept videos"
+        },
+        {
+          "name": "Coaching Actuaries",
+          "url": "https://www.coachingactuaries.com",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Exam prep platform"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/actuary",
+          "url": "https://www.reddit.com/r/actuary",
+          "type": "forum",
+          "description": "Global actuarial community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "ACET (Entrance)",
+          "conducting_body": "IAI",
+          "registration_url": "https://www.actuariesindia.org",
+          "exam_pattern": "Maths, Stats, Data Interpretation, English",
+          "frequency": "Biannual",
+          "eligibility": "Class 12 Pass (Maths)",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "50% Aggregate"
+        },
+        {
+          "name": "Core Principles (CS/CM/CB)",
+          "conducting_body": "IAI / IFoA",
+          "registration_url": "https://www.actuariesindia.org",
+          "exam_pattern": "7 Papers",
+          "frequency": "Biannual",
+          "eligibility": "ACET Pass",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Pass mark usually 50%"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Maths / Statistics",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "ACET",
+          "subtitle": "Entrance Exam",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "Student Member",
+          "subtitle": "Start Clearing Papers",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "job",
+          "label": "Actuarial Analyst",
+          "subtitle": "Entry Level Job (2-3 Papers Cleared)",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "exam",
+          "label": "Associate (AIAI)",
+          "subtitle": "Clear Core Papers",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "exam",
+          "label": "Fellow (FIAI)",
+          "subtitle": "Clear Specialist Papers",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Appointed Actuary",
+          "subtitle": "Senior Role",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4",
+          "label": "Get Job"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5",
+          "label": "Study with Job"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,331 @@
+[
+  {
+    "roadmap_id": "lawyer-legal",
+    "meta": {
+      "title": "Law & Legal Services",
+      "description": "Advocate for justice in courts, corporate legal teams, or as consultants.",
+      "category": "Legal & Governance",
+      "subcategory": "Legal Practice",
+      "icon_slug": "scale",
+      "difficulty_level": "Advanced",
+      "time_to_job": "5-6 years (BA LLB) or 3-4 years (LLB after graduation)",
+      "success_rate": "Moderate (CLAT clears ~30%, good job prospects)",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 6.0,
+        "salary_range": "\u20b93L - \u20b920L+",
+        "demand_trend": "Stable",
+        "top_hiring_companies": [
+          "Law Firms (AZB, Khaitan)",
+          "Corporate Legal Departments",
+          "Courts (Private Practice)",
+          "Legal Process Outsourcing",
+          "NGOs & Public Interest"
+        ],
+        "future_scope": [
+          "Corporate law demand",
+          "Cyber law specialization",
+          "International arbitration",
+          "Legal tech integration"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Lawyer (Private Practice)",
+          "avg_salary": "\u20b93L - \u20b915L/yr"
+        },
+        {
+          "role": "Corporate Lawyer",
+          "avg_salary": "\u20b98L - \u20b920L/yr"
+        },
+        {
+          "role": "Legal Advisor",
+          "avg_salary": "\u20b96L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "CLAT Official Website",
+          "url": "https://consortiumofnlus.ac.in",
+          "type": "exam",
+          "description": "Common Law Admission Test portal"
+        },
+        {
+          "name": "Bar Council of India",
+          "url": "https://www.barcouncilofindia.org",
+          "type": "info",
+          "description": "Regulatory body for legal education and practice"
+        },
+        {
+          "name": "AIBE (All India Bar Examination)",
+          "url": "https://allindiabarexamination.com",
+          "type": "exam",
+          "description": "Mandatory exam to practice law in India"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "LawSikho",
+          "url": "https://lawsikho.com",
+          "type": "paid",
+          "platform": "LawSikho",
+          "language": "English",
+          "description": "Online law courses and certifications"
+        },
+        {
+          "name": "CLATapult",
+          "url": "https://www.clatapult.com",
+          "type": "freemium",
+          "platform": "CLATapult",
+          "language": "English",
+          "description": "CLAT preparation platform"
+        },
+        {
+          "name": "Legal Service India",
+          "url": "http://www.legalserviceindia.com",
+          "type": "free",
+          "platform": "Website",
+          "language": "English",
+          "description": "Free legal articles and resources"
+        }
+      ],
+      "books": [
+        {
+          "title": "Legal Aptitude for CLAT",
+          "author": "A.P. Bhardwaj",
+          "type": "reference",
+          "publisher": "Universal"
+        },
+        {
+          "title": "Bare Acts (IPC, CrPC, CPC, etc.)",
+          "type": "textbook",
+          "publisher": "Universal / EBC"
+        },
+        {
+          "title": "Legal Reasoning for CLAT",
+          "author": "R.S. Aggarwal",
+          "type": "reference",
+          "publisher": "S. Chand"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/LawSchool (India)",
+          "url": "https://www.reddit.com/r/LawSchool/",
+          "platform": "Reddit",
+          "members": "200K+",
+          "description": "Law students community"
+        },
+        {
+          "name": "CLAT Aspirants",
+          "url": "https://t.me/clataspirants",
+          "platform": "Telegram",
+          "description": "CLAT preparation group"
+        },
+        {
+          "name": "iPleaders",
+          "url": "https://blog.ipleaders.in",
+          "platform": "Website",
+          "description": "Legal knowledge platform"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "LegalEdge Tutorial",
+          "url": "https://www.youtube.com/@LegalEdgeTutorials",
+          "language": "English",
+          "subscribers": "300K+",
+          "focus": "Law subjects and CLAT prep"
+        },
+        {
+          "name": "Law With Twins",
+          "url": "https://www.youtube.com/@LawWithTwins",
+          "language": "English",
+          "subscribers": "200K+",
+          "focus": "Legal concepts simplified"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "CLAT (Common Law Admission Test)",
+          "conducting_body": "Consortium of National Law Universities",
+          "registration_url": "https://consortiumofnlus.ac.in",
+          "exam_pattern": "Single paper: English (28Q), Current Affairs (35Q), Legal Reasoning (35Q), Logical Reasoning (28Q), Quantitative (13Q) - 150 MCQs",
+          "frequency": "Annual",
+          "typical_dates": "Second Sunday of May",
+          "eligibility": "Class 12 (45% for General, 40% SC/ST), Age: Under 20 (UG) / Under 22 (PG)",
+          "attempts_allowed": "Unlimited (within age limit)",
+          "syllabus_url": "https://consortiumofnlus.ac.in/clat-2025.html",
+          "previous_papers_url": "https://consortiumofnlus.ac.in/previous-papers.html",
+          "cutoff_trends": "Varies by NLU: NLSIU ~110/150, NALSAR ~105, others 90-105",
+          "exam_fee": "\u20b94000 (General), \u20b93500 (SC/ST/BPL)",
+          "negative_marking": true,
+          "total_seats": "~2500 across 22 NLUs"
+        },
+        {
+          "name": "AIBE (All India Bar Examination)",
+          "conducting_body": "Bar Council of India",
+          "exam_pattern": "100 MCQs covering various law subjects",
+          "frequency": "Biannual",
+          "eligibility": "LLB degree from recognized university",
+          "attempts_allowed": "Unlimited",
+          "exam_fee": "\u20b93500 (General), \u20b92750 (SC/ST)",
+          "cutoff_trends": "40% to qualify (40/100)"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any stream",
+          "duration": "2 years",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "CLAT / Law Entrance",
+          "subtitle": "For BA LLB (5 yr) or LLB (3 yr)",
+          "layer": 1
+        },
+        {
+          "id": "3a",
+          "type": "degree",
+          "label": "BA LLB (Integrated)",
+          "subtitle": "5-year integrated program",
+          "duration": "5 years",
+          "layer": 2
+        },
+        {
+          "id": "3b",
+          "type": "degree",
+          "label": "LLB (3-year)",
+          "subtitle": "After graduation",
+          "duration": "3 years",
+          "optional": true,
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "license",
+          "label": "Bar Council Enrollment",
+          "subtitle": "All India Bar Examination (AIBE)",
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "work",
+          "label": "Junior Associate",
+          "subtitle": "Law firm internship",
+          "duration": "1-2 years",
+          "layer": 4
+        },
+        {
+          "id": "5b",
+          "type": "work",
+          "label": "Court Practice",
+          "subtitle": "Under senior advocate",
+          "duration": "2-3 years",
+          "layer": 4
+        },
+        {
+          "id": "6a",
+          "type": "job",
+          "label": "Corporate Lawyer",
+          "subtitle": "Law firms / In-house legal",
+          "layer": 5
+        },
+        {
+          "id": "6b",
+          "type": "job",
+          "label": "Litigation Lawyer",
+          "subtitle": "Courts (Civil/Criminal)",
+          "layer": 5
+        },
+        {
+          "id": "6c",
+          "type": "job",
+          "label": "Legal Consultant",
+          "subtitle": "Compliance / Advisory",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2a",
+          "source": "2",
+          "target": "3a",
+          "label": "5-year",
+          "type": "default"
+        },
+        {
+          "id": "e2b",
+          "source": "2",
+          "target": "3b",
+          "label": "3-year",
+          "type": "alternative"
+        },
+        {
+          "id": "e3a",
+          "source": "3a",
+          "target": "4"
+        },
+        {
+          "id": "e3b",
+          "source": "3b",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "5a",
+          "label": "Corporate Path",
+          "type": "alternative"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "5b",
+          "label": "Litigation Path",
+          "type": "alternative"
+        },
+        {
+          "id": "e5a",
+          "source": "5a",
+          "target": "6a"
+        },
+        {
+          "id": "e5b",
+          "source": "5a",
+          "target": "6c",
+          "label": "Specialize",
+          "type": "optional"
+        },
+        {
+          "id": "e5c",
+          "source": "5b",
+          "target": "6b"
+        },
+        {
+          "id": "e5d",
+          "source": "5b",
+          "target": "6c",
+          "label": "Pivot",
+          "type": "optional"
+        }
+      ]
+    }
+  }
+]

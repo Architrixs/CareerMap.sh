@@ -1,0 +1,84 @@
+{
+  "categories": [
+    {
+      "id": "technology-it",
+      "name": "Technology & IT",
+      "count": 9
+    },
+    {
+      "id": "essential-services",
+      "name": "Essential Services",
+      "count": 1
+    },
+    {
+      "id": "government-public-service",
+      "name": "Government & Public Service",
+      "count": 4
+    },
+    {
+      "id": "education-research",
+      "name": "Education & Research",
+      "count": 1
+    },
+    {
+      "id": "agriculture-allied",
+      "name": "Agriculture & Allied",
+      "count": 1
+    },
+    {
+      "id": "finance-commerce",
+      "name": "Finance & Commerce",
+      "count": 5
+    },
+    {
+      "id": "legal-governance",
+      "name": "Legal & Governance",
+      "count": 1
+    },
+    {
+      "id": "design-architecture",
+      "name": "Design & Architecture",
+      "count": 3
+    },
+    {
+      "id": "business-entrepreneurship",
+      "name": "Business & Entrepreneurship",
+      "count": 2
+    },
+    {
+      "id": "creative-media",
+      "name": "Creative & Media",
+      "count": 5
+    },
+    {
+      "id": "engineering",
+      "name": "Engineering",
+      "count": 4
+    },
+    {
+      "id": "healthcare-medical",
+      "name": "Healthcare & Medical",
+      "count": 9
+    },
+    {
+      "id": "hospitality-tourism",
+      "name": "Hospitality & Tourism",
+      "count": 3
+    },
+    {
+      "id": "defense-specialized-services",
+      "name": "Defense & Specialized Services",
+      "count": 4
+    },
+    {
+      "id": "humanities-social-sciences",
+      "name": "Humanities & Social Sciences",
+      "count": 1
+    },
+    {
+      "id": "skilled-trades-vocational",
+      "name": "Skilled Trades & Vocational",
+      "count": 1
+    }
+  ]
+}

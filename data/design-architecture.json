@@ -1,0 +1,519 @@
+[
+  {
+    "roadmap_id": "architecture",
+    "meta": {
+      "title": "Architecture & Urban Planning",
+      "description": "Design buildings, urban spaces, and sustainable infrastructure.",
+      "category": "Design & Architecture",
+      "icon_slug": "building",
+      "difficulty_level": "Advanced",
+      "time_to_job": "5-6 years",
+      "market_stats": {
+        "average_salary_lpa": 5.5,
+        "salary_range": "\u20b93L - \u20b915L+",
+        "top_hiring_companies": [
+          "Architecture Firms",
+          "Real Estate Developers",
+          "Government PWD",
+          "Construction Companies",
+          "Private Practice"
+        ],
+        "future_scope": [
+          "Smart city projects",
+          "Green building design",
+          "Heritage conservation",
+          "BIM technology adoption"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Architect",
+          "avg_salary": "\u20b95.5L/yr"
+        },
+        {
+          "role": "Urban Planner",
+          "avg_salary": "\u20b96L/yr"
+        },
+        {
+          "role": "Interior Designer",
+          "avg_salary": "\u20b94L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "NATA Official Website",
+          "url": "https://nata.in",
+          "type": "exam",
+          "description": "National Aptitude Test in Architecture"
+        },
+        {
+          "name": "Council of Architecture (COA)",
+          "url": "https://coa.gov.in",
+          "type": "info",
+          "description": "Regulatory body for architecture practice in India"
+        },
+        {
+          "name": "JEE Main B.Arch Portal",
+          "url": "https://jeemain.nta.nic.in",
+          "type": "exam",
+          "description": "B.Arch entrance exam via JEE Main"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com",
+          "type": "free",
+          "platform": "ArchDaily",
+          "language": "English",
+          "description": "Architecture projects and inspiration"
+        },
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com",
+          "type": "free",
+          "platform": "Dezeen",
+          "language": "English",
+          "description": "Design and architecture magazine"
+        },
+        {
+          "name": "YouTube - Architecture Lectures",
+          "url": "https://www.youtube.com/c/30x40DesignWorkshop",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "English",
+          "description": "Architecture education and design process"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Indian Institute of Architects",
+          "url": "https://indianinstituteofarchitects.com",
+          "type": "organization",
+          "description": "Professional body for architects in India"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (PCM)",
+          "subtitle": "Mathematics mandatory",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "NATA / JEE B.Arch",
+          "subtitle": "National Aptitude Test in Architecture",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "degree",
+          "label": "B.Arch",
+          "subtitle": "5-year degree",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Internship",
+          "subtitle": "1 year practical training",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "license",
+          "label": "COA Registration",
+          "subtitle": "Council of Architecture license",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Architect",
+          "subtitle": "Firm or Independent Practice",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "fashion-design",
+    "meta": {
+      "title": "Fashion Design",
+      "description": "Create clothing, accessories, and define trends in India's fashion industry.",
+      "category": "Design & Architecture",
+      "icon_slug": "scissors",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4-5 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b92.5L - \u20b920L+",
+        "top_hiring_companies": [
+          "Fashion Brands (FabIndia, W, AND)",
+          "Export Houses",
+          "E-commerce (Myntra, Ajio)",
+          "Film & TV Industry",
+          "Independent Designers"
+        ],
+        "future_scope": [
+          "Sustainable fashion movement",
+          "Online retail boom",
+          "Celebrity styling",
+          "Global Indian designers"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Fashion Designer",
+          "avg_salary": "\u20b94.5L/yr"
+        },
+        {
+          "role": "Fashion Stylist",
+          "avg_salary": "\u20b95L/yr"
+        },
+        {
+          "role": "Textile Designer",
+          "avg_salary": "\u20b93.5L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "NIFT - National Institute of Fashion Technology",
+          "url": "https://www.nift.ac.in",
+          "type": "info",
+          "description": "Premier fashion design institute in India"
+        },
+        {
+          "name": "NID - National Institute of Design",
+          "url": "https://www.nid.edu",
+          "type": "info",
+          "description": "Design institute with fashion programs"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Vogue Business",
+          "url": "https://www.voguebusiness.com",
+          "type": "free",
+          "platform": "Vogue",
+          "language": "English",
+          "description": "Fashion industry insights and trends"
+        },
+        {
+          "name": "Skillshare - Fashion Design",
+          "url": "https://www.skillshare.com/browse/fashion-design",
+          "type": "freemium",
+          "platform": "Skillshare",
+          "language": "English",
+          "description": "Fashion sketching and design courses"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "Adobe Illustrator",
+          "url": "https://www.adobe.com/products/illustrator.html",
+          "description": "Industry standard for fashion design"
+        },
+        {
+          "name": "CLO 3D",
+          "url": "https://www.clo3d.com",
+          "description": "3D fashion design software"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Fashion Design India",
+          "url": "https://www.linkedin.com/groups/fashion-design-india",
+          "type": "professional",
+          "description": "LinkedIn group for fashion designers"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "degree",
+          "label": "Fashion Design Degree",
+          "subtitle": "NIFT/NID/Pearl Academy (4 years)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "skill",
+          "label": "Design Skills",
+          "subtitle": "Sketching, Software, Textiles",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Portfolio Building",
+          "subtitle": "Internships & Collection",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Fashion Designer",
+          "subtitle": "Brand or Independent",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "interior-design",
+    "meta": {
+      "title": "Interior Design",
+      "description": "Plan and design interior spaces for functionality, safety, and aesthetics.",
+      "category": "Design & Architecture",
+      "subcategory": "Spatial Design",
+      "icon_slug": "home",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3-4 years (Degree/Diploma)",
+      "success_rate": "Moderate (Portfolio based)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 5.0,
+        "salary_range": "\u20b93L/yr (Junior Designer) - \u20b912L/yr+ (Senior Designer/Firm Owner)",
+        "top_hiring_companies": [
+          "Architecture Firms",
+          "Real Estate Developers (DLF, Godrej)",
+          "Livspace",
+          "HomeLane",
+          "Design Studios"
+        ],
+        "future_scope": [
+          "Senior Interior Designer",
+          "Design Consultant",
+          "Set Designer",
+          "Furniture Designer"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Interior Designer",
+          "avg_salary": "\u20b93-6L/yr"
+        },
+        {
+          "role": "3D Visualizer",
+          "avg_salary": "\u20b93-5L/yr"
+        },
+        {
+          "role": "Project Manager",
+          "avg_salary": "\u20b95-8L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "CEPT University",
+          "url": "https://cept.ac.in",
+          "type": "info",
+          "description": "Premier Design Institute"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Udemy Interior Design",
+          "url": "https://www.udemy.com/topic/interior-design",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Software skills (AutoCAD, SketchUp)"
+        },
+        {
+          "name": "Architectural Digest",
+          "url": "https://www.architecturaldigest.in",
+          "type": "info",
+          "description": "Inspiration and trends"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Houzz",
+          "url": "https://www.houzz.in",
+          "type": "community",
+          "description": "Home design community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "NID DAT",
+          "conducting_body": "NID",
+          "registration_url": "https://admissions.nid.edu",
+          "exam_pattern": "Prelims + Mains",
+          "frequency": "Annual",
+          "eligibility": "Class 12",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "High Competition"
+        },
+        {
+          "name": "AIEED",
+          "conducting_body": "ARCH Academy",
+          "registration_url": "https://www.aieed.com",
+          "exam_pattern": "GAT + CAT",
+          "frequency": "Annual",
+          "eligibility": "Class 12",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Moderate"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "Entrance Exams",
+          "subtitle": "NID / UCEED / AIEED",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "B.Des Interior Design",
+          "subtitle": "4 Years Degree",
+          "duration": "4 years",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "job",
+          "label": "Junior Designer",
+          "subtitle": "Firm / Studio",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Senior Designer",
+          "subtitle": "Project Lead",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Design Consultant",
+          "subtitle": "Expert Role",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Firm Owner",
+          "subtitle": "Entrepreneur",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    }
+  }
+]

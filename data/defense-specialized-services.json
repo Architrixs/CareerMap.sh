@@ -1,0 +1,807 @@
+[
+  {
+    "roadmap_id": "merchant-navy",
+    "meta": {
+      "title": "Merchant Navy",
+      "description": "Navigate the seas transporting cargo and passengers across the world.",
+      "category": "Defense & Specialized Services",
+      "icon_slug": "anchor",
+      "difficulty_level": "Advanced",
+      "time_to_job": "3-4 years",
+      "market_stats": {
+        "average_salary_lpa": 12.0,
+        "salary_range": "\u20b96L - \u20b930L+ (Tax-free at sea)",
+        "top_hiring_companies": [
+          "Shipping Corporation of India",
+          "Maersk",
+          "MSC",
+          "Anglo-Eastern",
+          "Fleet Management"
+        ],
+        "future_scope": [
+          "Global trade growth",
+          "High earning potential",
+          "Tax benefits",
+          "International exposure"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Deck Officer",
+          "avg_salary": "\u20b912L/yr"
+        },
+        {
+          "role": "Marine Engineer",
+          "avg_salary": "\u20b915L/yr"
+        },
+        {
+          "role": "Captain (Master Mariner)",
+          "avg_salary": "\u20b925L+/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "IMU CET - Indian Maritime University",
+          "url": "https://www.imu.ac.in",
+          "type": "exam",
+          "description": "Maritime university entrance exam"
+        },
+        {
+          "name": "DG Shipping",
+          "url": "https://dgshipping.gov.in",
+          "type": "info",
+          "description": "Directorate General of Shipping - regulatory body"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "MarineInsight",
+          "url": "https://www.marineinsight.com",
+          "type": "free",
+          "platform": "MarineInsight",
+          "language": "English",
+          "description": "Maritime education and career guidance"
+        },
+        {
+          "name": "SynTech Maritime Academy",
+          "url": "https://www.syntech.ac.in",
+          "type": "paid",
+          "platform": "SynTech",
+          "language": "English",
+          "description": "Pre-sea and post-sea training"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Merchant Navy Info",
+          "url": "https://www.merchantnavyinfo.com",
+          "type": "forum",
+          "description": "Merchant navy career guidance and forums"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (PCM)",
+          "subtitle": "60% marks, Age 17-25",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "IMU CET / NEET",
+          "subtitle": "For Nautical Science/Marine Engg",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "degree",
+          "label": "B.Sc Nautical/Marine Engg",
+          "subtitle": "3-4 years with sea training",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "license",
+          "label": "CoC (Certificate of Competency)",
+          "subtitle": "DG Shipping certification",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Merchant Navy Officer",
+          "subtitle": "Deck/Engine Department",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "commercial-pilot",
+    "meta": {
+      "title": "Commercial Pilot",
+      "description": "Fly aircraft for airlines, transporting passengers and cargo.",
+      "category": "Defense & Specialized Services",
+      "icon_slug": "plane",
+      "difficulty_level": "Advanced",
+      "time_to_job": "2-3 years",
+      "market_stats": {
+        "average_salary_lpa": 18.0,
+        "salary_range": "\u20b98L - \u20b950L+",
+        "top_hiring_companies": [
+          "IndiGo",
+          "Air India",
+          "SpiceJet",
+          "Vistara",
+          "International Airlines"
+        ],
+        "future_scope": [
+          "Aviation sector growth",
+          "New airline routes",
+          "Regional connectivity (UDAN)",
+          "High earning potential"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "First Officer",
+          "avg_salary": "\u20b910L/yr"
+        },
+        {
+          "role": "Captain",
+          "avg_salary": "\u20b930L+/yr"
+        },
+        {
+          "role": "Cargo Pilot",
+          "avg_salary": "\u20b915L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "DGCA - Directorate General of Civil Aviation",
+          "url": "https://www.dgca.gov.in",
+          "type": "info",
+          "description": "Indian civil aviation regulatory authority"
+        },
+        {
+          "name": "DGCA Pilot Licensing",
+          "url": "https://www.dgca.gov.in/digigov-portal",
+          "type": "exam",
+          "description": "Pilot licensing and exam information"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "CAE Flight School",
+          "url": "https://www.cae.com",
+          "type": "paid",
+          "platform": "CAE",
+          "language": "English",
+          "description": "Global flight training organization"
+        },
+        {
+          "name": "Pilot Training India",
+          "url": "https://www.pilottrainingindia.com",
+          "type": "info",
+          "platform": "PTI",
+          "language": "English",
+          "description": "CPL training guidance and resources"
+        }
+      ],
+      "communities": [
+        {
+          "name": "PPRuNe Forums - India",
+          "url": "https://www.pprune.org/india",
+          "type": "forum",
+          "description": "Professional pilots forum for India"
+        },
+        {
+          "name": "r/flying",
+          "url": "https://www.reddit.com/r/flying",
+          "type": "forum",
+          "description": "Aviation and pilot community"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (PCM)",
+          "subtitle": "50% marks, Physics & Maths",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "license",
+          "label": "Student Pilot License",
+          "subtitle": "DGCA medical + written exam",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "work",
+          "label": "Flying Training",
+          "subtitle": "200+ hours (18-24 months)",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "license",
+          "label": "CPL (Commercial Pilot License)",
+          "subtitle": "DGCA exams & flight test",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "license",
+          "label": "Type Rating",
+          "subtitle": "Aircraft-specific training",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Commercial Pilot",
+          "subtitle": "Airline First Officer",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "armed-forces-nda",
+    "meta": {
+      "title": "Armed Forces (NDA)",
+      "description": "Join the Army, Navy, or Air Force as a commissioned officer directly after Class 12.",
+      "category": "Defense & Specialized Services",
+      "subcategory": "Officer Cadre",
+      "icon_slug": "shield",
+      "difficulty_level": "Expert",
+      "time_to_job": "4 years (Training)",
+      "success_rate": "Low (< 0.5%)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 10.0,
+        "salary_range": "\u20b956,100/mo (Stipend) - \u20b92.5L/mo+",
+        "top_hiring_companies": [
+          "Indian Army",
+          "Indian Navy",
+          "Indian Air Force"
+        ],
+        "future_scope": [
+          "Permanent Commission",
+          "Adventure & Sports",
+          "Higher Education (M.Tech/M.Sc)",
+          "Post-retirement Corporate Roles"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Lieutenant (Army)",
+          "avg_salary": "\u20b910L+/yr"
+        },
+        {
+          "role": "Sub-Lieutenant (Navy)",
+          "avg_salary": "\u20b910L+/yr"
+        },
+        {
+          "role": "Flying Officer (Air Force)",
+          "avg_salary": "\u20b912L+/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "UPSC NDA Notification",
+          "url": "https://upsc.gov.in",
+          "type": "exam",
+          "description": "Official exam notification and results"
+        },
+        {
+          "name": "Join Indian Army",
+          "url": "https://joinindianarmy.nic.in",
+          "type": "info",
+          "description": "Official recruitment portal"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Unacademy Defence",
+          "url": "https://unacademy.com/goal/nda/DANNJ",
+          "type": "freemium",
+          "platform": "Unacademy",
+          "language": "Both",
+          "description": "NDA preparation courses"
+        },
+        {
+          "name": "Learn with Sumit",
+          "url": "https://www.youtube.com/@LearnwithSumit",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "Hindi/English",
+          "description": "Dedicated NDA/CDS guidance"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/IndianDefense",
+          "url": "https://www.reddit.com/r/IndianDefense",
+          "type": "forum",
+          "description": "Defense discussions"
+        },
+        {
+          "name": "SSBCrack",
+          "url": "https://ssbcrack.com",
+          "type": "community",
+          "description": "SSB interview preparation community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "NDA & NA Examination",
+          "conducting_body": "UPSC",
+          "registration_url": "https://upsconline.nic.in",
+          "exam_pattern": "Written (Maths + GAT) + SSB Interview (5 Days)",
+          "frequency": "Biannual (April & September)",
+          "eligibility": "Class 12 (PCM for Air Force/Navy, Any for Army), Age: 16.5-19.5, Unmarried Male/Female",
+          "attempts_allowed": "Based on age limit",
+          "cutoff_trends": "Written: ~360/900, Final: ~720/1800"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "PCM (Air Force/Navy) or Any (Army)",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "NDA Written Exam",
+          "subtitle": "Maths (300) + GAT (600)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "SSB Interview",
+          "subtitle": "5-Day Personality Test",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "exam",
+          "label": "Medicals",
+          "subtitle": "Strict physical standards",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "education",
+          "label": "NDA Training",
+          "subtitle": "3 Years at Khadakwasla (B.Sc/B.A/B.Tech)",
+          "duration": "3 years",
+          "layer": 4
+        },
+        {
+          "id": "6a",
+          "type": "education",
+          "label": "IMA (Army)",
+          "subtitle": "1 Year at Dehradun",
+          "layer": 5
+        },
+        {
+          "id": "6b",
+          "type": "education",
+          "label": "INA (Navy)",
+          "subtitle": "1 Year at Ezhimala",
+          "layer": 5
+        },
+        {
+          "id": "6c",
+          "type": "education",
+          "label": "AFA (Air Force)",
+          "subtitle": "1 Year at Dundigal",
+          "layer": 5
+        },
+        {
+          "id": "7a",
+          "type": "job",
+          "label": "Lieutenant",
+          "subtitle": "Commissioned Officer (Army)",
+          "layer": 6
+        },
+        {
+          "id": "7b",
+          "type": "job",
+          "label": "Sub-Lieutenant",
+          "subtitle": "Commissioned Officer (Navy)",
+          "layer": 6
+        },
+        {
+          "id": "7c",
+          "type": "job",
+          "label": "Flying Officer",
+          "subtitle": "Commissioned Officer (Air Force)",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5a",
+          "source": "5",
+          "target": "6a",
+          "label": "Army Cadet",
+          "type": "default"
+        },
+        {
+          "id": "e5b",
+          "source": "5",
+          "target": "6b",
+          "label": "Naval Cadet",
+          "type": "alternative"
+        },
+        {
+          "id": "e5c",
+          "source": "5",
+          "target": "6c",
+          "label": "Air Force Cadet",
+          "type": "alternative"
+        },
+        {
+          "id": "e6a",
+          "source": "6a",
+          "target": "7a"
+        },
+        {
+          "id": "e6b",
+          "source": "6b",
+          "target": "7b"
+        },
+        {
+          "id": "e6c",
+          "source": "6c",
+          "target": "7c"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "armed-forces-cds",
+    "meta": {
+      "title": "Armed Forces (CDS)",
+      "description": "Join the Army, Navy, or Air Force as a commissioned officer after Graduation.",
+      "category": "Defense & Specialized Services",
+      "subcategory": "Officer Cadre",
+      "icon_slug": "shield",
+      "difficulty_level": "Expert",
+      "time_to_job": "1.5 years (Training)",
+      "success_rate": "Low (< 1%)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 10.0,
+        "salary_range": "\u20b956,100/mo (Stipend) - \u20b92.5L/mo+",
+        "top_hiring_companies": [
+          "Indian Army",
+          "Indian Navy",
+          "Indian Air Force"
+        ],
+        "future_scope": [
+          "Permanent Commission",
+          "Short Service Commission",
+          "Higher Command Roles",
+          "Post-retirement Corporate Roles"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Lieutenant (Army)",
+          "avg_salary": "\u20b910L+/yr"
+        },
+        {
+          "role": "Sub-Lieutenant (Navy)",
+          "avg_salary": "\u20b910L+/yr"
+        },
+        {
+          "role": "Flying Officer (Air Force)",
+          "avg_salary": "\u20b912L+/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "UPSC CDS Notification",
+          "url": "https://upsc.gov.in",
+          "type": "exam",
+          "description": "Official exam notification"
+        },
+        {
+          "name": "Join Indian Army",
+          "url": "https://joinindianarmy.nic.in",
+          "type": "info",
+          "description": "Official recruitment portal"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Unacademy Defence",
+          "url": "https://unacademy.com/goal/cdsafcatcapf/TUNWK",
+          "type": "freemium",
+          "platform": "Unacademy",
+          "language": "Both",
+          "description": "CDS/AFCAT preparation"
+        },
+        {
+          "name": "CDS Journey",
+          "url": "https://www.youtube.com/@CDSJourney",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "Hindi/English",
+          "description": "Dedicated CDS guidance"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/IndianDefense",
+          "url": "https://www.reddit.com/r/IndianDefense",
+          "type": "forum",
+          "description": "Defense discussions"
+        },
+        {
+          "name": "SSBCrack",
+          "url": "https://ssbcrack.com",
+          "type": "community",
+          "description": "SSB interview preparation"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "Combined Defence Services (CDS)",
+          "conducting_body": "UPSC",
+          "registration_url": "https://upsconline.nic.in",
+          "exam_pattern": "Written (English, GK, Maths) + SSB Interview",
+          "frequency": "Biannual (April & September)",
+          "eligibility": "Graduation (Any for Army/OTA, Engg/Physics for Navy/AF), Age: 19-25",
+          "attempts_allowed": "Based on age limit",
+          "cutoff_trends": "IMA: ~140/300, OTA: ~100/200, AFA: ~150/300"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Graduation",
+          "subtitle": "Any Degree (Army/OTA) / B.Tech (Navy/AF)",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "CDS Written Exam",
+          "subtitle": "English + GK + Maths (IMA/INA/AFA)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "SSB Interview",
+          "subtitle": "5-Day Personality Test",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "exam",
+          "label": "Medicals",
+          "subtitle": "Strict physical standards",
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "education",
+          "label": "IMA (Army)",
+          "subtitle": "1.5 Years Training (Dehradun)",
+          "layer": 4
+        },
+        {
+          "id": "5b",
+          "type": "education",
+          "label": "INA (Navy)",
+          "subtitle": "1.5 Years Training (Ezhimala)",
+          "layer": 4
+        },
+        {
+          "id": "5c",
+          "type": "education",
+          "label": "AFA (Air Force)",
+          "subtitle": "1.5 Years Training (Dundigal)",
+          "layer": 4
+        },
+        {
+          "id": "5d",
+          "type": "education",
+          "label": "OTA (Short Service)",
+          "subtitle": "49 Weeks Training (Chennai)",
+          "layer": 4
+        },
+        {
+          "id": "6a",
+          "type": "job",
+          "label": "Lieutenant",
+          "subtitle": "Commissioned Officer (Army)",
+          "layer": 5
+        },
+        {
+          "id": "6b",
+          "type": "job",
+          "label": "Sub-Lieutenant",
+          "subtitle": "Commissioned Officer (Navy)",
+          "layer": 5
+        },
+        {
+          "id": "6c",
+          "type": "job",
+          "label": "Flying Officer",
+          "subtitle": "Commissioned Officer (Air Force)",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "5a",
+          "label": "Army (Permanent)",
+          "type": "default"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "5b",
+          "label": "Navy",
+          "type": "alternative"
+        },
+        {
+          "id": "e4c",
+          "source": "4",
+          "target": "5c",
+          "label": "Air Force",
+          "type": "alternative"
+        },
+        {
+          "id": "e4d",
+          "source": "4",
+          "target": "5d",
+          "label": "OTA (Short Service)",
+          "type": "alternative"
+        },
+        {
+          "id": "e5a",
+          "source": "5a",
+          "target": "6a"
+        },
+        {
+          "id": "e5b",
+          "source": "5b",
+          "target": "6b"
+        },
+        {
+          "id": "e5c",
+          "source": "5c",
+          "target": "6c"
+        },
+        {
+          "id": "e5d",
+          "source": "5d",
+          "target": "6a",
+          "label": "Army (SSC)"
+        }
+      ]
+    }
+  }
+]

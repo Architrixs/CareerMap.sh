@@ -1,0 +1,147 @@
+[
+  {
+    "roadmap_id": "sanitation-worker",
+    "meta": {
+      "title": "Sanitation & Housekeeping",
+      "description": "Essential workers maintaining cleanliness in homes, offices, hospitals, and public spaces.",
+      "category": "Essential Services",
+      "icon_slug": "home",
+      "difficulty_level": "Beginner",
+      "time_to_job": "0.5-1 year",
+      "market_stats": {
+        "average_salary_lpa": 2.4,
+        "salary_range": "\u20b91.8L - \u20b93.6L",
+        "top_hiring_companies": [
+          "Municipal Corporations",
+          "Private Hospitals",
+          "Commercial Buildings",
+          "Hotels & Resorts",
+          "Educational Institutions"
+        ],
+        "future_scope": [
+          "Mechanization of cleaning",
+          "Govt schemes for sanitation workers",
+          "Specialized healthcare cleaning roles",
+          "Facility management companies"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Housekeeping Supervisor",
+          "avg_salary": "\u20b93.6L/yr"
+        },
+        {
+          "role": "Sanitation Worker",
+          "avg_salary": "\u20b92.4L/yr"
+        },
+        {
+          "role": "Cleaning Staff",
+          "avg_salary": "\u20b91.8L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "NSDC Skill India",
+          "url": "https://www.skillindiadigital.gov.in",
+          "type": "info",
+          "description": "National Skill Development Corporation training programs"
+        },
+        {
+          "name": "Ministry of Housing & Urban Affairs",
+          "url": "https://mohua.gov.in",
+          "type": "info",
+          "description": "Govt schemes for sanitation workers"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "PMKVY Training Centers",
+          "url": "https://www.pmkvyofficial.org",
+          "type": "free",
+          "platform": "PMKVY",
+          "language": "Both",
+          "description": "Pradhan Mantri Kaushal Vikas Yojana - free skill training"
+        },
+        {
+          "name": "IGNOU Skill Courses",
+          "url": "https://ignou.ac.in",
+          "type": "free",
+          "platform": "IGNOU",
+          "language": "Both",
+          "description": "Distance learning skill development programs"
+        }
+      ],
+      "communities": [
+        {
+          "name": "KKPKP (Pune Waste Pickers Union)",
+          "url": "http://www.kkpkp.org",
+          "type": "union",
+          "description": "Worker rights and training support"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 5-10",
+          "subtitle": "Basic literacy helpful",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "skill",
+          "label": "On-Job Training",
+          "subtitle": "Cleaning techniques, safety protocols",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "license",
+          "label": "Health & Safety Training",
+          "subtitle": "Chemical handling, waste segregation",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Experience",
+          "subtitle": "2-3 years in field",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Supervisor / Contractor",
+          "subtitle": "Team management role",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  }
+]

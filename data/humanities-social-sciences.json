@@ -1,0 +1,210 @@
+[
+  {
+    "roadmap_id": "social-work",
+    "meta": {
+      "title": "Social Work",
+      "description": "Work for the welfare of individuals, families, and communities.",
+      "category": "Humanities & Social Sciences",
+      "subcategory": "Social Services",
+      "icon_slug": "users",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "2-3 years (MSW preferred)",
+      "success_rate": "High (High Demand in NGOs)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b92.5L/yr (NGO Field Worker) - \u20b912L/yr+ (CSR Manager)",
+        "top_hiring_companies": [
+          "UNICEF",
+          "WHO",
+          "Tata Trusts",
+          "Reliance Foundation",
+          "Government Agencies"
+        ],
+        "future_scope": [
+          "CSR Head",
+          "Policy Analyst",
+          "International Aid Worker",
+          "Social Entrepreneur"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Social Worker",
+          "avg_salary": "\u20b93-5L/yr"
+        },
+        {
+          "role": "Project Coordinator",
+          "avg_salary": "\u20b94-7L/yr"
+        },
+        {
+          "role": "CSR Manager",
+          "avg_salary": "\u20b98-15L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "TISS",
+          "url": "https://www.tiss.edu",
+          "type": "info",
+          "description": "Tata Institute of Social Sciences"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "IGNOU Social Work",
+          "url": "http://www.ignou.ac.in",
+          "type": "free",
+          "platform": "Distance Learning",
+          "language": "English/Hindi",
+          "description": "BSW/MSW courses"
+        },
+        {
+          "name": "FutureLearn",
+          "url": "https://www.futurelearn.com/subjects/psychology-and-mental-health-courses/social-work",
+          "type": "freemium",
+          "platform": "Web",
+          "language": "English",
+          "description": "Online courses"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/socialwork",
+          "url": "https://www.reddit.com/r/socialwork",
+          "type": "forum",
+          "description": "Global social work community"
+        },
+        {
+          "name": "DevNetJobs",
+          "url": "https://www.devnetjobsindia.org",
+          "type": "job-board",
+          "description": "Development sector jobs"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "TISSNET (Now CUET PG)",
+          "conducting_body": "NTA",
+          "registration_url": "https://cuet.nta.nic.in",
+          "exam_pattern": "General Aptitude + Subject Knowledge",
+          "frequency": "Annual",
+          "eligibility": "Graduation",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "High for TISS Mumbai"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any Stream (Humanities preferred)",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "education",
+          "label": "BSW / BA Social Sciences",
+          "subtitle": "3 Years Degree",
+          "duration": "3 years",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "MSW / MA Social Work",
+          "subtitle": "2 Years Master's (Crucial)",
+          "duration": "2 years",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "education",
+          "label": "Fieldwork / Internship",
+          "subtitle": "NGO / Rural Immersion",
+          "duration": "6 months",
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "job",
+          "label": "Field Officer",
+          "subtitle": "Grassroots Work",
+          "layer": 4
+        },
+        {
+          "id": "5b",
+          "type": "job",
+          "label": "Project Coordinator",
+          "subtitle": "NGO Management",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Program Manager",
+          "subtitle": "Lead Projects",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "CSR Head / Director",
+          "subtitle": "Strategic Role",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "5a",
+          "label": "Field Role"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "5b",
+          "label": "Office Role"
+        },
+        {
+          "id": "e5a",
+          "source": "5a",
+          "target": "6"
+        },
+        {
+          "id": "e5b",
+          "source": "5b",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "roadmap_id": "teacher-education",
+    "meta": {
+      "title": "Teaching & Education",
+      "description": "Shape future generations through primary, secondary, or higher education.",
+      "category": "Education & Research",
+      "icon_slug": "book-open",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3-4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b92.4L - \u20b912L+",
+        "top_hiring_companies": [
+          "Govt Schools (Central/State)",
+          "CBSE/ICSE Schools",
+          "Private Schools",
+          "Colleges & Universities",
+          "Ed-Tech Companies (Byju's, Vedantu)"
+        ],
+        "future_scope": [
+          "Ed-Tech integration",
+          "NEP 2020 reforms",
+          "Online teaching opportunities",
+          "Special education demand"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Primary Teacher (PRT)",
+          "avg_salary": "\u20b93L/yr"
+        },
+        {
+          "role": "Secondary Teacher (TGT)",
+          "avg_salary": "\u20b94.5L/yr"
+        },
+        {
+          "role": "Professor",
+          "avg_salary": "\u20b98L - \u20b912L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "CTET Official Website",
+          "url": "https://ctet.nic.in",
+          "type": "exam",
+          "description": "Central Teacher Eligibility Test portal"
+        },
+        {
+          "name": "NCTE (National Council for Teacher Education)",
+          "url": "https://ncte.gov.in",
+          "type": "info",
+          "description": "Teacher education regulations and guidelines"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Unacademy CTET",
+          "url": "https://unacademy.com/goal/ctet",
+          "type": "freemium",
+          "platform": "Unacademy",
+          "language": "Both",
+          "description": "CTET preparation courses"
+        },
+        {
+          "name": "Gradeup CTET",
+          "url": "https://gradeup.co/ctet-exam",
+          "type": "freemium",
+          "platform": "Gradeup",
+          "language": "Both",
+          "description": "CTET mock tests and study material"
+        },
+        {
+          "name": "IGNOU B.Ed",
+          "url": "https://ignou.ac.in",
+          "type": "paid",
+          "platform": "IGNOU",
+          "language": "Both",
+          "description": "Distance B.Ed program"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/Teachers",
+          "url": "https://www.reddit.com/r/Teachers",
+          "type": "forum",
+          "description": "Teacher community for discussions and support"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Bachelor's Degree",
+          "subtitle": "B.A/B.Sc/B.Com (50%+ marks)",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "degree",
+          "label": "B.Ed / D.El.Ed",
+          "subtitle": "2-year teaching degree",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "CTET / State TET",
+          "subtitle": "Teacher Eligibility Test",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Teaching Practice",
+          "subtitle": "Internship during B.Ed",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "School Teacher",
+          "subtitle": "Govt or Private School",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  }
+]

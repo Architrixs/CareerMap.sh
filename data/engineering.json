@@ -1,0 +1,869 @@
+[
+  {
+    "roadmap_id": "renewable-energy",
+    "meta": {
+      "title": "Renewable Energy",
+      "description": "Drive the green revolution with careers in Solar, Wind, and Sustainability.",
+      "category": "Engineering",
+      "icon_slug": "sun",
+      "difficulty_level": "Intermediate to Advanced",
+      "time_to_job": "4-6 years",
+      "market_stats": {
+        "average_salary_lpa": 11.0,
+        "salary_range": "\u20b93.6L - \u20b915L",
+        "top_hiring_companies": [
+          "Suzlon",
+          "Tata Power",
+          "ReNew Power",
+          "Adani Green",
+          "Vestas"
+        ],
+        "future_scope": [
+          "Govt Green Energy Targets",
+          "Corporate Sustainability (ESG)",
+          "Hydrogen Fuel Tech"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Renewable Energy Consultant",
+          "avg_salary": "\u20b911.0L/yr"
+        },
+        {
+          "role": "Solar Energy Engineer",
+          "avg_salary": "\u20b93.5L/yr"
+        },
+        {
+          "role": "Sustainability Consultant",
+          "avg_salary": "\u20b95L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "MNRE - Ministry of New & Renewable Energy",
+          "url": "https://mnre.gov.in",
+          "type": "info",
+          "description": "Government policies and schemes for renewable energy"
+        },
+        {
+          "name": "Solar Energy Corporation of India",
+          "url": "https://seci.co.in",
+          "type": "info",
+          "description": "Solar project tenders and information"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "NPTEL - Renewable Energy",
+          "url": "https://nptel.ac.in/courses/108",
+          "type": "free",
+          "platform": "NPTEL",
+          "language": "English",
+          "description": "IIT courses on renewable energy systems"
+        },
+        {
+          "name": "Coursera - Renewable Energy",
+          "url": "https://www.coursera.org/courses?query=renewable%20energy",
+          "type": "freemium",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "University courses on solar and wind energy"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/RenewableEnergy",
+          "url": "https://www.reddit.com/r/RenewableEnergy",
+          "type": "forum",
+          "description": "Renewable energy discussions"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (Science)",
+          "subtitle": "PCM focus",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "degree",
+          "label": "B.Tech Electrical/Mech",
+          "subtitle": "Or Energy Engineering",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "M.Tech / Specialization",
+          "subtitle": "Renewable Energy Systems",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "license",
+          "label": "Certifications",
+          "subtitle": "Energy Auditor (BEE), LEED",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Energy Engineer",
+          "subtitle": "Site or Design Role",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "civil-engineering",
+    "meta": {
+      "title": "Civil Engineering",
+      "description": "Design and build infrastructure - roads, bridges, buildings, and cities.",
+      "category": "Engineering",
+      "icon_slug": "hard-hat",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b93L - \u20b912L+",
+        "top_hiring_companies": [
+          "L&T",
+          "Tata Projects",
+          "PWD (Govt)",
+          "Shapoorji Pallonji",
+          "DLF"
+        ],
+        "future_scope": [
+          "Smart Cities Mission",
+          "Infrastructure development",
+          "Metro projects",
+          "Green building design"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Site Engineer",
+          "avg_salary": "\u20b93.5L/yr"
+        },
+        {
+          "role": "Project Manager",
+          "avg_salary": "\u20b98L/yr"
+        },
+        {
+          "role": "Structural Engineer",
+          "avg_salary": "\u20b96L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "JEE Main Portal",
+          "url": "https://jeemain.nta.nic.in",
+          "type": "exam",
+          "description": "Engineering entrance exam for B.Tech admissions"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "NPTEL Civil Engineering",
+          "url": "https://nptel.ac.in/courses/105",
+          "type": "free",
+          "platform": "NPTEL",
+          "language": "English",
+          "description": "IIT civil engineering courses"
+        },
+        {
+          "name": "Coursera - Civil Engineering",
+          "url": "https://www.coursera.org/courses?query=civil%20engineering",
+          "type": "freemium",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "University courses on structural and civil engineering"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "AutoCAD",
+          "url": "https://www.autodesk.com/products/autocad",
+          "description": "CAD software for civil engineering design"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/civilengineering",
+          "url": "https://www.reddit.com/r/civilengineering",
+          "type": "forum",
+          "description": "Civil engineering community"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (PCM)",
+          "subtitle": "Maths mandatory",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "JEE Main / State CET",
+          "subtitle": "Engineering entrance exam",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "degree",
+          "label": "B.Tech Civil",
+          "subtitle": "4-year engineering degree",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "skill",
+          "label": "Core Skills",
+          "subtitle": "AutoCAD, Surveying, Basics",
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "skill",
+          "label": "Structural Specialization",
+          "subtitle": "STAAD Pro, Design codes",
+          "layer": 4
+        },
+        {
+          "id": "5b",
+          "type": "skill",
+          "label": "Construction Management",
+          "subtitle": "Project planning, contracts",
+          "layer": 4
+        },
+        {
+          "id": "5c",
+          "type": "skill",
+          "label": "Transportation Engineering",
+          "subtitle": "Highway design, traffic",
+          "layer": 4
+        },
+        {
+          "id": "6a",
+          "type": "job",
+          "label": "Structural Engineer",
+          "subtitle": "Building design",
+          "layer": 5
+        },
+        {
+          "id": "6b",
+          "type": "job",
+          "label": "Site Engineer",
+          "subtitle": "Infrastructure projects",
+          "layer": 5
+        },
+        {
+          "id": "6c",
+          "type": "job",
+          "label": "Highway Engineer",
+          "subtitle": "Road/Transport projects",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Project Manager",
+          "subtitle": "Lead large projects",
+          "optional": true,
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "5a",
+          "label": "Structural Path",
+          "type": "alternative"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "5b",
+          "label": "Construction Path",
+          "type": "default"
+        },
+        {
+          "id": "e4c",
+          "source": "4",
+          "target": "5c",
+          "label": "Transportation Path",
+          "type": "alternative"
+        },
+        {
+          "id": "e5a",
+          "source": "5a",
+          "target": "6a"
+        },
+        {
+          "id": "e5b",
+          "source": "5b",
+          "target": "6b"
+        },
+        {
+          "id": "e5c",
+          "source": "5c",
+          "target": "6c"
+        },
+        {
+          "id": "e6a",
+          "source": "6a",
+          "target": "7",
+          "label": "Senior Growth",
+          "type": "optional"
+        },
+        {
+          "id": "e6b",
+          "source": "6b",
+          "target": "7",
+          "label": "Management Track",
+          "type": "optional"
+        },
+        {
+          "id": "e6c",
+          "source": "6c",
+          "target": "7",
+          "label": "Leadership",
+          "type": "optional"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "mechanical-engineering",
+    "meta": {
+      "title": "Mechanical Engineering",
+      "description": "Design machines, manufacturing systems, and mechanical products.",
+      "category": "Engineering",
+      "icon_slug": "cog",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b93L - \u20b915L+",
+        "top_hiring_companies": [
+          "Tata Motors",
+          "Mahindra",
+          "Maruti Suzuki",
+          "L&T",
+          "Siemens"
+        ],
+        "future_scope": [
+          "Automation & Robotics",
+          "EV manufacturing",
+          "Aerospace industry",
+          "CAD/CAM technologies"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Mechanical Engineer",
+          "avg_salary": "\u20b94L/yr"
+        },
+        {
+          "role": "Production Engineer",
+          "avg_salary": "\u20b94.5L/yr"
+        },
+        {
+          "role": "Design Engineer",
+          "avg_salary": "\u20b95.5L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "JEE Main Portal",
+          "url": "https://jeemain.nta.nic.in",
+          "type": "exam",
+          "description": "Engineering entrance exam for B.Tech admissions"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "NPTEL Mechanical Engineering",
+          "url": "https://nptel.ac.in/courses/112",
+          "type": "free",
+          "platform": "NPTEL",
+          "language": "English",
+          "description": "IIT mechanical engineering courses"
+        },
+        {
+          "name": "Coursera - Mechanical Engineering",
+          "url": "https://www.coursera.org/courses?query=mechanical%20engineering",
+          "type": "freemium",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "University courses on mechanical systems"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "SolidWorks",
+          "url": "https://www.solidworks.com",
+          "description": "CAD software for mechanical design"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/MechanicalEngineering",
+          "url": "https://www.reddit.com/r/MechanicalEngineering",
+          "type": "forum",
+          "description": "Mechanical engineering community"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (PCM)",
+          "subtitle": "Strong Maths & Physics",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "JEE Main",
+          "subtitle": "Engineering entrance",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "degree",
+          "label": "B.Tech Mechanical",
+          "subtitle": "4-year degree",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "skill",
+          "label": "Core Skills",
+          "subtitle": "CAD, Manufacturing basics",
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "skill",
+          "label": "Design Engineering",
+          "subtitle": "SolidWorks, ANSYS, Product design",
+          "layer": 4
+        },
+        {
+          "id": "5b",
+          "type": "skill",
+          "label": "Production Engineering",
+          "subtitle": "CNC, Manufacturing processes",
+          "layer": 4
+        },
+        {
+          "id": "5c",
+          "type": "skill",
+          "label": "Automation & Robotics",
+          "subtitle": "PLC, Industrial automation",
+          "layer": 4
+        },
+        {
+          "id": "6a",
+          "type": "job",
+          "label": "Design Engineer",
+          "subtitle": "Product development",
+          "layer": 5
+        },
+        {
+          "id": "6b",
+          "type": "job",
+          "label": "Production Engineer",
+          "subtitle": "Manufacturing operations",
+          "layer": 5
+        },
+        {
+          "id": "6c",
+          "type": "job",
+          "label": "Automation Engineer",
+          "subtitle": "Industrial robotics",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Senior R&D Engineer",
+          "subtitle": "Innovation & leadership",
+          "optional": true,
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "5a",
+          "label": "Design Path",
+          "type": "alternative"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "5b",
+          "label": "Production Path",
+          "type": "default"
+        },
+        {
+          "id": "e4c",
+          "source": "4",
+          "target": "5c",
+          "label": "Automation Path",
+          "type": "alternative"
+        },
+        {
+          "id": "e5a",
+          "source": "5a",
+          "target": "6a"
+        },
+        {
+          "id": "e5b",
+          "source": "5b",
+          "target": "6b"
+        },
+        {
+          "id": "e5c",
+          "source": "5c",
+          "target": "6c"
+        },
+        {
+          "id": "e6a",
+          "source": "6a",
+          "target": "7",
+          "label": "R&D Leadership",
+          "type": "optional"
+        },
+        {
+          "id": "e6b",
+          "source": "6b",
+          "target": "7",
+          "label": "Technical Leadership",
+          "type": "optional"
+        },
+        {
+          "id": "e6c",
+          "source": "6c",
+          "target": "7",
+          "label": "Innovation Track",
+          "type": "optional"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "electrical-engineering",
+    "meta": {
+      "title": "Electrical Engineering",
+      "description": "Work with power systems, electronics, and electrical infrastructure.",
+      "category": "Engineering",
+      "icon_slug": "zap",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b93L - \u20b912L+",
+        "top_hiring_companies": [
+          "Power Grid Corporation",
+          "BHEL",
+          "Siemens",
+          "ABB",
+          "State Electricity Boards"
+        ],
+        "future_scope": [
+          "Renewable energy integration",
+          "Smart grid technology",
+          "EV charging infrastructure",
+          "Power electronics"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Electrical Engineer",
+          "avg_salary": "\u20b94.5L/yr"
+        },
+        {
+          "role": "Power Systems Engineer",
+          "avg_salary": "\u20b96L/yr"
+        },
+        {
+          "role": "Instrumentation Engineer",
+          "avg_salary": "\u20b95L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "JEE Main Portal",
+          "url": "https://jeemain.nta.nic.in",
+          "type": "exam",
+          "description": "Engineering entrance exam for B.Tech admissions"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "NPTEL Electrical Engineering",
+          "url": "https://nptel.ac.in/courses/108",
+          "type": "free",
+          "platform": "NPTEL",
+          "language": "English",
+          "description": "IIT electrical engineering courses"
+        },
+        {
+          "name": "Coursera - Power Systems",
+          "url": "https://www.coursera.org/courses?query=electrical%20engineering",
+          "type": "freemium",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "University courses on electrical systems"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "MATLAB",
+          "url": "https://www.mathworks.com/products/matlab.html",
+          "description": "Simulation and analysis software"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/ElectricalEngineering",
+          "url": "https://www.reddit.com/r/ElectricalEngineering",
+          "type": "forum",
+          "description": "Electrical engineering community"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (PCM)",
+          "subtitle": "Physics & Maths focus",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "JEE Main",
+          "subtitle": "Engineering entrance",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "degree",
+          "label": "B.Tech Electrical",
+          "subtitle": "4-year degree",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "skill",
+          "label": "Core Skills",
+          "subtitle": "Circuit basics, Power fundamentals",
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "skill",
+          "label": "Power Systems",
+          "subtitle": "Grid, Transmission, Distribution",
+          "layer": 4
+        },
+        {
+          "id": "5b",
+          "type": "skill",
+          "label": "Electronics & VLSI",
+          "subtitle": "Chip design, Embedded systems",
+          "layer": 4
+        },
+        {
+          "id": "5c",
+          "type": "skill",
+          "label": "Control Systems",
+          "subtitle": "PLC, Automation, Instrumentation",
+          "layer": 4
+        },
+        {
+          "id": "6a",
+          "type": "job",
+          "label": "Power Systems Engineer",
+          "subtitle": "Energy sector",
+          "layer": 5
+        },
+        {
+          "id": "6b",
+          "type": "job",
+          "label": "VLSI Design Engineer",
+          "subtitle": "Semiconductor industry",
+          "layer": 5
+        },
+        {
+          "id": "6c",
+          "type": "job",
+          "label": "Control Systems Engineer",
+          "subtitle": "Manufacturing automation",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Chief Engineer / Consultant",
+          "subtitle": "Technical leadership",
+          "optional": true,
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "5a",
+          "label": "Power Path",
+          "type": "alternative"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "5b",
+          "label": "Electronics Path",
+          "type": "default"
+        },
+        {
+          "id": "e4c",
+          "source": "4",
+          "target": "5c",
+          "label": "Control Path",
+          "type": "alternative"
+        },
+        {
+          "id": "e5a",
+          "source": "5a",
+          "target": "6a"
+        },
+        {
+          "id": "e5b",
+          "source": "5b",
+          "target": "6b"
+        },
+        {
+          "id": "e5c",
+          "source": "5c",
+          "target": "6c"
+        },
+        {
+          "id": "e6a",
+          "source": "6a",
+          "target": "7",
+          "label": "Consulting",
+          "type": "optional"
+        },
+        {
+          "id": "e6b",
+          "source": "6b",
+          "target": "7",
+          "label": "Technical Leadership",
+          "type": "optional"
+        },
+        {
+          "id": "e6c",
+          "source": "6c",
+          "target": "7",
+          "label": "Expert Growth",
+          "type": "optional"
+        }
+      ]
+    }
+  }
+]

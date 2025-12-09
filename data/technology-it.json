@@ -1,0 +1,1817 @@
+[
+  {
+    "roadmap_id": "it-software-dev",
+    "meta": {
+      "title": "IT & Software Development",
+      "description": "Develop, maintain, and optimize digital platforms. The largest job creator in India's tech sector.",
+      "category": "Technology & IT",
+      "subcategory": "Software Development",
+      "icon_slug": "code",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4-5 years",
+      "success_rate": "High (60-70% placement rate from good colleges)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 10.1,
+        "salary_range": "\u20b94.5L - \u20b927.9L",
+        "demand_trend": "Growing",
+        "top_hiring_companies": [
+          "TCS",
+          "Infosys",
+          "Wipro",
+          "Accenture",
+          "Google India"
+        ],
+        "future_scope": [
+          "Cloud & AI Adoption",
+          "Cybersecurity focus",
+          "Remote/Hybrid work models",
+          "Startup ecosystem growth"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Software Developer",
+          "avg_salary": "\u20b910.1L/yr"
+        },
+        {
+          "role": "Cloud Architect",
+          "avg_salary": "\u20b927.9L/yr"
+        },
+        {
+          "role": "Full Stack Developer",
+          "avg_salary": "\u20b99.6L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "roadmaps_external": [
+        {
+          "name": "roadmap.sh - Backend Developer",
+          "url": "https://roadmap.sh/backend",
+          "relevance": "high",
+          "description": "Comprehensive backend development roadmap"
+        },
+        {
+          "name": "roadmap.sh - Frontend Developer",
+          "url": "https://roadmap.sh/frontend",
+          "relevance": "high",
+          "description": "Complete frontend development path"
+        },
+        {
+          "name": "roadmap.sh - Full Stack",
+          "url": "https://roadmap.sh/full-stack",
+          "relevance": "high",
+          "description": "Full stack development guide"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "freeCodeCamp",
+          "url": "https://www.freecodecamp.org",
+          "type": "free",
+          "platform": "freeCodeCamp",
+          "language": "English",
+          "description": "Free coding bootcamp with certifications"
+        },
+        {
+          "name": "Coursera - Google IT Certificate",
+          "url": "https://www.coursera.org/google-certificates/it-support-certificate",
+          "type": "paid",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "Industry-recognized Google certification"
+        },
+        {
+          "name": "NPTEL - Programming Courses",
+          "url": "https://nptel.ac.in/course.html",
+          "type": "free",
+          "platform": "NPTEL",
+          "language": "English",
+          "description": "IIT/IISc online courses"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "LeetCode",
+          "url": "https://leetcode.com",
+          "type": "coding_platform",
+          "free": true,
+          "description": "DSA practice for interviews"
+        },
+        {
+          "name": "HackerRank",
+          "url": "https://www.hackerrank.com",
+          "type": "coding_platform",
+          "free": true,
+          "description": "Coding challenges and competitions"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com",
+          "type": "version_control",
+          "free": true,
+          "description": "Code hosting and version control"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/developersIndia",
+          "url": "https://www.reddit.com/r/developersIndia/",
+          "platform": "Reddit",
+          "members": "200K+",
+          "description": "Indian developers community"
+        },
+        {
+          "name": "GeeksforGeeks",
+          "url": "https://www.geeksforgeeks.org",
+          "platform": "Website",
+          "description": "Coding tutorials and practice"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "CodeWithHarry",
+          "url": "https://www.youtube.com/@CodeWithHarry",
+          "language": "Hindi",
+          "subscribers": "4M+",
+          "focus": "Programming tutorials in Hindi"
+        },
+        {
+          "name": "Apna College",
+          "url": "https://www.youtube.com/@ApnaCollegeOfficial",
+          "language": "Both",
+          "subscribers": "4M+",
+          "focus": "DSA and placement prep"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (Science)",
+          "subtitle": "PCM (Physics, Chemistry, Maths)",
+          "duration": "2 years",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "Entrance Exams",
+          "subtitle": "JEE Main / BITSAT / State CET",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "degree",
+          "label": "B.Tech / B.E.",
+          "subtitle": "CS / IT / ECE Branch",
+          "duration": "4 years",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "skill",
+          "label": "Core Skills",
+          "subtitle": "DSA, Java/Python, Databases",
+          "duration": "Throughout degree",
+          "layer": 3
+        },
+        {
+          "id": "4a",
+          "type": "skill",
+          "label": "Frontend Path",
+          "subtitle": "React, Angular, Vue.js",
+          "optional": true,
+          "layer": 4
+        },
+        {
+          "id": "4b",
+          "type": "skill",
+          "label": "Backend Path",
+          "subtitle": "Node.js, Spring Boot, Django",
+          "optional": true,
+          "layer": 4
+        },
+        {
+          "id": "4c",
+          "type": "skill",
+          "label": "Full Stack Path",
+          "subtitle": "MERN/MEAN Stack",
+          "optional": true,
+          "layer": 4
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Software Engineer",
+          "subtitle": "Entry Level Role",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "4a",
+          "label": "Frontend",
+          "type": "alternative"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "4b",
+          "label": "Backend",
+          "type": "alternative"
+        },
+        {
+          "id": "e4c",
+          "source": "4",
+          "target": "4c",
+          "label": "Full Stack",
+          "type": "alternative"
+        },
+        {
+          "id": "e5a",
+          "source": "4a",
+          "target": "5"
+        },
+        {
+          "id": "e5b",
+          "source": "4b",
+          "target": "5"
+        },
+        {
+          "id": "e5c",
+          "source": "4c",
+          "target": "5"
+        }
+      ]
+    },
+    "alternatives_and_pivots": [
+      {
+        "to_career": "data-science",
+        "description": "Many software developers pivot to data science after gaining programming experience",
+        "difficulty": "Moderate",
+        "typical_timing": "After 2-3 years of development experience"
+      },
+      {
+        "to_career": "cloud-devops",
+        "description": "Natural progression for developers interested in infrastructure",
+        "difficulty": "Easy",
+        "typical_timing": "Mid-career pivot"
+      }
+    ]
+  },
+  {
+    "roadmap_id": "data-science",
+    "meta": {
+      "title": "Data Science & Analytics",
+      "description": "Analyze large datasets to uncover insights and predict trends.",
+      "category": "Technology & IT",
+      "subcategory": "Data & Analytics",
+      "icon_slug": "database",
+      "difficulty_level": "Advanced",
+      "time_to_job": "1-2 years (with programming background)",
+      "success_rate": "High (60-70% for skilled candidates)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 15.3,
+        "salary_range": "\u20b96.8L - \u20b915.3L",
+        "demand_trend": "Growing",
+        "top_hiring_companies": [
+          "IBM",
+          "Accenture",
+          "Capgemini",
+          "Cognizant",
+          "Deloitte"
+        ],
+        "future_scope": [
+          "AI Integration",
+          "Healthcare Predictive Models",
+          "Retail Analytics"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Data Scientist",
+          "avg_salary": "\u20b915.3L/yr"
+        },
+        {
+          "role": "Data Analyst",
+          "avg_salary": "\u20b96.8L/yr"
+        },
+        {
+          "role": "ML Engineer",
+          "avg_salary": "\u20b911.8L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "roadmaps_external": [
+        {
+          "name": "roadmap.sh - Data Science",
+          "url": "https://roadmap.sh/data-science",
+          "relevance": "high",
+          "description": "Complete data science learning path"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Coursera - IBM Data Science",
+          "url": "https://www.coursera.org/professional-certificates/ibm-data-science",
+          "type": "paid",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "Industry-recognized IBM certificate"
+        },
+        {
+          "name": "DataCamp",
+          "url": "https://www.datacamp.com",
+          "type": "freemium",
+          "platform": "DataCamp",
+          "language": "English",
+          "description": "Interactive Python/R/SQL courses"
+        },
+        {
+          "name": "Kaggle Learn",
+          "url": "https://www.kaggle.com/learn",
+          "type": "free",
+          "platform": "Kaggle",
+          "language": "English",
+          "description": "Free micro-courses in data science"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "Kaggle Competitions",
+          "url": "https://www.kaggle.com/competitions",
+          "type": "coding_platform",
+          "free": true,
+          "description": "Real-world data science challenges"
+        },
+        {
+          "name": "Google Colab",
+          "url": "https://colab.research.google.com",
+          "type": "ide",
+          "free": true,
+          "description": "Free Jupyter notebooks with GPU"
+        },
+        {
+          "name": "Tableau Public",
+          "url": "https://public.tableau.com",
+          "type": "visualization",
+          "free": true,
+          "description": "Data visualization tool"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/datascience",
+          "url": "https://www.reddit.com/r/datascience/",
+          "platform": "Reddit",
+          "members": "1M+",
+          "description": "Global data science community"
+        },
+        {
+          "name": "Analytics Vidhya",
+          "url": "https://www.analyticsvidhya.com",
+          "platform": "Website",
+          "description": "Indian data science community and tutorials"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "StatQuest with Josh Starmer",
+          "url": "https://www.youtube.com/@statquest",
+          "language": "English",
+          "subscribers": "1M+",
+          "focus": "Statistics and ML concepts explained simply"
+        },
+        {
+          "name": "Krish Naik",
+          "url": "https://www.youtube.com/@krishnaik06",
+          "language": "Both",
+          "subscribers": "1M+",
+          "focus": "Data Science and ML tutorials"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Bachelor's Degree",
+          "subtitle": "B.Tech / B.Sc Stats / Maths",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "skill",
+          "label": "Programming",
+          "subtitle": "Python, R, SQL",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "concept",
+          "label": "Mathematics",
+          "subtitle": "Statistics, Probability, Linear Algebra",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "skill",
+          "label": "Tools",
+          "subtitle": "Tableau, PowerBI, Pandas",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Data Analyst/Scientist",
+          "subtitle": "Corporate Role",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "ai-ml",
+    "meta": {
+      "title": "AI & Machine Learning",
+      "description": "Create algorithms that allow machines to learn. At the forefront of innovation.",
+      "category": "Technology & IT",
+      "icon_slug": "cpu",
+      "difficulty_level": "Advanced to Expert",
+      "time_to_job": "1-3 years",
+      "market_stats": {
+        "average_salary_lpa": 17.4,
+        "salary_range": "\u20b94.8L - \u20b918.0L+",
+        "top_hiring_companies": [
+          "Google",
+          "Microsoft",
+          "Amazon",
+          "Samsung",
+          "NVIDIA"
+        ],
+        "future_scope": [
+          "Automation Growth",
+          "Personalized Healthcare",
+          "Business Optimization"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "AI Engineer",
+          "avg_salary": "\u20b917.4L/yr"
+        },
+        {
+          "role": "AI Research Scientist",
+          "avg_salary": "\u20b918.0L/yr"
+        },
+        {
+          "role": "NLP Engineer",
+          "avg_salary": "\u20b99.8L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "AI & ML Roadmap",
+          "url": "https://roadmap.sh/ai-data-scientist",
+          "type": "roadmap",
+          "description": "Complete AI/ML learning path"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Coursera - Andrew Ng's ML Course",
+          "url": "https://www.coursera.org/learn/machine-learning",
+          "type": "freemium",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "Most popular ML course worldwide"
+        },
+        {
+          "name": "Fast.ai",
+          "url": "https://www.fast.ai",
+          "type": "free",
+          "platform": "Fast.ai",
+          "language": "English",
+          "description": "Practical deep learning for coders"
+        },
+        {
+          "name": "Kaggle Learn",
+          "url": "https://www.kaggle.com/learn",
+          "type": "free",
+          "platform": "Kaggle",
+          "language": "English",
+          "description": "Hands-on ML tutorials and competitions"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "Google Colab",
+          "url": "https://colab.research.google.com",
+          "description": "Free Jupyter notebooks with GPU access"
+        },
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co",
+          "description": "NLP models and datasets repository"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "3Blue1Brown",
+          "url": "https://www.youtube.com/@3blue1brown",
+          "description": "Visual math and ML concepts"
+        },
+        {
+          "name": "Two Minute Papers",
+          "url": "https://www.youtube.com/@TwoMinutePapers",
+          "description": "Latest AI research summaries"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning",
+          "type": "forum",
+          "description": "ML research and discussions"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "B.Tech (CS/AI)",
+          "subtitle": "Strong Math Foundation required",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "skill",
+          "label": "Core AI Skills",
+          "subtitle": "Python, TensorFlow, PyTorch",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "concept",
+          "label": "Deep Learning",
+          "subtitle": "Neural Networks, NLP, Computer Vision",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Projects",
+          "subtitle": "Kaggle Competitions / GitHub Portfolio",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "AI Engineer",
+          "subtitle": "R&D or Product Team",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "cybersecurity",
+    "meta": {
+      "title": "Cybersecurity & Ethical Hacking",
+      "description": "Protect sensitive data and prevent cyberattacks in a digital-first world.",
+      "category": "Technology & IT",
+      "icon_slug": "shield",
+      "difficulty_level": "Advanced",
+      "time_to_job": "1-2 years",
+      "market_stats": {
+        "average_salary_lpa": 10.5,
+        "salary_range": "\u20b96.4L - \u20b950T/mo (Freelance)",
+        "top_hiring_companies": [
+          "IBM",
+          "Wipro",
+          "Deloitte",
+          "Cisco",
+          "Accenture"
+        ],
+        "future_scope": [
+          "Rising Cyber Threats",
+          "Cloud Security focus",
+          "Regulatory Compliance (DPDP Act)"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Security Engineer",
+          "avg_salary": "\u20b910.5L/yr"
+        },
+        {
+          "role": "Ethical Hacker",
+          "avg_salary": "\u20b96L - \u20b912L/yr"
+        },
+        {
+          "role": "Cybersecurity Consultant",
+          "avg_salary": "\u20b99L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Cybersecurity Roadmap",
+          "url": "https://roadmap.sh/cyber-security",
+          "type": "roadmap",
+          "description": "Complete cybersecurity learning path"
+        },
+        {
+          "name": "CERT-In",
+          "url": "https://www.cert-in.org.in",
+          "type": "info",
+          "description": "Indian Computer Emergency Response Team"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "TryHackMe",
+          "url": "https://tryhackme.com",
+          "type": "freemium",
+          "platform": "TryHackMe",
+          "language": "English",
+          "description": "Hands-on cybersecurity training"
+        },
+        {
+          "name": "HackTheBox",
+          "url": "https://www.hackthebox.com",
+          "type": "freemium",
+          "platform": "HackTheBox",
+          "language": "English",
+          "description": "Penetration testing practice platform"
+        },
+        {
+          "name": "Cybrary",
+          "url": "https://www.cybrary.it",
+          "type": "freemium",
+          "platform": "Cybrary",
+          "language": "English",
+          "description": "Cybersecurity courses and certifications"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "Kali Linux",
+          "url": "https://www.kali.org",
+          "description": "Penetration testing Linux distribution"
+        },
+        {
+          "name": "OWASP Top 10",
+          "url": "https://owasp.org/www-project-top-ten",
+          "description": "Web application security risks"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "NetworkChuck",
+          "url": "https://www.youtube.com/@NetworkChuck",
+          "description": "Cybersecurity and networking tutorials"
+        },
+        {
+          "name": "The Cyber Mentor",
+          "url": "https://www.youtube.com/@TCMSecurityAcademy",
+          "description": "Ethical hacking and pentesting"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/cybersecurity",
+          "url": "https://www.reddit.com/r/cybersecurity",
+          "type": "forum",
+          "description": "Cybersecurity news and discussions"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "B.Tech CS / BCA",
+          "subtitle": "Focus on Networks & OS",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "skill",
+          "label": "Networking",
+          "subtitle": "TCP/IP, Linux Administration",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "license",
+          "label": "Certifications",
+          "subtitle": "CEH / CompTIA Security+ / CISSP",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "skill",
+          "label": "Tools",
+          "subtitle": "Wireshark, Metasploit, Burp Suite",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Security Analyst",
+          "subtitle": "SOC or VAPT Role",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "blockchain",
+    "meta": {
+      "title": "Blockchain Technology",
+      "description": "Revolutionize finance and supply chains with decentralized data solutions.",
+      "category": "Technology & IT",
+      "icon_slug": "link",
+      "difficulty_level": "Advanced",
+      "time_to_job": "1-2 years",
+      "market_stats": {
+        "average_salary_lpa": 11.0,
+        "salary_range": "\u20b911L - \u20b925L",
+        "top_hiring_companies": [
+          "IBM",
+          "Accenture",
+          "Infosys",
+          "Ripple",
+          "Deloitte"
+        ],
+        "future_scope": [
+          "Fintech Adoption",
+          "Smart Contracts",
+          "Supply Chain Transparency"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Blockchain Developer",
+          "avg_salary": "\u20b911L/yr"
+        },
+        {
+          "role": "Blockchain Architect",
+          "avg_salary": "\u20b925L/yr"
+        },
+        {
+          "role": "Blockchain Consultant",
+          "avg_salary": "\u20b914.3L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Blockchain Roadmap",
+          "url": "https://roadmap.sh/blockchain",
+          "type": "roadmap",
+          "description": "Complete blockchain development path"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Ethereum.org",
+          "url": "https://ethereum.org/en/developers",
+          "type": "free",
+          "platform": "Ethereum",
+          "language": "English",
+          "description": "Official Ethereum development docs"
+        },
+        {
+          "name": "CryptoZombies",
+          "url": "https://cryptozombies.io",
+          "type": "free",
+          "platform": "CryptoZombies",
+          "language": "English",
+          "description": "Learn Solidity by building games"
+        },
+        {
+          "name": "Coursera - Blockchain Specialization",
+          "url": "https://www.coursera.org/specializations/blockchain",
+          "type": "freemium",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "University of Buffalo blockchain course"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "Remix IDE",
+          "url": "https://remix.ethereum.org",
+          "description": "Online Solidity IDE for smart contracts"
+        },
+        {
+          "name": "Hardhat",
+          "url": "https://hardhat.org",
+          "description": "Ethereum development environment"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/ethdev",
+          "url": "https://www.reddit.com/r/ethdev",
+          "type": "forum",
+          "description": "Ethereum development community"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Computer Science Degree",
+          "subtitle": "Strong Cryptography Basics",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "skill",
+          "label": "Languages",
+          "subtitle": "Solidity, Go, Rust, JavaScript",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "concept",
+          "label": "Architecture",
+          "subtitle": "Ethereum, Hyperledger, Smart Contracts",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Build dApps",
+          "subtitle": "Decentralized Apps Portfolio",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Blockchain Developer",
+          "subtitle": "DeFi or Enterprise Solutions",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "cloud-devops",
+    "meta": {
+      "title": "Cloud Computing & DevOps",
+      "description": "Enable businesses to scale efficiently using AWS, Azure, and Google Cloud.",
+      "category": "Technology & IT",
+      "icon_slug": "cloud",
+      "difficulty_level": "Intermediate to Advanced",
+      "time_to_job": "1-2 years",
+      "market_stats": {
+        "average_salary_lpa": 13.5,
+        "salary_range": "\u20b98.1L - \u20b927.9L",
+        "top_hiring_companies": [
+          "AWS",
+          "Google Cloud",
+          "Microsoft",
+          "Infosys",
+          "Accenture"
+        ],
+        "future_scope": [
+          "Cloud Migration",
+          "Automation (DevOps)",
+          "Multi-Cloud Strategies"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Cloud Architect",
+          "avg_salary": "\u20b927.9L/yr"
+        },
+        {
+          "role": "DevOps Engineer",
+          "avg_salary": "\u20b98.7L/yr"
+        },
+        {
+          "role": "Site Reliability Engineer",
+          "avg_salary": "\u20b913.5L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "DevOps Roadmap",
+          "url": "https://roadmap.sh/devops",
+          "type": "roadmap",
+          "description": "Complete DevOps learning path"
+        },
+        {
+          "name": "AWS Training",
+          "url": "https://aws.amazon.com/training",
+          "type": "info",
+          "description": "Official AWS learning resources"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "A Cloud Guru",
+          "url": "https://acloudguru.com",
+          "type": "paid",
+          "platform": "A Cloud Guru",
+          "language": "English",
+          "description": "Cloud certification courses"
+        },
+        {
+          "name": "KodeKloud",
+          "url": "https://kodekloud.com",
+          "type": "freemium",
+          "platform": "KodeKloud",
+          "language": "English",
+          "description": "DevOps hands-on labs"
+        },
+        {
+          "name": "Linux Academy",
+          "url": "https://linuxacademy.org",
+          "type": "paid",
+          "platform": "Linux Academy",
+          "language": "English",
+          "description": "Linux and cloud training"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "Kubernetes Playground",
+          "url": "https://www.katacoda.com/courses/kubernetes",
+          "description": "Free Kubernetes practice labs"
+        },
+        {
+          "name": "Docker Hub",
+          "url": "https://hub.docker.com",
+          "description": "Container images repository"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "TechWorld with Nana",
+          "url": "https://www.youtube.com/@TechWorldwithNana",
+          "description": "DevOps tutorials and concepts"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/devops",
+          "url": "https://www.reddit.com/r/devops",
+          "type": "forum",
+          "description": "DevOps community discussions"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "B.Tech / BCA",
+          "subtitle": "IT Infrastructure Basics",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "skill",
+          "label": "Cloud Platforms",
+          "subtitle": "Learn AWS, Azure or GCP",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "skill",
+          "label": "DevOps Tools",
+          "subtitle": "Docker, Kubernetes, Jenkins, Terraform",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "license",
+          "label": "Certifications",
+          "subtitle": "AWS Solutions Architect / Azure Admin",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "DevOps / Cloud Engineer",
+          "subtitle": "Infrastructure Management",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "ux-ui-design",
+    "meta": {
+      "title": "UX/UI Design",
+      "description": "Design intuitive and visually appealing digital interfaces for websites and apps.",
+      "category": "Technology & IT",
+      "subcategory": "Design",
+      "icon_slug": "pen-tool",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "6-12 months",
+      "success_rate": "High (Portfolio Based)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 6.5,
+        "salary_range": "\u20b93L/yr (Junior) - \u20b925L/yr+ (Lead Designer)",
+        "top_hiring_companies": [
+          "Google",
+          "Microsoft",
+          "Flipkart",
+          "Swiggy",
+          "Design Agencies (Frog, Ideo)"
+        ],
+        "future_scope": [
+          "Product Designer",
+          "UX Researcher",
+          "Interaction Designer",
+          "Design Manager"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "UI Designer",
+          "avg_salary": "\u20b94-8L/yr"
+        },
+        {
+          "role": "UX Designer",
+          "avg_salary": "\u20b96-12L/yr"
+        },
+        {
+          "role": "Product Designer",
+          "avg_salary": "\u20b910-20L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "NID",
+          "url": "https://www.nid.edu",
+          "type": "info",
+          "description": "National Institute of Design"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Google UX Design Certificate",
+          "url": "https://www.coursera.org/professional-certificates/google-ux-design",
+          "type": "paid",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "Industry standard certification"
+        },
+        {
+          "name": "Figma Community",
+          "url": "https://www.figma.com/community",
+          "type": "free",
+          "platform": "Web",
+          "language": "English",
+          "description": "Design resources and templates"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/UXDesign",
+          "url": "https://www.reddit.com/r/UXDesign",
+          "type": "forum",
+          "description": "Global design community"
+        },
+        {
+          "name": "ADPList",
+          "url": "https://adplist.org",
+          "type": "community",
+          "description": "Mentorship platform"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "NID DAT",
+          "conducting_body": "NID",
+          "registration_url": "https://admissions.nid.edu",
+          "exam_pattern": "Prelims (Design Aptitude) + Mains (Studio Test)",
+          "frequency": "Annual",
+          "eligibility": "Class 12 Pass",
+          "attempts_allowed": "Based on age",
+          "cutoff_trends": "High competition"
+        },
+        {
+          "name": "UCEED",
+          "conducting_body": "IIT Bombay",
+          "registration_url": "http://www.uceed.iitb.ac.in",
+          "exam_pattern": "Computer Based Test (Visualization, Spatial Ability)",
+          "frequency": "Annual",
+          "eligibility": "Class 12 Pass",
+          "attempts_allowed": "2 times",
+          "cutoff_trends": "Top 100 ranks for IITs"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 / Graduation",
+          "subtitle": "Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2a",
+          "type": "exam",
+          "label": "Design Entrance",
+          "subtitle": "NID DAT / UCEED / NIFT",
+          "layer": 1
+        },
+        {
+          "id": "2b",
+          "type": "education",
+          "label": "Self-Learning",
+          "subtitle": "Online Courses / Bootcamps",
+          "layer": 1
+        },
+        {
+          "id": "3a",
+          "type": "education",
+          "label": "B.Des / M.Des",
+          "subtitle": "4 Years Degree",
+          "duration": "4 years",
+          "layer": 2
+        },
+        {
+          "id": "3b",
+          "type": "education",
+          "label": "Portfolio Building",
+          "subtitle": "3-6 Months Projects",
+          "duration": "6 months",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "education",
+          "label": "Internship",
+          "subtitle": "Agency / Startup Experience",
+          "duration": "3-6 months",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Junior Designer",
+          "subtitle": "UI / UX / Product",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Senior Designer",
+          "subtitle": "Lead Projects",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Design Manager",
+          "subtitle": "Lead Team",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1a",
+          "source": "1",
+          "target": "2a",
+          "label": "College Route"
+        },
+        {
+          "id": "e1b",
+          "source": "1",
+          "target": "2b",
+          "label": "Self-Taught Route"
+        },
+        {
+          "id": "e2a",
+          "source": "2a",
+          "target": "3a"
+        },
+        {
+          "id": "e2b",
+          "source": "2b",
+          "target": "3b"
+        },
+        {
+          "id": "e3a",
+          "source": "3a",
+          "target": "4"
+        },
+        {
+          "id": "e3b",
+          "source": "3b",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "product-management",
+    "meta": {
+      "title": "Product Management",
+      "description": "Define product vision, strategy, and roadmap to deliver value to customers.",
+      "category": "Technology & IT",
+      "subcategory": "Management",
+      "icon_slug": "target",
+      "difficulty_level": "Expert",
+      "time_to_job": "2-4 years (Experience required)",
+      "success_rate": "Moderate",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 15.0,
+        "salary_range": "\u20b98L/yr (APM) - \u20b940L/yr+ (CPO)",
+        "top_hiring_companies": [
+          "Google",
+          "Uber",
+          "Flipkart",
+          "Zomato",
+          "Razorpay"
+        ],
+        "future_scope": [
+          "Chief Product Officer (CPO)",
+          "Founder / CEO",
+          "Venture Capitalist",
+          "Product Consultant"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Associate Product Manager",
+          "avg_salary": "\u20b98-15L/yr"
+        },
+        {
+          "role": "Product Manager",
+          "avg_salary": "\u20b915-25L/yr"
+        },
+        {
+          "role": "Senior PM",
+          "avg_salary": "\u20b925-40L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Mind the Product",
+          "url": "https://www.mindtheproduct.com",
+          "type": "info",
+          "description": "Global product community"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Reforge",
+          "url": "https://www.reforge.com",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Advanced growth & product courses"
+        },
+        {
+          "name": "Lenny's Newsletter",
+          "url": "https://www.lennysnewsletter.com",
+          "type": "paid",
+          "platform": "Newsletter",
+          "language": "English",
+          "description": "Top-tier product insights"
+        }
+      ],
+      "communities": [
+        {
+          "name": "The Product Folks",
+          "url": "https://www.theproductfolks.com",
+          "type": "community",
+          "description": "Indian PM community"
+        },
+        {
+          "name": "r/ProductManagement",
+          "url": "https://www.reddit.com/r/ProductManagement",
+          "type": "forum",
+          "description": "Global PM discussions"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "MBA Entrance (CAT/GMAT)",
+          "conducting_body": "IIMs / GMAC",
+          "registration_url": "https://iimcat.ac.in",
+          "exam_pattern": "Aptitude Test",
+          "frequency": "Annual",
+          "eligibility": "Graduation",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "99%ile for Top IIMs"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Graduation",
+          "subtitle": "B.Tech / BBA / Design",
+          "layer": 0
+        },
+        {
+          "id": "2a",
+          "type": "job",
+          "label": "Work Experience",
+          "subtitle": "Dev / Design / Marketing (2-3 Yrs)",
+          "layer": 1
+        },
+        {
+          "id": "2b",
+          "type": "education",
+          "label": "MBA",
+          "subtitle": "Top Tier B-School",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "job",
+          "label": "Associate PM (APM)",
+          "subtitle": "Entry Level PM Role",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "job",
+          "label": "Product Manager",
+          "subtitle": "Own a Feature / Product",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Senior PM",
+          "subtitle": "Manage Complex Products",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Group PM / Director",
+          "subtitle": "Manage PM Team",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "CPO / VP Product",
+          "subtitle": "Executive Role",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1a",
+          "source": "1",
+          "target": "2a",
+          "label": "Job Route"
+        },
+        {
+          "id": "e1b",
+          "source": "1",
+          "target": "2b",
+          "label": "MBA Route"
+        },
+        {
+          "id": "e2a",
+          "source": "2a",
+          "target": "3",
+          "label": "Transition"
+        },
+        {
+          "id": "e2b",
+          "source": "2b",
+          "target": "3",
+          "label": "Campus Placement"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "game-development",
+    "meta": {
+      "title": "Game Development",
+      "description": "Create interactive video games for PC, consoles, and mobile devices.",
+      "category": "Technology & IT",
+      "subcategory": "Software Development",
+      "icon_slug": "monitor",
+      "difficulty_level": "Advanced",
+      "time_to_job": "6-12 months",
+      "success_rate": "Moderate",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 6.0,
+        "salary_range": "\u20b93L/yr (Junior) - \u20b920L/yr+ (Lead Dev)",
+        "top_hiring_companies": [
+          "Ubisoft India",
+          "Rockstar India",
+          "Zynga",
+          "Dream11",
+          "Mobile Game Studios"
+        ],
+        "future_scope": [
+          "Technical Director",
+          "Game Designer",
+          "Indie Developer",
+          "VR/AR Developer"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Unity Developer",
+          "avg_salary": "\u20b94-8L/yr"
+        },
+        {
+          "role": "Unreal Engine Dev",
+          "avg_salary": "\u20b95-10L/yr"
+        },
+        {
+          "role": "Game Designer",
+          "avg_salary": "\u20b95-12L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Unity Learn",
+          "url": "https://learn.unity.com",
+          "type": "info",
+          "description": "Official Unity tutorials"
+        },
+        {
+          "name": "Unreal Online Learning",
+          "url": "https://www.unrealengine.com/en-US/onlinelearning-courses",
+          "type": "info",
+          "description": "Official Unreal tutorials"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "GameDev.tv",
+          "url": "https://www.gamedev.tv",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Comprehensive game dev courses"
+        },
+        {
+          "name": "Brackeys",
+          "url": "https://www.youtube.com/user/Brackeys",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "English",
+          "description": "Legendary Unity tutorials"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/gamedev",
+          "url": "https://www.reddit.com/r/gamedev",
+          "type": "forum",
+          "description": "Global game dev community"
+        },
+        {
+          "name": "Indie Game Developers",
+          "url": "https://www.facebook.com/groups/IndieGameDevs",
+          "type": "community",
+          "description": "Facebook group"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "Portfolio Based Hiring",
+          "conducting_body": "Companies",
+          "registration_url": "N/A",
+          "exam_pattern": "Technical Test + Portfolio Review",
+          "frequency": "On Demand",
+          "eligibility": "Skills in C++/C#",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Quality of projects matters most"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 / Graduation",
+          "subtitle": "CS / Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2a",
+          "type": "education",
+          "label": "Learn Programming",
+          "subtitle": "C# (Unity) or C++ (Unreal)",
+          "layer": 1
+        },
+        {
+          "id": "2b",
+          "type": "education",
+          "label": "Learn Game Design",
+          "subtitle": "Mechanics, Level Design",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "Build Projects",
+          "subtitle": "Clones, Small Games",
+          "duration": "3-6 months",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "education",
+          "label": "Publish Portfolio",
+          "subtitle": "Itch.io / Play Store",
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "job",
+          "label": "Junior Game Dev",
+          "subtitle": "Studio Job",
+          "layer": 4
+        },
+        {
+          "id": "5b",
+          "type": "job",
+          "label": "Indie Developer",
+          "subtitle": "Self-Publishing",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Senior Developer",
+          "subtitle": "Lead Architecture",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Technical Director",
+          "subtitle": "Studio Leadership",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1a",
+          "source": "1",
+          "target": "2a",
+          "label": "Coding Path"
+        },
+        {
+          "id": "e1b",
+          "source": "1",
+          "target": "2b",
+          "label": "Design Path"
+        },
+        {
+          "id": "e2a",
+          "source": "2a",
+          "target": "3"
+        },
+        {
+          "id": "e2b",
+          "source": "2b",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "5a",
+          "label": "Job"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "5b",
+          "label": "Solo"
+        },
+        {
+          "id": "e5",
+          "source": "5a",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    }
+  }
+]

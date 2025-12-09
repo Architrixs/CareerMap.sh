@@ -1,0 +1,161 @@
+[
+  {
+    "roadmap_id": "agriculture-farming",
+    "meta": {
+      "title": "Agriculture & Farming",
+      "description": "Modern farming techniques, agribusiness, and rural entrepreneurship.",
+      "category": "Agriculture & Allied",
+      "icon_slug": "leaf",
+      "difficulty_level": "Beginner to Intermediate",
+      "time_to_job": "0-4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.0,
+        "salary_range": "\u20b92L - \u20b910L+ (Variable)",
+        "top_hiring_companies": [
+          "ITC Agri Business",
+          "Bayer CropScience",
+          "Mahindra Agri",
+          "Jain Irrigation",
+          "Self-employment"
+        ],
+        "future_scope": [
+          "Precision agriculture",
+          "Organic farming growth",
+          "Agri-tech startups",
+          "Govt MSP schemes"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Agricultural Officer",
+          "avg_salary": "\u20b94L/yr"
+        },
+        {
+          "role": "Farm Manager",
+          "avg_salary": "\u20b96L/yr"
+        },
+        {
+          "role": "Agri-Entrepreneur",
+          "avg_salary": "Variable"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "ICAR - Indian Council of Agricultural Research",
+          "url": "https://icar.org.in",
+          "type": "info",
+          "description": "National agricultural research body"
+        },
+        {
+          "name": "Kisan Call Centre",
+          "url": "https://mkisan.gov.in",
+          "type": "info",
+          "description": "Farmer helpline and agri schemes"
+        },
+        {
+          "name": "PM-KISAN Portal",
+          "url": "https://pmkisan.gov.in",
+          "type": "info",
+          "description": "Direct income support for farmers"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "ICAR AIEEA Preparation",
+          "url": "https://icar.nta.nic.in",
+          "type": "free",
+          "platform": "NTA",
+          "language": "English",
+          "description": "Agricultural entrance exam portal"
+        },
+        {
+          "name": "Krishi Jagran",
+          "url": "https://krishijagran.com",
+          "type": "free",
+          "platform": "Krishi Jagran",
+          "language": "Both",
+          "description": "Agricultural news and knowledge platform"
+        },
+        {
+          "name": "AgriXchange",
+          "url": "https://www.agriexchange.apeda.gov.in",
+          "type": "free",
+          "platform": "APEDA",
+          "language": "English",
+          "description": "Agri-business and export platform"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Kisan Sabha Forums",
+          "url": "https://aiks.org",
+          "type": "organization",
+          "description": "Farmer unions and advocacy groups"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (Science/Agri)",
+          "subtitle": "PCB or Agriculture stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "degree",
+          "label": "B.Sc Agriculture",
+          "subtitle": "4-year degree via ICAR exam",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "skill",
+          "label": "Practical Training",
+          "subtitle": "Crop management, soil science",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Internship",
+          "subtitle": "Farm or agri-company",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Agricultural Officer / Farmer",
+          "subtitle": "Govt or Private Sector",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  }
+]

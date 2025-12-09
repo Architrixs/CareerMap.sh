@@ -1,0 +1,228 @@
+[
+  {
+    "roadmap_id": "skilled-trades-iti",
+    "meta": {
+      "title": "Skilled Trades (ITI)",
+      "description": "Technical roles in electrical, mechanical, plumbing, and manufacturing sectors.",
+      "category": "Skilled Trades & Vocational",
+      "subcategory": "Technical Trades",
+      "icon_slug": "tool",
+      "difficulty_level": "Easy",
+      "time_to_job": "1-2 years (ITI Course)",
+      "success_rate": "High (High Demand)",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 3.0,
+        "salary_range": "\u20b91.8L/yr (Apprentice) - \u20b96L/yr+ (Senior Technician/Contractor)",
+        "top_hiring_companies": [
+          "Indian Railways",
+          "BHEL / ONGC / NTPC",
+          "Tata Motors",
+          "L&T",
+          "Maruti Suzuki"
+        ],
+        "future_scope": [
+          "Senior Technician",
+          "Supervisor / Foreman",
+          "Independent Contractor",
+          "Instructor (CITS)"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Electrician",
+          "avg_salary": "\u20b92.5-5L/yr"
+        },
+        {
+          "role": "Fitter / Machinist",
+          "avg_salary": "\u20b92.5-4.5L/yr"
+        },
+        {
+          "role": "HVAC Technician",
+          "avg_salary": "\u20b93-6L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "NCVT MIS",
+          "url": "https://ncvtmis.gov.in",
+          "type": "info",
+          "description": "National Council for Vocational Training"
+        },
+        {
+          "name": "Apprenticeship India",
+          "url": "https://www.apprenticeshipindia.gov.in",
+          "type": "job-board",
+          "description": "National Apprenticeship Portal"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Bharat Skills",
+          "url": "https://bharatskills.gov.in",
+          "type": "free",
+          "platform": "Web",
+          "language": "English/Hindi",
+          "description": "Official study material"
+        },
+        {
+          "name": "NIMI Online Learning",
+          "url": "https://nimionlineadmission.in",
+          "type": "free",
+          "platform": "Web",
+          "language": "English",
+          "description": "Instructional Media"
+        }
+      ],
+      "communities": [
+        {
+          "name": "ITI Students Group",
+          "url": "https://www.facebook.com/groups/itistudents",
+          "type": "community",
+          "description": "Facebook community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "AITT (All India Trade Test)",
+          "conducting_body": "NCVT",
+          "registration_url": "https://ncvtmis.gov.in",
+          "exam_pattern": "Practical + Theory (CBT)",
+          "frequency": "Annual/Semester",
+          "eligibility": "Class 8/10 Pass",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Pass based"
+        },
+        {
+          "name": "CITS Entrance (AICET)",
+          "conducting_body": "DGT",
+          "registration_url": "https://nimionlineadmission.in",
+          "exam_pattern": "MCQ",
+          "frequency": "Annual",
+          "eligibility": "ITI / Diploma / Degree",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Moderate"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 10",
+          "subtitle": "Minimum Requirement",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "education",
+          "label": "ITI Course",
+          "subtitle": "1-2 Years (NCVT/SCVT)",
+          "duration": "2 years",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "AITT Exam",
+          "subtitle": "Trade Test Certification",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "job",
+          "label": "Apprenticeship",
+          "subtitle": "1 Year (NAC Certificate)",
+          "duration": "1 year",
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "job",
+          "label": "Technician",
+          "subtitle": "Private / Govt Job",
+          "layer": 4
+        },
+        {
+          "id": "5b",
+          "type": "education",
+          "label": "CITS Course",
+          "subtitle": "1 Year (For Instructor Job)",
+          "duration": "1 year",
+          "layer": 4
+        },
+        {
+          "id": "5c",
+          "type": "education",
+          "label": "Polytechnic Diploma",
+          "subtitle": "Lateral Entry (2nd Year)",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Supervisor / Foreman",
+          "subtitle": "Senior Role",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "ITI Instructor",
+          "subtitle": "Teaching Role",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "5a",
+          "label": "Job"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "5b",
+          "label": "Instructor Path"
+        },
+        {
+          "id": "e4c",
+          "source": "4",
+          "target": "5c",
+          "label": "Higher Studies"
+        },
+        {
+          "id": "e5a",
+          "source": "5a",
+          "target": "6"
+        },
+        {
+          "id": "e5b",
+          "source": "5b",
+          "target": "7"
+        }
+      ]
+    }
+  }
+]

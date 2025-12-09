@@ -463,23 +463,25 @@
             const [searchTerm, setSearchTerm] = useState('');
             
             // State for Data Fetching
-            const [careerData, setCareerData] = useState([]);
+            const [careerIndex, setCareerIndex] = useState([]); // Lightweight index
+            const [roadmapCache, setRoadmapCache] = useState({}); // Cache for full roadmaps
             const [loading, setLoading] = useState(true);
+            const [loadingRoadmap, setLoadingRoadmap] = useState(false);
             const [error, setError] = useState(null);
 
             const { Search, Map, Loader2, AlertTriangle } = LucideIcons;
 
-            // Fetch Data on Mount
+            // Fetch Index on Mount
             useEffect(() => {
                 const fetchData = async () => {
                     try {
-                        // Add timestamp to prevent caching of data.json
-                        const response = await fetch(`data.json?t=${Date.now()}`);
+                        // Fetch the lightweight index file
+                        const response = await fetch(`data/index.json?t=${Date.now()}`);
                         if (!response.ok) {
                             throw new Error(`Failed to load data (${response.status}). Ensure json file is served locally.`);
                         }
                         const data = await response.json();
-                        setCareerData(data);
+                        setCareerIndex(data);
                     } catch (err) {
                         console.error("Data Fetch Error:", err);
                         setError(err.message);
@@ -491,13 +493,48 @@
                 fetchData();
             }, []);
 
-            const handleCareerClick = (data) => {
-                setActiveRoadmap(data);
-                setView('roadmap');
-                window.scrollTo(0,0);
+            const handleCareerClick = async (indexItem) => {
+                // Check cache first
+                if (roadmapCache[indexItem.roadmap_id]) {
+                    setActiveRoadmap(roadmapCache[indexItem.roadmap_id]);
+                    setView('roadmap');
+                    window.scrollTo(0,0);
+                    return;
+                }
+
+                setLoadingRoadmap(true);
+                try {
+                    // Fetch the specific category file
+                    const response = await fetch(`data/${indexItem.source_file}`);
+                    if (!response.ok) throw new Error("Failed to load roadmap data");
+                    
+                    const categoryData = await response.json();
+                    
+                    // Find the specific roadmap
+                    const fullRoadmap = categoryData.find(r => r.roadmap_id === indexItem.roadmap_id);
+                    
+                    if (fullRoadmap) {
+                        // Update cache
+                        setRoadmapCache(prev => ({
+                            ...prev,
+                            [fullRoadmap.roadmap_id]: fullRoadmap
+                        }));
+                        
+                        setActiveRoadmap(fullRoadmap);
+                        setView('roadmap');
+                        window.scrollTo(0,0);
+                    } else {
+                        throw new Error("Roadmap not found in source file");
+                    }
+                } catch (err) {
+                    console.error("Error loading roadmap:", err);
+                    alert("Failed to load roadmap details. Please try again.");
+                } finally {
+                    setLoadingRoadmap(false);
+                }
             };
 
-            const filteredData = careerData.filter(item => 
+            const filteredData = careerIndex.filter(item => 
                 item.meta.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
                 item.meta.description.toLowerCase().includes(searchTerm.toLowerCase())
             );
@@ -524,6 +561,16 @@
                     <div className="min-h-screen flex flex-col items-center justify-center bg-slate-900 text-slate-400">
                         <Loader2 className="animate-spin mb-4" size={40} />
                         <p>Loading Career Data...</p>
+                    </div>
+                );
+            }
+
+            // -- ROADMAP LOADING STATE --
+            if (loadingRoadmap) {
+                return (
+                    <div className="min-h-screen flex flex-col items-center justify-center bg-slate-900 text-slate-400">
+                        <Loader2 className="animate-spin mb-4" size={40} />
+                        <p>Loading Roadmap Details...</p>
                     </div>
                 );
             }

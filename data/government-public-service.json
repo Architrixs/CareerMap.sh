@@ -1,0 +1,748 @@
+[
+  {
+    "roadmap_id": "govt-clerk",
+    "meta": {
+      "title": "Government Clerk (Clerical Cadre)",
+      "description": "Administrative support in government offices with job security and benefits.",
+      "category": "Government & Public Service",
+      "icon_slug": "file-text",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "1-2 years",
+      "market_stats": {
+        "average_salary_lpa": 4.2,
+        "salary_range": "\u20b92.5L - \u20b96L (+ Benefits)",
+        "top_hiring_companies": [
+          "SSC (Staff Selection Commission)",
+          "Railway Recruitment Board",
+          "State PSCs",
+          "Banking Sector",
+          "Central Govt Ministries"
+        ],
+        "future_scope": [
+          "Promotions to Section Officer",
+          "Departmental exams for growth",
+          "Pension & job security",
+          "Digital skills increasingly valued"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Lower Division Clerk (LDC)",
+          "avg_salary": "\u20b92.5L/yr"
+        },
+        {
+          "role": "Upper Division Clerk (UDC)",
+          "avg_salary": "\u20b94.2L/yr"
+        },
+        {
+          "role": "Section Officer",
+          "avg_salary": "\u20b96L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "SSC Official Website",
+          "url": "https://ssc.nic.in",
+          "type": "exam",
+          "description": "Staff Selection Commission - CHSL exam portal"
+        },
+        {
+          "name": "SSC CHSL Notification",
+          "url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/notice_CHSL.pdf",
+          "type": "notification",
+          "description": "Annual CHSL exam notification"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Adda247",
+          "url": "https://www.adda247.com/ssc-chsl",
+          "type": "freemium",
+          "platform": "Adda247",
+          "language": "Both",
+          "description": "SSC CHSL preparation platform"
+        },
+        {
+          "name": "Oliveboard SSC",
+          "url": "https://www.oliveboard.in/ssc",
+          "type": "freemium",
+          "platform": "Oliveboard",
+          "language": "English",
+          "description": "Mock tests and practice for SSC exams"
+        },
+        {
+          "name": "Gradeup SSC",
+          "url": "https://gradeup.co/ssc-exams",
+          "type": "freemium",
+          "platform": "Gradeup",
+          "language": "Both",
+          "description": "SSC preparation courses and tests"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/SSC",
+          "url": "https://www.reddit.com/r/SSC",
+          "type": "forum",
+          "description": "SSC exam preparation community"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any stream from recognized board",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "SSC CHSL / State Exams",
+          "subtitle": "Tier 1 & 2 (Objective + Descriptive)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "skill",
+          "label": "Computer Skills",
+          "subtitle": "MS Office, Typing (Hindi/English)",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "exam",
+          "label": "Typing Test",
+          "subtitle": "35-40 WPM in English or Hindi",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "LDC/UDC",
+          "subtitle": "Government Office Clerk",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "ias-civil-services",
+    "meta": {
+      "title": "IAS & Civil Services",
+      "description": "Prestigious administrative roles shaping India's governance and public policy.",
+      "category": "Government & Public Service",
+      "subcategory": "Civil Services",
+      "icon_slug": "award",
+      "difficulty_level": "Expert",
+      "time_to_job": "4-6 years",
+      "success_rate": "Less than 1% (1:1000+ competition)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 10.0,
+        "salary_range": "\u20b97.5L - \u20b925L+ (Scale + Perks)",
+        "demand_trend": "Stable",
+        "top_hiring_companies": [
+          "UPSC",
+          "Central Government",
+          "State Services",
+          "Foreign Services",
+          "Police Services"
+        ],
+        "future_scope": [
+          "Policy-making authority",
+          "District & State level leadership",
+          "International postings",
+          "Pension & housing benefits"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "IAS Officer",
+          "avg_salary": "\u20b910L+/yr (+ perks)"
+        },
+        {
+          "role": "IPS Officer",
+          "avg_salary": "\u20b99L+/yr"
+        },
+        {
+          "role": "IFS Officer",
+          "avg_salary": "\u20b910L+/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "UPSC Official Website",
+          "url": "https://www.upsc.gov.in",
+          "type": "exam",
+          "description": "Official UPSC website for notifications, syllabus, and results"
+        },
+        {
+          "name": "UPSC CSE Notification",
+          "url": "https://www.upsc.gov.in/examinations/cse",
+          "type": "notification",
+          "description": "Annual CSE exam notification and schedule"
+        },
+        {
+          "name": "UPSC Syllabus",
+          "url": "https://www.upsc.gov.in/sites/default/files/Syllabus-English.pdf",
+          "type": "syllabus",
+          "description": "Detailed syllabus for Prelims and Mains"
+        },
+        {
+          "name": "UPSC Previous Year Papers",
+          "url": "https://www.upsc.gov.in/previous-question-papers",
+          "type": "exam",
+          "description": "Previous years' question papers"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "BYJU's IAS",
+          "url": "https://byjus.com/ias/",
+          "type": "freemium",
+          "platform": "BYJU's",
+          "language": "Both",
+          "description": "Comprehensive UPSC preparation platform"
+        },
+        {
+          "name": "Unacademy UPSC",
+          "url": "https://unacademy.com/goal/upsc-cse",
+          "type": "freemium",
+          "platform": "Unacademy",
+          "language": "Both",
+          "description": "Live classes and recorded courses for UPSC"
+        },
+        {
+          "name": "NCERT Textbooks (6-12)",
+          "url": "https://ncert.nic.in/textbook.php",
+          "type": "free",
+          "platform": "NCERT",
+          "language": "Both",
+          "description": "Foundation for UPSC preparation"
+        },
+        {
+          "name": "InsightsIAS",
+          "url": "https://www.insightsonindia.com",
+          "type": "free",
+          "platform": "InsightsIAS",
+          "language": "English",
+          "description": "Daily current affairs and test series"
+        }
+      ],
+      "books": [
+        {
+          "title": "NCERT Textbooks (Class 6-12)",
+          "type": "textbook",
+          "author": "NCERT",
+          "publisher": "NCERT"
+        },
+        {
+          "title": "India's Struggle for Independence",
+          "author": "Bipan Chandra",
+          "type": "reference",
+          "publisher": "Penguin"
+        },
+        {
+          "title": "Indian Polity",
+          "author": "M. Laxmikanth",
+          "type": "reference",
+          "publisher": "McGraw Hill"
+        },
+        {
+          "title": "Indian Economy",
+          "author": "Ramesh Singh",
+          "type": "reference",
+          "publisher": "McGraw Hill"
+        },
+        {
+          "title": "Certificate Physical and Human Geography",
+          "author": "Goh Cheng Leong",
+          "type": "reference",
+          "publisher": "Oxford"
+        },
+        {
+          "title": "UPSC Previous 10 Years Papers",
+          "type": "previous_papers",
+          "publisher": "Arihant / Disha"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/UPSC",
+          "url": "https://www.reddit.com/r/UPSC/",
+          "platform": "Reddit",
+          "members": "50K+",
+          "description": "Reddit community for UPSC aspirants"
+        },
+        {
+          "name": "UPSC Pathshala",
+          "url": "https://t.me/upscpathshala",
+          "platform": "Telegram",
+          "description": "Telegram group for daily updates and discussions"
+        },
+        {
+          "name": "ForumIAS Community",
+          "url": "https://forumias.com/community",
+          "platform": "Facebook",
+          "description": "Large UPSC aspirants community"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "Study IQ Education",
+          "url": "https://www.youtube.com/@StudyIQeducation",
+          "language": "Both",
+          "subscribers": "9M+",
+          "focus": "Current affairs and exam preparation"
+        },
+        {
+          "name": "Drishti IAS",
+          "url": "https://www.youtube.com/@DrishtiIASvideos",
+          "language": "Both",
+          "subscribers": "4M+",
+          "focus": "Comprehensive UPSC coverage"
+        },
+        {
+          "name": "Unacademy UPSC",
+          "url": "https://www.youtube.com/@UnacademyUPSC",
+          "language": "Both",
+          "subscribers": "3M+",
+          "focus": "Live classes and strategy"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "UPSC Civil Services Examination (CSE)",
+          "conducting_body": "Union Public Service Commission (UPSC)",
+          "registration_url": "https://upsconline.nic.in",
+          "exam_pattern": "Three stages: Prelims (2 papers - objective), Mains (9 papers - descriptive), Interview (Personality Test)",
+          "frequency": "Annual",
+          "typical_dates": "Prelims: May/June, Mains: September, Interview: February-April",
+          "eligibility": "Bachelor's degree (any discipline), Age: 21-32 years (General), Relaxations for OBC/SC/ST",
+          "attempts_allowed": "6 (General), 9 (OBC), Unlimited (SC/ST) - subject to age limit",
+          "syllabus_url": "https://www.upsc.gov.in/sites/default/files/Syllabus-English.pdf",
+          "previous_papers_url": "https://www.upsc.gov.in/previous-question-papers",
+          "cutoff_trends": "Prelims: General 87-100/200, Mains: Varies (Top 1500-2000 qualify), Final: Top 1000 approx",
+          "exam_fee": "\u20b9100 (General/OBC), \u20b90 (SC/ST/PwD/Women)",
+          "negative_marking": true,
+          "total_seats": "~1000 annually (varies: IAS 180, IPS 150, IFS 50, Others 620)"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Bachelor's Degree",
+          "subtitle": "Any discipline from recognized university",
+          "duration": "3-4 years",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "UPSC Prelims",
+          "subtitle": "GS + CSAT (General Studies + Aptitude)",
+          "duration": "2-3 months (exam cycle)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "UPSC Mains",
+          "subtitle": "9 Papers (Essay, GS, Optional)",
+          "duration": "4-5 months",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "exam",
+          "label": "Personality Test",
+          "subtitle": "Interview (275 marks)",
+          "duration": "1 day",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "work",
+          "label": "Training (LBSNAA)",
+          "subtitle": "2 years at Mussoorie + Districts",
+          "duration": "2 years",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "IAS/IPS/IFS Officer",
+          "subtitle": "Administrative/Police/Foreign Service",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        }
+      ]
+    },
+    "alternatives_and_pivots": [
+      {
+        "to_career": "banker-finance",
+        "description": "Many UPSC aspirants pivot to banking sector exams (SBI PO, RBI Grade B) after multiple attempts",
+        "difficulty": "Moderate",
+        "typical_timing": "After 2-3 unsuccessful attempts"
+      },
+      {
+        "to_career": "state-civil-services",
+        "description": "State PSC exams are easier and offer similar administrative roles at state level",
+        "difficulty": "Easy",
+        "typical_timing": "Parallel preparation or after UPSC"
+      }
+    ]
+  },
+  {
+    "roadmap_id": "police-constable",
+    "meta": {
+      "title": "Police & Law Enforcement",
+      "description": "Maintain law and order, serve the community, and ensure public safety.",
+      "category": "Government & Public Service",
+      "icon_slug": "shield",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "1-1.5 years",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 3.6,
+        "salary_range": "\u20b92.5L - \u20b97L",
+        "top_hiring_companies": [
+          "State Police Departments",
+          "CRPF, BSF, CISF",
+          "Railway Protection Force",
+          "Delhi Police",
+          "State PSCs"
+        ],
+        "future_scope": [
+          "Promotion to SI, Inspector",
+          "Specialized units (Cyber, Crime)",
+          "Departmental exams for growth",
+          "Job security & pension"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Police Constable",
+          "avg_salary": "\u20b93L/yr"
+        },
+        {
+          "role": "Head Constable",
+          "avg_salary": "\u20b94.5L/yr"
+        },
+        {
+          "role": "Sub-Inspector",
+          "avg_salary": "\u20b96L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "State Police Recruitment Boards",
+          "url": "https://police.py.gov.in/recruitment.html",
+          "type": "exam",
+          "description": "State-wise police recruitment portals"
+        },
+        {
+          "name": "CRPF Recruitment",
+          "url": "https://crpf.gov.in",
+          "type": "exam",
+          "description": "Central Reserve Police Force recruitment"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Testbook Police Exams",
+          "url": "https://testbook.com/police-exams",
+          "type": "freemium",
+          "platform": "Testbook",
+          "language": "Both",
+          "description": "State police exam preparation"
+        },
+        {
+          "name": "Adda247 Police",
+          "url": "https://www.adda247.com/police",
+          "type": "freemium",
+          "platform": "Adda247",
+          "language": "Both",
+          "description": "Mock tests and study material for police exams"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Police Bharti Forum",
+          "url": "https://www.sarkariresult.com/police-recruitment",
+          "type": "forum",
+          "description": "State police recruitment updates"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 10/12",
+          "subtitle": "Varies by state (usually 12th)",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "Written Exam",
+          "subtitle": "GK, Reasoning, Numerical Ability",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "Physical Tests",
+          "subtitle": "Running, High Jump, Long Jump",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Police Training",
+          "subtitle": "6-12 months at Police Academy",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Police Constable",
+          "subtitle": "Field Duty",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "railway-services",
+    "meta": {
+      "title": "Indian Railways",
+      "description": "Join India's largest employer with diverse technical and non-technical roles.",
+      "category": "Government & Public Service",
+      "icon_slug": "train",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "1-2 years",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b92.5L - \u20b912L+",
+        "top_hiring_companies": [
+          "Indian Railways",
+          "RRB (Railway Recruitment Board)",
+          "Metro Corporations",
+          "IRCTC",
+          "RITES"
+        ],
+        "future_scope": [
+          "High-speed rail projects",
+          "Metro expansion",
+          "Railway modernization",
+          "Job security & pension"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Loco Pilot",
+          "avg_salary": "\u20b95L/yr"
+        },
+        {
+          "role": "Station Master",
+          "avg_salary": "\u20b96L/yr"
+        },
+        {
+          "role": "Railway Clerk",
+          "avg_salary": "\u20b93L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "RRB Official Portal",
+          "url": "https://www.rrbcdg.gov.in",
+          "type": "exam",
+          "description": "Railway Recruitment Board official website"
+        },
+        {
+          "name": "Indian Railways",
+          "url": "https://indianrailways.gov.in",
+          "type": "info",
+          "description": "Official Indian Railways website"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Oliveboard Railways",
+          "url": "https://www.oliveboard.in/railway-exams",
+          "type": "freemium",
+          "platform": "Oliveboard",
+          "language": "English",
+          "description": "RRB exam preparation platform"
+        },
+        {
+          "name": "Testbook Railway",
+          "url": "https://testbook.com/railway-exams",
+          "type": "freemium",
+          "platform": "Testbook",
+          "language": "Both",
+          "description": "Mock tests and study material for RRB exams"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Railway Exam Forum",
+          "url": "https://www.sarkariresult.com/railway",
+          "type": "forum",
+          "description": "Railway recruitment updates and discussions"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 10/12/ITI/Degree",
+          "subtitle": "Varies by post",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "RRB Exam",
+          "subtitle": "Group A/B/C/D based on qualification",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "Physical & Medical",
+          "subtitle": "Fitness standards for technical posts",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Training",
+          "subtitle": "Railway Training Institute",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Railway Employee",
+          "subtitle": "Technical/Non-Technical",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  }
+]

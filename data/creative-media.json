@@ -1,0 +1,950 @@
+[
+  {
+    "roadmap_id": "content-creator",
+    "meta": {
+      "title": "Content Creation & Influencer",
+      "description": "Create engaging content for brands and audiences on YouTube, Instagram, etc.",
+      "category": "Creative & Media",
+      "icon_slug": "video",
+      "difficulty_level": "Beginner",
+      "time_to_job": "0.5-2 years",
+      "market_stats": {
+        "average_salary_lpa": 5.0,
+        "salary_range": "\u20b94L - \u20b925L+ (Highly Variable)",
+        "top_hiring_companies": [
+          "YouTube",
+          "Instagram",
+          "Red Bull",
+          "L'Or\u00e9al",
+          "Agencies"
+        ],
+        "future_scope": [
+          "Video Content Dominance",
+          "Micro-Influencer Marketing",
+          "Brand Collaborations"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Content Creator",
+          "avg_salary": "\u20b93L - \u20b910L/yr"
+        },
+        {
+          "role": "Brand Strategist",
+          "avg_salary": "\u20b96L/yr"
+        },
+        {
+          "role": "Video Editor",
+          "avg_salary": "\u20b95L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "YouTube Creator Academy",
+          "url": "https://creatoracademy.youtube.com",
+          "type": "info",
+          "description": "Official YouTube training for creators"
+        },
+        {
+          "name": "Instagram for Creators",
+          "url": "https://creators.instagram.com",
+          "type": "info",
+          "description": "Instagram creator resources"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Think Media YouTube",
+          "url": "https://www.youtube.com/@ThinkMediaTV",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "English",
+          "description": "YouTube growth and video creation tips"
+        },
+        {
+          "name": "Skillshare - Content Creation",
+          "url": "https://www.skillshare.com/browse/content-creation",
+          "type": "freemium",
+          "platform": "Skillshare",
+          "language": "English",
+          "description": "Content creation and video editing courses"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "DaVinci Resolve",
+          "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+          "description": "Free professional video editing software"
+        },
+        {
+          "name": "Canva",
+          "url": "https://www.canva.com",
+          "description": "Thumbnail and graphic design tool"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "vidIQ",
+          "url": "https://www.youtube.com/@vidiq",
+          "description": "YouTube growth strategies"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/YouTubers",
+          "url": "https://www.reddit.com/r/YouTubers",
+          "type": "forum",
+          "description": "YouTube creator community"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "skill",
+          "label": "Content Strategy",
+          "subtitle": "Niche Selection & Storytelling",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "skill",
+          "label": "Production",
+          "subtitle": "Filming, Editing (Premiere/DaVinci), Audio",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "work",
+          "label": "Platform Growth",
+          "subtitle": "YouTube/Insta Algorithms & Consistency",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Monetization",
+          "subtitle": "AdSense, Sponsorships, Affiliates",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Professional Creator",
+          "subtitle": "Full-time Influencer / Consultant",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "journalism-media",
+    "meta": {
+      "title": "Journalism & Mass Media",
+      "description": "Report news, create content, and shape public discourse across platforms.",
+      "category": "Creative & Media",
+      "icon_slug": "newspaper",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3-4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b92.5L - \u20b915L+",
+        "top_hiring_companies": [
+          "NDTV, Times Group",
+          "Zee Media",
+          "Digital Media (ThePrint, Wire)",
+          "News Agencies (PTI, ANI)",
+          "Print Media"
+        ],
+        "future_scope": [
+          "Digital journalism growth",
+          "Data journalism",
+          "Video content demand",
+          "Independent journalism"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Journalist/Reporter",
+          "avg_salary": "\u20b94L/yr"
+        },
+        {
+          "role": "News Anchor",
+          "avg_salary": "\u20b98L/yr"
+        },
+        {
+          "role": "Content Editor",
+          "avg_salary": "\u20b95L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Press Council of India",
+          "url": "https://presscouncil.nic.in",
+          "type": "info",
+          "description": "Regulatory body for press in India"
+        },
+        {
+          "name": "Indian Institute of Journalism",
+          "url": "https://iijonline.org",
+          "type": "info",
+          "description": "Journalism training programs"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Coursera - Journalism Courses",
+          "url": "https://www.coursera.org/courses?query=journalism",
+          "type": "freemium",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "Journalism and reporting courses"
+        },
+        {
+          "name": "Knight Center for Journalism",
+          "url": "https://journalismcourses.org",
+          "type": "free",
+          "platform": "Knight Center",
+          "language": "English",
+          "description": "Free online journalism courses"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "Canva",
+          "url": "https://www.canva.com",
+          "description": "Visual content creation"
+        },
+        {
+          "name": "Grammarly",
+          "url": "https://www.grammarly.com",
+          "description": "Writing assistance tool"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/Journalism",
+          "url": "https://www.reddit.com/r/Journalism",
+          "type": "forum",
+          "description": "Journalism community and discussions"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "degree",
+          "label": "BA Journalism",
+          "subtitle": "Or Mass Communication (3 years)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "skill",
+          "label": "Media Skills",
+          "subtitle": "Writing, Reporting, Editing",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Internship",
+          "subtitle": "News outlet or publication",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Journalist",
+          "subtitle": "Print/TV/Digital Media",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "animation-vfx",
+    "meta": {
+      "title": "Animation & VFX",
+      "description": "Create visual effects and animated content for movies, games, and advertising.",
+      "category": "Creative & Media",
+      "subcategory": "Visual Arts",
+      "icon_slug": "film",
+      "difficulty_level": "Advanced",
+      "time_to_job": "1-2 years",
+      "success_rate": "Moderate",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 5.0,
+        "salary_range": "\u20b92.5L/yr (Roto Artist) - \u20b920L/yr+ (VFX Supervisor)",
+        "top_hiring_companies": [
+          "Redchillies VFX",
+          "Prime Focus",
+          "Technicolor India",
+          "MPC",
+          "DNEG"
+        ],
+        "future_scope": [
+          "VFX Supervisor",
+          "Animation Director",
+          "Creative Director",
+          "Studio Head"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "3D Animator",
+          "avg_salary": "\u20b94-8L/yr"
+        },
+        {
+          "role": "Compositor",
+          "avg_salary": "\u20b95-10L/yr"
+        },
+        {
+          "role": "Roto Artist",
+          "avg_salary": "\u20b92-4L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Media & Entertainment Skills Council",
+          "url": "https://mescindia.org",
+          "type": "info",
+          "description": "Skill development body"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Animation Mentor",
+          "url": "https://www.animationmentor.com",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Premium animation school"
+        },
+        {
+          "name": "Blender Guru",
+          "url": "https://www.youtube.com/user/AndrewPPrice",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "English",
+          "description": "Blender tutorials"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/vfx",
+          "url": "https://www.reddit.com/r/vfx",
+          "type": "forum",
+          "description": "Global VFX community"
+        },
+        {
+          "name": "CG Society",
+          "url": "https://cgsociety.org",
+          "type": "community",
+          "description": "Digital art community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "Institute Entrance Exams",
+          "conducting_body": "Private Institutes",
+          "registration_url": "Varies",
+          "exam_pattern": "Creative Test + Interview",
+          "frequency": "Annual",
+          "eligibility": "Class 12 Pass",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Portfolio based"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any Stream (Arts preferred)",
+          "layer": 0
+        },
+        {
+          "id": "2a",
+          "type": "education",
+          "label": "B.Des / B.Sc Animation",
+          "subtitle": "3-4 Years Degree",
+          "duration": "3 years",
+          "layer": 1
+        },
+        {
+          "id": "2b",
+          "type": "education",
+          "label": "Diploma in VFX/Animation",
+          "subtitle": "1-2 Years (Arena/MAAC)",
+          "duration": "1.5 years",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "Specialization",
+          "subtitle": "Modeling / Rigging / Lighting / Compositing",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "education",
+          "label": "Showreel Creation",
+          "subtitle": "Portfolio of Best Work",
+          "duration": "3 months",
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "job",
+          "label": "Junior Artist",
+          "subtitle": "Roto / Paint / Jr Animator",
+          "layer": 4
+        },
+        {
+          "id": "5b",
+          "type": "job",
+          "label": "Freelance Artist",
+          "subtitle": "Gig Work",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Senior Artist",
+          "subtitle": "Lead Shots / Sequences",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "VFX Supervisor",
+          "subtitle": "Creative Lead",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1a",
+          "source": "1",
+          "target": "2a",
+          "label": "Degree Route"
+        },
+        {
+          "id": "e1b",
+          "source": "1",
+          "target": "2b",
+          "label": "Diploma Route"
+        },
+        {
+          "id": "e2a",
+          "source": "2a",
+          "target": "3"
+        },
+        {
+          "id": "e2b",
+          "source": "2b",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "5a",
+          "label": "Studio Job"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "5b",
+          "label": "Freelance"
+        },
+        {
+          "id": "e5",
+          "source": "5a",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "photography-videography",
+    "meta": {
+      "title": "Photography & Videography",
+      "description": "Capture and edit visual content for media, advertising, and art.",
+      "category": "Creative & Media",
+      "subcategory": "Visual Arts",
+      "icon_slug": "camera",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "6 months - 3 years (Portfolio based)",
+      "success_rate": "Moderate (Highly Competitive)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 4.0,
+        "salary_range": "\u20b92.5L/yr (Assistant) - \u20b912L/yr+ (Established Freelancer/Cinematographer)",
+        "top_hiring_companies": [
+          "Media Houses (Times, NDTV)",
+          "Advertising Agencies",
+          "E-commerce (Amazon, Flipkart)",
+          "Wedding Studios",
+          "Film Production Houses"
+        ],
+        "future_scope": [
+          "Cinematographer",
+          "Creative Director",
+          "Documentary Filmmaker",
+          "Studio Owner"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Photographer",
+          "avg_salary": "\u20b93-6L/yr"
+        },
+        {
+          "role": "Video Editor",
+          "avg_salary": "\u20b93-5L/yr"
+        },
+        {
+          "role": "Photojournalist",
+          "avg_salary": "\u20b94-7L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "FTII",
+          "url": "https://www.ftii.ac.in",
+          "type": "info",
+          "description": "Film and Television Institute of India"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Udemy Photography",
+          "url": "https://www.udemy.com/topic/photography",
+          "type": "paid",
+          "platform": "Web",
+          "language": "English",
+          "description": "Technical skills"
+        },
+        {
+          "name": "YouTube (Peter McKinnon)",
+          "url": "https://www.youtube.com/user/petermckinnon24",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "English",
+          "description": "Tutorials"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Instagram Photography",
+          "url": "https://www.instagram.com",
+          "type": "community",
+          "description": "Portfolio sharing"
+        },
+        {
+          "name": "Behance",
+          "url": "https://www.behance.net",
+          "type": "portfolio",
+          "description": "Creative portfolio"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "FTII JET",
+          "conducting_body": "FTII / SRFTI",
+          "registration_url": "https://applyadmission.net/jet2024",
+          "exam_pattern": "Written + Audition/Interview",
+          "frequency": "Annual",
+          "eligibility": "Graduation",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "Very High Competition"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "education",
+          "label": "BFA / Diploma Photography",
+          "subtitle": "3 Years / 1 Year",
+          "duration": "3 years",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "job",
+          "label": "Assistant Photographer",
+          "subtitle": "Apprenticeship (Crucial)",
+          "duration": "1-2 years",
+          "layer": 2
+        },
+        {
+          "id": "4a",
+          "type": "job",
+          "label": "Freelance Photographer",
+          "subtitle": "Weddings / Events / Portraits",
+          "layer": 3
+        },
+        {
+          "id": "4b",
+          "type": "job",
+          "label": "Staff Photographer",
+          "subtitle": "Media / E-commerce",
+          "layer": 3
+        },
+        {
+          "id": "4c",
+          "type": "education",
+          "label": "Cinematography Course",
+          "subtitle": "Specialization (FTII etc.)",
+          "duration": "2 years",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Senior Photographer / DOP",
+          "subtitle": "Director of Photography",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Studio Owner",
+          "subtitle": "Business Owner",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3a",
+          "source": "3",
+          "target": "4a",
+          "label": "Freelance"
+        },
+        {
+          "id": "e3b",
+          "source": "3",
+          "target": "4b",
+          "label": "Job"
+        },
+        {
+          "id": "e3c",
+          "source": "3",
+          "target": "4c",
+          "label": "Film Path"
+        },
+        {
+          "id": "e4a",
+          "source": "4a",
+          "target": "6"
+        },
+        {
+          "id": "e4b",
+          "source": "4b",
+          "target": "5"
+        },
+        {
+          "id": "e4c",
+          "source": "4c",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "graphic-design",
+    "meta": {
+      "title": "Graphic Design",
+      "description": "Create visual concepts to communicate ideas that inspire, inform, and captivate consumers.",
+      "category": "Creative & Media",
+      "subcategory": "Design",
+      "icon_slug": "pen-tool",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "6 months - 4 years (Portfolio based)",
+      "success_rate": "High (High Demand)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "\u20b93L/yr (Junior Designer) - \u20b915L/yr+ (Art Director/UX Lead)",
+        "top_hiring_companies": [
+          "Advertising Agencies (Ogilvy, JWT)",
+          "Tech Companies (Google, Adobe)",
+          "Design Studios",
+          "Publishing Houses",
+          "Freelance Platforms"
+        ],
+        "future_scope": [
+          "Art Director",
+          "Creative Director",
+          "Brand Identity Specialist",
+          "UX/UI Designer"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Graphic Designer",
+          "avg_salary": "\u20b93-6L/yr"
+        },
+        {
+          "role": "Illustrator",
+          "avg_salary": "\u20b94-8L/yr"
+        },
+        {
+          "role": "Visual Designer",
+          "avg_salary": "\u20b95-10L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "NID",
+          "url": "https://www.nid.edu",
+          "type": "info",
+          "description": "National Institute of Design"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Adobe Creative Cloud",
+          "url": "https://www.adobe.com/creativecloud/design.html",
+          "type": "paid",
+          "platform": "Software",
+          "language": "English",
+          "description": "Industry standard tools"
+        },
+        {
+          "name": "Coursera Graphic Design",
+          "url": "https://www.coursera.org/specializations/graphic-design",
+          "type": "freemium",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "CalArts Specialization"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Behance",
+          "url": "https://www.behance.net",
+          "type": "portfolio",
+          "description": "Portfolio platform"
+        },
+        {
+          "name": "Dribbble",
+          "url": "https://dribbble.com",
+          "type": "portfolio",
+          "description": "Design community"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "NID DAT",
+          "conducting_body": "NID",
+          "registration_url": "https://admissions.nid.edu",
+          "exam_pattern": "Prelims + Mains (Studio Test)",
+          "frequency": "Annual",
+          "eligibility": "Class 12",
+          "attempts_allowed": "No limit",
+          "cutoff_trends": "High Competition"
+        },
+        {
+          "name": "UCEED",
+          "conducting_body": "IIT Bombay",
+          "registration_url": "http://www.uceed.iitb.ac.in",
+          "exam_pattern": "Drawing + Aptitude",
+          "frequency": "Annual",
+          "eligibility": "Class 12",
+          "attempts_allowed": "2",
+          "cutoff_trends": "High for IITs"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any Stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "Entrance Exams",
+          "subtitle": "NID DAT / UCEED",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "B.Des Graphic Design",
+          "subtitle": "4 Years Degree",
+          "duration": "4 years",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "job",
+          "label": "Junior Designer",
+          "subtitle": "Agency / Studio",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Senior Designer",
+          "subtitle": "Lead Projects",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Art Director",
+          "subtitle": "Creative Leadership",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Creative Director",
+          "subtitle": "Executive Role",
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        },
+        {
+          "id": "e6",
+          "source": "6",
+          "target": "7"
+        }
+      ]
+    }
+  }
+]
