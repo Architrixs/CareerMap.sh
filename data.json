@@ -1,0 +1,5936 @@
+[
+  {
+    "roadmap_id": "it-software-dev",
+    "meta": {
+      "title": "IT & Software Development",
+      "description": "Develop, maintain, and optimize digital platforms. The largest job creator in India's tech sector.",
+      "category": "Technology & IT",
+      "subcategory": "Software Development",
+      "icon_slug": "code",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4-5 years",
+      "success_rate": "High (60-70% placement rate from good colleges)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 10.1,
+        "salary_range": "₹4.5L - ₹27.9L",
+        "demand_trend": "Growing",
+        "top_hiring_companies": [
+          "TCS",
+          "Infosys",
+          "Wipro",
+          "Accenture",
+          "Google India"
+        ],
+        "future_scope": [
+          "Cloud & AI Adoption",
+          "Cybersecurity focus",
+          "Remote/Hybrid work models",
+          "Startup ecosystem growth"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Software Developer",
+          "avg_salary": "₹10.1L/yr"
+        },
+        {
+          "role": "Cloud Architect",
+          "avg_salary": "₹27.9L/yr"
+        },
+        {
+          "role": "Full Stack Developer",
+          "avg_salary": "₹9.6L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "roadmaps_external": [
+        {
+          "name": "roadmap.sh - Backend Developer",
+          "url": "https://roadmap.sh/backend",
+          "relevance": "high",
+          "description": "Comprehensive backend development roadmap"
+        },
+        {
+          "name": "roadmap.sh - Frontend Developer",
+          "url": "https://roadmap.sh/frontend",
+          "relevance": "high",
+          "description": "Complete frontend development path"
+        },
+        {
+          "name": "roadmap.sh - Full Stack",
+          "url": "https://roadmap.sh/full-stack",
+          "relevance": "high",
+          "description": "Full stack development guide"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "freeCodeCamp",
+          "url": "https://www.freecodecamp.org",
+          "type": "free",
+          "platform": "freeCodeCamp",
+          "language": "English",
+          "description": "Free coding bootcamp with certifications"
+        },
+        {
+          "name": "Coursera - Google IT Certificate",
+          "url": "https://www.coursera.org/google-certificates/it-support-certificate",
+          "type": "paid",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "Industry-recognized Google certification"
+        },
+        {
+          "name": "NPTEL - Programming Courses",
+          "url": "https://nptel.ac.in/course.html",
+          "type": "free",
+          "platform": "NPTEL",
+          "language": "English",
+          "description": "IIT/IISc online courses"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "LeetCode",
+          "url": "https://leetcode.com",
+          "type": "coding_platform",
+          "free": true,
+          "description": "DSA practice for interviews"
+        },
+        {
+          "name": "HackerRank",
+          "url": "https://www.hackerrank.com",
+          "type": "coding_platform",
+          "free": true,
+          "description": "Coding challenges and competitions"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com",
+          "type": "version_control",
+          "free": true,
+          "description": "Code hosting and version control"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/developersIndia",
+          "url": "https://www.reddit.com/r/developersIndia/",
+          "platform": "Reddit",
+          "members": "200K+",
+          "description": "Indian developers community"
+        },
+        {
+          "name": "GeeksforGeeks",
+          "url": "https://www.geeksforgeeks.org",
+          "platform": "Website",
+          "description": "Coding tutorials and practice"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "CodeWithHarry",
+          "url": "https://www.youtube.com/@CodeWithHarry",
+          "language": "Hindi",
+          "subscribers": "4M+",
+          "focus": "Programming tutorials in Hindi"
+        },
+        {
+          "name": "Apna College",
+          "url": "https://www.youtube.com/@ApnaCollegeOfficial",
+          "language": "Both",
+          "subscribers": "4M+",
+          "focus": "DSA and placement prep"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (Science)",
+          "subtitle": "PCM (Physics, Chemistry, Maths)",
+          "duration": "2 years",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "Entrance Exams",
+          "subtitle": "JEE Main / BITSAT / State CET",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "degree",
+          "label": "B.Tech / B.E.",
+          "subtitle": "CS / IT / ECE Branch",
+          "duration": "4 years",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "skill",
+          "label": "Core Skills",
+          "subtitle": "DSA, Java/Python, Databases",
+          "duration": "Throughout degree",
+          "layer": 3
+        },
+        {
+          "id": "4a",
+          "type": "skill",
+          "label": "Frontend Path",
+          "subtitle": "React, Angular, Vue.js",
+          "optional": true,
+          "layer": 4
+        },
+        {
+          "id": "4b",
+          "type": "skill",
+          "label": "Backend Path",
+          "subtitle": "Node.js, Spring Boot, Django",
+          "optional": true,
+          "layer": 4
+        },
+        {
+          "id": "4c",
+          "type": "skill",
+          "label": "Full Stack Path",
+          "subtitle": "MERN/MEAN Stack",
+          "optional": true,
+          "layer": 4
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Software Engineer",
+          "subtitle": "Entry Level Role",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "4a",
+          "label": "Frontend",
+          "type": "alternative"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "4b",
+          "label": "Backend",
+          "type": "alternative"
+        },
+        {
+          "id": "e4c",
+          "source": "4",
+          "target": "4c",
+          "label": "Full Stack",
+          "type": "alternative"
+        },
+        {
+          "id": "e5a",
+          "source": "4a",
+          "target": "5"
+        },
+        {
+          "id": "e5b",
+          "source": "4b",
+          "target": "5"
+        },
+        {
+          "id": "e5c",
+          "source": "4c",
+          "target": "5"
+        }
+      ]
+    },
+    "alternatives_and_pivots": [
+      {
+        "to_career": "data-science",
+        "description": "Many software developers pivot to data science after gaining programming experience",
+        "difficulty": "Moderate",
+        "typical_timing": "After 2-3 years of development experience"
+      },
+      {
+        "to_career": "cloud-devops",
+        "description": "Natural progression for developers interested in infrastructure",
+        "difficulty": "Easy",
+        "typical_timing": "Mid-career pivot"
+      }
+    ]
+  },
+  {
+    "roadmap_id": "sanitation-worker",
+    "meta": {
+      "title": "Sanitation & Housekeeping",
+      "description": "Essential workers maintaining cleanliness in homes, offices, hospitals, and public spaces.",
+      "category": "Essential Services",
+      "icon_slug": "home",
+      "difficulty_level": "Beginner",
+      "time_to_job": "0.5-1 year",
+      "market_stats": {
+        "average_salary_lpa": 2.4,
+        "salary_range": "₹1.8L - ₹3.6L",
+        "top_hiring_companies": [
+          "Municipal Corporations",
+          "Private Hospitals",
+          "Commercial Buildings",
+          "Hotels & Resorts",
+          "Educational Institutions"
+        ],
+        "future_scope": [
+          "Mechanization of cleaning",
+          "Govt schemes for sanitation workers",
+          "Specialized healthcare cleaning roles",
+          "Facility management companies"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Housekeeping Supervisor",
+          "avg_salary": "₹3.6L/yr"
+        },
+        {
+          "role": "Sanitation Worker",
+          "avg_salary": "₹2.4L/yr"
+        },
+        {
+          "role": "Cleaning Staff",
+          "avg_salary": "₹1.8L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "NSDC Skill India",
+          "url": "https://www.skillindiadigital.gov.in",
+          "type": "info",
+          "description": "National Skill Development Corporation training programs"
+        },
+        {
+          "name": "Ministry of Housing & Urban Affairs",
+          "url": "https://mohua.gov.in",
+          "type": "info",
+          "description": "Govt schemes for sanitation workers"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "PMKVY Training Centers",
+          "url": "https://www.pmkvyofficial.org",
+          "type": "free",
+          "platform": "PMKVY",
+          "language": "Both",
+          "description": "Pradhan Mantri Kaushal Vikas Yojana - free skill training"
+        },
+        {
+          "name": "IGNOU Skill Courses",
+          "url": "https://ignou.ac.in",
+          "type": "free",
+          "platform": "IGNOU",
+          "language": "Both",
+          "description": "Distance learning skill development programs"
+        }
+      ],
+      "communities": [
+        {
+          "name": "KKPKP (Pune Waste Pickers Union)",
+          "url": "http://www.kkpkp.org",
+          "type": "union",
+          "description": "Worker rights and training support"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 5-10",
+          "subtitle": "Basic literacy helpful",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "skill",
+          "label": "On-Job Training",
+          "subtitle": "Cleaning techniques, safety protocols",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "license",
+          "label": "Health & Safety Training",
+          "subtitle": "Chemical handling, waste segregation",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Experience",
+          "subtitle": "2-3 years in field",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Supervisor / Contractor",
+          "subtitle": "Team management role",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "govt-clerk",
+    "meta": {
+      "title": "Government Clerk (Clerical Cadre)",
+      "description": "Administrative support in government offices with job security and benefits.",
+      "category": "Government & Public Service",
+      "icon_slug": "file-text",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "1-2 years",
+      "market_stats": {
+        "average_salary_lpa": 4.2,
+        "salary_range": "₹2.5L - ₹6L (+ Benefits)",
+        "top_hiring_companies": [
+          "SSC (Staff Selection Commission)",
+          "Railway Recruitment Board",
+          "State PSCs",
+          "Banking Sector",
+          "Central Govt Ministries"
+        ],
+        "future_scope": [
+          "Promotions to Section Officer",
+          "Departmental exams for growth",
+          "Pension & job security",
+          "Digital skills increasingly valued"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Lower Division Clerk (LDC)",
+          "avg_salary": "₹2.5L/yr"
+        },
+        {
+          "role": "Upper Division Clerk (UDC)",
+          "avg_salary": "₹4.2L/yr"
+        },
+        {
+          "role": "Section Officer",
+          "avg_salary": "₹6L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "SSC Official Website",
+          "url": "https://ssc.nic.in",
+          "type": "exam",
+          "description": "Staff Selection Commission - CHSL exam portal"
+        },
+        {
+          "name": "SSC CHSL Notification",
+          "url": "https://ssc.nic.in/SSCFileServer/PortalManagement/UploadedFiles/notice_CHSL.pdf",
+          "type": "notification",
+          "description": "Annual CHSL exam notification"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Adda247",
+          "url": "https://www.adda247.com/ssc-chsl",
+          "type": "freemium",
+          "platform": "Adda247",
+          "language": "Both",
+          "description": "SSC CHSL preparation platform"
+        },
+        {
+          "name": "Oliveboard SSC",
+          "url": "https://www.oliveboard.in/ssc",
+          "type": "freemium",
+          "platform": "Oliveboard",
+          "language": "English",
+          "description": "Mock tests and practice for SSC exams"
+        },
+        {
+          "name": "Gradeup SSC",
+          "url": "https://gradeup.co/ssc-exams",
+          "type": "freemium",
+          "platform": "Gradeup",
+          "language": "Both",
+          "description": "SSC preparation courses and tests"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/SSC",
+          "url": "https://www.reddit.com/r/SSC",
+          "type": "forum",
+          "description": "SSC exam preparation community"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any stream from recognized board",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "SSC CHSL / State Exams",
+          "subtitle": "Tier 1 & 2 (Objective + Descriptive)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "skill",
+          "label": "Computer Skills",
+          "subtitle": "MS Office, Typing (Hindi/English)",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "exam",
+          "label": "Typing Test",
+          "subtitle": "35-40 WPM in English or Hindi",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "LDC/UDC",
+          "subtitle": "Government Office Clerk",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "ias-civil-services",
+    "meta": {
+      "title": "IAS & Civil Services",
+      "description": "Prestigious administrative roles shaping India's governance and public policy.",
+      "category": "Government & Public Service",
+      "subcategory": "Civil Services",
+      "icon_slug": "award",
+      "difficulty_level": "Expert",
+      "time_to_job": "4-6 years",
+      "success_rate": "Less than 1% (1:1000+ competition)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 10.0,
+        "salary_range": "₹7.5L - ₹25L+ (Scale + Perks)",
+        "demand_trend": "Stable",
+        "top_hiring_companies": [
+          "UPSC",
+          "Central Government",
+          "State Services",
+          "Foreign Services",
+          "Police Services"
+        ],
+        "future_scope": [
+          "Policy-making authority",
+          "District & State level leadership",
+          "International postings",
+          "Pension & housing benefits"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "IAS Officer",
+          "avg_salary": "₹10L+/yr (+ perks)"
+        },
+        {
+          "role": "IPS Officer",
+          "avg_salary": "₹9L+/yr"
+        },
+        {
+          "role": "IFS Officer",
+          "avg_salary": "₹10L+/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "UPSC Official Website",
+          "url": "https://www.upsc.gov.in",
+          "type": "exam",
+          "description": "Official UPSC website for notifications, syllabus, and results"
+        },
+        {
+          "name": "UPSC CSE Notification",
+          "url": "https://www.upsc.gov.in/examinations/cse",
+          "type": "notification",
+          "description": "Annual CSE exam notification and schedule"
+        },
+        {
+          "name": "UPSC Syllabus",
+          "url": "https://www.upsc.gov.in/sites/default/files/Syllabus-English.pdf",
+          "type": "syllabus",
+          "description": "Detailed syllabus for Prelims and Mains"
+        },
+        {
+          "name": "UPSC Previous Year Papers",
+          "url": "https://www.upsc.gov.in/previous-question-papers",
+          "type": "exam",
+          "description": "Previous years' question papers"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "BYJU's IAS",
+          "url": "https://byjus.com/ias/",
+          "type": "freemium",
+          "platform": "BYJU's",
+          "language": "Both",
+          "description": "Comprehensive UPSC preparation platform"
+        },
+        {
+          "name": "Unacademy UPSC",
+          "url": "https://unacademy.com/goal/upsc-cse",
+          "type": "freemium",
+          "platform": "Unacademy",
+          "language": "Both",
+          "description": "Live classes and recorded courses for UPSC"
+        },
+        {
+          "name": "NCERT Textbooks (6-12)",
+          "url": "https://ncert.nic.in/textbook.php",
+          "type": "free",
+          "platform": "NCERT",
+          "language": "Both",
+          "description": "Foundation for UPSC preparation"
+        },
+        {
+          "name": "InsightsIAS",
+          "url": "https://www.insightsonindia.com",
+          "type": "free",
+          "platform": "InsightsIAS",
+          "language": "English",
+          "description": "Daily current affairs and test series"
+        }
+      ],
+      "books": [
+        {
+          "title": "NCERT Textbooks (Class 6-12)",
+          "type": "textbook",
+          "author": "NCERT",
+          "publisher": "NCERT"
+        },
+        {
+          "title": "India's Struggle for Independence",
+          "author": "Bipan Chandra",
+          "type": "reference",
+          "publisher": "Penguin"
+        },
+        {
+          "title": "Indian Polity",
+          "author": "M. Laxmikanth",
+          "type": "reference",
+          "publisher": "McGraw Hill"
+        },
+        {
+          "title": "Indian Economy",
+          "author": "Ramesh Singh",
+          "type": "reference",
+          "publisher": "McGraw Hill"
+        },
+        {
+          "title": "Certificate Physical and Human Geography",
+          "author": "Goh Cheng Leong",
+          "type": "reference",
+          "publisher": "Oxford"
+        },
+        {
+          "title": "UPSC Previous 10 Years Papers",
+          "type": "previous_papers",
+          "publisher": "Arihant / Disha"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/UPSC",
+          "url": "https://www.reddit.com/r/UPSC/",
+          "platform": "Reddit",
+          "members": "50K+",
+          "description": "Reddit community for UPSC aspirants"
+        },
+        {
+          "name": "UPSC Pathshala",
+          "url": "https://t.me/upscpathshala",
+          "platform": "Telegram",
+          "description": "Telegram group for daily updates and discussions"
+        },
+        {
+          "name": "ForumIAS Community",
+          "url": "https://forumias.com/community",
+          "platform": "Facebook",
+          "description": "Large UPSC aspirants community"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "Study IQ Education",
+          "url": "https://www.youtube.com/@StudyIQeducation",
+          "language": "Both",
+          "subscribers": "9M+",
+          "focus": "Current affairs and exam preparation"
+        },
+        {
+          "name": "Drishti IAS",
+          "url": "https://www.youtube.com/@DrishtiIASvideos",
+          "language": "Both",
+          "subscribers": "4M+",
+          "focus": "Comprehensive UPSC coverage"
+        },
+        {
+          "name": "Unacademy UPSC",
+          "url": "https://www.youtube.com/@UnacademyUPSC",
+          "language": "Both",
+          "subscribers": "3M+",
+          "focus": "Live classes and strategy"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "UPSC Civil Services Examination (CSE)",
+          "conducting_body": "Union Public Service Commission (UPSC)",
+          "registration_url": "https://upsconline.nic.in",
+          "exam_pattern": "Three stages: Prelims (2 papers - objective), Mains (9 papers - descriptive), Interview (Personality Test)",
+          "frequency": "Annual",
+          "typical_dates": "Prelims: May/June, Mains: September, Interview: February-April",
+          "eligibility": "Bachelor's degree (any discipline), Age: 21-32 years (General), Relaxations for OBC/SC/ST",
+          "attempts_allowed": "6 (General), 9 (OBC), Unlimited (SC/ST) - subject to age limit",
+          "syllabus_url": "https://www.upsc.gov.in/sites/default/files/Syllabus-English.pdf",
+          "previous_papers_url": "https://www.upsc.gov.in/previous-question-papers",
+          "cutoff_trends": "Prelims: General 87-100/200, Mains: Varies (Top 1500-2000 qualify), Final: Top 1000 approx",
+          "exam_fee": "₹100 (General/OBC), ₹0 (SC/ST/PwD/Women)",
+          "negative_marking": true,
+          "total_seats": "~1000 annually (varies: IAS 180, IPS 150, IFS 50, Others 620)"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Bachelor's Degree",
+          "subtitle": "Any discipline from recognized university",
+          "duration": "3-4 years",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "UPSC Prelims",
+          "subtitle": "GS + CSAT (General Studies + Aptitude)",
+          "duration": "2-3 months (exam cycle)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "UPSC Mains",
+          "subtitle": "9 Papers (Essay, GS, Optional)",
+          "duration": "4-5 months",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "exam",
+          "label": "Personality Test",
+          "subtitle": "Interview (275 marks)",
+          "duration": "1 day",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "work",
+          "label": "Training (LBSNAA)",
+          "subtitle": "2 years at Mussoorie + Districts",
+          "duration": "2 years",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "IAS/IPS/IFS Officer",
+          "subtitle": "Administrative/Police/Foreign Service",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        }
+      ]
+    },
+    "alternatives_and_pivots": [
+      {
+        "to_career": "banker-finance",
+        "description": "Many UPSC aspirants pivot to banking sector exams (SBI PO, RBI Grade B) after multiple attempts",
+        "difficulty": "Moderate",
+        "typical_timing": "After 2-3 unsuccessful attempts"
+      },
+      {
+        "to_career": "state-civil-services",
+        "description": "State PSC exams are easier and offer similar administrative roles at state level",
+        "difficulty": "Easy",
+        "typical_timing": "Parallel preparation or after UPSC"
+      }
+    ]
+  },
+  {
+    "roadmap_id": "police-constable",
+    "meta": {
+      "title": "Police & Law Enforcement",
+      "description": "Maintain law and order, serve the community, and ensure public safety.",
+      "category": "Government & Public Service",
+      "icon_slug": "shield",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "1-1.5 years",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 3.6,
+        "salary_range": "₹2.5L - ₹7L",
+        "top_hiring_companies": [
+          "State Police Departments",
+          "CRPF, BSF, CISF",
+          "Railway Protection Force",
+          "Delhi Police",
+          "State PSCs"
+        ],
+        "future_scope": [
+          "Promotion to SI, Inspector",
+          "Specialized units (Cyber, Crime)",
+          "Departmental exams for growth",
+          "Job security & pension"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Police Constable",
+          "avg_salary": "₹3L/yr"
+        },
+        {
+          "role": "Head Constable",
+          "avg_salary": "₹4.5L/yr"
+        },
+        {
+          "role": "Sub-Inspector",
+          "avg_salary": "₹6L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "State Police Recruitment Boards",
+          "url": "https://police.py.gov.in/recruitment.html",
+          "type": "exam",
+          "description": "State-wise police recruitment portals"
+        },
+        {
+          "name": "CRPF Recruitment",
+          "url": "https://crpf.gov.in",
+          "type": "exam",
+          "description": "Central Reserve Police Force recruitment"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Testbook Police Exams",
+          "url": "https://testbook.com/police-exams",
+          "type": "freemium",
+          "platform": "Testbook",
+          "language": "Both",
+          "description": "State police exam preparation"
+        },
+        {
+          "name": "Adda247 Police",
+          "url": "https://www.adda247.com/police",
+          "type": "freemium",
+          "platform": "Adda247",
+          "language": "Both",
+          "description": "Mock tests and study material for police exams"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Police Bharti Forum",
+          "url": "https://www.sarkariresult.com/police-recruitment",
+          "type": "forum",
+          "description": "State police recruitment updates"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 10/12",
+          "subtitle": "Varies by state (usually 12th)",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "Written Exam",
+          "subtitle": "GK, Reasoning, Numerical Ability",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "Physical Tests",
+          "subtitle": "Running, High Jump, Long Jump",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Police Training",
+          "subtitle": "6-12 months at Police Academy",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Police Constable",
+          "subtitle": "Field Duty",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "teacher-education",
+    "meta": {
+      "title": "Teaching & Education",
+      "description": "Shape future generations through primary, secondary, or higher education.",
+      "category": "Education & Research",
+      "icon_slug": "book-open",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3-4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "₹2.4L - ₹12L+",
+        "top_hiring_companies": [
+          "Govt Schools (Central/State)",
+          "CBSE/ICSE Schools",
+          "Private Schools",
+          "Colleges & Universities",
+          "Ed-Tech Companies (Byju's, Vedantu)"
+        ],
+        "future_scope": [
+          "Ed-Tech integration",
+          "NEP 2020 reforms",
+          "Online teaching opportunities",
+          "Special education demand"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Primary Teacher (PRT)",
+          "avg_salary": "₹3L/yr"
+        },
+        {
+          "role": "Secondary Teacher (TGT)",
+          "avg_salary": "₹4.5L/yr"
+        },
+        {
+          "role": "Professor",
+          "avg_salary": "₹8L - ₹12L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "CTET Official Website",
+          "url": "https://ctet.nic.in",
+          "type": "exam",
+          "description": "Central Teacher Eligibility Test portal"
+        },
+        {
+          "name": "NCTE (National Council for Teacher Education)",
+          "url": "https://ncte.gov.in",
+          "type": "info",
+          "description": "Teacher education regulations and guidelines"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Unacademy CTET",
+          "url": "https://unacademy.com/goal/ctet",
+          "type": "freemium",
+          "platform": "Unacademy",
+          "language": "Both",
+          "description": "CTET preparation courses"
+        },
+        {
+          "name": "Gradeup CTET",
+          "url": "https://gradeup.co/ctet-exam",
+          "type": "freemium",
+          "platform": "Gradeup",
+          "language": "Both",
+          "description": "CTET mock tests and study material"
+        },
+        {
+          "name": "IGNOU B.Ed",
+          "url": "https://ignou.ac.in",
+          "type": "paid",
+          "platform": "IGNOU",
+          "language": "Both",
+          "description": "Distance B.Ed program"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/Teachers",
+          "url": "https://www.reddit.com/r/Teachers",
+          "type": "forum",
+          "description": "Teacher community for discussions and support"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Bachelor's Degree",
+          "subtitle": "B.A/B.Sc/B.Com (50%+ marks)",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "degree",
+          "label": "B.Ed / D.El.Ed",
+          "subtitle": "2-year teaching degree",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "CTET / State TET",
+          "subtitle": "Teacher Eligibility Test",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Teaching Practice",
+          "subtitle": "Internship during B.Ed",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "School Teacher",
+          "subtitle": "Govt or Private School",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "agriculture-farming",
+    "meta": {
+      "title": "Agriculture & Farming",
+      "description": "Modern farming techniques, agribusiness, and rural entrepreneurship.",
+      "category": "Agriculture & Allied",
+      "icon_slug": "leaf",
+      "difficulty_level": "Beginner to Intermediate",
+      "time_to_job": "0-4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.0,
+        "salary_range": "₹2L - ₹10L+ (Variable)",
+        "top_hiring_companies": [
+          "ITC Agri Business",
+          "Bayer CropScience",
+          "Mahindra Agri",
+          "Jain Irrigation",
+          "Self-employment"
+        ],
+        "future_scope": [
+          "Precision agriculture",
+          "Organic farming growth",
+          "Agri-tech startups",
+          "Govt MSP schemes"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Agricultural Officer",
+          "avg_salary": "₹4L/yr"
+        },
+        {
+          "role": "Farm Manager",
+          "avg_salary": "₹6L/yr"
+        },
+        {
+          "role": "Agri-Entrepreneur",
+          "avg_salary": "Variable"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "ICAR - Indian Council of Agricultural Research",
+          "url": "https://icar.org.in",
+          "type": "info",
+          "description": "National agricultural research body"
+        },
+        {
+          "name": "Kisan Call Centre",
+          "url": "https://mkisan.gov.in",
+          "type": "info",
+          "description": "Farmer helpline and agri schemes"
+        },
+        {
+          "name": "PM-KISAN Portal",
+          "url": "https://pmkisan.gov.in",
+          "type": "info",
+          "description": "Direct income support for farmers"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "ICAR AIEEA Preparation",
+          "url": "https://icar.nta.nic.in",
+          "type": "free",
+          "platform": "NTA",
+          "language": "English",
+          "description": "Agricultural entrance exam portal"
+        },
+        {
+          "name": "Krishi Jagran",
+          "url": "https://krishijagran.com",
+          "type": "free",
+          "platform": "Krishi Jagran",
+          "language": "Both",
+          "description": "Agricultural news and knowledge platform"
+        },
+        {
+          "name": "AgriXchange",
+          "url": "https://www.agriexchange.apeda.gov.in",
+          "type": "free",
+          "platform": "APEDA",
+          "language": "English",
+          "description": "Agri-business and export platform"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Kisan Sabha Forums",
+          "url": "https://aiks.org",
+          "type": "organization",
+          "description": "Farmer unions and advocacy groups"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (Science/Agri)",
+          "subtitle": "PCB or Agriculture stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "degree",
+          "label": "B.Sc Agriculture",
+          "subtitle": "4-year degree via ICAR exam",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "skill",
+          "label": "Practical Training",
+          "subtitle": "Crop management, soil science",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Internship",
+          "subtitle": "Farm or agri-company",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Agricultural Officer / Farmer",
+          "subtitle": "Govt or Private Sector",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "banking-finance",
+    "meta": {
+      "title": "Banking & Finance",
+      "description": "Manage financial operations, loans, and customer services in banks.",
+      "category": "Finance & Commerce",
+      "icon_slug": "dollar-sign",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3-4 years",
+      "market_stats": {
+        "average_salary_lpa": 6.5,
+        "salary_range": "₹3L - ₹15L+",
+        "top_hiring_companies": [
+          "SBI",
+          "HDFC Bank",
+          "ICICI Bank",
+          "Axis Bank",
+          "RBI"
+        ],
+        "future_scope": [
+          "Digital banking growth",
+          "Fintech integration",
+          "Investment advisory",
+          "Financial inclusion initiatives"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Bank PO",
+          "avg_salary": "₹7L/yr"
+        },
+        {
+          "role": "Bank Clerk",
+          "avg_salary": "₹3L/yr"
+        },
+        {
+          "role": "Relationship Manager",
+          "avg_salary": "₹6L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "IBPS Official Website",
+          "url": "https://ibps.in",
+          "type": "exam",
+          "description": "Institute of Banking Personnel Selection"
+        },
+        {
+          "name": "SBI Careers",
+          "url": "https://sbi.co.in/careers",
+          "type": "exam",
+          "description": "State Bank of India recruitment portal"
+        },
+        {
+          "name": "RBI Recruitment",
+          "url": "https://opportunities.rbi.org.in",
+          "type": "exam",
+          "description": "Reserve Bank of India careers"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Oliveboard Banking",
+          "url": "https://www.oliveboard.in/bank-exams",
+          "type": "freemium",
+          "platform": "Oliveboard",
+          "language": "English",
+          "description": "IBPS PO/Clerk preparation with mock tests"
+        },
+        {
+          "name": "Gradeup Banking",
+          "url": "https://gradeup.co/bank-exams",
+          "type": "freemium",
+          "platform": "Gradeup",
+          "language": "Both",
+          "description": "Banking exam courses and practice tests"
+        },
+        {
+          "name": "Adda247 Banking",
+          "url": "https://www.adda247.com/bank-jobs",
+          "type": "freemium",
+          "platform": "Adda247",
+          "language": "Both",
+          "description": "Complete banking exam preparation"
+        }
+      ],
+      "communities": [
+        {
+          "name": "BankExamsToday Forum",
+          "url": "https://www.bankexamstoday.com",
+          "type": "forum",
+          "description": "Banking exam preparation community"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Bachelor's Degree",
+          "subtitle": "Any discipline (60%+ marks)",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "IBPS / SBI Exams",
+          "subtitle": "PO, Clerk, or SO exams",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "skill",
+          "label": "Banking Knowledge",
+          "subtitle": "Financial literacy, computer skills",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Probation Period",
+          "subtitle": "On-job training (6-12 months)",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Bank Officer / Clerk",
+          "subtitle": "Branch or Regional Office",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "chartered-accountant",
+    "meta": {
+      "title": "Chartered Accountancy (CA)",
+      "description": "Expert financial advisors managing audits, taxation, and corporate finance.",
+      "category": "Finance & Commerce",
+      "subcategory": "Professional Accounting",
+      "icon_slug": "calculator",
+      "difficulty_level": "Expert",
+      "time_to_job": "4.5-5 years",
+      "success_rate": "Low (~5-10% complete all three levels)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 8.0,
+        "salary_range": "₹6L - ₹25L+",
+        "demand_trend": "Growing",
+        "top_hiring_companies": [
+          "Big 4 (Deloitte, PwC, EY, KPMG)",
+          "Corporate Finance Teams",
+          "Private Practice",
+          "Investment Banks",
+          "Consulting Firms"
+        ],
+        "future_scope": [
+          "GST & tax advisory",
+          "Corporate restructuring",
+          "International opportunities",
+          "High-value consulting"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Chartered Accountant",
+          "avg_salary": "₹8L - ₹15L/yr"
+        },
+        {
+          "role": "Tax Consultant",
+          "avg_salary": "₹7L/yr"
+        },
+        {
+          "role": "Financial Analyst",
+          "avg_salary": "₹6L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "ICAI Official Website",
+          "url": "https://www.icai.org",
+          "type": "info",
+          "description": "Institute of Chartered Accountants of India"
+        },
+        {
+          "name": "ICAI Exam Portal",
+          "url": "https://eservices.icai.org",
+          "type": "registration",
+          "description": "CA exam registration and results"
+        },
+        {
+          "name": "CA Foundation/Inter/Final Syllabus",
+          "url": "https://www.icai.org/post/syllabus",
+          "type": "syllabus",
+          "description": "Detailed syllabus for all three levels"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Unacademy CA",
+          "url": "https://unacademy.com/goal/ca-foundation",
+          "type": "freemium",
+          "platform": "Unacademy",
+          "language": "Both",
+          "description": "CA Foundation, Intermediate, Final courses"
+        },
+        {
+          "name": "CAclubindia",
+          "url": "https://www.caclubindia.com",
+          "type": "free",
+          "platform": "CAclubindia",
+          "language": "English",
+          "description": "Free study materials, notes, and forums"
+        },
+        {
+          "name": "ICAI Study Materials (Free)",
+          "url": "https://www.icai.org/post/study-material",
+          "type": "free",
+          "platform": "ICAI",
+          "language": "English",
+          "description": "Official ICAI study materials"
+        }
+      ],
+      "books": [
+        {
+          "title": "ICAI Study Material",
+          "type": "textbook",
+          "author": "ICAI",
+          "publisher": "ICAI"
+        },
+        {
+          "title": "Padhuka's CA Books",
+          "author": "G. Sekar, B. Saravana Prasath",
+          "type": "reference",
+          "publisher": "Wolters Kluwer"
+        },
+        {
+          "title": "Scanner (Suggested Answers)",
+          "type": "previous_papers",
+          "publisher": "Shuchita Prakashan"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/CharteredAccountants",
+          "url": "https://www.reddit.com/r/CharteredAccountants/",
+          "platform": "Reddit",
+          "members": "15K+",
+          "description": "CA students and professionals community"
+        },
+        {
+          "name": "CA Students Hub",
+          "url": "https://t.me/castudentshub",
+          "platform": "Telegram",
+          "description": "Study materials and exam updates"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "CA Parag Gupta",
+          "url": "https://www.youtube.com/@CAParagGupta",
+          "language": "Hindi",
+          "subscribers": "1M+",
+          "focus": "CA Foundation, Inter, Final"
+        },
+        {
+          "name": "Swapnil Patni Classes",
+          "url": "https://www.youtube.com/@SwapnilPatniClasses",
+          "language": "English",
+          "subscribers": "500K+",
+          "focus": "CA Law and Taxation"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "CA Foundation",
+          "conducting_body": "ICAI",
+          "registration_url": "https://eservices.icai.org",
+          "exam_pattern": "4 Papers (100 marks each): Accounting, Law, Maths/Stats, Economics",
+          "frequency": "Biannual",
+          "typical_dates": "May & November",
+          "eligibility": "Class 12 (Any stream), Can register after 10th",
+          "attempts_allowed": "Unlimited",
+          "exam_fee": "₹1500 (all 4 papers)",
+          "negative_marking": false,
+          "cutoff_trends": "40% in each paper, 50% aggregate"
+        },
+        {
+          "name": "CA Intermediate",
+          "conducting_body": "ICAI",
+          "exam_pattern": "8 Papers in 2 Groups (Group 1: 4 papers, Group 2: 4 papers)",
+          "frequency": "Biannual",
+          "typical_dates": "May & November",
+          "eligibility": "Pass CA Foundation",
+          "attempts_allowed": "Unlimited",
+          "exam_fee": "₹1800 per group",
+          "cutoff_trends": "40% each paper, 50% aggregate per group"
+        },
+        {
+          "name": "CA Final",
+          "conducting_body": "ICAI",
+          "exam_pattern": "8 Papers in 2 Groups (100 marks each)",
+          "frequency": "Biannual",
+          "typical_dates": "May & November",
+          "eligibility": "Pass CA Inter + 3 years Articleship (2.5 years to appear)",
+          "attempts_allowed": "Unlimited",
+          "exam_fee": "₹1800 per group",
+          "cutoff_trends": "40% each paper, 50% aggregate per group"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (Commerce)",
+          "subtitle": "Or after Graduation",
+          "duration": "2 years",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "CA Foundation",
+          "subtitle": "Entry-level exam (4 papers)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "CA Intermediate",
+          "subtitle": "Both groups (8 papers)",
+          "duration": "8 months study",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Articleship",
+          "subtitle": "3 years practical training",
+          "duration": "3 years",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "exam",
+          "label": "CA Final",
+          "subtitle": "Both groups (8 papers)",
+          "layer": 4
+        },
+        {
+          "id": "6a",
+          "type": "job",
+          "label": "Private Practice",
+          "subtitle": "Audit, Tax, Consulting",
+          "layer": 5
+        },
+        {
+          "id": "6b",
+          "type": "job",
+          "label": "Corporate CA",
+          "subtitle": "Big 4, MNCs, Finance Teams",
+          "layer": 5
+        },
+        {
+          "id": "7a",
+          "type": "job",
+          "label": "Senior Partner",
+          "subtitle": "Own CA firm",
+          "optional": true,
+          "layer": 6
+        },
+        {
+          "id": "7b",
+          "type": "job",
+          "label": "CFO / Finance Head",
+          "subtitle": "Corporate leadership",
+          "optional": true,
+          "layer": 6
+        },
+        {
+          "id": "7c",
+          "type": "job",
+          "label": "Investment Banking",
+          "subtitle": "M&A / Valuations",
+          "optional": true,
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5a",
+          "source": "5",
+          "target": "6a",
+          "label": "Practice",
+          "type": "alternative"
+        },
+        {
+          "id": "e5b",
+          "source": "5",
+          "target": "6b",
+          "label": "Corporate",
+          "type": "alternative"
+        },
+        {
+          "id": "e6a",
+          "source": "6a",
+          "target": "7a",
+          "label": "Growth",
+          "type": "optional"
+        },
+        {
+          "id": "e6b",
+          "source": "6b",
+          "target": "7b",
+          "label": "Leadership",
+          "type": "optional"
+        },
+        {
+          "id": "e6c",
+          "source": "6b",
+          "target": "7c",
+          "label": "Pivot",
+          "type": "optional"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "lawyer-legal",
+    "meta": {
+      "title": "Law & Legal Services",
+      "description": "Advocate for justice in courts, corporate legal teams, or as consultants.",
+      "category": "Legal & Governance",
+      "subcategory": "Legal Practice",
+      "icon_slug": "scale",
+      "difficulty_level": "Advanced",
+      "time_to_job": "5-6 years (BA LLB) or 3-4 years (LLB after graduation)",
+      "success_rate": "Moderate (CLAT clears ~30%, good job prospects)",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 6.0,
+        "salary_range": "₹3L - ₹20L+",
+        "demand_trend": "Stable",
+        "top_hiring_companies": [
+          "Law Firms (AZB, Khaitan)",
+          "Corporate Legal Departments",
+          "Courts (Private Practice)",
+          "Legal Process Outsourcing",
+          "NGOs & Public Interest"
+        ],
+        "future_scope": [
+          "Corporate law demand",
+          "Cyber law specialization",
+          "International arbitration",
+          "Legal tech integration"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Lawyer (Private Practice)",
+          "avg_salary": "₹3L - ₹15L/yr"
+        },
+        {
+          "role": "Corporate Lawyer",
+          "avg_salary": "₹8L - ₹20L/yr"
+        },
+        {
+          "role": "Legal Advisor",
+          "avg_salary": "₹6L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "CLAT Official Website",
+          "url": "https://consortiumofnlus.ac.in",
+          "type": "exam",
+          "description": "Common Law Admission Test portal"
+        },
+        {
+          "name": "Bar Council of India",
+          "url": "https://www.barcouncilofindia.org",
+          "type": "info",
+          "description": "Regulatory body for legal education and practice"
+        },
+        {
+          "name": "AIBE (All India Bar Examination)",
+          "url": "https://allindiabarexamination.com",
+          "type": "exam",
+          "description": "Mandatory exam to practice law in India"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "LawSikho",
+          "url": "https://lawsikho.com",
+          "type": "paid",
+          "platform": "LawSikho",
+          "language": "English",
+          "description": "Online law courses and certifications"
+        },
+        {
+          "name": "CLATapult",
+          "url": "https://www.clatapult.com",
+          "type": "freemium",
+          "platform": "CLATapult",
+          "language": "English",
+          "description": "CLAT preparation platform"
+        },
+        {
+          "name": "Legal Service India",
+          "url": "http://www.legalserviceindia.com",
+          "type": "free",
+          "platform": "Website",
+          "language": "English",
+          "description": "Free legal articles and resources"
+        }
+      ],
+      "books": [
+        {
+          "title": "Legal Aptitude for CLAT",
+          "author": "A.P. Bhardwaj",
+          "type": "reference",
+          "publisher": "Universal"
+        },
+        {
+          "title": "Bare Acts (IPC, CrPC, CPC, etc.)",
+          "type": "textbook",
+          "publisher": "Universal / EBC"
+        },
+        {
+          "title": "Legal Reasoning for CLAT",
+          "author": "R.S. Aggarwal",
+          "type": "reference",
+          "publisher": "S. Chand"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/LawSchool (India)",
+          "url": "https://www.reddit.com/r/LawSchool/",
+          "platform": "Reddit",
+          "members": "200K+",
+          "description": "Law students community"
+        },
+        {
+          "name": "CLAT Aspirants",
+          "url": "https://t.me/clataspirants",
+          "platform": "Telegram",
+          "description": "CLAT preparation group"
+        },
+        {
+          "name": "iPleaders",
+          "url": "https://blog.ipleaders.in",
+          "platform": "Website",
+          "description": "Legal knowledge platform"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "LegalEdge Tutorial",
+          "url": "https://www.youtube.com/@LegalEdgeTutorials",
+          "language": "English",
+          "subscribers": "300K+",
+          "focus": "Law subjects and CLAT prep"
+        },
+        {
+          "name": "Law With Twins",
+          "url": "https://www.youtube.com/@LawWithTwins",
+          "language": "English",
+          "subscribers": "200K+",
+          "focus": "Legal concepts simplified"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "CLAT (Common Law Admission Test)",
+          "conducting_body": "Consortium of National Law Universities",
+          "registration_url": "https://consortiumofnlus.ac.in",
+          "exam_pattern": "Single paper: English (28Q), Current Affairs (35Q), Legal Reasoning (35Q), Logical Reasoning (28Q), Quantitative (13Q) - 150 MCQs",
+          "frequency": "Annual",
+          "typical_dates": "Second Sunday of May",
+          "eligibility": "Class 12 (45% for General, 40% SC/ST), Age: Under 20 (UG) / Under 22 (PG)",
+          "attempts_allowed": "Unlimited (within age limit)",
+          "syllabus_url": "https://consortiumofnlus.ac.in/clat-2025.html",
+          "previous_papers_url": "https://consortiumofnlus.ac.in/previous-papers.html",
+          "cutoff_trends": "Varies by NLU: NLSIU ~110/150, NALSAR ~105, others 90-105",
+          "exam_fee": "₹4000 (General), ₹3500 (SC/ST/BPL)",
+          "negative_marking": true,
+          "total_seats": "~2500 across 22 NLUs"
+        },
+        {
+          "name": "AIBE (All India Bar Examination)",
+          "conducting_body": "Bar Council of India",
+          "exam_pattern": "100 MCQs covering various law subjects",
+          "frequency": "Biannual",
+          "eligibility": "LLB degree from recognized university",
+          "attempts_allowed": "Unlimited",
+          "exam_fee": "₹3500 (General), ₹2750 (SC/ST)",
+          "cutoff_trends": "40% to qualify (40/100)"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any stream",
+          "duration": "2 years",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "CLAT / Law Entrance",
+          "subtitle": "For BA LLB (5 yr) or LLB (3 yr)",
+          "layer": 1
+        },
+        {
+          "id": "3a",
+          "type": "degree",
+          "label": "BA LLB (Integrated)",
+          "subtitle": "5-year integrated program",
+          "duration": "5 years",
+          "layer": 2
+        },
+        {
+          "id": "3b",
+          "type": "degree",
+          "label": "LLB (3-year)",
+          "subtitle": "After graduation",
+          "duration": "3 years",
+          "optional": true,
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "license",
+          "label": "Bar Council Enrollment",
+          "subtitle": "All India Bar Examination (AIBE)",
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "work",
+          "label": "Junior Associate",
+          "subtitle": "Law firm internship",
+          "duration": "1-2 years",
+          "layer": 4
+        },
+        {
+          "id": "5b",
+          "type": "work",
+          "label": "Court Practice",
+          "subtitle": "Under senior advocate",
+          "duration": "2-3 years",
+          "layer": 4
+        },
+        {
+          "id": "6a",
+          "type": "job",
+          "label": "Corporate Lawyer",
+          "subtitle": "Law firms / In-house legal",
+          "layer": 5
+        },
+        {
+          "id": "6b",
+          "type": "job",
+          "label": "Litigation Lawyer",
+          "subtitle": "Courts (Civil/Criminal)",
+          "layer": 5
+        },
+        {
+          "id": "6c",
+          "type": "job",
+          "label": "Legal Consultant",
+          "subtitle": "Compliance / Advisory",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2a",
+          "source": "2",
+          "target": "3a",
+          "label": "5-year",
+          "type": "default"
+        },
+        {
+          "id": "e2b",
+          "source": "2",
+          "target": "3b",
+          "label": "3-year",
+          "type": "alternative"
+        },
+        {
+          "id": "e3a",
+          "source": "3a",
+          "target": "4"
+        },
+        {
+          "id": "e3b",
+          "source": "3b",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "5a",
+          "label": "Corporate Path",
+          "type": "alternative"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "5b",
+          "label": "Litigation Path",
+          "type": "alternative"
+        },
+        {
+          "id": "e5a",
+          "source": "5a",
+          "target": "6a"
+        },
+        {
+          "id": "e5b",
+          "source": "5a",
+          "target": "6c",
+          "label": "Specialize",
+          "type": "optional"
+        },
+        {
+          "id": "e5c",
+          "source": "5b",
+          "target": "6b"
+        },
+        {
+          "id": "e5d",
+          "source": "5b",
+          "target": "6c",
+          "label": "Pivot",
+          "type": "optional"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "architecture",
+    "meta": {
+      "title": "Architecture & Urban Planning",
+      "description": "Design buildings, urban spaces, and sustainable infrastructure.",
+      "category": "Design & Architecture",
+      "icon_slug": "building",
+      "difficulty_level": "Advanced",
+      "time_to_job": "5-6 years",
+      "market_stats": {
+        "average_salary_lpa": 5.5,
+        "salary_range": "₹3L - ₹15L+",
+        "top_hiring_companies": [
+          "Architecture Firms",
+          "Real Estate Developers",
+          "Government PWD",
+          "Construction Companies",
+          "Private Practice"
+        ],
+        "future_scope": [
+          "Smart city projects",
+          "Green building design",
+          "Heritage conservation",
+          "BIM technology adoption"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Architect",
+          "avg_salary": "₹5.5L/yr"
+        },
+        {
+          "role": "Urban Planner",
+          "avg_salary": "₹6L/yr"
+        },
+        {
+          "role": "Interior Designer",
+          "avg_salary": "₹4L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "NATA Official Website",
+          "url": "https://nata.in",
+          "type": "exam",
+          "description": "National Aptitude Test in Architecture"
+        },
+        {
+          "name": "Council of Architecture (COA)",
+          "url": "https://coa.gov.in",
+          "type": "info",
+          "description": "Regulatory body for architecture practice in India"
+        },
+        {
+          "name": "JEE Main B.Arch Portal",
+          "url": "https://jeemain.nta.nic.in",
+          "type": "exam",
+          "description": "B.Arch entrance exam via JEE Main"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "ArchDaily",
+          "url": "https://www.archdaily.com",
+          "type": "free",
+          "platform": "ArchDaily",
+          "language": "English",
+          "description": "Architecture projects and inspiration"
+        },
+        {
+          "name": "Dezeen",
+          "url": "https://www.dezeen.com",
+          "type": "free",
+          "platform": "Dezeen",
+          "language": "English",
+          "description": "Design and architecture magazine"
+        },
+        {
+          "name": "YouTube - Architecture Lectures",
+          "url": "https://www.youtube.com/c/30x40DesignWorkshop",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "English",
+          "description": "Architecture education and design process"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Indian Institute of Architects",
+          "url": "https://indianinstituteofarchitects.com",
+          "type": "organization",
+          "description": "Professional body for architects in India"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (PCM)",
+          "subtitle": "Mathematics mandatory",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "NATA / JEE B.Arch",
+          "subtitle": "National Aptitude Test in Architecture",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "degree",
+          "label": "B.Arch",
+          "subtitle": "5-year degree",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Internship",
+          "subtitle": "1 year practical training",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "license",
+          "label": "COA Registration",
+          "subtitle": "Council of Architecture license",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Architect",
+          "subtitle": "Firm or Independent Practice",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "data-science",
+    "meta": {
+      "title": "Data Science & Analytics",
+      "description": "Analyze large datasets to uncover insights and predict trends.",
+      "category": "Technology & IT",
+      "subcategory": "Data & Analytics",
+      "icon_slug": "database",
+      "difficulty_level": "Advanced",
+      "time_to_job": "1-2 years (with programming background)",
+      "success_rate": "High (60-70% for skilled candidates)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 15.3,
+        "salary_range": "₹6.8L - ₹15.3L",
+        "demand_trend": "Growing",
+        "top_hiring_companies": [
+          "IBM",
+          "Accenture",
+          "Capgemini",
+          "Cognizant",
+          "Deloitte"
+        ],
+        "future_scope": [
+          "AI Integration",
+          "Healthcare Predictive Models",
+          "Retail Analytics"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Data Scientist",
+          "avg_salary": "₹15.3L/yr"
+        },
+        {
+          "role": "Data Analyst",
+          "avg_salary": "₹6.8L/yr"
+        },
+        {
+          "role": "ML Engineer",
+          "avg_salary": "₹11.8L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "roadmaps_external": [
+        {
+          "name": "roadmap.sh - Data Science",
+          "url": "https://roadmap.sh/data-science",
+          "relevance": "high",
+          "description": "Complete data science learning path"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Coursera - IBM Data Science",
+          "url": "https://www.coursera.org/professional-certificates/ibm-data-science",
+          "type": "paid",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "Industry-recognized IBM certificate"
+        },
+        {
+          "name": "DataCamp",
+          "url": "https://www.datacamp.com",
+          "type": "freemium",
+          "platform": "DataCamp",
+          "language": "English",
+          "description": "Interactive Python/R/SQL courses"
+        },
+        {
+          "name": "Kaggle Learn",
+          "url": "https://www.kaggle.com/learn",
+          "type": "free",
+          "platform": "Kaggle",
+          "language": "English",
+          "description": "Free micro-courses in data science"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "Kaggle Competitions",
+          "url": "https://www.kaggle.com/competitions",
+          "type": "coding_platform",
+          "free": true,
+          "description": "Real-world data science challenges"
+        },
+        {
+          "name": "Google Colab",
+          "url": "https://colab.research.google.com",
+          "type": "ide",
+          "free": true,
+          "description": "Free Jupyter notebooks with GPU"
+        },
+        {
+          "name": "Tableau Public",
+          "url": "https://public.tableau.com",
+          "type": "visualization",
+          "free": true,
+          "description": "Data visualization tool"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/datascience",
+          "url": "https://www.reddit.com/r/datascience/",
+          "platform": "Reddit",
+          "members": "1M+",
+          "description": "Global data science community"
+        },
+        {
+          "name": "Analytics Vidhya",
+          "url": "https://www.analyticsvidhya.com",
+          "platform": "Website",
+          "description": "Indian data science community and tutorials"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "StatQuest with Josh Starmer",
+          "url": "https://www.youtube.com/@statquest",
+          "language": "English",
+          "subscribers": "1M+",
+          "focus": "Statistics and ML concepts explained simply"
+        },
+        {
+          "name": "Krish Naik",
+          "url": "https://www.youtube.com/@krishnaik06",
+          "language": "Both",
+          "subscribers": "1M+",
+          "focus": "Data Science and ML tutorials"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Bachelor's Degree",
+          "subtitle": "B.Tech / B.Sc Stats / Maths",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "skill",
+          "label": "Programming",
+          "subtitle": "Python, R, SQL",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "concept",
+          "label": "Mathematics",
+          "subtitle": "Statistics, Probability, Linear Algebra",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "skill",
+          "label": "Tools",
+          "subtitle": "Tableau, PowerBI, Pandas",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Data Analyst/Scientist",
+          "subtitle": "Corporate Role",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "ai-ml",
+    "meta": {
+      "title": "AI & Machine Learning",
+      "description": "Create algorithms that allow machines to learn. At the forefront of innovation.",
+      "category": "Technology & IT",
+      "icon_slug": "cpu",
+      "difficulty_level": "Advanced to Expert",
+      "time_to_job": "1-3 years",
+      "market_stats": {
+        "average_salary_lpa": 17.4,
+        "salary_range": "₹4.8L - ₹18.0L+",
+        "top_hiring_companies": [
+          "Google",
+          "Microsoft",
+          "Amazon",
+          "Samsung",
+          "NVIDIA"
+        ],
+        "future_scope": [
+          "Automation Growth",
+          "Personalized Healthcare",
+          "Business Optimization"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "AI Engineer",
+          "avg_salary": "₹17.4L/yr"
+        },
+        {
+          "role": "AI Research Scientist",
+          "avg_salary": "₹18.0L/yr"
+        },
+        {
+          "role": "NLP Engineer",
+          "avg_salary": "₹9.8L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "AI & ML Roadmap",
+          "url": "https://roadmap.sh/ai-data-scientist",
+          "type": "roadmap",
+          "description": "Complete AI/ML learning path"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Coursera - Andrew Ng's ML Course",
+          "url": "https://www.coursera.org/learn/machine-learning",
+          "type": "freemium",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "Most popular ML course worldwide"
+        },
+        {
+          "name": "Fast.ai",
+          "url": "https://www.fast.ai",
+          "type": "free",
+          "platform": "Fast.ai",
+          "language": "English",
+          "description": "Practical deep learning for coders"
+        },
+        {
+          "name": "Kaggle Learn",
+          "url": "https://www.kaggle.com/learn",
+          "type": "free",
+          "platform": "Kaggle",
+          "language": "English",
+          "description": "Hands-on ML tutorials and competitions"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "Google Colab",
+          "url": "https://colab.research.google.com",
+          "description": "Free Jupyter notebooks with GPU access"
+        },
+        {
+          "name": "Hugging Face",
+          "url": "https://huggingface.co",
+          "description": "NLP models and datasets repository"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "3Blue1Brown",
+          "url": "https://www.youtube.com/@3blue1brown",
+          "description": "Visual math and ML concepts"
+        },
+        {
+          "name": "Two Minute Papers",
+          "url": "https://www.youtube.com/@TwoMinutePapers",
+          "description": "Latest AI research summaries"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/MachineLearning",
+          "url": "https://www.reddit.com/r/MachineLearning",
+          "type": "forum",
+          "description": "ML research and discussions"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "B.Tech (CS/AI)",
+          "subtitle": "Strong Math Foundation required",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "skill",
+          "label": "Core AI Skills",
+          "subtitle": "Python, TensorFlow, PyTorch",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "concept",
+          "label": "Deep Learning",
+          "subtitle": "Neural Networks, NLP, Computer Vision",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Projects",
+          "subtitle": "Kaggle Competitions / GitHub Portfolio",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "AI Engineer",
+          "subtitle": "R&D or Product Team",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "cybersecurity",
+    "meta": {
+      "title": "Cybersecurity & Ethical Hacking",
+      "description": "Protect sensitive data and prevent cyberattacks in a digital-first world.",
+      "category": "Technology & IT",
+      "icon_slug": "shield",
+      "difficulty_level": "Advanced",
+      "time_to_job": "1-2 years",
+      "market_stats": {
+        "average_salary_lpa": 10.5,
+        "salary_range": "₹6.4L - ₹50T/mo (Freelance)",
+        "top_hiring_companies": [
+          "IBM",
+          "Wipro",
+          "Deloitte",
+          "Cisco",
+          "Accenture"
+        ],
+        "future_scope": [
+          "Rising Cyber Threats",
+          "Cloud Security focus",
+          "Regulatory Compliance (DPDP Act)"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Security Engineer",
+          "avg_salary": "₹10.5L/yr"
+        },
+        {
+          "role": "Ethical Hacker",
+          "avg_salary": "₹6L - ₹12L/yr"
+        },
+        {
+          "role": "Cybersecurity Consultant",
+          "avg_salary": "₹9L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Cybersecurity Roadmap",
+          "url": "https://roadmap.sh/cyber-security",
+          "type": "roadmap",
+          "description": "Complete cybersecurity learning path"
+        },
+        {
+          "name": "CERT-In",
+          "url": "https://www.cert-in.org.in",
+          "type": "info",
+          "description": "Indian Computer Emergency Response Team"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "TryHackMe",
+          "url": "https://tryhackme.com",
+          "type": "freemium",
+          "platform": "TryHackMe",
+          "language": "English",
+          "description": "Hands-on cybersecurity training"
+        },
+        {
+          "name": "HackTheBox",
+          "url": "https://www.hackthebox.com",
+          "type": "freemium",
+          "platform": "HackTheBox",
+          "language": "English",
+          "description": "Penetration testing practice platform"
+        },
+        {
+          "name": "Cybrary",
+          "url": "https://www.cybrary.it",
+          "type": "freemium",
+          "platform": "Cybrary",
+          "language": "English",
+          "description": "Cybersecurity courses and certifications"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "Kali Linux",
+          "url": "https://www.kali.org",
+          "description": "Penetration testing Linux distribution"
+        },
+        {
+          "name": "OWASP Top 10",
+          "url": "https://owasp.org/www-project-top-ten",
+          "description": "Web application security risks"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "NetworkChuck",
+          "url": "https://www.youtube.com/@NetworkChuck",
+          "description": "Cybersecurity and networking tutorials"
+        },
+        {
+          "name": "The Cyber Mentor",
+          "url": "https://www.youtube.com/@TCMSecurityAcademy",
+          "description": "Ethical hacking and pentesting"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/cybersecurity",
+          "url": "https://www.reddit.com/r/cybersecurity",
+          "type": "forum",
+          "description": "Cybersecurity news and discussions"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "B.Tech CS / BCA",
+          "subtitle": "Focus on Networks & OS",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "skill",
+          "label": "Networking",
+          "subtitle": "TCP/IP, Linux Administration",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "license",
+          "label": "Certifications",
+          "subtitle": "CEH / CompTIA Security+ / CISSP",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "skill",
+          "label": "Tools",
+          "subtitle": "Wireshark, Metasploit, Burp Suite",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Security Analyst",
+          "subtitle": "SOC or VAPT Role",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "blockchain",
+    "meta": {
+      "title": "Blockchain Technology",
+      "description": "Revolutionize finance and supply chains with decentralized data solutions.",
+      "category": "Technology & IT",
+      "icon_slug": "link",
+      "difficulty_level": "Advanced",
+      "time_to_job": "1-2 years",
+      "market_stats": {
+        "average_salary_lpa": 11.0,
+        "salary_range": "₹11L - ₹25L",
+        "top_hiring_companies": [
+          "IBM",
+          "Accenture",
+          "Infosys",
+          "Ripple",
+          "Deloitte"
+        ],
+        "future_scope": [
+          "Fintech Adoption",
+          "Smart Contracts",
+          "Supply Chain Transparency"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Blockchain Developer",
+          "avg_salary": "₹11L/yr"
+        },
+        {
+          "role": "Blockchain Architect",
+          "avg_salary": "₹25L/yr"
+        },
+        {
+          "role": "Blockchain Consultant",
+          "avg_salary": "₹14.3L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Blockchain Roadmap",
+          "url": "https://roadmap.sh/blockchain",
+          "type": "roadmap",
+          "description": "Complete blockchain development path"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Ethereum.org",
+          "url": "https://ethereum.org/en/developers",
+          "type": "free",
+          "platform": "Ethereum",
+          "language": "English",
+          "description": "Official Ethereum development docs"
+        },
+        {
+          "name": "CryptoZombies",
+          "url": "https://cryptozombies.io",
+          "type": "free",
+          "platform": "CryptoZombies",
+          "language": "English",
+          "description": "Learn Solidity by building games"
+        },
+        {
+          "name": "Coursera - Blockchain Specialization",
+          "url": "https://www.coursera.org/specializations/blockchain",
+          "type": "freemium",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "University of Buffalo blockchain course"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "Remix IDE",
+          "url": "https://remix.ethereum.org",
+          "description": "Online Solidity IDE for smart contracts"
+        },
+        {
+          "name": "Hardhat",
+          "url": "https://hardhat.org",
+          "description": "Ethereum development environment"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/ethdev",
+          "url": "https://www.reddit.com/r/ethdev",
+          "type": "forum",
+          "description": "Ethereum development community"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Computer Science Degree",
+          "subtitle": "Strong Cryptography Basics",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "skill",
+          "label": "Languages",
+          "subtitle": "Solidity, Go, Rust, JavaScript",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "concept",
+          "label": "Architecture",
+          "subtitle": "Ethereum, Hyperledger, Smart Contracts",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Build dApps",
+          "subtitle": "Decentralized Apps Portfolio",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Blockchain Developer",
+          "subtitle": "DeFi or Enterprise Solutions",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "cloud-devops",
+    "meta": {
+      "title": "Cloud Computing & DevOps",
+      "description": "Enable businesses to scale efficiently using AWS, Azure, and Google Cloud.",
+      "category": "Technology & IT",
+      "icon_slug": "cloud",
+      "difficulty_level": "Intermediate to Advanced",
+      "time_to_job": "1-2 years",
+      "market_stats": {
+        "average_salary_lpa": 13.5,
+        "salary_range": "₹8.1L - ₹27.9L",
+        "top_hiring_companies": [
+          "AWS",
+          "Google Cloud",
+          "Microsoft",
+          "Infosys",
+          "Accenture"
+        ],
+        "future_scope": [
+          "Cloud Migration",
+          "Automation (DevOps)",
+          "Multi-Cloud Strategies"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Cloud Architect",
+          "avg_salary": "₹27.9L/yr"
+        },
+        {
+          "role": "DevOps Engineer",
+          "avg_salary": "₹8.7L/yr"
+        },
+        {
+          "role": "Site Reliability Engineer",
+          "avg_salary": "₹13.5L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "DevOps Roadmap",
+          "url": "https://roadmap.sh/devops",
+          "type": "roadmap",
+          "description": "Complete DevOps learning path"
+        },
+        {
+          "name": "AWS Training",
+          "url": "https://aws.amazon.com/training",
+          "type": "info",
+          "description": "Official AWS learning resources"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "A Cloud Guru",
+          "url": "https://acloudguru.com",
+          "type": "paid",
+          "platform": "A Cloud Guru",
+          "language": "English",
+          "description": "Cloud certification courses"
+        },
+        {
+          "name": "KodeKloud",
+          "url": "https://kodekloud.com",
+          "type": "freemium",
+          "platform": "KodeKloud",
+          "language": "English",
+          "description": "DevOps hands-on labs"
+        },
+        {
+          "name": "Linux Academy",
+          "url": "https://linuxacademy.org",
+          "type": "paid",
+          "platform": "Linux Academy",
+          "language": "English",
+          "description": "Linux and cloud training"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "Kubernetes Playground",
+          "url": "https://www.katacoda.com/courses/kubernetes",
+          "description": "Free Kubernetes practice labs"
+        },
+        {
+          "name": "Docker Hub",
+          "url": "https://hub.docker.com",
+          "description": "Container images repository"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "TechWorld with Nana",
+          "url": "https://www.youtube.com/@TechWorldwithNana",
+          "description": "DevOps tutorials and concepts"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/devops",
+          "url": "https://www.reddit.com/r/devops",
+          "type": "forum",
+          "description": "DevOps community discussions"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "B.Tech / BCA",
+          "subtitle": "IT Infrastructure Basics",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "skill",
+          "label": "Cloud Platforms",
+          "subtitle": "Learn AWS, Azure or GCP",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "skill",
+          "label": "DevOps Tools",
+          "subtitle": "Docker, Kubernetes, Jenkins, Terraform",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "license",
+          "label": "Certifications",
+          "subtitle": "AWS Solutions Architect / Azure Admin",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "DevOps / Cloud Engineer",
+          "subtitle": "Infrastructure Management",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "digital-marketing",
+    "meta": {
+      "title": "Digital Marketing & E-commerce",
+      "description": "Tap into the digital economy through SEO, paid ads, and content strategies.",
+      "category": "Business & Entrepreneurship",
+      "icon_slug": "trending-up",
+      "difficulty_level": "Beginner to Intermediate",
+      "time_to_job": "0.5-1 year",
+      "market_stats": {
+        "average_salary_lpa": 8.0,
+        "salary_range": "₹3L - ₹10L+",
+        "top_hiring_companies": [
+          "Flipkart",
+          "Amazon",
+          "Zomato",
+          "Media.net",
+          "HubSpot"
+        ],
+        "future_scope": [
+          "E-commerce Growth",
+          "Social Media Dominance",
+          "Data-Driven Marketing"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Digital Marketing Manager",
+          "avg_salary": "₹8L/yr"
+        },
+        {
+          "role": "Content Marketing Manager",
+          "avg_salary": "₹10.0L/yr"
+        },
+        {
+          "role": "SEO Specialist",
+          "avg_salary": "₹3L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Google Digital Garage",
+          "url": "https://learndigital.withgoogle.com/digitalgarage",
+          "type": "info",
+          "description": "Free digital marketing courses by Google"
+        },
+        {
+          "name": "HubSpot Academy",
+          "url": "https://academy.hubspot.com",
+          "type": "info",
+          "description": "Free inbound marketing certifications"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Google Skillshop",
+          "url": "https://skillshop.withgoogle.com",
+          "type": "free",
+          "platform": "Google",
+          "language": "English",
+          "description": "Google Ads and Analytics training"
+        },
+        {
+          "name": "SEMrush Academy",
+          "url": "https://www.semrush.com/academy",
+          "type": "free",
+          "platform": "SEMrush",
+          "language": "English",
+          "description": "SEO and content marketing courses"
+        },
+        {
+          "name": "Meta Blueprint",
+          "url": "https://www.facebook.com/business/learn",
+          "type": "free",
+          "platform": "Meta",
+          "language": "English",
+          "description": "Facebook and Instagram advertising"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "Google Analytics",
+          "url": "https://analytics.google.com",
+          "description": "Website analytics and tracking"
+        },
+        {
+          "name": "Canva",
+          "url": "https://www.canva.com",
+          "description": "Design tool for social media graphics"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "Neil Patel",
+          "url": "https://www.youtube.com/@NeilPatel",
+          "description": "SEO and digital marketing strategies"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/digital_marketing",
+          "url": "https://www.reddit.com/r/digital_marketing",
+          "type": "forum",
+          "description": "Digital marketing discussions"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Any Degree",
+          "subtitle": "BBA / B.Com / Mass Media helpful",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "skill",
+          "label": "Core Skills",
+          "subtitle": "SEO, SEM, Google Analytics, Social Media",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "license",
+          "label": "Certifications",
+          "subtitle": "Google Ads, HubSpot, Facebook Blueprint",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Internship",
+          "subtitle": "Agency or Startup Experience",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Digital Marketer",
+          "subtitle": "Agency or In-house Brand",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "content-creator",
+    "meta": {
+      "title": "Content Creation & Influencer",
+      "description": "Create engaging content for brands and audiences on YouTube, Instagram, etc.",
+      "category": "Creative & Media",
+      "icon_slug": "video",
+      "difficulty_level": "Beginner",
+      "time_to_job": "0.5-2 years",
+      "market_stats": {
+        "average_salary_lpa": 5.0,
+        "salary_range": "₹4L - ₹25L+ (Highly Variable)",
+        "top_hiring_companies": [
+          "YouTube",
+          "Instagram",
+          "Red Bull",
+          "L'Oréal",
+          "Agencies"
+        ],
+        "future_scope": [
+          "Video Content Dominance",
+          "Micro-Influencer Marketing",
+          "Brand Collaborations"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Content Creator",
+          "avg_salary": "₹3L - ₹10L/yr"
+        },
+        {
+          "role": "Brand Strategist",
+          "avg_salary": "₹6L/yr"
+        },
+        {
+          "role": "Video Editor",
+          "avg_salary": "₹5L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "YouTube Creator Academy",
+          "url": "https://creatoracademy.youtube.com",
+          "type": "info",
+          "description": "Official YouTube training for creators"
+        },
+        {
+          "name": "Instagram for Creators",
+          "url": "https://creators.instagram.com",
+          "type": "info",
+          "description": "Instagram creator resources"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Think Media YouTube",
+          "url": "https://www.youtube.com/@ThinkMediaTV",
+          "type": "free",
+          "platform": "YouTube",
+          "language": "English",
+          "description": "YouTube growth and video creation tips"
+        },
+        {
+          "name": "Skillshare - Content Creation",
+          "url": "https://www.skillshare.com/browse/content-creation",
+          "type": "freemium",
+          "platform": "Skillshare",
+          "language": "English",
+          "description": "Content creation and video editing courses"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "DaVinci Resolve",
+          "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+          "description": "Free professional video editing software"
+        },
+        {
+          "name": "Canva",
+          "url": "https://www.canva.com",
+          "description": "Thumbnail and graphic design tool"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "vidIQ",
+          "url": "https://www.youtube.com/@vidiq",
+          "description": "YouTube growth strategies"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/YouTubers",
+          "url": "https://www.reddit.com/r/YouTubers",
+          "type": "forum",
+          "description": "YouTube creator community"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "skill",
+          "label": "Content Strategy",
+          "subtitle": "Niche Selection & Storytelling",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "skill",
+          "label": "Production",
+          "subtitle": "Filming, Editing (Premiere/DaVinci), Audio",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "work",
+          "label": "Platform Growth",
+          "subtitle": "YouTube/Insta Algorithms & Consistency",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Monetization",
+          "subtitle": "AdSense, Sponsorships, Affiliates",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Professional Creator",
+          "subtitle": "Full-time Influencer / Consultant",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "renewable-energy",
+    "meta": {
+      "title": "Renewable Energy",
+      "description": "Drive the green revolution with careers in Solar, Wind, and Sustainability.",
+      "category": "Engineering",
+      "icon_slug": "sun",
+      "difficulty_level": "Intermediate to Advanced",
+      "time_to_job": "4-6 years",
+      "market_stats": {
+        "average_salary_lpa": 11.0,
+        "salary_range": "₹3.6L - ₹15L",
+        "top_hiring_companies": [
+          "Suzlon",
+          "Tata Power",
+          "ReNew Power",
+          "Adani Green",
+          "Vestas"
+        ],
+        "future_scope": [
+          "Govt Green Energy Targets",
+          "Corporate Sustainability (ESG)",
+          "Hydrogen Fuel Tech"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Renewable Energy Consultant",
+          "avg_salary": "₹11.0L/yr"
+        },
+        {
+          "role": "Solar Energy Engineer",
+          "avg_salary": "₹3.5L/yr"
+        },
+        {
+          "role": "Sustainability Consultant",
+          "avg_salary": "₹5L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "MNRE - Ministry of New & Renewable Energy",
+          "url": "https://mnre.gov.in",
+          "type": "info",
+          "description": "Government policies and schemes for renewable energy"
+        },
+        {
+          "name": "Solar Energy Corporation of India",
+          "url": "https://seci.co.in",
+          "type": "info",
+          "description": "Solar project tenders and information"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "NPTEL - Renewable Energy",
+          "url": "https://nptel.ac.in/courses/108",
+          "type": "free",
+          "platform": "NPTEL",
+          "language": "English",
+          "description": "IIT courses on renewable energy systems"
+        },
+        {
+          "name": "Coursera - Renewable Energy",
+          "url": "https://www.coursera.org/courses?query=renewable%20energy",
+          "type": "freemium",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "University courses on solar and wind energy"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/RenewableEnergy",
+          "url": "https://www.reddit.com/r/RenewableEnergy",
+          "type": "forum",
+          "description": "Renewable energy discussions"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (Science)",
+          "subtitle": "PCM focus",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "degree",
+          "label": "B.Tech Electrical/Mech",
+          "subtitle": "Or Energy Engineering",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "education",
+          "label": "M.Tech / Specialization",
+          "subtitle": "Renewable Energy Systems",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "license",
+          "label": "Certifications",
+          "subtitle": "Energy Auditor (BEE), LEED",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Energy Engineer",
+          "subtitle": "Site or Design Role",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "healthcare",
+    "meta": {
+      "title": "Medical & Healthcare",
+      "description": "Essential roles from Doctors to Researchers in India's growing health sector.",
+      "category": "Healthcare & Medical",
+      "subcategory": "Clinical Medicine",
+      "icon_slug": "heart",
+      "difficulty_level": "Expert",
+      "time_to_job": "5.5-10 years (MBBS + MD/MS)",
+      "success_rate": "Moderate (NEET clears ~15%, but high placement)",
+      "regional_variations": false,
+      "market_stats": {
+        "average_salary_lpa": 12.0,
+        "salary_range": "₹3L - ₹20L+ (Doctors much higher)",
+        "demand_trend": "Growing",
+        "top_hiring_companies": [
+          "Apollo Hospitals",
+          "Fortis",
+          "AIIMS",
+          "Max Healthcare",
+          "Medanta"
+        ],
+        "future_scope": [
+          "Telemedicine",
+          "Geriatric Care (Aging Population)",
+          "Health Tech Integration"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Doctor (Specialist)",
+          "avg_salary": "₹20L+/yr"
+        },
+        {
+          "role": "Medical Researcher",
+          "avg_salary": "₹10.5L/yr"
+        },
+        {
+          "role": "Healthcare Admin",
+          "avg_salary": "₹5L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "NTA NEET Official",
+          "url": "https://neet.nta.nic.in",
+          "type": "exam",
+          "description": "National Testing Agency NEET UG portal"
+        },
+        {
+          "name": "Medical Council of India (NMC)",
+          "url": "https://www.nmc.org.in",
+          "type": "info",
+          "description": "Regulatory body for medical education"
+        },
+        {
+          "name": "NEET UG Syllabus",
+          "url": "https://neet.nta.nic.in/syllabus",
+          "type": "syllabus",
+          "description": "Official NEET syllabus (Physics, Chemistry, Biology)"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Marrow",
+          "url": "https://www.marrow.me",
+          "type": "paid",
+          "platform": "Marrow",
+          "language": "English",
+          "description": "Leading NEET PG preparation platform"
+        },
+        {
+          "name": "Unacademy NEET",
+          "url": "https://unacademy.com/goal/neet-ug",
+          "type": "freemium",
+          "platform": "Unacademy",
+          "language": "Both",
+          "description": "NEET UG preparation courses"
+        },
+        {
+          "name": "NCERT Textbooks (11-12)",
+          "url": "https://ncert.nic.in/textbook.php",
+          "type": "free",
+          "platform": "NCERT",
+          "language": "Both",
+          "description": "Foundation for NEET Biology"
+        }
+      ],
+      "books": [
+        {
+          "title": "NCERT Biology (Class 11-12)",
+          "type": "textbook",
+          "author": "NCERT",
+          "publisher": "NCERT"
+        },
+        {
+          "title": "Objective Biology for NEET",
+          "author": "Dinesh",
+          "type": "reference",
+          "publisher": "Dinesh Publications"
+        },
+        {
+          "title": "Trueman's Biology",
+          "author": "Trueman",
+          "type": "reference",
+          "publisher": "Trueman Publications"
+        },
+        {
+          "title": "NEET Previous Year Papers",
+          "type": "previous_papers",
+          "publisher": "Arihant / MTG"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/Indian_Academia (Medical)",
+          "url": "https://www.reddit.com/r/Indian_Academia/",
+          "platform": "Reddit",
+          "members": "300K+",
+          "description": "Medical education discussions"
+        },
+        {
+          "name": "NEET Aspirants Telegram",
+          "url": "https://t.me/neetaspirants",
+          "platform": "Telegram",
+          "description": "Daily updates and doubt solving"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "Physics Wallah - Alakh Pandey",
+          "url": "https://www.youtube.com/@PhysicsWallah",
+          "language": "Both",
+          "subscribers": "10M+",
+          "focus": "NEET preparation (all subjects)"
+        },
+        {
+          "name": "Dr. Bhatia Medical Coaching Institute",
+          "url": "https://www.youtube.com/@DrBhatiaMedical",
+          "language": "English",
+          "subscribers": "500K+",
+          "focus": "NEET Biology"
+        }
+      ]
+    },
+    "exam_details": {
+      "exams": [
+        {
+          "name": "NEET UG (National Eligibility cum Entrance Test)",
+          "conducting_body": "National Testing Agency (NTA)",
+          "registration_url": "https://neet.nta.nic.in",
+          "exam_pattern": "Single paper: Physics (45Q), Chemistry (45Q), Biology (90Q) - Total 180 MCQs",
+          "frequency": "Annual",
+          "typical_dates": "First Sunday of May",
+          "eligibility": "Class 12 PCB (50% for General, 40% SC/ST/OBC), Age: 17-25 years",
+          "attempts_allowed": "Unlimited (within age limit)",
+          "syllabus_url": "https://neet.nta.nic.in/syllabus",
+          "previous_papers_url": "https://neet.nta.nic.in/previous-year-papers",
+          "cutoff_trends": "All India Quota: 50th percentile (General: 720/720=~137), OBC: 40th, SC/ST: 40th",
+          "exam_fee": "₹1700 (General), ₹1600 (Gen-EWS/OBC), ₹1000 (SC/ST/PwD)",
+          "negative_marking": true,
+          "total_seats": "~1,00,000+ (MBBS ~90K, BDS ~27K, AYUSH ~50K)"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (Science)",
+          "subtitle": "PCB (Biology is mandatory)",
+          "duration": "2 years",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "NEET UG",
+          "subtitle": "Mandatory for MBBS/BDS/AYUSH",
+          "layer": 1
+        },
+        {
+          "id": "3a",
+          "type": "degree",
+          "label": "MBBS",
+          "subtitle": "5.5 years (incl. internship)",
+          "duration": "5.5 years",
+          "layer": 2
+        },
+        {
+          "id": "3b",
+          "type": "degree",
+          "label": "BDS (Dental)",
+          "subtitle": "5 years program",
+          "duration": "5 years",
+          "optional": true,
+          "layer": 2
+        },
+        {
+          "id": "3c",
+          "type": "degree",
+          "label": "B.Sc Nursing / Allied Health",
+          "subtitle": "4 years (Physio/Pharma/etc)",
+          "duration": "4 years",
+          "optional": true,
+          "layer": 2
+        },
+        {
+          "id": "4a",
+          "type": "work",
+          "label": "Medical Officer",
+          "subtitle": "General practice / Govt job",
+          "optional": true,
+          "layer": 3
+        },
+        {
+          "id": "4b",
+          "type": "exam",
+          "label": "NEET PG",
+          "subtitle": "For MD/MS Specialization",
+          "layer": 3
+        },
+        {
+          "id": "4c",
+          "type": "work",
+          "label": "Clinical Practice",
+          "subtitle": "Dental/Nursing/Allied",
+          "optional": true,
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "degree",
+          "label": "MD/MS Specialization",
+          "subtitle": "3 years (Medicine/Surgery/etc)",
+          "duration": "3 years",
+          "layer": 4
+        },
+        {
+          "id": "6a",
+          "type": "job",
+          "label": "Specialist Doctor",
+          "subtitle": "Cardiology/Ortho/etc",
+          "layer": 5
+        },
+        {
+          "id": "6b",
+          "type": "job",
+          "label": "General Practitioner",
+          "subtitle": "Private clinic / Hospital",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2a",
+          "source": "2",
+          "target": "3a",
+          "label": "MBBS Path",
+          "type": "default"
+        },
+        {
+          "id": "e2b",
+          "source": "2",
+          "target": "3b",
+          "label": "Dental",
+          "type": "alternative"
+        },
+        {
+          "id": "e2c",
+          "source": "2",
+          "target": "3c",
+          "label": "Allied Health",
+          "type": "alternative"
+        },
+        {
+          "id": "e3a",
+          "source": "3a",
+          "target": "4a",
+          "label": "Direct Practice",
+          "type": "optional"
+        },
+        {
+          "id": "e3b",
+          "source": "3a",
+          "target": "4b",
+          "label": "Specialization",
+          "type": "default"
+        },
+        {
+          "id": "e3c",
+          "source": "3b",
+          "target": "4c"
+        },
+        {
+          "id": "e3d",
+          "source": "3c",
+          "target": "4c"
+        },
+        {
+          "id": "e4a",
+          "source": "4b",
+          "target": "5a"
+        },
+        {
+          "id": "e5a",
+          "source": "5a",
+          "target": "6a"
+        },
+        {
+          "id": "e5b",
+          "source": "4a",
+          "target": "6b"
+        },
+        {
+          "id": "e5c",
+          "source": "4c",
+          "target": "6b"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "hotel-hospitality",
+    "meta": {
+      "title": "Hotel Management & Hospitality",
+      "description": "Manage hotels, resorts, restaurants, and deliver world-class guest experiences.",
+      "category": "Hospitality & Tourism",
+      "icon_slug": "coffee",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3-4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "₹2.5L - ₹12L+",
+        "top_hiring_companies": [
+          "Taj Hotels",
+          "Marriott",
+          "ITC Hotels",
+          "Oberoi Group",
+          "Hyatt"
+        ],
+        "future_scope": [
+          "Tourism growth in India",
+          "Luxury hospitality expansion",
+          "Experiential travel demand",
+          "International chains entering India"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Hotel Manager",
+          "avg_salary": "₹6L/yr"
+        },
+        {
+          "role": "Front Office Executive",
+          "avg_salary": "₹3L/yr"
+        },
+        {
+          "role": "F&B Manager",
+          "avg_salary": "₹5L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "NCHMCT - National Council for Hotel Management",
+          "url": "https://nchmct.ac.in",
+          "type": "info",
+          "description": "Regulatory body for hotel management education"
+        },
+        {
+          "name": "NCHM JEE Portal",
+          "url": "https://nchm.nic.in",
+          "type": "exam",
+          "description": "Hotel management entrance exam"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "IHM (Institute of Hotel Management)",
+          "url": "https://nchmct.ac.in/institutes.aspx",
+          "type": "paid",
+          "platform": "IHM",
+          "language": "English",
+          "description": "Government IHM institutes across India"
+        },
+        {
+          "name": "Hospitality Online Courses",
+          "url": "https://www.edx.org/learn/hospitality",
+          "type": "freemium",
+          "platform": "edX",
+          "language": "English",
+          "description": "Hospitality management courses"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Hospitality Professionals India",
+          "url": "https://www.linkedin.com/groups/hospitality-india",
+          "type": "professional",
+          "description": "LinkedIn group for hospitality professionals"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "degree",
+          "label": "BHM / Diploma",
+          "subtitle": "Bachelor of Hotel Management (3-4 years)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "skill",
+          "label": "Core Skills",
+          "subtitle": "Communication, Service, Operations",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Internship",
+          "subtitle": "6-12 months in hotels",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Hotel Executive",
+          "subtitle": "Front Office/F&B/Housekeeping",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "chef-culinary",
+    "meta": {
+      "title": "Chef & Culinary Arts",
+      "description": "Create culinary masterpieces in restaurants, hotels, or as entrepreneur.",
+      "category": "Hospitality & Tourism",
+      "icon_slug": "utensils",
+      "difficulty_level": "Beginner to Intermediate",
+      "time_to_job": "1-3 years",
+      "market_stats": {
+        "average_salary_lpa": 4.0,
+        "salary_range": "₹2L - ₹15L+",
+        "top_hiring_companies": [
+          "5-Star Hotels",
+          "Restaurant Chains",
+          "Cruise Lines",
+          "Cloud Kitchens",
+          "Catering Companies"
+        ],
+        "future_scope": [
+          "Celebrity chef culture",
+          "Food vlogging opportunities",
+          "International exposure",
+          "Cloud kitchen boom"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Commis Chef",
+          "avg_salary": "₹2.5L/yr"
+        },
+        {
+          "role": "Sous Chef",
+          "avg_salary": "₹5L/yr"
+        },
+        {
+          "role": "Executive Chef",
+          "avg_salary": "₹10L+/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "IHM - Culinary Programs",
+          "url": "https://nchmct.ac.in",
+          "type": "info",
+          "description": "Institute of Hotel Management culinary courses"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "MasterClass - Gordon Ramsay",
+          "url": "https://www.masterclass.com/classes/gordon-ramsay-teaches-cooking",
+          "type": "paid",
+          "platform": "MasterClass",
+          "language": "English",
+          "description": "Professional chef techniques"
+        },
+        {
+          "name": "Rouxbe Cooking School",
+          "url": "https://rouxbe.com",
+          "type": "paid",
+          "platform": "Rouxbe",
+          "language": "English",
+          "description": "Online culinary training"
+        }
+      ],
+      "youtube_channels": [
+        {
+          "name": "Binging with Babish",
+          "url": "https://www.youtube.com/@bingingwithbabish",
+          "description": "Cooking techniques and recipes"
+        },
+        {
+          "name": "ChefSteps",
+          "url": "https://www.youtube.com/@ChefSteps",
+          "description": "Modern cooking techniques"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/Chefit",
+          "url": "https://www.reddit.com/r/Chefit",
+          "type": "forum",
+          "description": "Professional chef community"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 10/12",
+          "subtitle": "Formal education helpful",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "degree",
+          "label": "Culinary Diploma",
+          "subtitle": "IHM or Private Institute (1-2 years)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "skill",
+          "label": "Kitchen Training",
+          "subtitle": "Techniques, Cuisines, Food Safety",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Apprenticeship",
+          "subtitle": "Work under experienced chefs",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Chef",
+          "subtitle": "Restaurant/Hotel Kitchen",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "fashion-design",
+    "meta": {
+      "title": "Fashion Design",
+      "description": "Create clothing, accessories, and define trends in India's fashion industry.",
+      "category": "Design & Architecture",
+      "icon_slug": "scissors",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4-5 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "₹2.5L - ₹20L+",
+        "top_hiring_companies": [
+          "Fashion Brands (FabIndia, W, AND)",
+          "Export Houses",
+          "E-commerce (Myntra, Ajio)",
+          "Film & TV Industry",
+          "Independent Designers"
+        ],
+        "future_scope": [
+          "Sustainable fashion movement",
+          "Online retail boom",
+          "Celebrity styling",
+          "Global Indian designers"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Fashion Designer",
+          "avg_salary": "₹4.5L/yr"
+        },
+        {
+          "role": "Fashion Stylist",
+          "avg_salary": "₹5L/yr"
+        },
+        {
+          "role": "Textile Designer",
+          "avg_salary": "₹3.5L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "NIFT - National Institute of Fashion Technology",
+          "url": "https://www.nift.ac.in",
+          "type": "info",
+          "description": "Premier fashion design institute in India"
+        },
+        {
+          "name": "NID - National Institute of Design",
+          "url": "https://www.nid.edu",
+          "type": "info",
+          "description": "Design institute with fashion programs"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Vogue Business",
+          "url": "https://www.voguebusiness.com",
+          "type": "free",
+          "platform": "Vogue",
+          "language": "English",
+          "description": "Fashion industry insights and trends"
+        },
+        {
+          "name": "Skillshare - Fashion Design",
+          "url": "https://www.skillshare.com/browse/fashion-design",
+          "type": "freemium",
+          "platform": "Skillshare",
+          "language": "English",
+          "description": "Fashion sketching and design courses"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "Adobe Illustrator",
+          "url": "https://www.adobe.com/products/illustrator.html",
+          "description": "Industry standard for fashion design"
+        },
+        {
+          "name": "CLO 3D",
+          "url": "https://www.clo3d.com",
+          "description": "3D fashion design software"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Fashion Design India",
+          "url": "https://www.linkedin.com/groups/fashion-design-india",
+          "type": "professional",
+          "description": "LinkedIn group for fashion designers"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "degree",
+          "label": "Fashion Design Degree",
+          "subtitle": "NIFT/NID/Pearl Academy (4 years)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "skill",
+          "label": "Design Skills",
+          "subtitle": "Sketching, Software, Textiles",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Portfolio Building",
+          "subtitle": "Internships & Collection",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Fashion Designer",
+          "subtitle": "Brand or Independent",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "journalism-media",
+    "meta": {
+      "title": "Journalism & Mass Media",
+      "description": "Report news, create content, and shape public discourse across platforms.",
+      "category": "Creative & Media",
+      "icon_slug": "newspaper",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "3-4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "₹2.5L - ₹15L+",
+        "top_hiring_companies": [
+          "NDTV, Times Group",
+          "Zee Media",
+          "Digital Media (ThePrint, Wire)",
+          "News Agencies (PTI, ANI)",
+          "Print Media"
+        ],
+        "future_scope": [
+          "Digital journalism growth",
+          "Data journalism",
+          "Video content demand",
+          "Independent journalism"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Journalist/Reporter",
+          "avg_salary": "₹4L/yr"
+        },
+        {
+          "role": "News Anchor",
+          "avg_salary": "₹8L/yr"
+        },
+        {
+          "role": "Content Editor",
+          "avg_salary": "₹5L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Press Council of India",
+          "url": "https://presscouncil.nic.in",
+          "type": "info",
+          "description": "Regulatory body for press in India"
+        },
+        {
+          "name": "Indian Institute of Journalism",
+          "url": "https://iijonline.org",
+          "type": "info",
+          "description": "Journalism training programs"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Coursera - Journalism Courses",
+          "url": "https://www.coursera.org/courses?query=journalism",
+          "type": "freemium",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "Journalism and reporting courses"
+        },
+        {
+          "name": "Knight Center for Journalism",
+          "url": "https://journalismcourses.org",
+          "type": "free",
+          "platform": "Knight Center",
+          "language": "English",
+          "description": "Free online journalism courses"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "Canva",
+          "url": "https://www.canva.com",
+          "description": "Visual content creation"
+        },
+        {
+          "name": "Grammarly",
+          "url": "https://www.grammarly.com",
+          "description": "Writing assistance tool"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/Journalism",
+          "url": "https://www.reddit.com/r/Journalism",
+          "type": "forum",
+          "description": "Journalism community and discussions"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12",
+          "subtitle": "Any stream",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "degree",
+          "label": "BA Journalism",
+          "subtitle": "Or Mass Communication (3 years)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "skill",
+          "label": "Media Skills",
+          "subtitle": "Writing, Reporting, Editing",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Internship",
+          "subtitle": "News outlet or publication",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Journalist",
+          "subtitle": "Print/TV/Digital Media",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "pharmacy",
+    "meta": {
+      "title": "Pharmacy & Drug Development",
+      "description": "Dispense medicines, conduct research, and work in pharmaceutical industry.",
+      "category": "Healthcare & Medical",
+      "icon_slug": "pill",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4-5 years",
+      "market_stats": {
+        "average_salary_lpa": 3.5,
+        "salary_range": "₹2.5L - ₹10L+",
+        "top_hiring_companies": [
+          "Sun Pharma",
+          "Dr. Reddy's",
+          "Cipla",
+          "Lupin",
+          "Hospital Pharmacies"
+        ],
+        "future_scope": [
+          "Generic drugs market",
+          "Clinical research growth",
+          "Hospital pharmacy expansion",
+          "Regulatory affairs"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Pharmacist",
+          "avg_salary": "₹3L/yr"
+        },
+        {
+          "role": "Clinical Research Associate",
+          "avg_salary": "₹4.5L/yr"
+        },
+        {
+          "role": "Drug Safety Associate",
+          "avg_salary": "₹5L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "Pharmacy Council of India",
+          "url": "https://pci.nic.in",
+          "type": "info",
+          "description": "Regulatory body for pharmacy education and practice"
+        },
+        {
+          "name": "NIPER - National Institute of Pharmaceutical Education",
+          "url": "https://www.niper.gov.in",
+          "type": "info",
+          "description": "Premier pharmacy research institute"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "PharmaGuideIndia",
+          "url": "https://www.pharmaguideline.com",
+          "type": "free",
+          "platform": "PharmaGuide",
+          "language": "English",
+          "description": "Pharmacy study materials and guidelines"
+        },
+        {
+          "name": "Coursera - Pharmacology",
+          "url": "https://www.coursera.org/courses?query=pharmacology",
+          "type": "freemium",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "Pharmacology and drug development courses"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/pharmacy",
+          "url": "https://www.reddit.com/r/pharmacy",
+          "type": "forum",
+          "description": "Pharmacy professional community"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (PCB/PCM)",
+          "subtitle": "Biology preferred",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "degree",
+          "label": "B.Pharm",
+          "subtitle": "4-year degree (NEET or State exam)",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "work",
+          "label": "Internship",
+          "subtitle": "6 months in pharmacy/hospital",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "license",
+          "label": "Pharmacy Council Registration",
+          "subtitle": "Mandatory for practice",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Pharmacist",
+          "subtitle": "Retail/Hospital/Industry",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "civil-engineering",
+    "meta": {
+      "title": "Civil Engineering",
+      "description": "Design and build infrastructure - roads, bridges, buildings, and cities.",
+      "category": "Engineering",
+      "icon_slug": "hard-hat",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "₹3L - ₹12L+",
+        "top_hiring_companies": [
+          "L&T",
+          "Tata Projects",
+          "PWD (Govt)",
+          "Shapoorji Pallonji",
+          "DLF"
+        ],
+        "future_scope": [
+          "Smart Cities Mission",
+          "Infrastructure development",
+          "Metro projects",
+          "Green building design"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Site Engineer",
+          "avg_salary": "₹3.5L/yr"
+        },
+        {
+          "role": "Project Manager",
+          "avg_salary": "₹8L/yr"
+        },
+        {
+          "role": "Structural Engineer",
+          "avg_salary": "₹6L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "JEE Main Portal",
+          "url": "https://jeemain.nta.nic.in",
+          "type": "exam",
+          "description": "Engineering entrance exam for B.Tech admissions"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "NPTEL Civil Engineering",
+          "url": "https://nptel.ac.in/courses/105",
+          "type": "free",
+          "platform": "NPTEL",
+          "language": "English",
+          "description": "IIT civil engineering courses"
+        },
+        {
+          "name": "Coursera - Civil Engineering",
+          "url": "https://www.coursera.org/courses?query=civil%20engineering",
+          "type": "freemium",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "University courses on structural and civil engineering"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "AutoCAD",
+          "url": "https://www.autodesk.com/products/autocad",
+          "description": "CAD software for civil engineering design"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/civilengineering",
+          "url": "https://www.reddit.com/r/civilengineering",
+          "type": "forum",
+          "description": "Civil engineering community"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (PCM)",
+          "subtitle": "Maths mandatory",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "JEE Main / State CET",
+          "subtitle": "Engineering entrance exam",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "degree",
+          "label": "B.Tech Civil",
+          "subtitle": "4-year engineering degree",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "skill",
+          "label": "Core Skills",
+          "subtitle": "AutoCAD, Surveying, Basics",
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "skill",
+          "label": "Structural Specialization",
+          "subtitle": "STAAD Pro, Design codes",
+          "layer": 4
+        },
+        {
+          "id": "5b",
+          "type": "skill",
+          "label": "Construction Management",
+          "subtitle": "Project planning, contracts",
+          "layer": 4
+        },
+        {
+          "id": "5c",
+          "type": "skill",
+          "label": "Transportation Engineering",
+          "subtitle": "Highway design, traffic",
+          "layer": 4
+        },
+        {
+          "id": "6a",
+          "type": "job",
+          "label": "Structural Engineer",
+          "subtitle": "Building design",
+          "layer": 5
+        },
+        {
+          "id": "6b",
+          "type": "job",
+          "label": "Site Engineer",
+          "subtitle": "Infrastructure projects",
+          "layer": 5
+        },
+        {
+          "id": "6c",
+          "type": "job",
+          "label": "Highway Engineer",
+          "subtitle": "Road/Transport projects",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Project Manager",
+          "subtitle": "Lead large projects",
+          "optional": true,
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "5a",
+          "label": "Structural Path",
+          "type": "alternative"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "5b",
+          "label": "Construction Path",
+          "type": "default"
+        },
+        {
+          "id": "e4c",
+          "source": "4",
+          "target": "5c",
+          "label": "Transportation Path",
+          "type": "alternative"
+        },
+        {
+          "id": "e5a",
+          "source": "5a",
+          "target": "6a"
+        },
+        {
+          "id": "e5b",
+          "source": "5b",
+          "target": "6b"
+        },
+        {
+          "id": "e5c",
+          "source": "5c",
+          "target": "6c"
+        },
+        {
+          "id": "e6a",
+          "source": "6a",
+          "target": "7",
+          "label": "Senior Growth",
+          "type": "optional"
+        },
+        {
+          "id": "e6b",
+          "source": "6b",
+          "target": "7",
+          "label": "Management Track",
+          "type": "optional"
+        },
+        {
+          "id": "e6c",
+          "source": "6c",
+          "target": "7",
+          "label": "Leadership",
+          "type": "optional"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "mechanical-engineering",
+    "meta": {
+      "title": "Mechanical Engineering",
+      "description": "Design machines, manufacturing systems, and mechanical products.",
+      "category": "Engineering",
+      "icon_slug": "cog",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "₹3L - ₹15L+",
+        "top_hiring_companies": [
+          "Tata Motors",
+          "Mahindra",
+          "Maruti Suzuki",
+          "L&T",
+          "Siemens"
+        ],
+        "future_scope": [
+          "Automation & Robotics",
+          "EV manufacturing",
+          "Aerospace industry",
+          "CAD/CAM technologies"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Mechanical Engineer",
+          "avg_salary": "₹4L/yr"
+        },
+        {
+          "role": "Production Engineer",
+          "avg_salary": "₹4.5L/yr"
+        },
+        {
+          "role": "Design Engineer",
+          "avg_salary": "₹5.5L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "JEE Main Portal",
+          "url": "https://jeemain.nta.nic.in",
+          "type": "exam",
+          "description": "Engineering entrance exam for B.Tech admissions"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "NPTEL Mechanical Engineering",
+          "url": "https://nptel.ac.in/courses/112",
+          "type": "free",
+          "platform": "NPTEL",
+          "language": "English",
+          "description": "IIT mechanical engineering courses"
+        },
+        {
+          "name": "Coursera - Mechanical Engineering",
+          "url": "https://www.coursera.org/courses?query=mechanical%20engineering",
+          "type": "freemium",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "University courses on mechanical systems"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "SolidWorks",
+          "url": "https://www.solidworks.com",
+          "description": "CAD software for mechanical design"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/MechanicalEngineering",
+          "url": "https://www.reddit.com/r/MechanicalEngineering",
+          "type": "forum",
+          "description": "Mechanical engineering community"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (PCM)",
+          "subtitle": "Strong Maths & Physics",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "JEE Main",
+          "subtitle": "Engineering entrance",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "degree",
+          "label": "B.Tech Mechanical",
+          "subtitle": "4-year degree",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "skill",
+          "label": "Core Skills",
+          "subtitle": "CAD, Manufacturing basics",
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "skill",
+          "label": "Design Engineering",
+          "subtitle": "SolidWorks, ANSYS, Product design",
+          "layer": 4
+        },
+        {
+          "id": "5b",
+          "type": "skill",
+          "label": "Production Engineering",
+          "subtitle": "CNC, Manufacturing processes",
+          "layer": 4
+        },
+        {
+          "id": "5c",
+          "type": "skill",
+          "label": "Automation & Robotics",
+          "subtitle": "PLC, Industrial automation",
+          "layer": 4
+        },
+        {
+          "id": "6a",
+          "type": "job",
+          "label": "Design Engineer",
+          "subtitle": "Product development",
+          "layer": 5
+        },
+        {
+          "id": "6b",
+          "type": "job",
+          "label": "Production Engineer",
+          "subtitle": "Manufacturing operations",
+          "layer": 5
+        },
+        {
+          "id": "6c",
+          "type": "job",
+          "label": "Automation Engineer",
+          "subtitle": "Industrial robotics",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Senior R&D Engineer",
+          "subtitle": "Innovation & leadership",
+          "optional": true,
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "5a",
+          "label": "Design Path",
+          "type": "alternative"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "5b",
+          "label": "Production Path",
+          "type": "default"
+        },
+        {
+          "id": "e4c",
+          "source": "4",
+          "target": "5c",
+          "label": "Automation Path",
+          "type": "alternative"
+        },
+        {
+          "id": "e5a",
+          "source": "5a",
+          "target": "6a"
+        },
+        {
+          "id": "e5b",
+          "source": "5b",
+          "target": "6b"
+        },
+        {
+          "id": "e5c",
+          "source": "5c",
+          "target": "6c"
+        },
+        {
+          "id": "e6a",
+          "source": "6a",
+          "target": "7",
+          "label": "R&D Leadership",
+          "type": "optional"
+        },
+        {
+          "id": "e6b",
+          "source": "6b",
+          "target": "7",
+          "label": "Technical Leadership",
+          "type": "optional"
+        },
+        {
+          "id": "e6c",
+          "source": "6c",
+          "target": "7",
+          "label": "Innovation Track",
+          "type": "optional"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "electrical-engineering",
+    "meta": {
+      "title": "Electrical Engineering",
+      "description": "Work with power systems, electronics, and electrical infrastructure.",
+      "category": "Engineering",
+      "icon_slug": "zap",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "4 years",
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "₹3L - ₹12L+",
+        "top_hiring_companies": [
+          "Power Grid Corporation",
+          "BHEL",
+          "Siemens",
+          "ABB",
+          "State Electricity Boards"
+        ],
+        "future_scope": [
+          "Renewable energy integration",
+          "Smart grid technology",
+          "EV charging infrastructure",
+          "Power electronics"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Electrical Engineer",
+          "avg_salary": "₹4.5L/yr"
+        },
+        {
+          "role": "Power Systems Engineer",
+          "avg_salary": "₹6L/yr"
+        },
+        {
+          "role": "Instrumentation Engineer",
+          "avg_salary": "₹5L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "JEE Main Portal",
+          "url": "https://jeemain.nta.nic.in",
+          "type": "exam",
+          "description": "Engineering entrance exam for B.Tech admissions"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "NPTEL Electrical Engineering",
+          "url": "https://nptel.ac.in/courses/108",
+          "type": "free",
+          "platform": "NPTEL",
+          "language": "English",
+          "description": "IIT electrical engineering courses"
+        },
+        {
+          "name": "Coursera - Power Systems",
+          "url": "https://www.coursera.org/courses?query=electrical%20engineering",
+          "type": "freemium",
+          "platform": "Coursera",
+          "language": "English",
+          "description": "University courses on electrical systems"
+        }
+      ],
+      "tools_and_practice": [
+        {
+          "name": "MATLAB",
+          "url": "https://www.mathworks.com/products/matlab.html",
+          "description": "Simulation and analysis software"
+        }
+      ],
+      "communities": [
+        {
+          "name": "r/ElectricalEngineering",
+          "url": "https://www.reddit.com/r/ElectricalEngineering",
+          "type": "forum",
+          "description": "Electrical engineering community"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (PCM)",
+          "subtitle": "Physics & Maths focus",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "JEE Main",
+          "subtitle": "Engineering entrance",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "degree",
+          "label": "B.Tech Electrical",
+          "subtitle": "4-year degree",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "skill",
+          "label": "Core Skills",
+          "subtitle": "Circuit basics, Power fundamentals",
+          "layer": 3
+        },
+        {
+          "id": "5a",
+          "type": "skill",
+          "label": "Power Systems",
+          "subtitle": "Grid, Transmission, Distribution",
+          "layer": 4
+        },
+        {
+          "id": "5b",
+          "type": "skill",
+          "label": "Electronics & VLSI",
+          "subtitle": "Chip design, Embedded systems",
+          "layer": 4
+        },
+        {
+          "id": "5c",
+          "type": "skill",
+          "label": "Control Systems",
+          "subtitle": "PLC, Automation, Instrumentation",
+          "layer": 4
+        },
+        {
+          "id": "6a",
+          "type": "job",
+          "label": "Power Systems Engineer",
+          "subtitle": "Energy sector",
+          "layer": 5
+        },
+        {
+          "id": "6b",
+          "type": "job",
+          "label": "VLSI Design Engineer",
+          "subtitle": "Semiconductor industry",
+          "layer": 5
+        },
+        {
+          "id": "6c",
+          "type": "job",
+          "label": "Control Systems Engineer",
+          "subtitle": "Manufacturing automation",
+          "layer": 5
+        },
+        {
+          "id": "7",
+          "type": "job",
+          "label": "Chief Engineer / Consultant",
+          "subtitle": "Technical leadership",
+          "optional": true,
+          "layer": 6
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4a",
+          "source": "4",
+          "target": "5a",
+          "label": "Power Path",
+          "type": "alternative"
+        },
+        {
+          "id": "e4b",
+          "source": "4",
+          "target": "5b",
+          "label": "Electronics Path",
+          "type": "default"
+        },
+        {
+          "id": "e4c",
+          "source": "4",
+          "target": "5c",
+          "label": "Control Path",
+          "type": "alternative"
+        },
+        {
+          "id": "e5a",
+          "source": "5a",
+          "target": "6a"
+        },
+        {
+          "id": "e5b",
+          "source": "5b",
+          "target": "6b"
+        },
+        {
+          "id": "e5c",
+          "source": "5c",
+          "target": "6c"
+        },
+        {
+          "id": "e6a",
+          "source": "6a",
+          "target": "7",
+          "label": "Consulting",
+          "type": "optional"
+        },
+        {
+          "id": "e6b",
+          "source": "6b",
+          "target": "7",
+          "label": "Technical Leadership",
+          "type": "optional"
+        },
+        {
+          "id": "e6c",
+          "source": "6c",
+          "target": "7",
+          "label": "Expert Growth",
+          "type": "optional"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "railway-services",
+    "meta": {
+      "title": "Indian Railways",
+      "description": "Join India's largest employer with diverse technical and non-technical roles.",
+      "category": "Government & Public Service",
+      "icon_slug": "train",
+      "difficulty_level": "Intermediate",
+      "time_to_job": "1-2 years",
+      "regional_variations": true,
+      "market_stats": {
+        "average_salary_lpa": 4.5,
+        "salary_range": "₹2.5L - ₹12L+",
+        "top_hiring_companies": [
+          "Indian Railways",
+          "RRB (Railway Recruitment Board)",
+          "Metro Corporations",
+          "IRCTC",
+          "RITES"
+        ],
+        "future_scope": [
+          "High-speed rail projects",
+          "Metro expansion",
+          "Railway modernization",
+          "Job security & pension"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Loco Pilot",
+          "avg_salary": "₹5L/yr"
+        },
+        {
+          "role": "Station Master",
+          "avg_salary": "₹6L/yr"
+        },
+        {
+          "role": "Railway Clerk",
+          "avg_salary": "₹3L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "RRB Official Portal",
+          "url": "https://www.rrbcdg.gov.in",
+          "type": "exam",
+          "description": "Railway Recruitment Board official website"
+        },
+        {
+          "name": "Indian Railways",
+          "url": "https://indianrailways.gov.in",
+          "type": "info",
+          "description": "Official Indian Railways website"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "Oliveboard Railways",
+          "url": "https://www.oliveboard.in/railway-exams",
+          "type": "freemium",
+          "platform": "Oliveboard",
+          "language": "English",
+          "description": "RRB exam preparation platform"
+        },
+        {
+          "name": "Testbook Railway",
+          "url": "https://testbook.com/railway-exams",
+          "type": "freemium",
+          "platform": "Testbook",
+          "language": "Both",
+          "description": "Mock tests and study material for RRB exams"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Railway Exam Forum",
+          "url": "https://www.sarkariresult.com/railway",
+          "type": "forum",
+          "description": "Railway recruitment updates and discussions"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 10/12/ITI/Degree",
+          "subtitle": "Varies by post",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "RRB Exam",
+          "subtitle": "Group A/B/C/D based on qualification",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "exam",
+          "label": "Physical & Medical",
+          "subtitle": "Fitness standards for technical posts",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "work",
+          "label": "Training",
+          "subtitle": "Railway Training Institute",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Railway Employee",
+          "subtitle": "Technical/Non-Technical",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "merchant-navy",
+    "meta": {
+      "title": "Merchant Navy",
+      "description": "Navigate the seas transporting cargo and passengers across the world.",
+      "category": "Defense & Specialized Services",
+      "icon_slug": "anchor",
+      "difficulty_level": "Advanced",
+      "time_to_job": "3-4 years",
+      "market_stats": {
+        "average_salary_lpa": 12.0,
+        "salary_range": "₹6L - ₹30L+ (Tax-free at sea)",
+        "top_hiring_companies": [
+          "Shipping Corporation of India",
+          "Maersk",
+          "MSC",
+          "Anglo-Eastern",
+          "Fleet Management"
+        ],
+        "future_scope": [
+          "Global trade growth",
+          "High earning potential",
+          "Tax benefits",
+          "International exposure"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "Deck Officer",
+          "avg_salary": "₹12L/yr"
+        },
+        {
+          "role": "Marine Engineer",
+          "avg_salary": "₹15L/yr"
+        },
+        {
+          "role": "Captain (Master Mariner)",
+          "avg_salary": "₹25L+/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "IMU CET - Indian Maritime University",
+          "url": "https://www.imu.ac.in",
+          "type": "exam",
+          "description": "Maritime university entrance exam"
+        },
+        {
+          "name": "DG Shipping",
+          "url": "https://dgshipping.gov.in",
+          "type": "info",
+          "description": "Directorate General of Shipping - regulatory body"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "MarineInsight",
+          "url": "https://www.marineinsight.com",
+          "type": "free",
+          "platform": "MarineInsight",
+          "language": "English",
+          "description": "Maritime education and career guidance"
+        },
+        {
+          "name": "SynTech Maritime Academy",
+          "url": "https://www.syntech.ac.in",
+          "type": "paid",
+          "platform": "SynTech",
+          "language": "English",
+          "description": "Pre-sea and post-sea training"
+        }
+      ],
+      "communities": [
+        {
+          "name": "Merchant Navy Info",
+          "url": "https://www.merchantnavyinfo.com",
+          "type": "forum",
+          "description": "Merchant navy career guidance and forums"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (PCM)",
+          "subtitle": "60% marks, Age 17-25",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "exam",
+          "label": "IMU CET / NEET",
+          "subtitle": "For Nautical Science/Marine Engg",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "degree",
+          "label": "B.Sc Nautical/Marine Engg",
+          "subtitle": "3-4 years with sea training",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "license",
+          "label": "CoC (Certificate of Competency)",
+          "subtitle": "DG Shipping certification",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "job",
+          "label": "Merchant Navy Officer",
+          "subtitle": "Deck/Engine Department",
+          "layer": 4
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        }
+      ]
+    }
+  },
+  {
+    "roadmap_id": "commercial-pilot",
+    "meta": {
+      "title": "Commercial Pilot",
+      "description": "Fly aircraft for airlines, transporting passengers and cargo.",
+      "category": "Defense & Specialized Services",
+      "icon_slug": "plane",
+      "difficulty_level": "Advanced",
+      "time_to_job": "2-3 years",
+      "market_stats": {
+        "average_salary_lpa": 18.0,
+        "salary_range": "₹8L - ₹50L+",
+        "top_hiring_companies": [
+          "IndiGo",
+          "Air India",
+          "SpiceJet",
+          "Vistara",
+          "International Airlines"
+        ],
+        "future_scope": [
+          "Aviation sector growth",
+          "New airline routes",
+          "Regional connectivity (UDAN)",
+          "High earning potential"
+        ]
+      },
+      "related_job_roles": [
+        {
+          "role": "First Officer",
+          "avg_salary": "₹10L/yr"
+        },
+        {
+          "role": "Captain",
+          "avg_salary": "₹30L+/yr"
+        },
+        {
+          "role": "Cargo Pilot",
+          "avg_salary": "₹15L/yr"
+        }
+      ]
+    },
+    "resources": {
+      "official_sites": [
+        {
+          "name": "DGCA - Directorate General of Civil Aviation",
+          "url": "https://www.dgca.gov.in",
+          "type": "info",
+          "description": "Indian civil aviation regulatory authority"
+        },
+        {
+          "name": "DGCA Pilot Licensing",
+          "url": "https://www.dgca.gov.in/digigov-portal",
+          "type": "exam",
+          "description": "Pilot licensing and exam information"
+        }
+      ],
+      "study_platforms": [
+        {
+          "name": "CAE Flight School",
+          "url": "https://www.cae.com",
+          "type": "paid",
+          "platform": "CAE",
+          "language": "English",
+          "description": "Global flight training organization"
+        },
+        {
+          "name": "Pilot Training India",
+          "url": "https://www.pilottrainingindia.com",
+          "type": "info",
+          "platform": "PTI",
+          "language": "English",
+          "description": "CPL training guidance and resources"
+        }
+      ],
+      "communities": [
+        {
+          "name": "PPRuNe Forums - India",
+          "url": "https://www.pprune.org/india",
+          "type": "forum",
+          "description": "Professional pilots forum for India"
+        },
+        {
+          "name": "r/flying",
+          "url": "https://www.reddit.com/r/flying",
+          "type": "forum",
+          "description": "Aviation and pilot community"
+        }
+      ]
+    },
+    "graph": {
+      "nodes": [
+        {
+          "id": "1",
+          "type": "education",
+          "label": "Class 12 (PCM)",
+          "subtitle": "50% marks, Physics & Maths",
+          "layer": 0
+        },
+        {
+          "id": "2",
+          "type": "license",
+          "label": "Student Pilot License",
+          "subtitle": "DGCA medical + written exam",
+          "layer": 1
+        },
+        {
+          "id": "3",
+          "type": "work",
+          "label": "Flying Training",
+          "subtitle": "200+ hours (18-24 months)",
+          "layer": 2
+        },
+        {
+          "id": "4",
+          "type": "license",
+          "label": "CPL (Commercial Pilot License)",
+          "subtitle": "DGCA exams & flight test",
+          "layer": 3
+        },
+        {
+          "id": "5",
+          "type": "license",
+          "label": "Type Rating",
+          "subtitle": "Aircraft-specific training",
+          "layer": 4
+        },
+        {
+          "id": "6",
+          "type": "job",
+          "label": "Commercial Pilot",
+          "subtitle": "Airline First Officer",
+          "layer": 5
+        }
+      ],
+      "edges": [
+        {
+          "id": "e1",
+          "source": "1",
+          "target": "2"
+        },
+        {
+          "id": "e2",
+          "source": "2",
+          "target": "3"
+        },
+        {
+          "id": "e3",
+          "source": "3",
+          "target": "4"
+        },
+        {
+          "id": "e4",
+          "source": "4",
+          "target": "5"
+        },
+        {
+          "id": "e5",
+          "source": "5",
+          "target": "6"
+        }
+      ]
+    }
+  }
+]
