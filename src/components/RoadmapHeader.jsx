@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import * as LucideIcons from "lucide-react";
 import { IconMap } from '../utils/icons';
 
 const RoadmapHeader = ({ meta, onBack, onOpenResources }) => {
+    const [showAllRecruiters, setShowAllRecruiters] = useState(false);
     const Icon = IconMap(meta.icon_slug);
     const { ChevronLeft, Building2, TrendingUp, IndianRupee, BookOpen } = LucideIcons;
 
@@ -62,11 +63,22 @@ const RoadmapHeader = ({ meta, onBack, onOpenResources }) => {
                                 <span className="text-[10px] sm:text-xs font-bold uppercase">Top Recruiters</span>
                             </div>
                             <div className="text-[10px] sm:text-xs text-slate-300 leading-relaxed">
-                                {meta.market_stats.top_hiring_companies.slice(0,3).join(", ")}
+                                {showAllRecruiters 
+                                    ? meta.market_stats.top_hiring_companies.join(", ")
+                                    : meta.market_stats.top_hiring_companies.slice(0, 3).join(", ")
+                                }
                             </div>
-                            <div className="text-[9px] sm:text-[10px] text-slate-500 mt-1">
-                                +{meta.market_stats.top_hiring_companies.length - 3} more
-                            </div>
+                            {meta.market_stats.top_hiring_companies.length > 3 && (
+                                <button 
+                                    onClick={() => setShowAllRecruiters(!showAllRecruiters)}
+                                    className="text-[9px] sm:text-[10px] text-slate-500 mt-1 hover:text-purple-400 transition-colors cursor-pointer bg-transparent border-none p-0"
+                                >
+                                    {showAllRecruiters 
+                                        ? "Show less" 
+                                        : `+${meta.market_stats.top_hiring_companies.length - 3} more`
+                                    }
+                                </button>
+                            )}
                         </div>
                         
                         <div className="col-span-2 bg-slate-800/50 p-3 sm:p-4 rounded-lg sm:rounded-xl border border-slate-700/50">

@@ -67,43 +67,42 @@ We currently cover **30+ careers** across 15 categories including:
 
 ---
 
-## 🏗️ Development Phases
+## 🚀 Project Status
 
-### Phase 1: Schema Enhancement ✅ 75% COMPLETE
-- [x] Define enhanced JSON schema
-- [x] Normalize all categories (15 standard categories)
-- [x] Add resources & exam details to sample careers
-- [ ] Update all 30 careers with new fields
-- [ ] Implement branching in 5 key careers
-- [ ] Update frontend for new schema
+We have successfully completed the core phases of development!
 
-### Phase 2: Career Coverage Expansion (Planned)
-- [ ] Add 20+ missing high-priority careers
-- [ ] Research and validate all data sources
-- [ ] Add deep resources to all careers
+### ✅ Completed Features
+- **Comprehensive Schema:** Enhanced JSON structure supporting branching, resources, and exam details.
+- **Wide Coverage:** 35+ careers across 15 standardized categories.
+- **Interactive Roadmaps:** Visual node-based graphs with branching paths.
+- **Resource Hub:** Sidebar with curated links to official sites, study materials, and communities.
+- **Search & Filter:** Advanced filtering by category, difficulty.
+- **Performance:** Optimized data loading with split JSON files.
 
-### Phase 3: Data Organization (Planned)
-- [ ] Decide on file structure (single vs. split files)
-- [ ] Create supporting data files
-- [ ] Optimize for performance
+---
 
-### Phase 4: UI/UX Enhancements (Planned)
-- [ ] Resource sidebar/modal
-- [ ] Branching visualization
-- [ ] Advanced filtering
-- [ ] Career comparison tool
+## 🔮 Future Improvements
 
-### Phase 5: Content Quality (Planned)
-- [ ] Validate salary data (2024-25)
-- [ ] Verify all exam information
-- [ ] Add regional variations
+We are constantly working to make CareerMap.sh better. Here is what's coming next and your chance to contribute!
 
-### Phase 6: Technical Improvements (Planned)
-- [ ] Analytics integration
-- [ ] SEO optimization
-- [ ] Progressive Web App
+### 1. Advanced UI/UX
+- **Career Comparison:** Compare 2-3 careers side-by-side (Salary, Time, Difficulty).
+- **Dark/Light Mode:** User preference support.
+- **Mobile Optimization:** Better touch interactions for complex graphs.
 
-**[View Detailed Plan](./plan.md)**
+### 2. Content Quality & Accuracy
+- **Salary Validation:** Audit and update salary ranges with 2024-2025 data.
+- **Exam Verification:** Cross-check all exam patterns, dates, and eligibility. Preferrably link to official sources and have a pop-up for verified info.
+- **Regional Variations:** Add state-specific details (e.g., State PSCs, TETs).
+
+### 3. Technical Enhancements
+- **Analytics:** Track popular careers and user journeys.
+- **SEO Optimization:** Sitemap generation and structured data (JSON-LD).
+
+### 4. Community Features
+- **Contribution Guide:** Streamlined process for users to suggest edits.
+- **Feedback Mechanism:** Report issues or outdated info directly from the UI.
+
 
 ---
 
@@ -115,7 +114,6 @@ We currently cover **30+ careers** across 15 categories including:
 - ✅ Top hiring companies
 - ✅ Future scope insights
 - ✅ Search functionality
-- ✅ Responsive design (mobile-first)
 
 ---
 
@@ -126,15 +124,7 @@ We welcome contributions! Here's how you can help:
 1. **Add New Careers:** Use `IAS` or `IT/Software` in `data.json` as templates.
 2. **Enhance Existing Careers:** Add resources, exam details, or update salary data.
 3. **Verify Information:** Check official websites, validate exam patterns, confirm cutoffs.
-
----
-
-## Tech Stack
-
-- **Frontend:** React 18 (via CDN), TailwindCSS
-- **Icons:** Lucide React
-- **Data Format:** JSON
-- **Hosting:** GitHub Pages
+4. **Improve UI/UX:** Suggest design improvements or implement new features.
 
 ---
 
@@ -144,4 +134,4 @@ We welcome contributions! Here's how you can help:
 
 ---
 
-**Built with ❤️ for Indian students, job seekers, and career changers.**
+**Built with 💜 for Indian students, job seekers, and career changers.**

@@ -95,14 +95,15 @@ const AboutSidebar = ({ isOpen, onClose }) => {
                             <div className="space-y-3">
                                 <button 
                                     onClick={() => {
+                                        const shareUrl = 'https://architrixs.github.io/CareerMap.sh/';
                                         if (navigator.share) {
                                             navigator.share({
                                                 title: 'CareerMap.sh',
                                                 text: 'Check out CareerMap.sh - The definitive guide to careers in India.',
-                                                url: window.location.href,
+                                                url: shareUrl,
                                             });
                                         } else {
-                                            navigator.clipboard.writeText(window.location.href);
+                                            navigator.clipboard.writeText(shareUrl);
                                             alert('Link copied to clipboard!');
                                         }
                                     }}
@@ -133,7 +134,7 @@ const AboutSidebar = ({ isOpen, onClose }) => {
                         {/* Footer */}
                         <div className="pt-8 border-t border-slate-800 text-center">
                             <p className="text-slate-500 text-xs">
-                                Built with ❤️ in India
+                                Built with 💜 in India
                                 <br/>
                                 &copy; {new Date().getFullYear()} CareerMap.sh
                             </p>
